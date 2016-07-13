@@ -1,0 +1,15 @@
+  # humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Davide Barranca -- Owner and one man band -- @undavide
+
+# THANKS
+
+    Giuliana Abbiati, Fixel Algorithms
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
