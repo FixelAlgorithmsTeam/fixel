@@ -15,5 +15,5 @@ If you have any question, suggestion or feel the need to say Hi! don't think twi
 <!-- This is commented out -->
 
 
-  [1]: {{site.baseurl}}/news/images/FixelAlgorithmsAvatar530px.png "Fixel Algorithms"
+  [1]: {{site.baseurl}}/news/images/FixelAlgorithmsAvatar150px.png "Fixel Algorithms"
   [2]: mailto:fixel@fixelalgorithms.com
