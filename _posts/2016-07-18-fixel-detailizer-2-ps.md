@@ -1,5 +1,6 @@
 ---
 title: 'Fixel Detailizer 2.5 PS'
+date: 	2016-07-18
 author: Fixel Algorithms
 layout: post
 class:  news
@@ -67,6 +68,8 @@ Full integration with Adobe Photoshop using Native Code API and Panel Extension 
  * Scriptable Filter  
 The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrated into advanced users automatic workflows (Script based workflows).
 
+Some more information can be found at [Introducing Fixel Detailizer 2 PS][8] or [Fixel Detailizer 2.5 PS Quick Start Guide][9].
+
 
   [1]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 2"
   [2]: http://fixelalgorithms.co/products/detailizer/
@@ -75,3 +78,5 @@ The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrate
   [5]: https://en.wikipedia.org/wiki/Pyramid_(image_processing)
   [6]: https://en.wikipedia.org/wiki/Stationary_wavelet_transform
   [7]: https://en.wikipedia.org/wiki/Ringing_artifacts
+  [8]: http://www.davidebarranca.com/2014/07/introducing-fixel-detailizer/
+  [9]: http://fixelalgorithms.co/products/detailizer/pdf/Fixel%20Detailizer%202.5%20PS%20QuickStart.pdf
