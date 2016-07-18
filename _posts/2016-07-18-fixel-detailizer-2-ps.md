@@ -21,46 +21,50 @@ So we created it - [Fixel Detailizer - Multi Scale Detail Enhancer][2].
 
 ## Multi Scale Analysis
 When we say Multi Scale Analysis, what do we mean?  
-In a layman words, it means looking on the image at different resolutions / scales.
-For instance, given an image at a given size, the Multi Scale approach suggests processing it at its original size and half of that and half of that and so on...
+In a layman words, it means looking on the image at different resolutions / scales.  
+For instance, given an image at a given size, the Multi Scale approach suggests processing it at its original size and half of that and half of that and so on...  
 Well, at least it is one way to look at it.  
 
+
 ![Fixel Detailizer 2 Multi Scale][4]  
+
 
 The approaches to implement Multi Scale Analysis are endless.  
 Yet in the Image Processing World it all started with the [Image Pyramid][5].  
 Later came the Filter Banks and the the [Wavelet Transform][6].  
-Today there are many many approaches based on many Blurring Operators (Yes, sharpening starts with blurring, even in Photoshop, but that's a story for another day).    
+Today there are many approaches based on different Blurring Operators (Yes, sharpening starts with blurring, even in Photoshop, but that's a story for another day).    
 We, considering both speed and quality, chose the [Undecimated Wavelet Transform][6] to implement [Fixel Detailizer][2].    
 Our guideline was quality and the [Undecimated Wavelet Transform][6] yields less artifacts ([Halos / Ringing][7]) than the classic Wavelets.    
 
 We'll write more thoroughly on Multi Scale Image Analysis in one of our next posts.
 
 ## What's New on Fixel Detailizer 2.5 PS
-Well, we improved numerous things:
-  * New and beautiful UI.  
-Faster and more responsive UI with History Panel.
-  * Added Luminosiy Mode.
+Well, we added and improved numerous things:
+
+ * New Beautiful UI  
+Faster and more responsive UI with History Panel built in.
+ * Added Luminosiy Mode  
 Allows choosing whether to enhance details on Luminosity Channel (No effect of the Color Hue or Saturation) or all RGB channels.
-  * Large Image Support
+ * Large Image Support  
 Supporting images larger than 30,000 x 30,0000 rectangle.
-  * Improved Performance
-Improved and more efficient algorithm which is ~5-10% faster.* 
+ * Improved Performance  
+Improved and more efficient algorithm which is ~5-10% faster.
 
 Some lesser known features of Fixel Detailizer are:
-  * 5 Bands / Scales to Set Details Amplification and Enhancement Level
+
+ * 5 Bands / Scales to Set Details Amplification and Enhancement Level  
 The user can set the amplification level of each detail scale as easy as setting amplification level for different bands in Hi-Fi Equalizer.
-  * Preserve Saturation Mode
+ * Preserve Saturation Mode  
 The filter will affect the Luminosity channel only. No color shifting.
-  * 32 Bit Internal Processing
+ * 32 Bit Internal Processing  
 All the "Math" is done in 32 Bit precision to avoid clipping, quantization histogram distortions effects.
-  * 8, 16 and 32 Bit Mode Support
+ * 8, 16 and 32 Bit Mode Support  
 The filter supports 8, 16 and 32 Bit Mode (RGB & Grayscale) including support for HDR Photography
-  * HDR Like Effect
+ * HDR Like Effect  
 Setting high amplification for large scale details can achieve pseudo HDR effect.
-  * Intuitive & User Friendly
+ * Intuitive & User Friendly  
 Full integration with Adobe Photoshop using Native Code API and Panel Extension UI.
-  * Scriptable Filter
+ * Scriptable Filter  
 The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrated into advanced users automatic workflows (Script based workflows).
 
 
