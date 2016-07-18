@@ -38,29 +38,29 @@ We'll write more thoroughly on Multi Scale Image Analysis in one of our next pos
 
 ## What's New on Fixel Detailizer 2.5 PS
 Well, we improved numerous things:
- * New and beautiful UI.  
+  * New and beautiful UI.  
 Faster and more responsive UI with History Panel.
- * Added Luminosiy Mode.
+  * Added Luminosiy Mode.
 Allows choosing whether to enhance details on Luminosity Channel (No effect of the Color Hue or Saturation) or all RGB channels.
- * Large Image Support
+  * Large Image Support
 Supporting images larger than 30,000 x 30,0000 rectangle.
- * Improved Performance
+  * Improved Performance
 Improved and more efficient algorithm which is ~5-10% faster.* 
 
 Some lesser known features of Fixel Detailizer are:
- * 5 Bands / Scales to Set Details Amplification and Enhancement Level
+  * 5 Bands / Scales to Set Details Amplification and Enhancement Level
 The user can set the amplification level of each detail scale as easy as setting amplification level for different bands in Hi-Fi Equalizer.
- * Preserve Saturation Mode
+  * Preserve Saturation Mode
 The filter will affect the Luminosity channel only. No color shifting.
- * 32 Bit Internal Processing
+  * 32 Bit Internal Processing
 All the "Math" is done in 32 Bit precision to avoid clipping, quantization histogram distortions effects.
- * 8, 16 and 32 Bit Mode Support
+  * 8, 16 and 32 Bit Mode Support
 The filter supports 8, 16 and 32 Bit Mode (RGB & Grayscale) including support for HDR Photography
- * HDR Like Effect
+  * HDR Like Effect
 Setting high amplification for large scale details can achieve pseudo HDR effect.
- * Intuitive & User Friendly
+  * Intuitive & User Friendly
 Full integration with Adobe Photoshop using Native Code API and Panel Extension UI.
- * Scriptable Filter
+  * Scriptable Filter
 The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrated into advanced users automatic workflows (Script based workflows).
 
 
