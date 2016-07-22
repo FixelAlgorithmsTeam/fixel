@@ -44,7 +44,7 @@ Well, we added and improved numerous things:
 
  * New Beautiful UI  
 Faster and more responsive UI with History Panel built in.
- * Added Luminosiy Mode  
+ * Added Luminosity Mode  
 Allows choosing whether to enhance details on Luminosity Channel (No effect of the Color Hue or Saturation) or all RGB channels.
  * Large Image Support  
 Supporting images larger than 30,000 x 30,0000 rectangle.
