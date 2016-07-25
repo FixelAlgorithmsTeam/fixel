@@ -225,62 +225,25 @@ footer > .container {
 	text-shadow: none;
 }
 
-.product-pay-badge {
-	background: url("../images/products-pay-sprite.jpg") no-repeat;
+.product-fixel-badge {
+	background: url("../images/products-fixel-sprite.jpg") no-repeat;
 	width: 150px;
 	height:200px;
 	display: inline-table;
 	margin: 20px;
 }
 
-.product-free-badge {
-	background: url("../images/products-free-sprite.jpg") no-repeat;
-	width: 150px;
-	height:200px;
-	display: inline-table;
-	margin: 20px;
-}
+/* FIXEL PRODUCTS */
 
-/* PAY PRODUCTS */
-.product-badge-vitamin {
-	background-position: 0 0;
-}
-.product-badge-alce {
-	background-position: -150px 0;
-}
-.product-badge-dusm {
-	background-position: -300px 0;
-}
 .product-badge-detailizer {
-	background-position: -450px 0;
+	background-position: 0 0;
 }
 .product-badge-contrastica {
-	background-position: -600px 0;
-}
-.product-badge-psprojects {
-	background-position: -600px 0;
-}
-.product-badge-cpt {
-	background-position: -750px 0;
-}
-/* FREE PRODUCTS */
-.product-badge-pcurves {
-	background-position: 0 0;
-}
-.product-badge-falseprofile {
 	background-position: -150px 0;
 }
-.product-badge-floatingadj {
+.product-badge-edgehancer {
 	background-position: -300px 0;
 }
-.product-badge-themeswitcher {
-	background-position: -450px 0;
-}
-.product-badge-ppw {
-	background-position: -750px 0;
-}
-
-
 
 /* ---- SIDEBAR ----*/
 
@@ -533,425 +496,6 @@ footer > .container {
 .glyphicon-star-empty {
 	color: #f39434;
 }
-/* ---- PPW ----*/ 
-
-/* Features */
-
-.feature-ppw:before {
-	background: url({{site.baseurl}}/products/ppw/images/ppw-features.png) no-repeat;
-}
-
-.ppw-margulis:before {
-	background-position: 0px 0px;
-}
-
-.ppw-workflow:before {
-	background-position: -44px 0px;
-}
-
-.ppw-panel:before {
-	background-position: -88px 0px;
-}
-
-
-/* Documentation */
-
-.ppw-doc-sprite {
-	background: url({{site.baseurl}}/products/ppw/images/ppw-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.ppw-book {
-	background-position: 0 0;
-}
-
-.ppw-kelby {
-	background-position: -100px 0;
-}
-
-.ppw-italian {
-	background-position: -200px 0;
-}
-
-/* ---- VITAMIN ----*/ 
-
-/* Features */
-
-.feature-vitamin:before {
-	background: url({{site.baseurl}}/products/vitaminbw/images/vitaminbw-features.png) no-repeat;
-}
-
-.vitamin-contrast:before {
-	background-position: 0px 0px;
-}
-
-.vitamin-filters:before {
-	background-position: -44px 0px;
-}
-
-.vitamin-toning:before {
-	background-position: -88px 0px;
-}
-
-.vitamin-processing:before {
-	background-position: -132px 0px;
-}
-
-/* Documentation */
-
-.vitamin-doc-sprite {
-	background: url({{site.baseurl}}/products/vitaminbw/images/vitamin-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.vitamin-logo {
-	background-position: 0 0;
-}
-
-.vitamin-review {
-	background-position: -100px 0;
-}
-
-.vitamin-usermanual {
-	background-position: -200px 0;
-}
-
-/* ---- ALCE ----*/ 
-
-/* Features */
-
-.feature-alce:before {
-	background: url({{site.baseurl}}/products/alce/images/alce-features.png) no-repeat;
-}
-
-.alce-3d:before {
-	background-position: 0px 0px;
-}
-
-.alce-gui:before {
-	background-position: -44px 0px;
-}
-
-.alce-sh:before {
-	background-position: -88px 0px;
-}
-
-.alce-batch:before {
-	background-position: -132px 0px;
-}
-
-/* Documentation */
-
-.alce-doc-sprite {
-	background: url({{site.baseurl}}/products/alce/images/alce-doc-sprite.jpg) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.alce-usermanual {
-	background-position: 0 0;
-}
-
-.alce-video {
-	background-position: -100px 0;
-}
-
-.alce-equirectangular {
-	background-position: -200px 0;
-}
-
-.half-star {
-    position:relative;
-}
-
-.half-star:after {
-    content:'';
-    position:absolute;
-    background: rgb(44, 44, 44);
-    z-index:1;
-    width: 50%;
-    height: 100%;
-    left: 47%;
-}
-
-/* ---- DOUBLE USM ----*/ 
-
-/* Features */
-
-.feature-dusm:before {
-	background: url({{site.baseurl}}/products/doubleusm/images/dusm-features.png) no-repeat;
-}
-
-.dusm-psusm:before {
-	background-position: 0px 0px;
-}
-
-.dusm-dusm:before {
-	background-position: -44px 0px;
-}
-
-.dusm-standard:before {
-	background-position: -88px 0px;
-}
-
-.dusm-hiraloam:before {
-	background-position: -132px 0px;
-}
-
-.dusm-creative:before {
-	background-position: -176px 0px;
-}
-
-.dusm-presets:before {
-	background-position: -220px 0px;
-}
-
-/* Documentation */
-
-.dusm-doc-sprite {
-	background: url({{site.baseurl}}/products/doubleusm/images/dusm-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.dusm-quickstart {
-	background-position: 0 0;
-}
-
-.dusm-sharpening {
-	background-position: -100px 0;
-}
-
-.dusm-features {
-	background-position: -200px 0;
-}
-
-.dusm-examples {
-	background-position: -300px 0;
-}
-
-/* ---- PS PROJECTS ----*/ 
-
-/* Features */
-
-.feature-psprojects:before {
-	background: url({{site.baseurl}}/products/psprojects/images/psprojects-features.png) no-repeat;
-
-}
-
-.psprojects-collections:before {
-	background-position: 0 0;
-}
-
-.psprojects-project:before {
-	background-position: -44px 0;
-}
-
-.psprojects-operations:before {
-	background-position: -88px 0;
-}
-
-.psprojects-encrypted:before {
-	background-position: -132px 0;
-}
-
-/* Screenshots */
-
-.psprojects-screenshot {
-	background: url({{site.baseurl}}/products/psprojects/images/psprojects-screenshots-mid.png) no-repeat;
-	display: block;
-	margin: 0 auto;
-}
-
-.psprojects-screenshot-save {
-	width: 287px;
-	height:400px;
-	background-position: 0 0;
-}
-
-.psprojects-screenshot-copy {
-	width: 369px;
-	height:400px;
-	background-position: -286px 0;
-}
-
-.psprojects-screenshot-action {
-	width: 369px;
-	height:400px;
-	background-position: -654px 0;
-}
-
-.psprojects-screenshot-info {
-	width: 369px;
-	height:400px;
-	background-position: -1022px 0;
-}
-
-/* Documentation */
-
-.psprojects-doc-sprite {
-	background: url({{site.baseurl}}/products/psprojects/images/psprojects-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.psprojects-intro {
-	background-position: 0 0;
-}
-
-.psprojects-manual1 {
-	background-position: -100px 0;
-}
-
-/* ---- CPT ----*/ 
-
-/* Features */
-
-.feature-cpt:before {
-	background: url({{site.baseurl}}/products/cpt/images/cpt-features.png) no-repeat;
-}
-
-.cpt-load:before {
-	background-position: 0 0;
-}
-
-.cpt-preview:before {
-	background-position: -44px 0;
-}
-
-.cpt-channels:before {
-	background-position: -88px 0;
-}
-
-/* Documentation */
-
-.cpt-doc-sprite {
-	background: url({{site.baseurl}}/products/cpt/images/cpt-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.cpt-manual {
-	background-position: 0 0;
-}
-
-.cpt-vimeo {
-	background-position: -100px 0;
-}
-
-/* ---- PARAMETRIC CURVES ----*/ 
-
-/* Features */
-
-.feature-pcurves:before {
-	background: url({{site.baseurl}}/products/parametriccurves/images/pcurves-features.png) no-repeat;
-}
-
-.pcurves-plot:before {
-	background-position: 0 0;
-}
-
-.pcurves-js:before {
-	background-position: -44px 0;
-}
-
-.pcurves-gradient:before {
-	background-position: -88px 0;
-}
-
-.pcurves-3d:before {
-	background-position: -132px 0;
-}
-
-/* Documentation */
-
-.pcurves-doc-sprite {
-	background: url({{site.baseurl}}/products/parametriccurves/images/pcurves-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.pcurves-manual {
-	background-position: 0 0;
-}
-
-.pcurves-funstuff {
-	background-position: -100px 0;
-}
-
-/* ---- FALSE PROFILE ----*/ 
-
-/* Features */
-
-.feature-falseprofile:before {
-	background: url({{site.baseurl}}/products/falseprofile/images/falseprofile-features.png) no-repeat;
-}
-
-.falseprofile-gamma:before {
-	background-position: 0 0;
-}
-
-.falseprofile-icc:before {
-	background-position: -44px 0;
-}
-/* Documentation */
-
-.falseprofile-doc-sprite {
-	background: url({{site.baseurl}}/products/falseprofile/images/falseprofile-doc-sprite.jpg) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.falseprofile-multiply {
-	background-position: 0 0;
-}
-
-.falseprofile-olivotto {
-	background-position: -100px 0;
-}
-
-/* ---- FLOATING ADJUSTMENT ----*/ 
-
-/* Features */
-
-.feature-fadj:before {
-	background: url({{site.baseurl}}/products/floatingadjustments/images/fadj-features.png) no-repeat;
-}
-
-.fadj-big:before {
-	background-position: 0 0;
-}
-
-.fadj-create:before {
-	background-position: -45px 0;
-}
-
-/* Documentation */
-
-.fadj-doc-sprite {
-	background: url({{site.baseurl}}/products/floatingadjustments/images/fadj-doc-sprite.png) no-repeat;
-	width:100px;
-	height: 100px;
-}
-
-.fadj-create {
-	background-position: 0 0;
-}
-
-.fadj-modify {
-	background-position: -100px 0;
-}
-
-/* ---- THEME SWITCHER ----*/ 
-
-/* Features */
-
-.feature-tswitch:before {
-	background: url({{site.baseurl}}/products/themeswitcher/images/tswitch-features.png) no-repeat;
-	background-position: 0 0;
-}
 
 /* ---- DETAILIZER ----*/ 
 
@@ -1034,6 +578,50 @@ footer > .container {
 }
 
 .contrastica-comingsoon {
+	background-position: -200px 0;
+}
+
+/* ---- EDGEHANCER ----*/ 
+
+/* Features */
+
+.feature-edgehancer:before {
+	background: url({{site.baseurl}}/products/edgehancer/images/edgehancer-features.png) no-repeat;
+}
+
+.edgehancer-unused:before {
+	background-position: 0px 0px;
+}
+
+.edgehancer-algorithm:before {
+	background-position: -44px 0px;
+}
+
+.edgehancer-hdr:before {
+	background-position: -88px 0px;
+}
+
+.edgehancer-script:before {
+	background-position: -132px 0px;
+}
+
+/* Documentation */
+
+.edgehancer-doc-sprite {
+	background: url({{site.baseurl}}/products/edgehancer/images/edgehancer-doc-sprite.png) no-repeat;
+	width:100px;
+	height: 100px;
+}
+
+.edgehancer-manual {
+	background-position: 0 0;
+}
+
+.edgehancer-video {
+	background-position: -100px 0;
+}
+
+.edgehancer-quickstart {
 	background-position: -200px 0;
 }
 
