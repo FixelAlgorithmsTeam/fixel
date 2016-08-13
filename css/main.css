@@ -492,6 +492,11 @@ footer > .container {
 
 }
 
+.white {
+	color: white !important;
+	opacity: 0.7;
+}
+
 .glyphicon-star, 
 .glyphicon-star-empty {
 	color: #f39434;
