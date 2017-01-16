@@ -17,8 +17,8 @@ We didn't like the fact Photoshop's Sharpening Tools are based on single Radius 
 It means you you can tweak the parameters to fit only some parts of the image, more accurately only one scale of details.  
 We wanted Multi Scale Sharpening / Detail Enhancement which can fit all scales of the image at once.  
 Coming form the Signal and Image Processing World we knew an approach called [Multi Scale Analysis][3].  
-This is the sharpening and detail enhancement process we wanted, something to handle all scales of details in one tool.  
-So we created it - [Fixel Detailizer - Multi Scale Detail Enhancer][2].
+This is the sharpening and detail enhancement process we wanted (Multi Scale Sharpening, Multi Scale Detail Enhancement), something to handle all scales of details in one tool.  
+So we created it - [Fixel Detailizer - Multi Scale Detail Enhancer][2] / [Fixel Detailizer - Multi Scale Sharpener][2].
 
 ## Multi Scale Analysis
 When we say Multi Scale Analysis, what do we mean?  
@@ -69,6 +69,8 @@ Full integration with Adobe Photoshop using Native Code API and Panel Extension 
 The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrated into advanced users automatic workflows (Script based workflows).
 
 Some more information can be found at [Introducing Fixel Detailizer 2 PS][8] or [Fixel Detailizer 2.5 PS Quick Start Guide][9].
+
+Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Shaepening][2], [Image Shaperning][2],  [Photo Shaperning][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Shaepening][2].
 
 
   [1]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 2"
