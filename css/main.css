@@ -5,7 +5,7 @@
  color2: #ef954a;
 
 
- */ 
+ */
 
  /*---- COMMON ---- */
 
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .b {
-    font-weight: 400;   
+    font-weight: 400;
 }
 
 .software-version {
@@ -322,7 +322,7 @@ footer > .container {
 .products-sidebar > .products-sidenav > li > ul > .active:hover > a:before,
 .products-sidebar > .products-sidenav > li > ul > .active:focus > a:before {
   content: '\e072';
-  font-family: 'Glyphicons Halflings'; 
+  font-family: 'Glyphicons Halflings';
   display: inline-block;
   font-size: 8px;
   margin-left: -1.2em; /*// same as padding-left set on li*/
@@ -367,7 +367,7 @@ footer > .container {
   .products-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
     top: 80px;
-    
+
   }
   .products-sidebar.affix-bottom {
     position: absolute; /* Undo the static from mobile first approach */
@@ -403,7 +403,7 @@ footer > .container {
 	background-color: rgba(0,0,0,.3);
 	padding: 30px;
   	margin-bottom: 30px;
-  	box-shadow: inset 0 1px 6px rgba(0,0,0,.2), 
+  	box-shadow: inset 0 1px 6px rgba(0,0,0,.2),
   				0 1px 0 rgba(255,255,255,.1);
 }
 
@@ -427,12 +427,12 @@ footer > .container {
 }
 
 .author-caption {
-	opacity: 0.9; 
-	text-align: right; 
-	margin-top:-10px; 
-	margin-bottom: 0; 
-	font-size:12px; 
-	letter-spacing: 3px; 
+	opacity: 0.9;
+	text-align: right;
+	margin-top:-10px;
+	margin-bottom: 0;
+	font-size:12px;
+	letter-spacing: 3px;
 	text-shadow: none;
 }
 
@@ -470,10 +470,10 @@ footer > .container {
 	margin: 0 auto;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)); 
-    background-image:      -o-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0));
+    background-image:    -moz-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0));
+    background-image:     -ms-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0));
+    background-image:      -o-linear-gradient(left, rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0));
 }
 
 .img-documentation {
@@ -500,12 +500,12 @@ footer > .container {
 	opacity: 0.7;
 }
 
-.glyphicon-star, 
+.glyphicon-star,
 .glyphicon-star-empty {
 	color: #f39434;
 }
 
-/* ---- DETAILIZER ----*/ 
+/* ---- DETAILIZER ----*/
 
 /* Features */
 
@@ -549,7 +549,7 @@ footer > .container {
 	background-position: -200px 0;
 }
 
-/* ---- CONTRASTICA ----*/ 
+/* ---- CONTRASTICA ----*/
 
 /* Features */
 
@@ -589,7 +589,7 @@ footer > .container {
 	background-position: -200px 0;
 }
 
-/* ---- EDGEHANCER ----*/ 
+/* ---- EDGEHANCER ----*/
 
 /* Features */
 
@@ -633,7 +633,7 @@ footer > .container {
 	background-position: -200px 0;
 }
 
-/* ---- ZONE SELECTOR ----*/ 
+/* ---- ZONE SELECTOR ----*/
 
 /* Features */
 
@@ -774,7 +774,7 @@ fieldset[disabled] .btn-primary-blue.active {
     color: white;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.btn-buy {
 /*		background-color: #278EE7;*/
 		margin: 30px 0;
@@ -788,7 +788,7 @@ fieldset[disabled] .btn-primary-blue.active {
 	}
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 320px) {
 	.btn-buy {
 /*        background-color: #278EE7;*/
         width: 260px;
@@ -811,8 +811,8 @@ fieldset[disabled] .btn-primary-blue.active {
 }
 
 .download-icon {
-	font-size:60px; 
-	margin-right:10px; 
+	font-size:60px;
+	margin-right:10px;
 	top:5px
 }
 /* ---- MODAL - LICENSING, PAYMENTS ---- */
@@ -885,12 +885,12 @@ fieldset[disabled] .btn-primary-blue.active {
 .red-border-right {
     border-right: 1px;
     border-left: 0;
-    -webkit-border-image: 
+    -webkit-border-image:
     	-webkit-linear-gradient(rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)) 1 100%;
     -o-border-image:
     	     -o-linear-gradient(rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)) 1 100%;
     -moz-border-image:
-    	   -moz-linear-gradient(rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)) 1 100%;    
+    	   -moz-linear-gradient(rgba(239,74,74,0), rgba(239,74,74,0.75), rgba(239,74,74,0)) 1 100%;
 }
 
 /* ---- MAILCHIMP ----- */
@@ -901,7 +901,7 @@ fieldset[disabled] .btn-primary-blue.active {
 	background-size: 353px 25px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-clip: border-box;	
+	background-clip: border-box;
 }
 
 .support-searchbox {
@@ -937,7 +937,7 @@ fieldset[disabled] .btn-primary-blue.active {
 	text-align: right;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.right-xs-center,
 	.right-xs-center h3 {
 		text-align: center;
@@ -986,6 +986,13 @@ fieldset[disabled] .btn-primary-blue.active {
 	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
 }
 
+.center-img {
+	float:none !important;
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
 .news-article blockquote {
 	border: 0;
 	font-style: italic;
@@ -1017,7 +1024,7 @@ fieldset[disabled] .btn-primary-blue.active {
 }
 
 .pagination > li > a,
-.pagination > li > span {  
+.pagination > li > span {
   background-color: rgba(0,0,0,0.2);
   color: #ef4a4a;
   text-decoration: none;
@@ -1087,6 +1094,7 @@ fieldset[disabled] .btn-primary-blue.active {
 }
 
 img.img-center {
+
 	margin: 0 auto 40px auto;
 }
 
@@ -1099,9 +1107,9 @@ figcaption {
 /* ------------------------------------- */
 /*
 
-1.	PHONE  
-2.	PHONE  TABLET  
-3.	       TABLET  
+1.	PHONE
+2.	PHONE  TABLET
+3.	       TABLET
 4.	       TABLET  DESKTOP  LARGE
 5.	               DESKTOP
 6.                 DESKTOP  LARGE
@@ -1110,7 +1118,7 @@ figcaption {
  */
 
 /* 1. PHONE */
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
 	#navbar-phone > .navbar-nav > li > a {
 		color: #ef4a4a;
@@ -1168,7 +1176,7 @@ figcaption {
 		font-size: 14px;
 	}
 	.download-icon {
-		font-size:40px; 
+		font-size:40px;
 	}
 }
 
@@ -1205,4 +1213,3 @@ figcaption {
 @media (min-width: 1200px) {
 
 }
-
