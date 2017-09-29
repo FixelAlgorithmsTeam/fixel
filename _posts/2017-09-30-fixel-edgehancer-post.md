@@ -70,4 +70,4 @@ Next time we'll cover Fixel EdgeHancer UI and settings.
   [5]: http://www.davidebarranca.com/2013/01/double-usm-photoshop-sharpening-script-1-introduction/ "Double USM Photoshop Sharpening Script #1: Introduction"
   [6]: {{site.baseurl}}/news/images/FixelEdgeHancer2/SharpeningInputImageAnimated.png "Classic Image Sharpening"
   [7]: https://unsplash.com/photos/rNBYe4QlAIQ "Image by Tanja Heffner"
-  [8]: {{site.baseurl}}/news/images/FixelEdgeHancer2/EdgeMaskRadiusAnalysisAnimated.PNG "Fixel EdgeHancer Edge Mask"
+  [8]: {{site.baseurl}}/news/images/FixelEdgeHancer2/EdgeMaskRadiusAnalysisAnimated.png "Fixel EdgeHancer Edge Mask"
