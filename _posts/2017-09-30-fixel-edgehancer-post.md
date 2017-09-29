@@ -33,8 +33,7 @@ So sharpening is basically an indirect method to emphasize edges.
 
 Yet, could we do something which directly interacts with edges?   Yes we can!
 
-Assuming given an image we could access a map of the image edges, what would we do?
-
+Assuming given an image we could access a map of the image edges, what would we do?  
 Well, we could do many different things to emphasize those edges.  
 Any math operation that will differentiate the edges form their surrounding would work - Addition, Multiplication, etc...
 
