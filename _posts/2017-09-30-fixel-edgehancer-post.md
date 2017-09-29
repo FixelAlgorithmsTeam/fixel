@@ -24,7 +24,7 @@ In practice it is done like that:
  *  Create Differnce IOmage (High Pass Image) by substracting `blurredImage` from `inputImage`: `diffImage = inputImage - blurredImage`.
  *  Create sharpened image by adding the differnece image to the input image: `sharpendImage = inputImage + diffImage`.
 
-![Classic Image Sharpening][6]
+![Classic Image Sharpening][6]{:class="center-img"}
 
 ## Edge Sharpening
 Well, as talked above, sharpening methods response for changes.  
