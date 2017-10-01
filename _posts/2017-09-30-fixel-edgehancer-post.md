@@ -63,6 +63,8 @@ You really should try it by yourself.
 
 Next time we'll cover Fixel EdgeHancer UI and settings.
 
+Key Words: [Sharpening][2], [Detail Enhancement][2], [Edge Sharpening][2], [Image Sharpening][2],  [Photo Sharpening][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Edge Mask][2].
+
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FixelEdgeHancer2/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 2"

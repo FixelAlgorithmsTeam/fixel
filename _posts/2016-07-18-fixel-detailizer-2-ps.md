@@ -70,7 +70,7 @@ The filter is fully scriptable (Adobe's ExtendScript aware) and can be integrate
 
 Some more information can be found at [Introducing Fixel Detailizer 2 PS][8] or [Fixel Detailizer 2.5 PS Quick Start Guide][9].
 
-Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Shaepening][2], [Image Shaperning][2],  [Photo Shaperning][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Shaepening][2].
+Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Sharpening][2], [Image Sharpening][2],  [Photo Sharpening][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Sharpening][2].
 
 
   [1]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 2"
