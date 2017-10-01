@@ -134,6 +134,8 @@ Now, if you could bear with me through my text, it is now time to watch the seco
 <iframe src="https://player.vimeo.com/video/206994656" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/206994656">Introduction to Fixel Detailizer 2.5 - Part II</a> from <a href="https://vimeo.com/user6713845">Flora Cusi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Sharpening][2], [Image Sharpening][2],  [Photo Sharpening][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Sharpening][2].
+
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FloMC01/FloMC01.png "Fixel Detailizer Presentation"
