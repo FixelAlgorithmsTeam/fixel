@@ -1,6 +1,6 @@
 ---
 title: 'Fixel EdgeHancer Basics 001'
-date: 	2017-03-09
+date: 	2017-09-30
 author: Fixel Algorithms
 layout: post
 class:  news
