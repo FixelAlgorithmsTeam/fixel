@@ -14,8 +14,11 @@ We aim for simple and effective tools for the Image and Video Processing / Editi
 
 If you have any question, suggestion or feel the need to say Hi! don't think twice and [Contact Us][2].
 
+Key Words: [Fixel Algorithms][3], [Fixel][3], [Algorithms][3], [Image Processing][3], [Image Enhancement][3],  [Photo Enhancement][3], [Photoshop Plug In][3], [After Effects Plug In][3], [Premiere Plug In][3].
+
 <!-- This is commented out -->
 
 
   [1]: {{site.baseurl}}/news/images/FixelAlgorithmsAvatar150px.png "Fixel Algorithms"
   [2]: mailto:fixel@fixelalgorithms.com
+  [3]: http://fixelalgorithms.co
