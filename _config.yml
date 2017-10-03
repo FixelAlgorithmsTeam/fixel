@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: rouge
 url: http://fixelalgorithms.co
 author: Davide Barranca
-description: Image Processing algorithms
+description: Image Processing Algorithms
 include: ['.htaccess']
 timezone: Israel
 gems: [jekyll-paginate]
