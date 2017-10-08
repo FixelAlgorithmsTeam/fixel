@@ -10,7 +10,7 @@ class: 			support
 <section class="container">
 	<div class="row">
 		<h1 class="home-title" style="margin-bottom:10px">May I Help?</h1>
-		<p class="product-subtitle text-center">FAQ & Contacts</p>
+		<p class="product-subtitle text-center">FAQ & Contact Us</p>
 		<div class="mc-field-group text-center">
 			<label for="filter" class="sr-only">Search the FAQs</label>
 			<input id="filter" class="support-searchbox" placeholder="Keywords Search"/>
@@ -81,6 +81,12 @@ class: 			support
 						<div class="def">
 							<dt>I upgraded to Adobe Photoshop CC 2015.5 and I'm having issues with Fixel's Products, What should I do?</dt>
 							<dd>Usually it is about installing the Plug In correctly for CC 2015.5. Adobe created a new shared folder for Photoshop CC 2015.5. All CC (CC, CC 2014, CC 2015, etc..) Users should (CC 2015.5 and above must) move the Plug In file into the new folder. Information on the shared folder is given in <a href:"http://blogs.adobe.com/crawlspace/2016/06/faq-photoshop-cc-2015-5-now-available.html" target="_blank">FAQ: Photoshop CC 2015.5 Now Available</a> and <a href="https://helpx.adobe.com/photoshop/kb/plug-ins-photoshop-troubleshooting.html" target="_blank">How to Identify and Troubleshoot Issues with Plug Ins in Photoshop.</a></dd>
+						</div>
+						<div class="def">
+							<dt>I'm having some issues with Photoshop CS6 (Plug In doesn't show in the Filter Menu)</dt>
+							<dd>Adobe, in later versions of Photoshop, ships Photoshop with Intel OpenMP library we utilize for Multi Threaded code.<br>
+							Hence users of CS6 which uses our products which utilizes Intel OpenMP Library (<code>libiomp5md.dll</code>) should install <a href="https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version" target="_blank">Intel® C++ and Fortran Compilers Redistributable Libraries</a>.<br>
+							Please contact us to be advised on the specific version to download.</dd>
 						</div>
 						<div class="def">
 							<dt>I'm still having issues, how do I get in touch with you?</dt>
