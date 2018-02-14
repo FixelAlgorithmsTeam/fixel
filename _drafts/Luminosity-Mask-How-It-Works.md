@@ -38,7 +38,18 @@ Pixel comes in, says its value and get output value and voilà we have a Luminos
 ![Figure 002][Figure002]
 
 The above "Mask Generator" seems to be generating a "Midtones Mask" since the output values for Mid Tone Values is high value.  
+Since images are discrete, let's say in the case of 8 Bit image they have values in the range {0, 1, ..., 254, 255}.  
+So a *Mask Generator* (Luminosity Mask Generator) needs to designate output value for each value in this range where the output is also within the range {0, 1, ..., 254, 255}.  
+If it designate high output values to low input values and low values to the rest it is called "Shadows Mask Generator".  
+If it designate high output values to mid input values and low values to the rest it is called "Midtones Mask Generator".  
+If it designate high output values to high input values and low values to the rest it is called "Highlights Mask Generator".
 
+This is the mask generation transformation (Mapping) and basically this is all theory there is to know.
+
+## In Practice
+So now we know what's a Luminosity Mask Generator is and what is it doing let's try to understand how it is done in Photoshop.
+
+See https://fstoppers.com/education/how-create-luminosity-masks-better-retouching-111111 for Luminosity Mask using Calculations.
 
 **2 main approaches, Calculations / Curves [Show they are equivalent]**
 
@@ -68,12 +79,12 @@ You really should try it by yourself.
 
 Next time we'll cover Fixel EdgeHancer UI and settings.
 
-Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminosity Mask][2],  [Luminosity Masks][2], [Curves][2], [Levels][2], [Luminosity][2], [Photoshop][2].
+Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminosity Mask][2],  [Luminosity Masks][2], [Curves][2], [Levels][2], [Luminosity][2], [Photoshop][2], [Plug In][2].
 
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FixelEdgeHancer2/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 2"
-  [2]: {{site.baseurl}}products/edgehancer/ "Fixel EdgeHancer 2 Product Page"
+  [2]: {{site.baseurl}}products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [3]: http://www.davidebarranca.com "Davide Barranca - Photoshop, etc."
   [4]: http://www.davidebarranca.com/2012/09/decomposing_sharpening_part_1/ "Decomposing Sharpening #1 Introduction"
   [5]: http://www.davidebarranca.com/2013/01/double-usm-photoshop-sharpening-script-1-introduction/ "Double USM Photoshop Sharpening Script #1: Introduction"
