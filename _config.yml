@@ -6,7 +6,9 @@ author: Davide Barranca
 description: Image Processing Algorithms
 include: ['.htaccess']
 timezone: Israel
-gems: [jekyll-paginate]
+plugins:
+    - jekyll-sitemap
+    - jekyll-paginate
 sitemap:
     file: "/sitemap.xml"
     exclude:
