@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 *FixelTemp*
 .ruby-version
+support/_coupons.js
