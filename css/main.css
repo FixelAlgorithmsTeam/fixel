@@ -1102,6 +1102,50 @@ figcaption {
 	font-size: 75%;
 	text-align: center;
 }
+
+/* ----------------------------------------- */
+/* ------------ COUPONS STUFF!! ------------ */
+/* ----------------------------------------- */
+
+
+#email_address {
+    visibility: hidden;
+}
+
+#product {
+    display: block;
+    width: 350px;
+    height: 50px;
+    color:black;
+    margin: 10px;
+}
+
+#coupon {
+    display: block;
+    width: 350px;
+    height: 50px;
+    color:black;
+    margin: 10px;
+    padding:10px;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+#getDiscount {
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size:15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#confirmation_text {
+    opacity: 0.5;
+}
+
 /* ------------------------------------- */
 /* ------------ MEDIA QUERY ------------ */
 /* ------------------------------------- */
