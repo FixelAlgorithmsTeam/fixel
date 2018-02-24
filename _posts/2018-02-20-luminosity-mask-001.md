@@ -108,6 +108,7 @@ For instance, using the Calculation Tool we could easily generate the Midtones M
 So it gives us the option to use `+`, `-`, `*`, `/` on images, but not much more than that.
 
 ### Comparison - Curve Tool vs. Calculations Tool
+Let's summarize the differences between those 2 approaches.<br/>
 
 |               | Curve Tool                                                                                                                                                                       | Calculation Tool                                                                                                                                              |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
