@@ -55,11 +55,11 @@ In the Computer Science world this process is done using a [Look Up Table](https
 
 Over time some masks got their own naming according to the properties of the values assigned:  
  *  If it designates high output values to low input values and low values to the rest it is called *Shadows Mask Generator*.  
-    The output mask is called *Shadows Luminosity Mask* which reveals shadows and blocks everything elese.
+    The output mask is called *Shadows Luminosity Mask* which reveals shadows and blocks everything else.
  *  If it designates high output values to mid input values and low values to the rest it is called *Midtones Mask Generator*.  
-    The output mask is called *Midtones Luminosity Mask* which reveals midtones and blocks everything elese.
+    The output mask is called *Midtones Luminosity Mask* which reveals midtones and blocks everything else.
  *  If it designates high output values to high input values and low values to the rest it is called *Highlights Mask Generator*.
-    The output mask is called *Highlights Luminosity Mask* which reveals highlights and blocks everything elese.
+    The output mask is called *Highlights Luminosity Mask* which reveals highlights and blocks everything elee.
 
 This is the mask generation transformation (Mapping) and basically this is all theory there is to know.
 
@@ -117,7 +117,7 @@ Basically school days function, that's what it is, drawing a function.
 
 ### Calculations Tool
 Using [Calculations Tool](https://helpx.adobe.com/photoshop/using/channel-calculations.html) one could apply simple math operations on Layer / Channel / etc...  
-Namely we can combine math operations (Add, Subtract, Multiply and even more esoteric functions) by repetitive use of the Calculation tool.  
+Namely we can combine Math operations (Add, Subtract, Multiply and even more esoteric functions) by repetitive use of the Calculation tool.  
 For instance, using the Calculation Tool we could easily generate the Midtones Mask from above by multiplying a layer and its inverse and scaling result by 4.
 So it gives us the option to use `+`, `-`, `*`, `/` on images, but not much more than that.
 
@@ -148,10 +148,10 @@ Those with "Sharp Eye" would pay attention to something strange - Midtones Mask 
 Yet in practice, in all products out there, it is not?
 So what's going on?
 Well, what you see above is ideal Masks while Photoshop can not generate them in this quality.
-We'll talk more on those pitfalls and strange behavior of classic Luminosity Masks (Their generation) in the next writing.
+We'll talk more on those pitfalls and strange behaviour of classic Luminosity Masks (Their generation) in the next writing.
 
 # Summary
-Now we understood what Luminosity Masks really are,  the actual operations and math behind them.  
+Now we understood what Luminosity Masks really are, the actual operations and Math behind them.  
 We have shown the Luminosity Mask generation is no more than the most simple operation on grayscale image - Apply LUT / Pixel Wise Mapping.
 What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. While one gives the most flexibility and efficiency (Curve Tool) it lacks with quality and the other which generates smooth masks (Calculation Tool) has speed issues when trying to generate complex masks.
 How can we solve those?
