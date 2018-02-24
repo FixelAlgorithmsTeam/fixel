@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Small Luminosity Mask Icon][1]
+![Luminosity Mask 001][1]
 
 Everywhere you go you read about Luminosity Masks.  
 I'm really surprised it doesn't have its own Wikipedia Page (Maybe we'll take care of that).  
