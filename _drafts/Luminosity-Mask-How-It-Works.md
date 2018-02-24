@@ -9,43 +9,46 @@ class:  news
 
 Everywhere you go you hear Luminosity Masks.  
 I'm really surprised it doesn't have its own Wikipedia Page (Maybe we'll take care of that).  
-It is a truly great tool to have in your toolbox.
+It is truly a great tool to have in your toolbox.
 
-But how it works? Not in the sense how to create it, but really what happens?  
+But how does it works? Not in the sense how to create it, but what really happens?  
 Well, let's try answering that and doing it deep (Hopefully interesting).
 
 ## The Basics
 
 ### Step 001 - It All Starts with a Grayscale Image
-You can have image with all colors in the world but the first step in creating Luminosity Mask is by having a Grayscale image (Single Channel Image).
+You can have image with all the colors in the world but the first step in creating Luminosity Mask is by having a Grayscale image (Single Channel Image).
 In most cases it means to calculate the Luminosity Channel of the given image.  
-Each one with his recipe (Most actions / panels based solution uses Photoshop Luminosity selection - **Add Link**).
+Each one with his own recipe (Most actions / panels based solution uses Photoshop Luminosity selection - `Ctrl + Left Mouse Click` on the RGB Channel in the Channel Tab).
 
 ![Figure 001][Figure001]
 
 By the way, any "Single Channel" image can do here. Namely one could use the Blue channel of RGB image as the base image for the creation of Luminosity Mask.  
 Be crazy with that, anything can be a candidate (Yea, even the M channel in CMYK).
 
-Well, in case of a grayscale image, one could just step over to Step 002.
+Well, in case of a grayscale image, life is easier, one could just step over to Step 002.
 
 ### Step 002 - Apply Pixel Wise Transformation on the Grayscale Image
 
-Now, this is the step you get to trick the system.  
+Now, this is the step where the magic happens.  
 The idea is very simple, given the Gray Scale image as input the output, per pixel, is a function only of its value.  
 Well, this sentence might take some of us back to horrible school days but it is really simple when you think about it.  
-Pixel comes in, says its value and get output value and voilÃ  we have a Luminosity Mask.
+Pixel comes in, states its value and gets an output value based only on its value (No location information, No surrounding pixels, only its value) and voilÃ we have a Luminosity Mask.  
+The name says it all, the Mask depends solely on the Luminosity (Value) of the pixels, not their location, not their surrounding just thei Luminosity value. Nothing more, nothing less. Power by simplicity.
 
 ![Figure 002][Figure002]
 
 The above "Mask Generator" seems to be generating a "Midtones Mask" since the output values for Mid Tone Values is high value.  
-Since images are discrete, let's say in the case of 8 Bit image they have values in the range {0, 1, ..., 254, 255}.  
-So a *Mask Generator* (Luminosity Mask Generator) needs to designate output value for each value in this range where the output is also within the range {0, 1, ..., 254, 255}.  
-In the Computer Science world it is called [Look Up Table](https://en.wikipedia.org/wiki/Lookup_table) (LUT).  
+Simplre fact, images are discrete in their values.
+For instance, in the case of 8 Bit image, the discrete values are in the range {0, 1, ..., 254, 255}.  
+So a *Mask Generator* (Luminosity Mask Generator) has to designate output value for each value in the discrete domain.
+Logic says, if the output image is also, let's say 8 Bit, then the output is also within the range {0, 1, ..., 254, 255}.  
+In the Computer Science world this process is done using a [Look Up Table](https://en.wikipedia.org/wiki/Lookup_table) (LUT).  
 
-Over time some masks got their own naming according to what the values assigned.  
-If it designate high output values to low input values and low values to the rest it is called "Shadows Mask Generator".  
-If it designate high output values to mid input values and low values to the rest it is called "Midtones Mask Generator".  
-If it designate high output values to high input values and low values to the rest it is called "Highlights Mask Generator".
+Over time some masks got their own naming according to the properties of the values assigned.  
+If it designates high output values to low input values and low values to the rest it is called "Shadows Mask Generator".  
+If it designates high output values to mid input values and low values to the rest it is called "Midtones Mask Generator".  
+If it designates high output values to high input values and low values to the rest it is called "Highlights Mask Generator".
 
 This is the mask generation transformation (Mapping) and basically this is all theory there is to know.
 
@@ -64,37 +67,44 @@ Another basic mask is given by the negative (Inverse) of the Highlights Mask whi
 
 $$ f \left( x \right) = 255 - x $$
 
-Using those 2 building blocks one could generate many other masks targeting different Tonal Ranges (Something will get to later).
+Using those 2 building blocks one could generate many other masks targeting different Tonal Ranges (Something we will get to later).
 
 ![Figure 003][Figure003]
 
-As can be seen above, the Midtones Mask is generated by scaled multiplication of the Highlights Mask and the Shadows Mask. Moreover, as can be seen by the Harmonic Function, one could do any mapping one wish.
+As can be seen above, the Midtones Mask is generated by scaled multiplication of the Highlights Mask and the Shadows Mask.
+This is one way to chieve this, not necessiraly what's used usually (We'll tlak about that).  
+Moreover, as can be seen by the Harmonic Function, one could do any mapping one wish.
 
 **Remark**
-In practice, data is scaled into [0, 1] range as operations, such as multiplication, makes more sense in that domain. So the range {0, 1, 2, ..., 254, 255} becomes {0 / 255, 1 / 255, 2 /255, ..., 254 / 255, 255/ 255}. This is exactly what's done in the above figure.
+In practice, data is scaled into [0, 1] range as operations, such as multiplication, makes more sense in that domain. So the range {0, 1, 2, ..., 254, 255} becomes {0 / 255, 1 / 255, 2 /255, ..., 254 / 255, 255 / 255}. This is exactly what's done in the above figure.
 
 ## In Practice
-So now we know what's a Luminosity Mask Generator is and what is it doing let's try to understand how it is done in Photoshop.  
+So now we know what a Luminosity Mask Generator is and what is it doing. 
+On the next step, let's try to understand how it is done in Photoshop in most cases.  
 As discussed above, one need to create a LUT and there 2 main approaches doing so - The Calculations Tool or the Curve Tool.
-One can apply each of those on Gratscale Image and the output is basically Luminosity Mask.
+One can apply each of those on Grayscale Image and the output is basically Luminosity Mask.
 
 ### Curve Tool
 The [Curve Tool](https://helpx.adobe.com/photoshop/using/curves-adjustment.html) is a Visualized LUT table by a Curve.  
-It practically let the user draw the LUT. 
+It practically let the user draw the LUT using a flexibe "Curve". 
 
 ![Figure 004][Figure004]
 
-On its bottom you can see the input values. On the left you can see the output value. You match between each value just by altering the curve according to your wish.
-**Luminosity Mask Recipe**
+On the figure above, one could see Photoshop's Curve tool.
+On its bottom, horizontally, you can see the input values. On the left, vertically, you can see the output value. You match between each value just by altering the curve according to your wish.  
+Basically school days funciton, that's what it is, drawing a function.  
+
+**Luminosity Mask Recipe by Curve Tool**
  1. Create a Grayscale version of the image in a new layer ([Extract Luminosity](https://photoshoptrainingchannel.com/tips/loading-luminosity-keyboard-shortcut/), Select one of the channels, Desaturate the image, Use Channel Mixer, etc...).
  2. Open the Curve Tool.
  3. Draw the desired LUT.
+ 4. Use the result as a mask -> Luminosuty Mask.
 
 ### Calculations Tool
 Using [Calculations Tool](https://helpx.adobe.com/photoshop/using/channel-calculations.html) one could apply simple math operations on Layer / Channel / etc...  
-Namely we can combine math operation by repetitive use of the Calculation tool.  
+Namely we can combine math operations (Add, Subtract, Multiply and even more esoteric functions) by repetitive use of the Calculation tool.  
 For instance, using the Calculation Tool we could easily generate the Midtones Mask from above by multiplying a layer and its inverse and scaling result by 4.
-So it gives us the option to use `+`, `-`, `*`, `/` on images.
+So it gives us the option to use `+`, `-`, `*`, `/` on images, but not much more than that.
 
 ### Comparison - Curve Tool vs. Calculations Tool
 
