@@ -145,10 +145,10 @@ Well, this is what Fixel Zone Selector is all about.
 In the next part we'll talk about Zone Selector approach to Luminosity Masks.
 
 
-
 ## Image Credit
- *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit for [magnetismus](https://www.flickr.com/people/magnetismus/).
- *  [Simple Living](https://www.flickr.com/photos/lightsamples/22552453147) - Credit for [Malcolm Carlaw](https://www.flickr.com/photos/lightsamples/).
+ *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
+ *  [Schwaigsee Lake] - Credit to [Alfred Borchard](https://www.freeimages.com/photographer/Alfi007-51075).
+ *  [Simple Living](https://www.flickr.com/photos/lightsamples/22552453147) - Credit to [Malcolm Carlaw](https://www.flickr.com/photos/lightsamples/).
 
 
 ## Resources
