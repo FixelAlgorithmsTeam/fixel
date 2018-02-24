@@ -156,7 +156,7 @@ We have shown the Luminosity Mask generation is no more than the most simple ope
 What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. While one gives the most flexibility and efficiency (Curve Tool) it lacks with quality and the other which generates smooth masks (Calculation Tool) has speed issues when trying to generate complex masks.
 How can we solve those?
 
-Well, this is what Fixel Zone Selector is all about.  
+Well, this is what [Fixel Zone Selector][2] is all about.  
 In the next part we'll talk about Zone Selector approach to Luminosity Masks.
 
 
@@ -181,7 +181,7 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
 
 
 <!-- This is commented out -->
-  [1]: https://i.imgur.com/PwWqBlg.png
+  [1]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
   [2]: {{site.baseurl}}products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [3]: http://www.davidebarranca.com "Davide Barranca - Photoshop, etc."
   [4]: http://www.davidebarranca.com/2012/09/decomposing_sharpening_part_1/ "Decomposing Sharpening #1 Introduction"
@@ -189,9 +189,9 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [6]: {{site.baseurl}}/news/images/FixelEdgeHancer2/SharpeningInputImageAnimated.png "Classic Image Sharpening"
   [7]: {{site.baseurl}}/news/images/FixelEdgeHancer2/EdgeMaskRadiusAnalysisAnimated.png "Fixel EdgeHancer Edge Mask"
   [8]: https://unsplash.com/photos/rNBYe4QlAIQ "Image by Tanja Heffner"
-  [Figure001]: https://i.imgur.com/lkpRRXR.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
-  [Figure002]: https://i.imgur.com/wkEQyn9.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
-  [Figure003]: https://i.imgur.com/Dl1xPBP.png
-  [Figure004]: https://i.imgur.com/VNpLV0c.png
-  [Figure005]: https://i.imgur.com/n2zTX8S.png
+  [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
+  [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
+  [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Luminosity Mask Generation"
+  [Figure004]: {{site.baseurl}}/news/images/LuminosityMask001/PhotoshopCurveTool.png "Photoshop Curve Tool"
+  [Figure005]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskRecipesAnimated.png "Luminosity Masks Recipes"
 

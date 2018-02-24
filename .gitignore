@@ -4,3 +4,7 @@ _site/
 *FixelTemp*
 .ruby-version
 support/_coupons.js
+
+
+# File Template
+IgnoreMe*.*
