@@ -35,8 +35,10 @@ Well, in case of a grayscale image, life is easier, one could just step over to 
 Now, this is the step where the magic happens.  
 The idea is very simple, given the Gray Scale image as input the output, per pixel, is a function only of its value.  
 Well, this sentence might take some of us back to horrible school days but it is really simple when you think about it.  
-Pixel comes in, states its value and gets an output value based only on its value (No location information, No surrounding pixels, only its value) and voilÃ we have a Luminosity Mask.  
-The name says it all, the Mask depends solely on the Luminosity (Value) of the pixels, not their location, not their surrounding just thei Luminosity value. Nothing more, nothing less. Power by simplicity.
+Pixel comes in, states its value and gets an output value based only on its value and voilÃ we have a Luminosity Mask.  
+The name says it all, the Mask depends solely on the Luminosity (Value) of the pixels.  
+It has nothing to do with their location, not their surrounding pixels.  
+Just using the Luminosity value. Nothing more, nothing less. Power by simplicity.
 
 ![Figure 002][Figure002]{:class="center-img"}
 
