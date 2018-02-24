@@ -99,7 +99,7 @@ One can apply each of those on Grayscale Image and the output is basically Lumin
 
 ### Curve Tool
 The [Curve Tool](https://helpx.adobe.com/photoshop/using/curves-adjustment.html) is a Visualized LUT table by a Curve.  
-It practically let the user draw the LUT using a flexibe "Curve". 
+It practically let the user draw the LUT using a flexible "Curve". 
 
 <br/>
 ![Figure 004][Figure004]{:class="center-img"}
@@ -116,7 +116,7 @@ Basically school days function, that's what it is, drawing a function.
  4. Use the result as a mask -> Luminosity Mask.
 
 ### Calculations Tool
-Using [Calculations Tool](https://helpx.adobe.com/photoshop/using/channel-calculations.html) one could apply simple math operations on Layer / Channel / etc...  
+Using [Calculations Tool](https://helpx.adobe.com/photoshop/using/channel-calculations.html) one could apply simple Math operations on Layer / Channel / etc...  
 Namely we can combine Math operations (Add, Subtract, Multiply and even more esoteric functions) by repetitive use of the Calculation tool.  
 For instance, using the Calculation Tool we could easily generate the Midtones Mask from above by multiplying a layer and its inverse and scaling result by 4.
 So it gives us the option to use `+`, `-`, `*`, `/` on images, but not much more than that.
@@ -129,7 +129,7 @@ Let's summarize the differences between those 2 approaches:
 |               | Curve Tool                                                                                                                                                                       | Calculation Tool                                                                                                                                              |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Advantages    | - No limits what so ever on the shape of the selection. <br/> - Complex mask can be achieved in operation. <br/>                                                                       | - Can be translated into exact Mathematical expression. <br/> - Smooth result and gets better as the mode (8, 16, 32 Bit) get higher. <br/>                         |
-| Disadvatnages | - Photoshop Curves are quantized into 256 [Davide?] levels which makes them less smooth. <br/> - No parameterization (Unless scripted) hence hard to be accurate and consistent. <br/> | - Limited to what can be done using the Blend Mode operations on the base Grayscale image. <br/> - Requires repetitive operations to get special selections (Slow). <br/> |
+| Disadvantages | - Photoshop Curves are quantized into 256 [Davide?] levels which makes them less smooth. <br/> - No parameterization (Unless scripted) hence hard to be accurate and consistent. <br/> | - Limited to what can be done using the Blend Mode operations on the base Grayscale image. <br/> - Requires repetitive operations to get special selections (Slow). <br/> |
 | Remarks       | Used by many Luminosity Mask panels out there, yet unless result can be achieved using Calculations, quality wise it is better use Calculations. <br/>                                 | Usually used for its quality yet limited either by speed or can get arbitrary selection. <br/>                                                                     |
 
 <br/>
