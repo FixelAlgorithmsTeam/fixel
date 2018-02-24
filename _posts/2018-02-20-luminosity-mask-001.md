@@ -172,7 +172,7 @@ In the next part we'll talk about Zone Selector approach to Luminosity Masks.
  *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
 
 
-
+<!-- This is commented out -->
 [comment]: # (https://fstoppers.com/education/how-create-luminosity-masks-better-retouching-111111 for Luminosity Mask using Calculations.)
 [comment]: # (https://www.capturelandscapes.com/introduction-to-luminosity-masks/.)
 [comment]: # (https://fstoppers.com/composite/create-seamless-selections-using-luminosity-masks-159068.)
@@ -189,7 +189,7 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
-  [2]: {{site.baseurl}}products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
+  [2]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Luminosity Mask Generation"
