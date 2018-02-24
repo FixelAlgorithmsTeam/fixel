@@ -167,15 +167,22 @@ In the next part we'll talk about Zone Selector approach to Luminosity Masks.
 
 
 ## Resources
- * https://fstoppers.com/education/how-create-luminosity-masks-better-retouching-111111 for Luminosity Mask using Calculations.
- * https://www.capturelandscapes.com/introduction-to-luminosity-masks/.
- * https://fstoppers.com/composite/create-seamless-selections-using-luminosity-masks-159068.
- * https://www.psdbox.com/tutorials/complex-masking-using-channels-and-calculations.
- * https://www.youtube.com/watch?v=t3zSUK7KK7c
- * https://www.youtube.com/watch?v=htuf4yaanBI
- * http://play.macprovideo.com/photoshop-102-selection-masking-techniques/12
- * https://www.youtube.com/watch?v=QUkIgdmnBaE
- * http://fotographee.com/luminosity-masks-gradient/ (See shortcuts for operations on Masks)
+ *  [Luminosity Mask: The Complete Kickstarter’s Guide](http://fotographee.com/tutorial-image-editing-luminosity-masks/).
+ *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
+ *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
+
+
+
+[comment]: # (https://fstoppers.com/education/how-create-luminosity-masks-better-retouching-111111 for Luminosity Mask using Calculations.)
+[comment]: # (https://www.capturelandscapes.com/introduction-to-luminosity-masks/.)
+[comment]: # (https://fstoppers.com/composite/create-seamless-selections-using-luminosity-masks-159068.)
+[comment]: # (https://www.psdbox.com/tutorials/complex-masking-using-channels-and-calculations.)
+[comment]: # (https://www.youtube.com/watch?v=t3zSUK7KK7c)
+[comment]: # (https://www.youtube.com/watch?v=htuf4yaanBI)
+[comment]: # (http://play.macprovideo.com/photoshop-102-selection-masking-techniques/12)
+[comment]: # (https://www.youtube.com/watch?v=QUkIgdmnBaE)
+[comment]: # (http://fotographee.com/luminosity-masks-gradient/ See shortcuts for operations on Masks)
+[comment]: # (fd)
 
 Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminosity Mask][2],  [Luminosity Masks][2], [Saturation Mask][2], [Saturation Masks][2], [Curves][2], [Levels][2], [Luminosity][2], [Photoshop][2], [Plug In][2].
 
@@ -183,12 +190,6 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
   [2]: {{site.baseurl}}products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
-  [3]: http://www.davidebarranca.com "Davide Barranca - Photoshop, etc."
-  [4]: http://www.davidebarranca.com/2012/09/decomposing_sharpening_part_1/ "Decomposing Sharpening #1 Introduction"
-  [5]: http://www.davidebarranca.com/2013/01/double-usm-photoshop-sharpening-script-1-introduction/ "Double USM Photoshop Sharpening Script #1: Introduction"
-  [6]: {{site.baseurl}}/news/images/FixelEdgeHancer2/SharpeningInputImageAnimated.png "Classic Image Sharpening"
-  [7]: {{site.baseurl}}/news/images/FixelEdgeHancer2/EdgeMaskRadiusAnalysisAnimated.png "Fixel EdgeHancer Edge Mask"
-  [8]: https://unsplash.com/photos/rNBYe4QlAIQ "Image by Tanja Heffner"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Luminosity Mask Generation"
