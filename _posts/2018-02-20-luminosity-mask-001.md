@@ -157,7 +157,7 @@ What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. W
 How can we solve those?
 
 Well, this is what [Fixel Zone Selector][2] is all about.  
-In the next part we'll talk about Zone Selector approach to Luminosity Masks.
+In the next part we'll talk about [Zone Selector][2] approach to Luminosity Masks.
 
 
 ## Image Credit
