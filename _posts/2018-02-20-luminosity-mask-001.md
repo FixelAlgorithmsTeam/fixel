@@ -119,7 +119,7 @@ Let's summarize the differences between those 2 approaches.<br/>
 # Building Masks
 In this part we will show how most of the masks out there are built using the Lego bricks we created.
 
-![Figure 005][Figure005]
+![Figure 005][Figure005]{:class="center-img"}
 
 As one could see above, using Addition, Subtraction and Multiplication (Intersection), all operations available on Layers / Channels / Masks in Photoshop, one could easily generate all those "Classic" Luminosity Masks one could find in the wild (Wild world of the Luminosity Masks Panels).
 
