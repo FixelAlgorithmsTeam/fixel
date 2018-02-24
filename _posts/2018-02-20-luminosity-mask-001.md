@@ -49,10 +49,13 @@ So a *Mask Generator* (Luminosity Mask Generator) has to designate output value 
 Logic says, if the output image is also, let's say 8 Bit, then the output is also within the range {0, 1, ..., 254, 255}.  
 In the Computer Science world this process is done using a [Look Up Table](https://en.wikipedia.org/wiki/Lookup_table) (LUT).  
 
-Over time some masks got their own naming according to the properties of the values assigned.  
-If it designates high output values to low input values and low values to the rest it is called "Shadows Mask Generator".  
-If it designates high output values to mid input values and low values to the rest it is called "Midtones Mask Generator".  
-If it designates high output values to high input values and low values to the rest it is called "Highlights Mask Generator".
+Over time some masks got their own naming according to the properties of the values assigned:  
+ *  If it designates high output values to low input values and low values to the rest it is called *Shadows Mask Generator*.  
+    The output mask is called *Shadows Luminosity Mask* which reveals shadows and blocks everything elese.
+ *  If it designates high output values to mid input values and low values to the rest it is called *Midtones Mask Generator*.  
+    The output mask is called *Midtones Luminosity Mask* which reveals midtones and blocks everything elese.
+ *  If it designates high output values to high input values and low values to the rest it is called *Highlights Mask Generator*.
+    The output mask is called *Highlights Luminosity Mask* which reveals highlights and blocks everything elese.
 
 This is the mask generation transformation (Mapping) and basically this is all theory there is to know.
 
