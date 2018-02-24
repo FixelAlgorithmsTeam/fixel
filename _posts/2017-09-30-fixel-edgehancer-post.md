@@ -68,7 +68,7 @@ Key Words: [Sharpening][2], [Detail Enhancement][2], [Edge Sharpening][2], [Imag
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FixelEdgeHancer2/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 2"
-  [2]: {{site.baseurl}}products/edgehancer/ "Fixel EdgeHancer 2 Product Page"
+  [2]: {{site.baseurl}}/products/edgehancer/ "Fixel EdgeHancer 2 Product Page"
   [3]: http://www.davidebarranca.com "Davide Barranca - Photoshop, etc."
   [4]: http://www.davidebarranca.com/2012/09/decomposing_sharpening_part_1/ "Decomposing Sharpening #1 Introduction"
   [5]: http://www.davidebarranca.com/2013/01/double-usm-photoshop-sharpening-script-1-introduction/ "Double USM Photoshop Sharpening Script #1: Introduction"
