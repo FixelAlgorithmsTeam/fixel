@@ -170,7 +170,7 @@ In the next part we'll talk about Zone Selector approach to Luminosity Masks.
  *  [Luminosity Mask: The Complete Kickstarter’s Guide](http://fotographee.com/tutorial-image-editing-luminosity-masks/).
  *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
  *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
- *  [Video - Selecting Using Luminosity Masks (Usigng Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
+ *  [Video - Selecting Using Luminosity Masks (Using Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
 
 
 <!-- This is commented out -->
