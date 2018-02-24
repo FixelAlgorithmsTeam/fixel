@@ -10,7 +10,8 @@ hidden: true
 
 Everywhere you go you hear Luminosity Masks.  
 I'm really surprised it doesn't have its own Wikipedia Page (Maybe we'll take care of that).  
-It is truly a great tool to have in your toolbox.
+It is truly a great tool to have in your toolbox, very powerful when used correctly.  
+Its greatness by its simplicity.
 
 But how does it works? Not in the sense how to create it, but what really happens?  
 Well, let's try answering that and doing it deep (Hopefully interesting).
