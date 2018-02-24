@@ -162,7 +162,7 @@ In the next part we'll talk about Zone Selector approach to Luminosity Masks.
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
- *  [Schwaigsee Lake] - Credit to [Alfred Borchard](https://www.freeimages.com/photographer/Alfi007-51075).
+ *  [Schwaigsee Lake](https://www.freeimages.com/photo/schwaigsee-lake-1342788) - Credit to [Alfred Borchard](https://www.freeimages.com/photographer/Alfi007-51075).
  *  [Simple Living](https://www.flickr.com/photos/lightsamples/22552453147) - Credit to [Malcolm Carlaw](https://www.flickr.com/photos/lightsamples/).
 
 
