@@ -92,14 +92,14 @@ Moreover, as can be seen by the Harmonic Function, one could do any mapping one 
 In practice, data is scaled into [0, 1] range as operations, such as multiplication, makes more sense in that domain. So the range {0, 1, 2, ..., 254, 255} becomes {0 / 255, 1 / 255, 2 /255, ..., 254 / 255, 255 / 255}. This is exactly what's done in the above figure.
 
 ## In Practice
-So now we know what a Luminosity Mask Generator is and what is it doing. 
+So now we know what a Luminosity Mask Generator is and what is it doing.
 On the next step, let's try to understand how it is done in Photoshop in most cases.  
 As discussed above, one need to create a LUT and there 2 main approaches doing so - The Calculations Tool or the Curve Tool.
 One can apply each of those on Grayscale Image and the output is basically Luminosity Mask.
 
 ### Curve Tool
 The [Curve Tool](https://helpx.adobe.com/photoshop/using/curves-adjustment.html) is a Visualized LUT table by a Curve.  
-It practically let the user draw the LUT using a flexible "Curve". 
+It practically let the user draw the LUT using a flexible "Curve".
 
 <br/>
 ![Figure 004][Figure004]{:class="center-img"}
@@ -126,6 +126,7 @@ Let's summarize the differences between those 2 approaches:
 <br/>
 <br/>
 
+{:.table .table-bordered}
 |               | Curve Tool                                                                                                                                                                       | Calculation Tool                                                                                                                                              |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Advantages    | - No limits what so ever on the shape of the selection. <br/> - Complex mask can be achieved in operation. <br/>                                                                       | - Can be translated into exact Mathematical expression. <br/> - Smooth result and gets better as the mode (8, 16, 32 Bit) get higher. <br/>                         |
@@ -196,4 +197,3 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Figure 003 - Luminosity Mask Generation"
   [Figure004]: {{site.baseurl}}/news/images/LuminosityMask001/PhotoshopCurveTool.png "Figure 004 - Photoshop Curve Tool"
   [Figure005]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskRecipesAnimated.png "Figure 005 - Luminosity Masks Recipes"
-
