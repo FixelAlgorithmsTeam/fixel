@@ -27,18 +27,18 @@ Each one with his own recipe (Most actions / panels based solution uses Photosho
 ![Figure 001][Figure001]{:class="center-img"}
 <br/>
 
-By the way, any "Single Channel" image can do here. Namely one could use the Blue channel of RGB image as the base image for the creation of Luminosity Mask.  
-Be crazy with that, anything can be a candidate (Yea, even the M channel in CMYK).
+By the way, any "Single Channel" image can do here – the best channel is the one where the image features you want to select are more evident and easily separable from the rest (it could be the Blue from RGB, the Magenta from CMYK, whatever).
 
-Well, in case of a grayscale image, life is easier, one could just step over to Step 002.
+Well, in case of a grayscale image, life is easier: one could just step over to Step 002.
 
 ### Step 002 - Apply Pixel Wise Transformation on the Grayscale Image
 
-Now, this is the step where the magic happens.  
-The idea is very simple, given the Gray Scale image as input the output, per pixel, is a function only of its value.  
+Now, this is where the magic happens.  
+The idea is very simple, given the Gray Scale image as input, the output per pixel is a function of its value only.
+
 Well, this sentence might take some of us back to horrible school days but it is really simple when you think about it.  
-Pixel comes in, states its value and gets an output value based only on its value and voilÃ we have a Luminosity Mask.  
-The name says it all, the Mask depends solely on the Luminosity (Value) of the pixels.  
+Pixel comes in, states its value and gets an output value based only on its value, and voilà we have a Luminosity Mask.  
+The name says it all, the Mask depends solely on the Luminosity (the Tonal Range value) of the pixels.  
 It has nothing to do with their location, not their surrounding pixels.  
 Just using the Luminosity value. Nothing more, nothing less. Power by simplicity.
 
@@ -46,37 +46,41 @@ Just using the Luminosity value. Nothing more, nothing less. Power by simplicity
 ![Figure 002][Figure002]{:class="center-img"}
 <br/>
 
-The above "Mask Generator" seems to be generating a "Midtones Mask" since the output values for Mid Tone Values is high value.  
+The above Figure represents a "Mask Generator". The input image comes from the top: you see all Luminosity values are allowed for its pixels. It gets processed by this "black box", which operates based on a function f(x) we don't know yet, and the pixel output that is generated is found in the bottom row.
+There, everything is black with the exception of pixels around 128 that are white: which suggests that a "Midtones Mask" has been generated. The midtones have a higher value.
 Simple fact, images are discrete in their values.
-For instance, in the case of 8 Bit image, the discrete values are in the range {0, 1, ..., 254, 255}.  
-So a *Mask Generator* (Luminosity Mask Generator) has to designate output value for each value in the discrete domain.
+For instance, in the case of an 8 Bit image, the discrete values are in the range {0, 1, ..., 254, 255}, occupying 256 available slots.  
+So a *Mask Generator* (Luminosity Mask Generator) has to designate an output value for each value in the input discrete _domain_.
+
 Logic says, if the output image is also, let's say 8 Bit, then the output is also within the range {0, 1, ..., 254, 255}.  
 In the Computer Science world this process is done using a [Look Up Table](https://en.wikipedia.org/wiki/Lookup_table) (LUT).  
 
 Over time some masks got their own naming according to the properties of the values assigned:  
- *  If it designates high output values to low input values and low values to the rest it is called *Shadows Mask Generator*.  
+ *  If it designates high output values to low input values, and low values to the rest it is called *Shadows Mask Generator*.  
     The output mask is called *Shadows Luminosity Mask* which reveals shadows and blocks everything else.
- *  If it designates high output values to mid input values and low values to the rest it is called *Midtones Mask Generator*.  
+ *  If it designates high output values to mid input values, and low values to the rest it is called *Midtones Mask Generator*.  
     The output mask is called *Midtones Luminosity Mask* which reveals midtones and blocks everything else.
- *  If it designates high output values to high input values and low values to the rest it is called *Highlights Mask Generator*.
+ *  If it designates high output values to high input values, and low values to the rest it is called *Highlights Mask Generator*.
     The output mask is called *Highlights Luminosity Mask* which reveals highlights and blocks everything elee.
 
-This is the mask generation transformation (Mapping) and basically this is all theory there is to know.
+This is the mask generation transformation (Mapping), and basically this is all theory there is to know.
 
 ### Examples
 Let's do some stretching by simple example of 2 main building blocks of the Luminosity Mask world.  
-We will assume 8 Bit Image hence input and output pixel values are given by {0, 1, 2, ..., 254, 255}.
+We will assume an 8 Bit Image, hence input and output pixel values are given by {0, 1, 2, ..., 254, 255}.
 
-The most basic Mapping / LUT / Function (All are different names to the same idea) is the identity mapping:
+The most basic Mapping / LUT / Function (All are different names to the same idea) is the _identity_ mapping:
 
 $$ f \left( x \right) = x $$
 
-Namely, the output value is identical to the input value.  
-This mask is called "Highlights Luminosity Mask".
+Namely, the output value – that is $ f \left( x \right) $ - is identical to the input value, which is $ x $.  
+This mask is called "Highlights Luminosity Mask". Why? Because to low input values (Shadows) correspond low output values (dark pixels), and to high input values (Highlights), correspond high output values (light pixes). The result is a mask where shadows are dark (not selected) and highlights are light (selected) – hence the name.
 
-Another basic mask is given by the negative (Inverse) of the Highlights Mask which is the Shadows Mask:
+Another basic mask is given by the negative (Inverse) of the Highlights Mask which is the "Shadows Luminosity Mask":
 
 $$ f \left( x \right) = 255 - x $$
+
+Here, to low input values (Shadows) correspond high output values, and to high input values correspond high output values (light pixes). The result is a mask where shadows are light (selected) and highlights are dark (not selected).
 
 Using those 2 building blocks one could generate many other masks targeting different Tonal Ranges (Something we will get to later).
 
@@ -92,14 +96,14 @@ Moreover, as can be seen by the Harmonic Function, one could do any mapping one 
 In practice, data is scaled into [0, 1] range as operations, such as multiplication, makes more sense in that domain. So the range {0, 1, 2, ..., 254, 255} becomes {0 / 255, 1 / 255, 2 /255, ..., 254 / 255, 255 / 255}. This is exactly what's done in the above figure.
 
 ## In Practice
-So now we know what a Luminosity Mask Generator is and what is it doing.
-On the next step, let's try to understand how it is done in Photoshop in most cases.  
-As discussed above, one need to create a LUT and there 2 main approaches doing so - The Calculations Tool or the Curve Tool.
+So now we know what a Luminosity Mask Generator is, and what it is doing.
+On the next step, let's try to understand how this is done in Photoshop in most cases.  
+As discussed above, one need to create a LUT and there are two main approaches doing so - The Calculations Tool or the Curve Tool.
 One can apply each of those on Grayscale Image and the output is basically Luminosity Mask.
 
 ### Curve Tool
-The [Curve Tool](https://helpx.adobe.com/photoshop/using/curves-adjustment.html) is a Visualized LUT table by a Curve.  
-It practically let the user draw the LUT using a flexible "Curve".
+The [Curve Tool](https://helpx.adobe.com/photoshop/using/curves-adjustment.html) is a LUT table visualized by a Curve.  
+It practically lets the user draw the LUT using a flexible "Curve".
 
 <br/>
 ![Figure 004][Figure004]{:class="center-img"}
@@ -145,11 +149,15 @@ In this part we will show how most of the masks out there are built using the Le
 
 As one could see above, using Addition, Subtraction and Multiplication (Intersection), all operations available on Layers / Channels / Masks in Photoshop, one could easily generate all those "Classic" Luminosity Masks one could find in the wild (Wild world of the Luminosity Masks Panels).
 
-Those with "Sharp Eye" would pay attention to something strange - Midtones Mask 001 is all black.  
-Yet in practice, in all products out there, it is not?
-So what's going on?
-Well, what you see above is ideal Masks while Photoshop can not generate them in this quality.
-We'll talk more on those pitfalls and strange behaviour of classic Luminosity Masks (Their generation) in the next writing.
+Those with "Sharp Eye" would pay attention to something strange: Midtones Mask 001 is all black, see the function below:
+
+$$ f \left( x \right) = 1 - x - ( 1 - x )$$
+
+
+Yet in practice, in all products out there... it is not?! So what's going on? [VISUAL EXAMPLE NEEDED HERE]
+
+Well, what you see above is ideal Masks, while Photoshop can not generate them in this quality.
+We'll talk more on those pitfalls and strange behaviour of classic Luminosity Masks (and their generation) in the next writing.
 
 # Summary
 Now we understood what Luminosity Masks really are, the actual operations and Math behind them.  
@@ -159,7 +167,6 @@ How can we solve those?
 
 Well, this is what [Fixel Zone Selector][2] is all about.  
 In the next part we'll talk about [Zone Selector][2] approach to Luminosity Masks.
-
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
