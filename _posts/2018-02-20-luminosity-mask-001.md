@@ -49,7 +49,7 @@ Just using the Luminosity value. Nothing more, nothing less. Power by simplicity
 <br/>
 
 The above Figure represents a "Mask Generator".  
-The input pixels values are in the upper section. They get processed by this "black box", which operates based on a function $ f \left( x \rigtht) $ and the pixel output that is generated is found in the bottom section.
+The input pixels values are in the upper section. They get processed by this "black box", which operates based on a function $ f \left( x \right) $ and the pixel output that is generated is found in the bottom section.
 At the output, everything is black (Low values) with the exception of pixels around 128 that are mapped to white (High values) which suggests that a "Midtones Mask" has been generated.  
 
 Simple fact, images are discrete in their values.
