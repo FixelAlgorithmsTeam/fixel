@@ -27,9 +27,11 @@ Each one with his own recipe (Most actions / panels based solution uses Photosho
 ![Figure 001][Figure001]{:class="center-img"}
 <br/>
 
-By the way, any "Single Channel" image can do here – the best channel is the one where the image features you want to select are more evident and easily separable from the rest (it could be the Blue from RGB, the Magenta from CMYK, whatever).
+By the way, any "Single Channel" image can do here.  
+The best cohice (Channel or processed grayscale layer) is the one where the image features you want to select are more evident and easily separable from the rest.  
+It could be the Blue from RGB, the Magenta from CMYK, whatever, be creative.
 
-Well, in case of a grayscale image, life is easier: one could just step over to Step 002.
+Well, in case of a grayscale image, life is easier - one could just step over to Step 002.
 
 ### Step 002 - Apply Pixel Wise Transformation on the Grayscale Image
 
@@ -38,7 +40,7 @@ The idea is very simple, given the Gray Scale image as input, the output per pix
 
 Well, this sentence might take some of us back to horrible school days but it is really simple when you think about it.  
 Pixel comes in, states its value and gets an output value based only on its value, and voilà we have a Luminosity Mask.  
-The name says it all, the Mask depends solely on the Luminosity (the Tonal Range value) of the pixels.  
+The name says it all, the Mask depends solely on the Luminosity (Tonal Range value) of the pixels.  
 It has nothing to do with their location, not their surrounding pixels.  
 Just using the Luminosity value. Nothing more, nothing less. Power by simplicity.
 
@@ -46,13 +48,15 @@ Just using the Luminosity value. Nothing more, nothing less. Power by simplicity
 ![Figure 002][Figure002]{:class="center-img"}
 <br/>
 
-The above Figure represents a "Mask Generator". The input image comes from the top: you see all Luminosity values are allowed for its pixels. It gets processed by this "black box", which operates based on a function f(x) we don't know yet, and the pixel output that is generated is found in the bottom row.
-There, everything is black with the exception of pixels around 128 that are white: which suggests that a "Midtones Mask" has been generated. The midtones have a higher value.
+The above Figure represents a "Mask Generator".  
+The input pixels values are in the upper section. They get processed by this "black box", which operates based on a function $ f \left( x \rigtht) $ and the pixel output that is generated is found in the bottom section.
+At the output, everything is black (Low values) with the exception of pixels around 128 that are mapped to white (High values) which suggests that a "Midtones Mask" has been generated.  
+
 Simple fact, images are discrete in their values.
-For instance, in the case of an 8 Bit image, the discrete values are in the range {0, 1, ..., 254, 255}, occupying 256 available slots.  
+For instance, in the case of an 8 Bit image, the discrete values are in the range {0, 1, ..., 254, 255}, occupying 256 (Which equals $ {2}^{8} $) available slots.  
 So a *Mask Generator* (Luminosity Mask Generator) has to designate an output value for each value in the input discrete _domain_.
 
-Logic says, if the output image is also, let's say 8 Bit, then the output is also within the range {0, 1, ..., 254, 255}.  
+If the output image is also, let's say 8 Bit, then the output values are also within the range {0, 1, ..., 254, 255} which means one need to map 256 values into 256 values.  
 In the Computer Science world this process is done using a [Look Up Table](https://en.wikipedia.org/wiki/Lookup_table) (LUT).  
 
 Over time some masks got their own naming according to the properties of the values assigned:  
@@ -74,7 +78,8 @@ The most basic Mapping / LUT / Function (All are different names to the same ide
 $$ f \left( x \right) = x $$
 
 Namely, the output value – that is $ f \left( x \right) $ - is identical to the input value, which is $ x $.  
-This mask is called "Highlights Luminosity Mask". Why? Because to low input values (Shadows) correspond low output values (dark pixels), and to high input values (Highlights), correspond high output values (light pixes). The result is a mask where shadows are dark (not selected) and highlights are light (selected) – hence the name.
+This mask is called "Highlights Luminosity Mask". Why? Because low input values (Shadows) are mapped to low output values (Dark pixels), and high input values (Highlights) are mapped to high output values (Light pixes).  
+The result is a mask where shadows are dark (Not selected) and highlights are light (Selected) – hence the name.
 
 Another basic mask is given by the negative (Inverse) of the Highlights Mask which is the "Shadows Luminosity Mask":
 
@@ -134,7 +139,7 @@ Let's summarize the differences between those 2 approaches:
 |               | Curve Tool                                                                                                                                                                       | Calculation Tool                                                                                                                                              |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Advantages    | - No limits what so ever on the shape of the selection. <br/> - Complex mask can be achieved in operation. <br/>                                                                       | - Can be translated into exact Mathematical expression. <br/> - Smooth result and gets better as the mode (8, 16, 32 Bit) get higher. <br/>                         |
-| Disadvantages | - Photoshop Curves are quantized into 256 [Davide?] levels which makes them less smooth. <br/> - No parameterization (Unless scripted) hence hard to be accurate and consistent. <br/> | - Limited to what can be done using the Blend Mode operations on the base Grayscale image. <br/> - Requires repetitive operations to get special selections (Slow). <br/> |
+| Disadvantages | - Photoshop Curves are quantized into 256 levels which makes them less smooth. <br/> - No parameterization (Unless scripted) hence hard to be accurate and consistent. <br/> | - Limited to what can be done using the Blend Mode operations on the base Grayscale image. <br/> - Requires repetitive operations to get special selections (Slow). <br/> |
 | Remarks       | Used by many Luminosity Mask panels out there, yet unless result can be achieved using Calculations, quality wise it is better use Calculations. <br/>                                 | Usually used for its quality yet limited either by speed or can get arbitrary selection. <br/>                                                                     |
 
 <br/>
@@ -149,15 +154,16 @@ In this part we will show how most of the masks out there are built using the Le
 
 As one could see above, using Addition, Subtraction and Multiplication (Intersection), all operations available on Layers / Channels / Masks in Photoshop, one could easily generate all those "Classic" Luminosity Masks one could find in the wild (Wild world of the Luminosity Masks Panels).
 
-Those with "Sharp Eye" would pay attention to something strange: Midtones Mask 001 is all black, see the function below:
+Those with "Sharp Eye" would pay attention to something strange - Midtones Mask 001 is all black, see the function below:
 
-$$ f \left( x \right) = 1 - x - ( 1 - x )$$
+$$ f \left( x \right) = 1 - x - ( 1 - x ) = 1 - 1 + x - x = 0 $$
 
+Yet in practice, in all products out there... It is not?! So what's going on?  
+Clearly they all state that the Midtones Mask is created by subtracting the Highlights and Shadows masks from the all white mask.  
 
-Yet in practice, in all products out there... it is not?! So what's going on? [VISUAL EXAMPLE NEEDED HERE]
-
-Well, what you see above is ideal Masks, while Photoshop can not generate them in this quality.
-We'll talk more on those pitfalls and strange behaviour of classic Luminosity Masks (and their generation) in the next writing.
+Well, what you see above is ideal Masks, while Photoshop can not generate them in this quality.  
+The current methods to create them usually use Photoshop's steps which aren't doing this exact Math.  
+We'll talk more on those pitfalls and strange behaviour of classic Luminosity Masks (And their generation) in the next writing.
 
 # Summary
 Now we understood what Luminosity Masks really are, the actual operations and Math behind them.  
