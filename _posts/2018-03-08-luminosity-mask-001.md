@@ -1,6 +1,6 @@
 ﻿---
 title: 'Luminosity Mask - How Does It (Really) Works?'
-date: 	2018-02-20
+date: 	2018-03-08
 author: Fixel Algorithms
 layout: post
 class:  news
@@ -198,7 +198,7 @@ In the next part we'll talk about [Zone Selector][2] approach to Luminosity Mask
 [comment]: # (http://play.macprovideo.com/photoshop-102-selection-masking-techniques/12)
 [comment]: # (https://www.youtube.com/watch?v=QUkIgdmnBaE)
 [comment]: # (http://fotographee.com/luminosity-masks-gradient/ See shortcuts for operations on Masks)
-[comment]: # (fd)
+[comment]: # (https://www.youtube.com/watch?v=XGe_YC5dIwI Gamma in Luminosity Masks)
 
 Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminosity Mask][2],  [Luminosity Masks][2], [Saturation Mask][2], [Saturation Masks][2], [Curves][2], [Levels][2], [Luminosity][2], [Photoshop][2], [Plug In][2].
 
