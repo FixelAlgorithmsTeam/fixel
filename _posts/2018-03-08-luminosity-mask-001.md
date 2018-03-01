@@ -169,7 +169,7 @@ We'll talk more on those pitfalls and strange behaviour of classic Luminosity Ma
 # Summary
 Now we understood what Luminosity Masks really are, the actual operations and Math behind them.  
 We have shown the Luminosity Mask generation is no more than the most simple operation on grayscale image - Apply LUT / Pixel Wise Mapping.
-What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. While one gives the most flexibility and efficiency (Curve Tool) it lacks with quality and the other which generates smooth masks (Calculation Tool) has speed issues when trying to generate complex masks.
+What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. While one gives the most flexibility and efficiency (Curve Tool) it lacks with quality and the other which generates smooth masks (Calculation Tool) has speed issues when trying to generate complex masks and some miss calculations in the process.
 How can we solve those?
 
 Well, this is what [Fixel Zone Selector][2] is all about.  
