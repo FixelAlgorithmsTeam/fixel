@@ -160,6 +160,7 @@ $$ f \left( x \right) = 1 - x - ( 1 - x ) = 1 - 1 + x - x = 0 $$
 
 Yet in practice, in all products out there... It is not?! So what's going on?  
 Clearly they all state that the Midtones Mask is created by subtracting the Highlights and Shadows masks from the all white mask.  
+So it is, by all means, should be all blak mask while it is not.
 
 Well, what you see above is ideal Masks, while Photoshop can not generate them in this quality.  
 The current methods to create them usually use Photoshop's steps which aren't doing this exact Math.  
