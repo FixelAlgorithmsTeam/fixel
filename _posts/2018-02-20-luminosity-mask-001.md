@@ -77,7 +77,7 @@ The most basic Mapping / LUT / Function (All are different names to the same ide
 
 $$ f \left( x \right) = x $$
 
-Namely, the output value – that is $f \left( x \right)$ - is identical to the input value, which is $ x $.  
+Namely, the output value – that is $ f \left( x \right) $ - is identical to the input value, which is $ x $.  
 This mask is called "Highlights Luminosity Mask". Why? Because low input values (Shadows) are mapped to low output values (Dark pixels), and high input values (Highlights) are mapped to high output values (Light pixes).  
 The result is a mask where shadows are dark (Not selected) and highlights are light (Selected) – hence the name.
 
