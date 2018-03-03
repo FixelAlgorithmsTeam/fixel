@@ -99,9 +99,30 @@ Let's go through the process of creating `Light001`, `Dark001` and `Mid001` on t
  The is a replication of the guide [] or video [].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
+![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
+
+Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end redult is different. The programming resutl says, as math, that the output of `Mid00` should be all black (Zero) yet Photoshop's resuls isn't zero (For those who are curious, we'll solve what happens later on, as a teasr, this is a multiplication, not a subtraction).
+
+#### Results for Color Space Miss Match
+
+![](https://i.imgur.com/VItNwgo.png){:class="center-img"}
+
+#### What Does Photoshop Actually Do?
+
+Multiplication...
+
+### Comparison of Luminosity Masks
+
 
 [Show each of the 15 Luminosity Masks - Photoshop vs. Theory]
 [Show Photoshop's artifacts]
+
+## Suggested Solution
+Well, solution is simple, use the image itself
+
+### Curve Issues
+
+## Summary
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
