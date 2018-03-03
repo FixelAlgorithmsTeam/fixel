@@ -59,16 +59,46 @@ We saved the output image and analyzed the result.
 
 ![](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
 
-In the figure above one could see the effect of 
+In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminsoity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for exmaple has lower values than expected (200 is mapped to ~180 instead of 200).
 
+<!-- 
 <figure markdown="1">
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
 <figcaption>
 Try this...
 </figcaption>
 </figure>
+-->
 
 ## The Classic Luminosity Masks
+
+In the process of making this post we downloaded the free offerings of all 3 major Luminosity Mask panels.  
+After evaluating their results few notes:
+ 1. All of them used the Luminotiy Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base fo the Luminosity Mask generation.
+ 2. All of them generated the exact same result as described in (Luminosity Mask Kickstarter). For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
+ 3. None of them tried or suggested to align the RGB Colro Space to Grasycale prior to Luminosity Mask generation.
+
+The above means that in case the user didn't lign the color spcae the Math operations used by the genrators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
+
+### Flawed Math
+
+Even assuming the user (Or the Luminsoity Mask generator used) aligned the Color Space betwene the RGB Color Space and Grayscale Color Space we will show the Math of Luminosity Mask in Photoshop is flawed.  
+In the previous post we mentioned a small teaser - How come the Math of the Mitones suggest that `Mid001` should be all black (All values are zero) while Mask Generators generates `Mid001` which is clearly not all black.
+
+Let's go through the process of creating `Light001`, `Dark001` and `Mid001` on the reference image:
+ 1. Load the reference image into Photoshop.
+ 2. Move into the *Channels* tab in Photoshop.
+ 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the buttom `Save Selection as Channel`). Call this channel `Light00`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
+ 4. Clear selection by `Select -> Deselect` (Or `Ctrl + D`).
+ 5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / schannel). This applies $ f \left( \right) = 255 - x $. Namely it will create a reveresed gradient image.
+ 6. Activate the RGB channel (By clicking on it) and *Select All* by `Select -> All` (Or by `Ctrl + A`). This create in background a Mask of Select All (All White - 255).
+ 7. Subtract the `Light001` Channel by holding `Ctrl + Alt` and clicking on the `Light001` channel. This will subtract from the Select All (All white) selection the Highlights Selection. Namely $ f \left( x \right) = 255 - x $. Yes, ideed this should be the `Dark001`, we'll see in a second about that.
+ 8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we epxect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
+ 9. Save selction into new channel as in **Step 3** and name it `Mid001`. Is it pure black?
+
+ The is a replication of the guide [] or video [].  
+ Yet, unlike the Math, the result isn't 0, so what's going on?
+
 
 [Show each of the 15 Luminosity Masks - Photoshop vs. Theory]
 [Show Photoshop's artifacts]
