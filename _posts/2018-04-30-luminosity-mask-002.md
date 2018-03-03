@@ -9,36 +9,57 @@ hidden: true
 ![Luminosity Mask 001][1]
 
 In our previous post [Luminosity Mask - How Does It (Really) Works?][3] we explained the theory behind Luminosity Mask.  
-Which basically sums to the fast that Luminsoity Mask is a remapping of values of a graysacle imgae.
+Which basically sums to the fact that Luminsoity Mask is a remapping of values of a graysacle imgae.
 
 In this post, as promised in the end of previous post, we will explore what happens behind Photoshop's Luminosity Mask generators.  
-We will see that utilizing Photoshop's engine to create Lumijnsoity Masks in the method used by most create some artifact we better avoid.  
-In orde to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - Fixel Zone Selector.
+We will see that utilizing Photoshop's engine to create Luminsoity Masks in the methods used by most create some artifact we better avoid.  
+In order to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - Fixel Zone Selector.
 
-We will also talk about the trade off in the essence of each Luminsoity Mask - Smooth vs. Narrow.
+We will also talk about the trade off in the essence of each Luminsoity Mask creation - Smooth vs. Narrow (Focused).
 
-## Refrence Image
-This tutorial will include many tests in Photoshop.  
-Hence a Reference Image is needed.
+## Arrangements
+
+### Refrence Image
+This posts will include many _hands on_ tests in Photoshop.  
+Hence a Reference Image is needed (Feel free to download it and replicate the tests and analysis).
 
 ![](https://i.imgur.com/DFBCk5C.png){:class="center-img"}
 
-The image a bove is a perfect Grayscale Gradient of 8 Bit Image made programmatically.  
-It contains all values {0, 1, 2, ..., 254, 255}. The red box contians the line which will be processed as one dimensional function. This will assist us analyze what heppens exactly on every single Photoshop operation done.
+The synthetic image a bove is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
+It contains all values {0, 1, 2, ..., 254, 255}. The red box contians the line which will be processed as one dimensional function. This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
 
-[Grayscale Gradient]
+We will also use a "Real World" image to dispaly results. We'll use the same image from previous post.
 
-[Base Image (From previous post)]
+ ![Simple Living](https://i.imgur.com/2xTg78N.png)
 
-## Grayscale and Coloe Modes Gamma Settings in Photoshop
+### Grayscale and Coloe Modes Gamma Settings in Photoshop
+
+There is one tricky thing to take into account when working with Photoshop on *Masks* and *Channels*.  
+Masks and Channels are considered to be "Grasycale" image in Photoshop.  
+Since teh creation of Lumionsoity Masks using those means doing math the Color Profile matters.
+
+In out post, for simplifity, we'll use the `sRGB` color profile for all RGB images.  
+Yet we expect Grasycale image in RGB (3 Channels which are idnetical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
+Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasycale Images in Photoshop.
 
 ![](https://i.imgur.com/IeyrYna.png){:class="center-img"}
 
-[sGray Color Mode](http://retrofist.com/sgray/)
+Sicne we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
+We won't get into too much details, yet this is a crucial step and any one not doing it creates miss match in the Math employed.  
+This is one of teh artifact some of the current generatorsof Luminsoity Masks ignore which means their Math in the Channels tab doesn't match the properties of the RGB image.  
 
-Output comparison
+**Remark**
+Basically one need to match the Gamma Function epmlyed on the RGB images to the one used for Grasycale Images.  
+For the above we chose the `sRGB` Gamma Correction (By selecting `sGray`), those who use `Adobe RGB` should use `Gray Gamma 2.2` for Grayscale and for `ProPhoto RGB` one should use `Gray Gamma 1.8` for Grascale to match the functions.
 
-![](https://i.imgur.com/mcnGYL4.png)
+In order to show the effect of this Gamma Function applied we used our reference image.  
+We loaded it into Photoshop and converted it into Grayscale imge using `Image -> Mode -> Grayscale`.  
+We did it once with the Default setting and the other time with the `sGray` settings.  
+We saved the output image and analyzed the result.
+
+![](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
+
+In the figure above one could see the effect of 
 
 ## The Classic Luminosity Masks
 
