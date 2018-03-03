@@ -62,10 +62,10 @@ We saved the output image and analyzed the result.
 In the figure above one could see the effect of 
 
 <figure markdown="1">
-<figcaption>
-test
-</figcaption>
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
+<figcaption>
+Try this...
+</figcaption>
 </figure>
 
 ## The Classic Luminosity Masks
