@@ -4,7 +4,7 @@ date: 	2018-03-08
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: flase
 ---
 ![Luminosity Mask 001][1]
 
