@@ -1,10 +1,10 @@
-﻿---
+---
 title: 'Luminosity Mask - How Does It (Really) Works?'
 date: 	2018-03-08
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: flase
+hidden: false
 ---
 ![Luminosity Mask 001][1]
 
