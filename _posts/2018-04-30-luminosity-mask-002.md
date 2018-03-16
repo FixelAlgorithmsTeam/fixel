@@ -9,57 +9,73 @@ hidden: true
 ![Luminosity Mask 001][1]
 
 In our previous post [Luminosity Mask - How Does It (Really) Works?][3] we explained the theory behind Luminosity Mask.  
-Which basically sums to the fact that Luminsoity Mask is a remapping of values of a graysacle imgae.
+Which basically sums to the fact that Luminosity Mask is a remapping of values of a graysacle image.
 
 In this post, as promised in the end of previous post, we will explore what happens behind Photoshop's Luminosity Mask generators.  
-We will see that utilizing Photoshop's engine to create Luminsoity Masks in the methods used by most create some artifact we better avoid.  
+We will see that utilizing Photoshop's engine to create Luminosity Masks in the methods used by most create some artifact we better avoid.  
 In order to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - Fixel Zone Selector.
 
-We will also talk about the trade off in the essence of each Luminsoity Mask creation - Smooth vs. Narrow (Focused).
+We will also talk about the trade off in the essence of each Luminosity Mask creation - Smooth vs. Narrow (Focused).
 
 ## Arrangements
 
-### Refrence Image
+### Reference Image
 This posts will include many _hands on_ tests in Photoshop.  
 Hence a Reference Image is needed (Feel free to download it and replicate the tests and analysis).
 
 ![](https://i.imgur.com/DFBCk5C.png){:class="center-img"}
 
 The synthetic image a bove is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
-It contains all values {0, 1, 2, ..., 254, 255}. The red box contians the line which will be processed as one dimensional function. This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
+It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line which will be processed as one dimensional function. This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
 
-We will also use a "Real World" image to dispaly results. We'll use the same image from previous post.
+We will also use a "Real World" image to display results. We'll use the same image from previous post.
 
  ![Simple Living](https://i.imgur.com/2xTg78N.png)
 
-### Grayscale and Coloe Modes Gamma Settings in Photoshop
+### Grayscale and Color Modes Gamma Settings in Photoshop
 
 There is one tricky thing to take into account when working with Photoshop on *Masks* and *Channels*.  
 Masks and Channels are considered to be "Grasycale" image in Photoshop.  
-Since teh creation of Lumionsoity Masks using those means doing math the Color Profile matters.
+Since teh creation of Lumionsoity Masks using those means doing Math the Color Profile matters.
 
-In out post, for simplifity, we'll use the `sRGB` color profile for all RGB images.  
-Yet we expect Grasycale image in RGB (3 Channels which are idnetical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
+In out post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
+Yet we expect Grasycale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
 Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasycale Images in Photoshop.
+
+</br>
 
 ![](https://i.imgur.com/IeyrYna.png){:class="center-img"}
 
-Sicne we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
+</br>
+
+The suggested matching is given by:
+
+</br>
+
+| RGB Space    	| Gray Space     	| Gamma            	|
+|--------------	|----------------	|------------------	|
+| sRGB         	| sGray          	| sRGB Gamma Curve 	|
+| Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
+| ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
+
+</br>
+
+Sicne for this demonstration we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
 We won't get into too much details, yet this is a crucial step and any one not doing it creates miss match in the Math employed.  
-This is one of teh artifact some of the current generatorsof Luminsoity Masks ignore which means their Math in the Channels tab doesn't match the properties of the RGB image.  
+This is one of the artifact some of the current generators of Luminosity Masks ignore which means their Math in the Channels tab doesn't match the properties of the RGB image.  
 
 **Remark**
-Basically one need to match the Gamma Function epmlyed on the RGB images to the one used for Grasycale Images.  
+Basically one need to match the Gamma Function employed on the RGB images to the one used for Grasycale Images.  
 For the above we chose the `sRGB` Gamma Correction (By selecting `sGray`), those who use `Adobe RGB` should use `Gray Gamma 2.2` for Grayscale and for `ProPhoto RGB` one should use `Gray Gamma 1.8` for Grascale to match the functions.
 
 In order to show the effect of this Gamma Function applied we used our reference image.  
-We loaded it into Photoshop and converted it into Grayscale imge using `Image -> Mode -> Grayscale`.  
+We loaded it into Photoshop and converted it into Grayscale image using `Image -> Mode -> Grayscale`.  
 We did it once with the Default setting and the other time with the `sGray` settings.  
 We saved the output image and analyzed the result.
 
 ![](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
 
-In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminsoity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for exmaple has lower values than expected (200 is mapped to ~180 instead of 200).
+In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminosity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for example has lower values than expected (200 is mapped to ~180 instead of 200).
 
 <!-- 
 <figure markdown="1">
@@ -74,34 +90,34 @@ Try this...
 
 In the process of making this post we downloaded the free offerings of all 3 major Luminosity Mask panels.  
 After evaluating their results few notes:
- 1. All of them used the Luminotiy Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base fo the Luminosity Mask generation.
+ 1. All of them used the Luminosity Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base for the Luminosity Mask generation.
  2. All of them generated the exact same result as described in (Luminosity Mask Kickstarter). For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
- 3. None of them tried or suggested to align the RGB Colro Space to Grasycale prior to Luminosity Mask generation.
+ 3. None of them tried or suggested to align the RGB Color Space to Grasycale prior to Luminosity Mask generation.
 
-The above means that in case the user didn't lign the color spcae the Math operations used by the genrators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
+The above means that in case the user didn't align the color space the Math operations used by the generators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
 
 ### Flawed Math
 
-Even assuming the user (Or the Luminsoity Mask generator used) aligned the Color Space betwene the RGB Color Space and Grayscale Color Space we will show the Math of Luminosity Mask in Photoshop is flawed.  
+Even assuming the user (Or the Luminosity Mask generator used) aligned the Color Space between the RGB Color Space and Grayscale Color Space we will show the Math of Luminosity Mask in Photoshop is flawed.  
 In the previous post we mentioned a small teaser - How come the Math of the Mitones suggest that `Mid001` should be all black (All values are zero) while Mask Generators generates `Mid001` which is clearly not all black.
 
 Let's go through the process of creating `Light001`, `Dark001` and `Mid001` on the reference image:
  1. Load the reference image into Photoshop.
  2. Move into the *Channels* tab in Photoshop.
- 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the buttom `Save Selection as Channel`). Call this channel `Light00`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
+ 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light00`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
  4. Clear selection by `Select -> Deselect` (Or `Ctrl + D`).
- 5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / schannel). This applies $ f \left( \right) = 255 - x $. Namely it will create a reveresed gradient image.
+ 5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / channel). This applies $ f \left( \right) = 255 - x $. Namely it will create a reversed gradient image.
  6. Activate the RGB channel (By clicking on it) and *Select All* by `Select -> All` (Or by `Ctrl + A`). This create in background a Mask of Select All (All White - 255).
- 7. Subtract the `Light001` Channel by holding `Ctrl + Alt` and clicking on the `Light001` channel. This will subtract from the Select All (All white) selection the Highlights Selection. Namely $ f \left( x \right) = 255 - x $. Yes, ideed this should be the `Dark001`, we'll see in a second about that.
- 8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we epxect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
- 9. Save selction into new channel as in **Step 3** and name it `Mid001`. Is it pure black?
+ 7. Subtract the `Light001` Channel by holding `Ctrl + Alt` and clicking on the `Light001` channel. This will subtract from the Select All (All white) selection the Highlights Selection. Namely $ f \left( x \right) = 255 - x $. Yes, indeed this should be the `Dark001`, we'll see in a second about that.
+ 8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we epect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
+ 9. Save selection into new channel as in **Step 3** and name it `Mid001`. Is it pure black?
 
  The is a replication of the guide [] or video [].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
 ![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
 
-Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end redult is different. The programming resutl says, as math, that the output of `Mid00` should be all black (Zero) yet Photoshop's resuls isn't zero (For those who are curious, we'll solve what happens later on, as a teasr, this is a multiplication, not a subtraction).
+Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid00` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
 
 #### Results for Color Space Miss Match
 
