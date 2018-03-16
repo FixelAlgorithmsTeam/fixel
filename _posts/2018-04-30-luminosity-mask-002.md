@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Luminosity Mask 001][1]
+![Luminosity Mask 002][1]
 
 In our previous post [Luminosity Mask - How Does It (Really) Works?][3] we explained the theory behind Luminosity Mask.  
 Which basically sums to the fact that Luminosity Mask is a remapping of values of a graysacle image.
@@ -101,12 +101,12 @@ The above means that in case the user didn't align the color space the Math oper
 Even assuming the user (Or the Luminosity Mask generator used) aligned the Color Space between the RGB Color Space and Grayscale Color Space we will show the Math of Luminosity Mask in Photoshop is flawed.  
 In the previous post we mentioned a small teaser - How come the Math of the Mitones suggest that `Mid001` should be all black (All values are zero) while Mask Generators generates `Mid001` which is clearly not all black.
 
-Let's go through the process of creating `Light001`, `Dark001` and `Mid001` on the reference image:
+Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on the reference image:
  1. Load the reference image into Photoshop.
  2. Move into the *Channels* tab in Photoshop.
- 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light00`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
+ 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
  4. Clear selection by `Select -> Deselect` (Or `Ctrl + D`).
- 5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / channel). This applies $ f \left( \right) = 255 - x $. Namely it will create a reversed gradient image.
+ 5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / channel). This applies $ f \left( x \right) = 255 - x $. Namely it will create a reversed gradient image.
  6. Activate the RGB channel (By clicking on it) and *Select All* by `Select -> All` (Or by `Ctrl + A`). This create in background a Mask of Select All (All White - 255).
  7. Subtract the `Light001` Channel by holding `Ctrl + Alt` and clicking on the `Light001` channel. This will subtract from the Select All (All white) selection the Highlights Selection. Namely $ f \left( x \right) = 255 - x $. Yes, indeed this should be the `Dark001`, we'll see in a second about that.
  8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we epect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
@@ -117,11 +117,16 @@ Let's go through the process of creating `Light001`, `Dark001` and `Mid001` on t
 
 ![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
 
-Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid00` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
+Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid001` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
 
 #### Results for Color Space Miss Match
 
+We did the same experiment yet while the Gray Color Space of Photoshop is set to Dot Gain 20%.
+
 ![](https://i.imgur.com/VItNwgo.png){:class="center-img"}
+
+As one could see, even the inversion of the channel created differences in the result which gets worse with each additional Math operation.  
+This can be shown in the generation of the Midtone Mask (`Mid001`) which is not only different from black but shifted and not centered.
 
 #### What Does Photoshop Actually Do?
 
@@ -134,7 +139,9 @@ Multiplication...
 [Show Photoshop's artifacts]
 
 ## Suggested Solution
-Well, solution is simple, use the image itself
+Well, solution is simple, use the image itself as basis to the Math manipulations.  
+One way to achieve that is using the correct Color Space and then use the classical methods.  
+Another approach is to have a different Math Engine for those calculations and this can be achieved using Plug In's.
 
 ### Curve Issues
 
