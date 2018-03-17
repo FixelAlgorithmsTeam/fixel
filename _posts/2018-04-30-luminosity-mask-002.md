@@ -51,7 +51,7 @@ Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasyc
 The suggested matching is given by:
 
 <br>
-{:.table .table-bordered}
+
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
@@ -90,7 +90,7 @@ Try this...
 Luminosity Masks are generated, usually, using Channel Operations. There are 3 main operations: Addition, Subtraction and Multiplication (Intersection).
 
 <br>
-{:.table .table-bordered}
+
 | Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
 | Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
@@ -127,7 +127,7 @@ Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on
  The is a replication of the guide [] or video [].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
-![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}Ctrl+K V
+![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
 
 Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid001` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
 
@@ -152,6 +152,17 @@ The above is exactly the `Mid001` Mask created before.
 How come Photoshop do that? Well, only Adobe knows.
 
 ### Comparison of Luminosity Masks
+
+This section compares of of the most popular Luminosity Masks Generator vs. Theory. 
+
+#### Grayscale Color Space - `Dot Gain 20%`
+
+This scetion shows results when Photoshop is using its default settings (Grayscale Color Space - `Dot Gain 20%`) as we assume this is what most users will encounter.
+
+
+#### Grayscale Color Space - `sGray`
+
+This scetion shows results when Photoshop is configured correctly.
 
 
 [Show each of the 15 Luminosity Masks - Photoshop vs. Theory]
