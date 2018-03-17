@@ -42,15 +42,15 @@ In out post, for simplification, we'll use the `sRGB` color profile for all RGB 
 Yet we expect Grasycale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
 Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasycale Images in Photoshop.
 
-</br>
+<br>
 
 ![](https://i.imgur.com/IeyrYna.png){:class="center-img"}
 
-</br>
+<br>
 
 The suggested matching is given by:
 
-</br>
+<br>
 
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
@@ -58,7 +58,7 @@ The suggested matching is given by:
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
 
-</br>
+<br>
 
 Sicne for this demonstration we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
 We won't get into too much details, yet this is a crucial step and any one not doing it creates miss match in the Math employed.  
@@ -89,7 +89,7 @@ Try this...
 
 Luminosity Masks are generated, usually, using Channel Operations. There are 3 main operations: Addition, Subtraction and Multiplication (Intersection).
 
-</br>
+<br>
 
 | Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
@@ -98,7 +98,7 @@ Luminosity Masks are generated, usually, using Channel Operations. There are 3 m
 | Subtract from Current Active Selection 	| Hold `Ctrl + Alt` and `Left Mouse Click` on the channel to subtract            	| Effectively subtract the 2 channels               	|
 | Multiply Current Active Selection      	| Hold `Ctrl + Alt + Shift` and `Left Mouse Click` on the channel to Multiply by 	| Effectively multiply the 2 channels               	|
 
-</br>
+<br>
 
 In the process of making this post we downloaded the free offerings of all 3 major Luminosity Mask panels.  
 After evaluating their results few notes:
