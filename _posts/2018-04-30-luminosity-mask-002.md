@@ -51,7 +51,7 @@ Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasyc
 The suggested matching is given by:
 
 <br>
-
+{:.table .table-bordered}
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
@@ -90,7 +90,7 @@ Try this...
 Luminosity Masks are generated, usually, using Channel Operations. There are 3 main operations: Addition, Subtraction and Multiplication (Intersection).
 
 <br>
-
+{:.table .table-bordered}
 | Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
 | Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
