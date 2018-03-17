@@ -78,7 +78,6 @@ We saved the output image and analyzed the result.
 In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminosity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for example has lower values than expected (200 is mapped to ~180 instead of 200).
 
 <!-- 
-<figure markdown="1">
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
 <figcaption>
 Try this...
@@ -88,10 +87,23 @@ Try this...
 
 ## The Classic Luminosity Masks
 
+Luminosity Masks are generated, usually, using Channel Operations. There are 3 main operations: Addition, Subtraction and Multiplication (Intersection).
+
+</br>
+
+| Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
+|----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
+| Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
+| Add to Current Active Selection        	| Hold `Ctrl + Shift` and `Left Mouse Click` on the channel to add               	| Effectively adds the 2 channels                   	|
+| Subtract from Current Active Selection 	| Hold `Ctrl + Alt` and `Left Mouse Click` on the channel to subtract            	| Effectively subtract the 2 channels               	|
+| Multiply Current Active Selection      	| Hold `Ctrl + Alt + Shift` and `Left Mouse Click` on the channel to Multiply by 	| Effectively multiply the 2 channels               	|
+
+</br>
+
 In the process of making this post we downloaded the free offerings of all 3 major Luminosity Mask panels.  
 After evaluating their results few notes:
  1. All of them used the Luminosity Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base for the Luminosity Mask generation.
- 2. All of them generated the exact same result as described in (Luminosity Mask Kickstarter). For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
+ 2. All of them generated the exact same result as described in [Luminosity Mask Kickstarter Guide][]. For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
  3. None of them tried or suggested to align the RGB Color Space to Grasycale prior to Luminosity Mask generation.
 
 The above means that in case the user didn't align the color space the Math operations used by the generators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
@@ -115,7 +127,7 @@ Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on
  The is a replication of the guide [] or video [].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
-![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
+![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}Ctrl+K V
 
 Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid001` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
 
@@ -130,7 +142,14 @@ This can be shown in the generation of the Midtone Mask (`Mid001`) which is not 
 
 #### What Does Photoshop Actually Do?
 
-Multiplication...
+Multiplication...  
+Yes, `Mid00` equals to the Multiplication (Intersection) of `Light00` and `Dark001`:
+ 1. Activate selection of `Light001` by `Ctrl + Left Mouse Click` on `Light001` Channel created earlier.
+ 2. While holding `Ctrl + Alt + Shift` apply `Left Mouse Click` on `Dark001`.
+ 3. Save selection to a new channel.
+
+The above is exactly the `Mid001` Mask created before.  
+How come Photoshop do that? Well, only Adobe knows.
 
 ### Comparison of Luminosity Masks
 
@@ -179,6 +198,7 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [1]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
   [2]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [3]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
+  [4]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/MaskGenerator.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Figure 003 - Luminosity Mask Generation"
