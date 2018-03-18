@@ -30,7 +30,7 @@ It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line w
 
 We will also use a "Real World" image to display results. We'll use the same image from previous post.
 
- ![Simple Living](https://i.imgur.com/2xTg78N.png)
+ ![Simple Living](https://i.imgur.com/2xTg78N.png){:class="center-img"}
 
 ### Grayscale and Color Modes Gamma Settings in Photoshop
 
