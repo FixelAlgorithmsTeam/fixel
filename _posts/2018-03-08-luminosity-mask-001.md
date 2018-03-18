@@ -1,5 +1,5 @@
 ---
-title: 'Luminosity Mask - How Does It (Really) Works?'
+title: 'Luminosity Mask - How Does It (Really) Work?'
 date: 	2018-03-08
 author: Fixel Algorithms
 layout: post
