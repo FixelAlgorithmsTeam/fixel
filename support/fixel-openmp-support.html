@@ -26,13 +26,13 @@ class: support
 					<dl class="feature-text">
 						<div class="def">
 							<dt>What Is OpenMP?</dt>
-							<dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in the CPU to make the algorithms run faster.</dd>
+							<dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in your CPU to make the algorithms run faster.</dd>
 						</div>
 						<div class="def">
 							<dt>Sounds Great, What's The Problem?</dt>
 							<dd>
-								Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP implementation we use (By Intel). Though starting with Adobe Photoshop CC they did utilize OpenMP as implemented by Intel.
-								On CC and above we use the implementation built in to Photoshop. Yet, Since we do use Intel's OpenMP implementation on CS6 we need to supply those by ourself. 
+								Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
+								On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself. 
 								<figure>
 									<a href="images/Adobe-Add-ons-find-ZXP-installer.png"><img src="images/Adobe-Add-ons-find-ZXP-installer.png" alt="Adobe Add-ons - how to find a ZXP installer" width="400" height="309" class="img-responsive img-center" style="margin-bottom: 10px"></a>
 									<figcaption>(click to enlarge)</figcaption>
@@ -41,14 +41,19 @@ class: support
 						</div>
 						<div class="def">
 							<dt>What Is the Solution?</dt>
-							<dd>Well, to install Intel OpenMP Library.<a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in the CPU to make the algorithms run faster.</dd>
+							<dd>Well, to install Intel OpenMP Library.It's easy and we'll guide you through it.</dd>
 						</div>
 						<div class="def">
 							<dt>How Do I Install Intel OpenMP Library?</dt>
 							<dd>Just follow the following instructions:
 							<ul>
-								<li>Download the ZIP file which contains <a href="https://fixelalgorithms.co/support/IntelOpenMP1_0_000.zip" target="_blank">Intel OpenMP</a>.</li>
-								<li>If you already have it: please make sure it is <a href="https://www.adobe.com/exchange/em_updates/" target="_blank">updated to the latest version</a>.</li>
+								<li><a href="https://fixelalgorithms.co/support/IntelOpenMP1_0_000.zip" target="_blank">Download the ZIP file which contains Intel OpenMP</a>.</li>
+								<li>Extract the ZIP file which contains 3 files</li>
+								<ul>
+									<li><code class="highlighter-rouge">FixelOpenMPSupport.URL</code> - Link to this web page.</li>
+									<li><code class="highlighter-rouge">libiomp5.dylib</code> - OpenMP Libray for macOS.</li>
+									<li><code class="highlighter-rouge">libiomp5md.dll</code> - OpenMP Libray for Windows (64 Bit).</li>
+								</ul>
 							</ul>
 							When you have the latest version of Adobe Extension Manager, if you're on Windows right-click on it and <b>"Run As Administrator"</b>, so that Windows won't complain when it will install the product.
 							<br>
