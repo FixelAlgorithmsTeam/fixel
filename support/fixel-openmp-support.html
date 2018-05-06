@@ -21,111 +21,58 @@ class: support
 <section>
 	<div class="home-product-badges" style="margin-top:20px; padding-top:10px;">
 		<div class="container">
-				<div class="row faq">
-					<h3 class="faq-subtitle">What Is <a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> and Why Isn't It Working ON Adobe Photoshop CS6?</h3>
-					<dl class="feature-text">
-						<div class="def">
-							<dt>What Is OpenMP?</dt>
-							<dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in your CPU to make the algorithms run faster.</dd>
-						</div>
-						<div class="def">
-							<dt>Sounds Great, What's The Problem?</dt>
-							<dd>
-								Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
-								On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself. 
-								<figure>
-									<a href="images/Adobe-Add-ons-find-ZXP-installer.png"><img src="images/Adobe-Add-ons-find-ZXP-installer.png" alt="Adobe Add-ons - how to find a ZXP installer" width="400" height="309" class="img-responsive img-center" style="margin-bottom: 10px"></a>
-									<figcaption>(click to enlarge)</figcaption>
-								</figure>
-							</dd>
-						</div>
-						<div class="def">
-							<dt>What Is the Solution?</dt>
-							<dd>Well, to install Intel OpenMP Library.It's easy and we'll guide you through it.</dd>
-						</div>
-						<div class="def">
-							<dt>How Do I Install Intel OpenMP Library?</dt>
-							<dd>Just follow the following instructions:
+			<div class="row faq">
+				<h3 class="faq-subtitle">What Is <a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> and Why Isn't It Working ON Adobe Photoshop CS6?</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>What Is OpenMP?</dt>
+						<dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in your CPU to make the algorithms run faster.</dd>
+					</div>
+					<div class="def">
+						<dt>Sounds Great, What's The Problem?</dt>
+						<dd>
+							Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
+							On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>What Is the Solution?</dt>
+						<dd>Well, to install Intel OpenMP Library.It's easy and we'll guide you through it.</dd>
+					</div>
+					<div class="def">
+						<dt>How Do I Install Intel OpenMP Library?</dt>
+						<dd>Just follow the following instructions:
+						<ul>
+							<li><a href="https://fixelalgorithms.co/support/IntelOpenMP1_0_000.zip" target="_blank">Download the ZIP file which contains Intel OpenMP</a>.</li>
+							<li>Extract the ZIP file which contains 3 files</li>
 							<ul>
-								<li><a href="https://fixelalgorithms.co/support/IntelOpenMP1_0_000.zip" target="_blank">Download the ZIP file which contains Intel OpenMP</a>.</li>
-								<li>Extract the ZIP file which contains 3 files</li>
-								<ul>
-									<li><code class="highlighter-rouge">FixelOpenMPSupport.URL</code> - Link to this web page.</li>
-									<li><code class="highlighter-rouge">libiomp5.dylib</code> - OpenMP Libray for macOS.</li>
-									<li><code class="highlighter-rouge">libiomp5md.dll</code> - OpenMP Libray for Windows (64 Bit).</li>
-								</ul>
-								<li>Close Photoshop if it is open.</li>
-								<li><strong>Windows Users</strong> - Copy the <code class="highlighter-rouge">libiomp5md.dll</code> file into Photoshop CS6 installation folder (Where <code class="highlighter-rouge">Photoshop.exe</code> resides).<br>
-								Default installation folder is <code class="highlighter-rouge">C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)</code></li>
-								<li><strong>macOS Users</strong> - Copy the <code class="highlighter-rouge">libiomp5.dylib</code> file into Frameworks folde of Adobe Photoshop CS6.<br>
-								Default installation folder of Adobe Photoshop CS6 is <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6</code> hence copy the file into <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6/Contents/Frameworks</code> </li>
-								<li>Launch Adobe Photoshop CS6.</li>
-								<li>Run any Fixel Plug In on Adobe Photoshop CS6.</li>
+								<li><code class="highlighter-rouge">FixelOpenMPSupport.URL</code> - Link to this web page.</li>
+								<li><code class="highlighter-rouge">libiomp5.dylib</code> - OpenMP Libray for macOS.</li>
+								<li><code class="highlighter-rouge">libiomp5md.dll</code> - OpenMP Libray for Windows (64 Bit).</li>
 							</ul>
-							When you have the latest version of Adobe Extension Manager, if you're on Windows right-click on it and <b>"Run As Administrator"</b>, so that Windows won't complain when it will install the product.
-							<br>
-							Shut down Photoshop and in Adobe Extension Manager either click the "Install" button (top-right corner) or choose the File > Install Extension menu item and browse to the Fixel product's ZXP file. Follow the instruction.
-							</dd>
-						</div>
-						<div class="def">
-							<dt>None of the above worked, what can I do?</dt>
-							<dd>If you bought the product from a Deals website, the ZIP you've downloaded already contains the assets and instruction for a <b>Manual Installation</b>, so go ahead with it. It's a matter of moving few files around in a couple of folders, the instruction will thoroughly guide you through the process. <br>
-							If you bought via Adobe Add-on, get in touch with me with a proof of the purchase and I will send you everything you need (see my email at the bottom of the page).</dd>
-						</div>
-					</dl>
-				</div>
-				<div class="row faq">
-					<h3 class="faq-subtitle">Troubleshooting</h3>
-					<dl class="feature-text">
-						<div class="def">
-							<dt>Where do I find the product in Photoshop?</dt>
-							<dd>You'll find it in the <b>Filter</b> menu. Use the menu elements at the bottom of the Filter's list, <b>not</b> the ones in the Fixel Algorithms submenu.</dd>
-						</div>
-						<div class="def">
-							<dt>I run it but nothing happens: there's no user interface, what's wrong?</dt>
-							<dd>
-								Please make sure to use, in the Filter menu, the items that are at the bottom and <b>not</b> the ones within a "Fixel Algorithms" submenu (which are there for technical and support reasons).
-								<br><br>
-								<figure>
-									<a href="images/Fixel-Algorithms-Filter-menu.png"><img src="images/Fixel-Algorithms-Filter-menu.png" class= "img-center img-responsive" style="margin-bottom: 10px" width="222" height="288" alt="Photoshop Filter menu"></a>
-									<figcaption>(click to enlarge)</figcaption>
-								</figure>
-							</dd>
-						</div>
-						<div class="def">
-							<dt>Photoshop crashes, can you fix it?</dt>
-							<dd>Sure.<br>Fixel's products uses advanced features of computer's CPU to be as fast as possible - if your machine is a bit old we can build a customized filter for your very CPU.<br>
-							First try to use (that's for support only! Do <b>not</b> do this normally!) the Filters that you find within the Filter > Fixel Algorithms submenu (e.g. Filter > Fixel Algorithms > Fixel Detailizer 2). Normally, it won't do anything: it doesn't show the user interface, it doesn't modify the image, it is for debugging purposes only.
-							<br>
-							Does it crash anyway? If this is the case, please get in touch with us (See email address at the bottom of the page).</dd>
-						</div>
-						<div class="def">
-							<dt>The Plug In doesn't show up in the Filter Menu in CS6 (Though it is correctly installed)?</dt>
-							<dd>Adobe, in later versions of Photoshop, ships Photoshop with Intel OpenMP library we utilize for Multi Threaded code.<br>
-							Hence users of CS6 which uses our products which utilizes Intel OpenMP Library (<code>libiomp5md.dll</code>) should install <a href="https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version" target="_blank">Intel® C++ and Fortran Compilers Redistributable Libraries</a>.<br>
-							Please contact us to be advised on the specific version to download.</dd>
-						</div>
-					</dl>
-				</div>
-				<div class="row faq">
-					<h3 class="faq-subtitle">Commercial</h3>
-					<dl class="feature-text">
-						<div class="def">
-							<dt>I've bought from a Deals website, where do I download updates?</dt>
-							<dd>As for any customer we provide main branch free update (For instance, 2.0 -> 2.5). When you buy from Deals Website we don't get your customer details hence to get the update, please contact us.</dd>
-						</div>
-						<div class="def">
-							<dt>I'm not satisfied, I'd like to be refunded.</dt>
-							<dd>
-								We're sorry to hear that! We do our best to craft the software we put for sale. If you bought via Deals website please refer to their customer support - otherwise if you got Fixel's products via Adobe Add-ons, send an email to asupport@adobe.com and they will assist you in the process.
-							</dd>
-						</div>
-					</dl>
-				</div>
-
+							<li>Close Photoshop if it is open.</li>
+							<li><strong>Windows Users</strong> - Copy the <code class="highlighter-rouge">libiomp5md.dll</code> file into Photoshop CS6 installation folder (Where <code class="highlighter-rouge">Photoshop.exe</code> resides).<br>
+							Default installation folder is <code class="highlighter-rouge">C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)</code>.</li>
+							<li><strong>macOS Users</strong> - Copy the <code class="highlighter-rouge">libiomp5.dylib</code> file into <code class="highlighter-rouge">Frameworks</code> folder within Adobe Photoshop CS6.<br>
+							Default installation folder of Adobe Photoshop CS6 is <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6</code> hence copy the file into <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6/Contents/Frameworks</code>.<br>
+							You may need to <strong>Right Mouse Click</strong> and choose <strong>Show Contents</strong> in the context menu in order to navigate Finder inside the Adobe Photoshop Package.</li>
+							<li>Launch Adobe Photoshop CS6.</li>
+							<li>Run any Fixel Plug In on Adobe Photoshop CS6.</li>
+						</ul>
+					</div>
+					<div class="def">
+						<dt>It Didn't Work, What Should I do?</dt>
+						<dd>Please find our email at the bottom left of this page. For effective support please provide the following:</dd>
+						<ul>
+							<li>Specify your system configuration (OS, CPU, Photoshop Version, etc...).</li>
+							<li>Screen shot of the error you see when trying to work with Fixel's product.</li>
+							<li>Screen shot of the folder you installed the OpenMP file into (When seeing both the path and the file itself).</li>
+						</ul>
+					</div>
+				</dl>
+			</div>
 		</div>
 	</div>
-
 </section>
 
 <section>
