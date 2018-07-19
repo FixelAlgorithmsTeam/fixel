@@ -25,7 +25,7 @@ Hence a Reference Image is needed (Feel free to download it and replicate the te
 
 ![](https://i.imgur.com/DFBCk5C.png){:class="center-img"}
 
-The synthetic image a bove is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
+The synthetic image above is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
 It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line which will be processed as one dimensional function. This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
 
 We will also use a "Real World" image to display results. We'll use the same image from previous post.
@@ -116,12 +116,12 @@ In the previous post we mentioned a small teaser - How come the Math of the Mito
 Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on the reference image:
  1. Load the reference image into Photoshop.
  2. Move into the *Channels* tab in Photoshop.
- 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosty Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
+ 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosity Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
  4. Clear selection by `Select -> Deselect` (Or `Ctrl + D`).
  5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / channel). This applies $ f \left( x \right) = 255 - x $. Namely it will create a reversed gradient image.
  6. Activate the RGB channel (By clicking on it) and *Select All* by `Select -> All` (Or by `Ctrl + A`). This create in background a Mask of Select All (All White - 255).
  7. Subtract the `Light001` Channel by holding `Ctrl + Alt` and clicking on the `Light001` channel. This will subtract from the Select All (All white) selection the Highlights Selection. Namely $ f \left( x \right) = 255 - x $. Yes, indeed this should be the `Dark001`, we'll see in a second about that.
- 8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we epect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
+ 8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we expect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
  9. Save selection into new channel as in **Step 3** and name it `Mid001`. Is it pure black?
 
  The is a replication of the guide [] or video [].  
