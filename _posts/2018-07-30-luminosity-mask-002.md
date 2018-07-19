@@ -102,8 +102,9 @@ Luminosity Masks are generated, usually, using Channel Operations. There are 3 m
 
 In the process of making this post we downloaded the free offerings of all 3 major Luminosity Mask panels.  
 After evaluating their results few notes:
+
  1. All of them used the Luminosity Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base for the Luminosity Mask generation.
- 2. All of them generated the exact same result as described in [Luminosity Mask Kickstarter Guide][]. For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
+ 2. All of them generated the exact same result as described in [Luminosity Mask Kickstarter Guide][4]. For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
  3. None of them tried or suggested to align the RGB Color Space to Grasycale prior to Luminosity Mask generation.
 
 The above means that in case the user didn't align the color space the Math operations used by the generators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
@@ -111,9 +112,10 @@ The above means that in case the user didn't align the color space the Math oper
 ### Flawed Math
 
 Even assuming the user (Or the Luminosity Mask generator used) aligned the Color Space between the RGB Color Space and Grayscale Color Space we will show the Math of Luminosity Mask in Photoshop is flawed.  
-In the previous post we mentioned a small teaser - How come the Math of the Mitones suggest that `Mid001` should be all black (All values are zero) while Mask Generators generates `Mid001` which is clearly not all black.
+In the previous post we mentioned a small teaser - How come the Math of the Midtones suggest that `Mid001` should be all black (All values are zero) while Mask Generators generates `Mid001` which is clearly not all black.
 
 Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on the reference image:
+
  1. Load the reference image into Photoshop.
  2. Move into the *Channels* tab in Photoshop.
  3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosity Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
@@ -124,7 +126,7 @@ Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on
  8. Subtract the `Dark001` Channel by holding `Ctrl + Alt` and clicking on the `Dark001` channel. Photoshop might alert you that no selection with more than 50% was made. Now, let's see what we expect - $ f \left( x \right) = 255 - x - (255 - x) $ this should be 0.
  9. Save selection into new channel as in **Step 3** and name it `Mid001`. Is it pure black?
 
- The is a replication of the guide [] or video [].  
+ The is a replication of the [guide][4] or [video][5].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
 ![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
@@ -144,6 +146,7 @@ This can be shown in the generation of the Midtone Mask (`Mid001`) which is not 
 
 Multiplication...  
 Yes, `Mid00` equals to the Multiplication (Intersection) of `Light00` and `Dark001`:
+
  1. Activate selection of `Light001` by `Ctrl + Left Mouse Click` on `Light001` Channel created earlier.
  2. While holding `Ctrl + Alt + Shift` apply `Left Mouse Click` on `Dark001`.
  3. Save selection to a new channel.
@@ -157,15 +160,16 @@ This section compares of of the most popular Luminosity Masks Generator vs. Theo
 
 #### Grayscale Color Space - `Dot Gain 20%`
 
-This scetion shows results when Photoshop is using its default settings (Grayscale Color Space - `Dot Gain 20%`) as we assume this is what most users will encounter.
+This section shows results when Photoshop is using its default settings (Grayscale Color Space - `Dot Gain 20%`) as we assume this is what most users will encounter.
 
 
 #### Grayscale Color Space - `sGray`
 
-This scetion shows results when Photoshop is configured correctly.
+This section shows results when Photoshop is configured correctly.
 
 
 [Show each of the 15 Luminosity Masks - Photoshop vs. Theory]
+
 [Show Photoshop's artifacts]
 
 ## Suggested Solution
@@ -210,6 +214,7 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [2]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [3]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [4]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
+  [5]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/MaskGenerator.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Figure 003 - Luminosity Mask Generation"
