@@ -75,23 +75,9 @@ Yet there is demand for such solutions:
 
 So we thought we could assist the community with a product which will be supported as a commercial product but **will be offered for free** ([*Pay as You Want*](https://en.wikipedia.org/wiki/Pay_what_you_want)).
 
-
 ### Installation
-<br>
 
-<br>
-
-The suggested matching is given by:
-
-<br>
-
-| RGB Space    	| Gray Space     	| Gamma            	|
-|--------------	|----------------	|------------------	|
-| sRGB         	| sGray          	| sRGB Gamma Curve 	|
-| Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
-| ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
-
-<br>
+Once you download Fixel FFT Wizard 
 
 ### Use
 
@@ -138,7 +124,17 @@ If you do, we'll be happy if you share your cases with us.
 
 
 <!-- 
+<figure>
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
+<figcaption>
+Try this...
+</figcaption>
+</figure>
+-->
+
+<!-- 
+<figure>
+<img src="https://i.imgur.com/mcnGYL4.png" alt="Italian Trulli" class="center-img">
 <figcaption>
 Try this...
 </figcaption>
@@ -167,11 +163,11 @@ Try this...
 [comment]: # (http://fotographee.com/luminosity-masks-gradient/ See shortcuts for operations on Masks)
 [comment]: # (https://www.youtube.com/watch?v=XGe_YC5dIwI Gamma in Luminosity Masks)
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][99], [FFT][99], [DFT][99], [FFT Filter][99], [DFT Filter][99], [Photoshop][99], [Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98], [DFT][98], [FFT Filter][98], [DFT Filter][98], [Photoshop][99], [Plug In][99].
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FizelFFTWizard/FixelFFTWizardBlogPostIcon.png "Fixel FFT Wizard Photoshop Plug In"
+  [01]: {{site.baseurl}}/news/images/FixelFFTWizard/FixelFFTWizardBlogPostIcon.png "Fixel FFT Wizard Photoshop Plug In"
   [02]: https://en.wikipedia.org/wiki/Fourier_transform "Wikipedia - Fourier Transform"
   [03]: https://en.wikipedia.org/wiki/Digital_image_processing "Wikipedia - Digital Image Processing"
   [04]: https://en.wikipedia.org/wiki/Discrete_Fourier_transform "Wikipedia - Discrete Fourier Transform"
@@ -179,6 +175,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][99], [FFT][99
   [88]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [88]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [88]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
+  [98]: https://fixelalgorithms.co "Fixel FFT Wizard"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/MaskGenerator.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
