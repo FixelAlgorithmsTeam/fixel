@@ -90,7 +90,7 @@ Once you download Fixel FFT Wizard
 fsd
 
 <br>
-![]({{site.baseurl}}/news/images/FixelFFTWizard/FixelFftWizardForwardAnimation.png){:class="center-img" width="25%" height="25%"}
+![]({{site.baseurl}}/news/images/FixelFFTWizard/FixelFftWizardForwardAnimation.png){:class="center-img" width="95%" height="95%"}
 <br>
 
 fds
