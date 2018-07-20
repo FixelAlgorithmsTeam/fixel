@@ -5,7 +5,7 @@ url: http://fixelalgorithms.co
 author: Davide Barranca
 description: Image Processing Algorithms
 include: ['.htaccess']
-timezone: Israel
+timezone: Italy
 plugins:
     - jekyll-sitemap
     - jekyll-paginate
