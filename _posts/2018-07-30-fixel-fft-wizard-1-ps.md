@@ -49,10 +49,15 @@ We won't display full use case of that but you can read and watch many examples 
 
 All of them has the same basic idea:
 
- 1. Transform the Image into Frequency Domain
- 2. Adjust the Amplitude of the Fourier Transform
- 3. Transform the Adjusted Frequency Data into Luminosity Image.
- 4. Merge the Adjusted Luminosity Image with the Color Image of the Original Image
+ 1. Transform the Image into Frequency Domain  
+    Apply FFT Filter on an image in Photoshop. The filter will actually be applied on the Luminosity Data of the image.  
+    The Plug In will yield 3 Channels image where 2 channels are dedicated to the Amplitude and Phase of the Frequency Domain.
+ 2. Adjust the Amplitude of the Fourier Transform  
+    The user will adjust (**Only**) the Amplitude. Usually by removing energy which fits the unwanted pattern. This is basically applying manual Filtering of the image.
+ 3. Transform the Adjusted Frequency Data into Luminosity Image  
+    Once the Amplitude is adjusted the use will apply the Inverse Transform (IFFT) which will result in Luminosity (Grayscale) image with the removed data according to the user applied filtering.
+ 4. Merge the Adjusted Luminosity Image with the Color Image of the Original Image  
+    Now, the last step, is merging the Luminosity data with the color data of the original image. Usually by changing the blending mode to *Luminosity*.
 
 ## Fixel FFT Wizard Photoshop Plug In  
 
