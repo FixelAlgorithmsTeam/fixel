@@ -81,27 +81,89 @@ So we thought we could assist the community with a product which will be support
 
 ### Installation
 
-Once you download Fixel FFT Wizard 
+Once you download Fixel FFT Wizard from FastSpring you will have a ZIP file named `Fixel FFT Wizard majorVersion.minorVersion.buildNumber` (For examples `Fixel FFT Wizard 1.0.000`).  
+Inside this ZIP file you'll find 5 files:
+
+ *  `Fixel FFT Wizard <majorVersion> PS.8bf` (For example `Fixel FFT Wizard 1 PS.8bf`) - Adobe Photoshop Plug In for Windows.
+ *  `Fixel FFT Wizard <majorVersion> PS.plugin` (For example `Fixel FFT Wizard 1 PS.plugin`) - Adobe Photoshop Plug In for macOS.
+ *  `Fixel FFT Wizard <majorVersion> UI.jsx` (For example `Fixel FFT Wizard 1 UI.jsx`) - Adobe Photoshop Extend Script File (Used of the UI).
+ *  `Fixel FFT Wizard.url` - Internet Link for This Page / Product Page.
+ *  `Installation Guide.txt` - Text File with Installation Guide.
+
+#### macOS Installation
+
+ *  Make sure Photoshop is closed.
+ *  Go to the following path `Hard Drive/Applications/<Photoshop Version>/Presets/Scripts`.
+ *  Create a Folder named `Fixel Algorithms`.  
+    You may be required for Administrator Rights to do so.
+ *  Go to the path created above - `Hard Drive/Applications/<Photoshop Version>/Presets/Scripts/Fixel Algorithms`.  
+    For instance, for the <Photoshop Version> Photoshop CC 2018 the path becomes `Hard Drive/Applications/Adobe Photoshop CC 2018/Presets/Scripts/Fixel Algorithms`
+ *  Copy the file `Fixel FFT Wizard 1 UI.jsx` into the folder above.
+ *  Go to the following path `Hard Drive/Applications/<Photoshop Version>/Plug-ins`.
+ *  Create a Folder named `Fixel Algorithms`.  
+    You may be required for Administrator Rights to do so.
+ *  Go to the path created above `Hard Drive/Applications/<Photoshop Version>/Plug-ins/Fixel Algorithms`.  
+    For instance, for the <Photoshop Version> Photoshop CC 2018 the path becomes `Hard Drive/Applications/Adobe Photoshop CC 2018/Plug-ins/Fixel Algorithms`.
+ *  Copy the file `Fixel FFT Wizard 1 PS.plugin` into the folder above.
+ *  Launch Photoshop. Find `Fixel FFT Wizard 1 UI` at the bottom of the Filter menu.
+
+#### Windows Installation
+
+ *  Make sure Photoshop is closed.
+ *  Go to the following path `C:\Program Files\Adobe\<Photoshop Version>\Presets\Scripts`.
+ *  Create a Folder named `Fixel Algorithms`.  
+    You may be required for Administrator Rights to do so.
+ *  Go to the path created above - `C:\Program Files\Adobe\<Photoshop Version>\Presets\Scripts\Fixel Algorithms`.  
+    For instance, for the <Photoshop Version> Photoshop CC 2018 the path becomes `C:\Program Files\Adobe\Adobe Photoshop CC 2018\Presets\Scripts\Fixel Algorithms`
+ *  Copy the file `Fixel FFT Wizard 1 UI.jsx` into the folder above.
+ *  Go to the following path `C:\Program Files\Adobe\<Photoshop Version>\Plug-ins`.
+ *  Create a Folder named `Fixel Algorithms`.  
+    You may be required for Administrator Rights to do so.
+ *  Go to the path created above `C:\Program Files\Adobe\<Photoshop Version>\Plug-ins\Fixel Algorithms`.  
+    For instance, for the <Photoshop Version> Photoshop CC 2018 the path becomes `C:\Program Files\Adobe\Adobe Photoshop CC 2018\Plug-ins\Fixel Algorithms`.
+ *  Copy the file `Fixel FFT Wizard 1 PS.8bf` into the folder above.
+ *  Launch Photoshop. Find `Fixel FFT Wizard 1 UI` at the bottom of the Filter menu.
 
 ### Use
 
-#### Forward FFT
+The use of the filter is pretty simple.  
+In order to avoid quantization errors the user should use 16 Bit / 32 Bit Mode in Photoshop.  
+The Plug In is actionable. Feel free to build actions around it to incorporate it into your work flow.
 
-fsd
+#### Forward FFT
 
 <br>
 ![]({{site.baseurl}}/news/images/FixelFFTWizard/FixelFftWizardForwardAnimation.png){:class="center-img" width="95%" height="95%"}
 <br>
 
-fds
+In order to apply the Forward FFT do as following:
+ 1. Make sure the selected Layer in the Layer panel it a bitmap layer.
+ 2. Launch the UI by `Filter -> Fixel FFT Wizard 1 UI` (Should be at the bottom of the Filter Menu).
+ 3. On the UI Click `Forward FFT`.  
+    Pay attention that if you're in 8 Bit Mode a warning window will appear (Select `Yes` to apply the filter in 8 Bit Mode).
+
+The Filter will create a new layer called `Forward FFT (temp)` with its Red Channel selected as active channel.  
+The channels of the `Forward FFT (temp)` are the Amplitude (Red Channel) and Phase (Green Channel) of the image.  
+The Blue Channel consists the Luminosity Channel of the input image with some encoding.
 
 #### Adjust Amplitude
 
+By default the `Forward FFT (temp)` will come with Amplitude Channel (Red Channel) selected.  
+Hence in order to adjust the amplitude just draw over the layer with any tool you find appropriate.  
+Make sure you don't alter any other channel but the Amplitude Channel (Red Channel).  
+Otherwise the Backward FFT won't reconstruct the image correctly.
+
+Don't alter the Image Mode during the use of the filter.
+
 #### Backward FFT
 
+The Backward FFT filter will reconstruct the Luminosity Channel based on the adjusted Amplitude Channel.  
+In order to apply the Forward FFT do as following:
 
-
-The Plug In is actionable. Feel free to build actions around it to incorporate it into your work flow.
+ 1. Activate the `Forward FFT (temp)` layer in Layer Panel.
+ 2. Launch the UI by `Filter -> Fixel FFT Wizard 1 UI` (Should be at the bottom of the Filter Menu).
+ 3. On the UI Click `Backward FFT`.  
+    The Plug In will reconstruct the Luminosity Channel and set the Blending Mode to `Luminosity`.
 
 ### System Requirements
 
@@ -124,7 +186,7 @@ It should work on Adobe Photoshop CS5 64 Bit and all CC 64 Bit versions but we n
 #### Hardware
 
  *  x64 Bit CPU (Intel or AMD) with SSE4 Support.  
-    Baiscally any modern CPU created by Intel or AMD since ~2010.
+    Basically any modern CPU created by Intel or AMD since ~2010.
 
 
 ## Summary
