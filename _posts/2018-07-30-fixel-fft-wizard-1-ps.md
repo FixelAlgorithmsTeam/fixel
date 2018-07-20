@@ -32,7 +32,7 @@ One of the task which is easier to do in the Frequency Domain is Texture / Patte
 Many users use to retouch scanned images or images with periodic pattern they want to remove.  
 
 <br>
-![](https://i.imgur.com/9wUTN9n.gif){:class="center-img"}
+![]({{site.baseurl}}/news/images/FixelFFTWizard/FFTFilterRemovePattern.gif){:class="center-img"}
 <br>
 
 We won't display full use case of that but you can read and watch many examples in the following resources:
