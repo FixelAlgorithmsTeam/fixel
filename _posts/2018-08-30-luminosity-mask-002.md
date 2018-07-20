@@ -60,7 +60,7 @@ The suggested matching is given by:
 
 <br>
 
-Sicne for this demonstration we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
+Since for this demonstration we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
 We won't get into too much details, yet this is a crucial step and any one not doing it creates miss match in the Math employed.  
 This is one of the artifact some of the current generators of Luminosity Masks ignore which means their Math in the Channels tab doesn't match the properties of the RGB image.  
 
