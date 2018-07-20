@@ -114,7 +114,7 @@ Inside this ZIP file you'll find 5 files:
  *  Create a Folder named `Fixel Algorithms`.  
     You may be required for Administrator Rights to do so.
  *  Go to the path created above - `C:\Program Files\Adobe\<Photoshop Version>\Presets\Scripts\Fixel Algorithms`.  
-    For instance, for the <Photoshop Version> Photoshop CC 2018 the path becomes `C:\Program Files\Adobe\Adobe Photoshop CC 2018\Presets\Scripts\Fixel Algorithms`
+    For instance, for the `<Photoshop Version>` Photoshop CC 2018 the path becomes `C:\Program Files\Adobe\Adobe Photoshop CC 2018\Presets\Scripts\Fixel Algorithms`
  *  Copy the file `Fixel FFT Wizard 1 UI.jsx` into the folder above.
  *  Go to the following path `C:\Program Files\Adobe\<Photoshop Version>\Plug-ins`.
  *  Create a Folder named `Fixel Algorithms`.  
