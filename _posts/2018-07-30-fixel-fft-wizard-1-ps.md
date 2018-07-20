@@ -211,7 +211,6 @@ The download requires Email Address so we could notify you about updates of Fixe
 We hope you enjoy it and find it useful in your work flow.  
 If you do, we'll be happy if you share your cases with us.
 
-
 <!-- 
 <figure>
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
@@ -229,9 +228,6 @@ Try this...
 </figcaption>
 </figure>
 -->
-
-
-
 
 ## Resources
 
@@ -253,7 +249,7 @@ Try this...
  *  [Operation Photo Rescue's Online Community - FFT for 64bit Photoshop](http://www.operationphotorescue.org/forum/index.php?topic=3108.0).
  *  [RetouchPro - Here is FFT for 64 bit Photoshop](https://www.retouchpro.com/forum/tools/software/32395).
  *  [RetouchPro - Developing Mac Photoshop 64 bit FFT / IFFT Plug In's](https://www.retouchpro.com/forum/tools/software/38446).
- *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
+ *  [Lynda - Using an FFT Plug In to Remove Paper Texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
     Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 
