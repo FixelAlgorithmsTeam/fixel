@@ -21,8 +21,7 @@ In [Digital Image Processing][03] there are operations easier to do in the Spati
 
 There are many applications for the DFT in Image Processing.  
 For instance, [Frequency Separation](https://fstoppers.com/post-production/ultimate-guide-frequency-separation-technique-8699), which is highly popular among Retouchers, can be easily analyzed (Implemented) using DFT.  
-Actually many filters (See for instance ) can (Or are) be implemented in the frequency domain which under some conditions is more efficient (Faster).  
-for instance have a look at [`Custom Filter`](https://helpx.adobe.com/photoshop-elements/using/filters-1.html#custom_filters) in Adobe Photoshop.
+Actually many filters (See for instance ) can (Or are) be implemented in the frequency domain which under some conditions is more efficient (Faster). For instance have a look at [`Custom Filter`](https://helpx.adobe.com/photoshop-elements/using/filters-1.html#custom_filters) in Adobe Photoshop.
 
 [Affinity Photo](https://affinity.serif.com/en-us/photo/) even use FFT for Denoising (See [FFT Denoise](https://www.youtube.com/watch?v=6wfeMGwcF0c&t=6s), Though it is more periodic pattern suppression, see below).
 
@@ -38,14 +37,15 @@ Many users use to retouch scanned images or images with periodic pattern they wa
 We won't display full use case of that but you can read and watch many examples in the following resources:
 
  *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/)
- *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
-    Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
  *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial)
  *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ)
  *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs)
  *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)
+ *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)
  *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
  *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
+ *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
+    Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 All of them has the same basic idea:
 
@@ -72,6 +72,10 @@ Yet there is demand for such solutions:
  *  [DPReview Forum - FFT (Fourier Filters) with Photoshop - For Larger Images](https://www.dpreview.com/forums/post/42187590).
  *  [Luminous Landscape - Free Mac Photoshop FFT / IFFT 64-bit Plugins for CC 2015 (OS 10.9+)](http://forum.luminous-landscape.com/index.php?topic=107038.0).
  *  [macOS Photoshop CS5, CS6, CC, CC 2015﻿ FFT / IFFT Filters (64 BIT)](http://djjoofa.com/download/fft_mac_ps_cc_2015).
+ *  [Photoshop Gurus Community Forum - FFT Plugin for Macs by Dj Joofa Being Made Available](https://www.photoshopgurus.com/forum/threads/fft-plugin-for-macs-by-dj-joofa-being-made-available.56261/).
+ *  [Operation Photo Rescue's Online Community - FFT for 64bit Photoshop](http://www.operationphotorescue.org/forum/index.php?topic=3108.0).
+ *  [RetouchPro - Here is FFT for 64 bit Photoshop](https://www.retouchpro.com/forum/tools/software/32395).
+ *  [RetouchPro - Developing Mac Photoshop 64 bit FFT / IFFT Plug In's](https://www.retouchpro.com/forum/tools/software/38446).
 
 So we thought we could assist the community with a product which will be supported as a commercial product but **will be offered for free** ([*Pay as You Want*](https://en.wikipedia.org/wiki/Pay_what_you_want)).
 
@@ -81,8 +85,23 @@ Once you download Fixel FFT Wizard
 
 ### Use
 
+#### Forward FFT
+
+fsd
+
+<br>
+![]({{site.baseurl}}/news/images/FixelFFTWizard/FixelFftWizardForwardAnimation.png){:class="center-img"}
+<br>
+
 fds
 
+#### Adjust Amplitude
+
+#### Backward FFT
+
+
+
+The Plug In is actionable. Feel free to build actions around it to incorporate it into your work flow.
 
 ### System Requirements
 
@@ -145,10 +164,27 @@ Try this...
 
 
 ## Resources
- *  [Luminosity Mask: The Complete Kickstarter’s Guide](http://fotographee.com/tutorial-image-editing-luminosity-masks/).
- *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
- *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
- *  [Video - Selecting Using Luminosity Masks (Using Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
+
+ *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/)
+ *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial)
+ *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ)
+ *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs)
+ *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)
+ *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)
+ *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
+ *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
+ *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC?](https://forums.adobe.com/thread/2198154).
+ *  [Adobe POhotoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
+ *  [Reddit - FFT Filter](https://www.reddit.com/r/photoshop/comments/7npjwk/fftfilter/).
+ *  [DPReview Forum - FFT (Fourier Filters) with Photoshop - For Larger Images](https://www.dpreview.com/forums/post/42187590).
+ *  [Luminous Landscape - Free Mac Photoshop FFT / IFFT 64-bit Plugins for CC 2015 (OS 10.9+)](http://forum.luminous-landscape.com/index.php?topic=107038.0).
+ *  [macOS Photoshop CS5, CS6, CC, CC 2015﻿ FFT / IFFT Filters (64 BIT)](http://djjoofa.com/download/fft_mac_ps_cc_2015).
+ *  [Photoshop Gurus Community Forum - FFT Plugin for Macs by Dj Joofa Being Made Available](https://www.photoshopgurus.com/forum/threads/fft-plugin-for-macs-by-dj-joofa-being-made-available.56261/).
+ *  [Operation Photo Rescue's Online Community - FFT for 64bit Photoshop](http://www.operationphotorescue.org/forum/index.php?topic=3108.0).
+ *  [RetouchPro - Here is FFT for 64 bit Photoshop](https://www.retouchpro.com/forum/tools/software/32395).
+ *  [RetouchPro - Developing Mac Photoshop 64 bit FFT / IFFT Plug In's](https://www.retouchpro.com/forum/tools/software/38446).
+ *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
+    Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 
 <!-- This is commented out -->
