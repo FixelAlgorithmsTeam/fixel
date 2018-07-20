@@ -79,6 +79,10 @@ Yet there is demand for such solutions:
 
 So we thought we could assist the community with a product which will be supported as a commercial product but **will be offered for free** ([*Pay as You Want*](https://en.wikipedia.org/wiki/Pay_what_you_want)).
 
+### Download
+
+You may [download Fixel FFT Wizard from our web store for free][06] (Pay as You Want).
+
 ### Installation
 
 Once you [download Fixel FFT Wizard][06] you will have a ZIP file named `Fixel FFT Wizard majorVersion.minorVersion.buildNumber` (For examples `Fixel FFT Wizard 1.0.000`).  
