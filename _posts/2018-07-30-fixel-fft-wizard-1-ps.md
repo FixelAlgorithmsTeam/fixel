@@ -81,7 +81,8 @@ So we thought we could assist the community with a product which will be support
 
 ### Download
 
-You may [download Fixel FFT Wizard from our web store for free][06] (Pay as You Want).
+You may [download Fixel FFT Wizard from our web store for free][06] (Pay as You Want). The user will be asked for email address in order to let him know about updates.  
+If the user only download it as a one time one could user Temporary Email address.
 
 ### Installation
 
@@ -201,11 +202,10 @@ It should work on Adobe Photoshop CS5 64 Bit and all CC 64 Bit versions but we n
 
 The reason we created Fixel FFT Wizard was reading about the need of people for FFT Plug In in Photoshop both for Windows and macOS.  
 Moreover, usually the use case were old photos with sentimental significance.  
-So we felt we could assist and created Fixel FFT Wizard to support those people who mostly use this for keep their memories with hem.  
+So we felt we could assist and created Fixel FFT Wizard to support those people who mostly use this for keep their memories with them.  
 Taking all these under consideration we decided to offer Fixel FFT Wizard for free for any user without any constraint on the use.  
 
-At the moment Fixel FFT Wizard is in Public Release Candidate state and once we finalize it we'll put it behind [*Pay as You Want*](https://en.wikipedia.org/wiki/Pay_what_you_want) offer with free option always available.
-
+At the moment Fixel FFT Wizard is in Public Release Candidate state and once we finalize it we'll put it behind [*Pay as You Want*](https://en.wikipedia.org/wiki/Pay_what_you_want) offer with free option always available.  
 The download requires Email Address so we could notify you about updates of Fixel FFT Wizard.
 
 We hope you enjoy it and find it useful in your work flow.  
