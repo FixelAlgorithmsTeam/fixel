@@ -81,7 +81,7 @@ So we thought we could assist the community with a product which will be support
 
 ### Installation
 
-Once you download Fixel FFT Wizard from FastSpring you will have a ZIP file named `Fixel FFT Wizard majorVersion.minorVersion.buildNumber` (For examples `Fixel FFT Wizard 1.0.000`).  
+Once you [download Fixel FFT Wizard][06] you will have a ZIP file named `Fixel FFT Wizard majorVersion.minorVersion.buildNumber` (For examples `Fixel FFT Wizard 1.0.000`).  
 Inside this ZIP file you'll find 5 files:
 
  *  `Fixel FFT Wizard <majorVersion> PS.8bf` (For example `Fixel FFT Wizard 1 PS.8bf`) - Adobe Photoshop Plug In for Windows.
@@ -156,6 +156,10 @@ Otherwise the Backward FFT won't reconstruct the image correctly.
 Don't alter the Image Mode during the use of the filter.
 
 #### Backward FFT
+
+<br>
+![]({{site.baseurl}}/news/images/FixelFFTWizard/FixelFftWizardBackwardAnimation.png){:class="center-img" width="95%" height="95%"}
+<br>
 
 The Backward FFT filter will reconstruct the Luminosity Channel based on the adjusted Amplitude Channel.  
 In order to apply the Forward FFT do as following:
@@ -270,6 +274,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98
   [03]: https://en.wikipedia.org/wiki/Digital_image_processing "Wikipedia - Digital Image Processing"
   [04]: https://en.wikipedia.org/wiki/Discrete_Fourier_transform "Wikipedia - Discrete Fourier Transform"
   [05]: https://en.wikipedia.org/wiki/Fast_Fourier_transform "Wikipedia - Fast Fourier Transform"
+  [06]: https://sites.fastspring.com/barranca/product/fixelfftwizard1 "Fixel FFT Wizard Download Link"
   [88]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [88]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [88]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
