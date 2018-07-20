@@ -12,7 +12,7 @@ hidden: true
 
 The [Fourier Transform][02] is one of the most powerful methods to analyze signals / data.  
 It is widely used in the [Image Processing][03] world as on of the most used tool for any algorithms developer.  
-It has a flavor specialized for [Discrete Signals](https://en.wikipedia.org/wiki/Discrete_time_and_continuous_time) called [Discrete Fourier Transform][4] (DFT) which has a fast and efficient implementation called [Fast Fourier Transform][05] (FFT). 
+It has a flavor specialized for [Discrete Signals](https://en.wikipedia.org/wiki/Discrete_time_and_continuous_time) called [Discrete Fourier Transform][04] (DFT) which has a fast and efficient implementation called [Fast Fourier Transform][05] (FFT). 
 We won't dive into the math and ideas behind the [DFT][04] but the basic idea is pretty simple.  
 For images the [DFT][04] means we can represent data either by values of each pixel in a spatial grid or have equivalent representation which is the energy of periodic 2D signal.  
 In [Digital Image Processing][03] there are operations easier to do in the Spatial representation (Image itself) and operations easier to do on the frequency domain.
