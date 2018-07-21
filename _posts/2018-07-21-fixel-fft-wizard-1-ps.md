@@ -246,7 +246,7 @@ Try this...
  *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
  *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
  *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC?](https://forums.adobe.com/thread/2198154).
- *  [Adobe POhotoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
+ *  [Adobe Photoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
  *  [Reddit - FFT Filter](https://www.reddit.com/r/photoshop/comments/7npjwk/fftfilter/).
  *  [DPReview Forum - FFT (Fourier Filters) with Photoshop - For Larger Images](https://www.dpreview.com/forums/post/42187590).
  *  [Luminous Landscape - Free Mac Photoshop FFT / IFFT 64-bit Plugins for CC 2015 (OS 10.9+)](http://forum.luminous-landscape.com/index.php?topic=107038.0).
