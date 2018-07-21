@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Luminosity Mask Done Right!'
 date: 	2018-04-30
 author: Fixel Algorithms
@@ -77,7 +77,7 @@ We saved the output image and analyzed the result.
 
 In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminosity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for example has lower values than expected (200 is mapped to ~180 instead of 200).
 
-<!-- 
+<!--
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
 <figcaption>
 Try this...
@@ -156,7 +156,7 @@ How come Photoshop do that? Well, only Adobe knows.
 
 ### Comparison of Luminosity Masks
 
-This section compares of of the most popular Luminosity Masks Generator vs. Theory. 
+This section compares of of the most popular Luminosity Masks Generator vs. Theory.
 
 #### Grayscale Color Space - `Dot Gain 20%`
 
