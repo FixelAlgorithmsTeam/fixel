@@ -237,15 +237,15 @@ Try this...
 
 ## Resources
 
- *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/)
- *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial)
- *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ)
- *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs)
- *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)
- *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)
- *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
- *  [DPReview Forum - FFT Filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
- *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC?](https://forums.adobe.com/thread/2198154).
+ *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/).
+ *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial).
+ *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ).
+ *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs).
+ *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s).
+ *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0).
+ *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php).
+ *  [DPReview Forum - FFT Filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756).
+ *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC](https://forums.adobe.com/thread/2198154)?
  *  [Adobe Photoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
  *  [Reddit - FFT Filter](https://www.reddit.com/r/photoshop/comments/7npjwk/fftfilter/).
  *  [DPReview Forum - FFT (Fourier Filters) with Photoshop - For Larger Images](https://www.dpreview.com/forums/post/42187590).
