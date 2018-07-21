@@ -1,10 +1,10 @@
 ﻿---
 title: 'Fixel FFT Wizard'
-date: 	2018-07-20
+date: 	2018-07-21
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: false
 ---
 ![Fixel FFT Wizard Photoshop Plug In][01]
 
