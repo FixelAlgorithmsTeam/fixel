@@ -37,16 +37,24 @@ Many users use to retouch scanned images or images with periodic pattern they wa
 
 We won't display full use case of that but you can read and watch many examples in the following resources:
 
- *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/)
- *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial)
- *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ)
- *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs)
- *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)
- *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)
- *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
- *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
+ *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/)  
+    Blog post about DFT / FFT and how to use that to remove texture. Very clear and the work flow similar to ours.
+ *  [Youtube - Photoshop FFT Tutorial](https://www.youtube.com/watch?v=vb4XFNC4MvU)  
+    Simple tutorial and hands on on using FFT Plug In to retouch scanned images.
+ *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs)  
+    A continuation of the previous video about automating the work flow of dealing with scanned images and texture.
+ *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ)  
+    Simple tutorial on dealing with a scanned image with Old Paper Texture.
+ *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)  
+    Tutorial from Retouch Pro forum user.
+ *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)  
+    Full tutorial, including installation, of FFT Plug In and use case.
+ *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)  
+    Blog post about utilizing FFT for reduction of pattern noise.
+ *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)  
+    A tutorial posted on DPReview Retouching forum about utilizing FFT Plug In.
  *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
-    Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
+    Lynda tutorial about utilizing FFT. Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 All of them has the same basic idea:
 
@@ -68,7 +76,7 @@ In some of the above resources you'll find some of those 3rd party solutions (Pl
 Yet there is demand for such solutions:
 
  *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC?](https://forums.adobe.com/thread/2198154).
- *  [Adobe POhotoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
+ *  [Adobe Photoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
  *  [Reddit - FFT Filter](https://www.reddit.com/r/photoshop/comments/7npjwk/fftfilter/).
  *  [DPReview Forum - FFT (Fourier Filters) with Photoshop - For Larger Images](https://www.dpreview.com/forums/post/42187590).
  *  [Luminous Landscape - Free Mac Photoshop FFT / IFFT 64-bit Plugins for CC 2015 (OS 10.9+)](http://forum.luminous-landscape.com/index.php?topic=107038.0).
