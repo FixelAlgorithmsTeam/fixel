@@ -48,7 +48,7 @@ We won't display full use case of that but you can read and watch many examples 
     Full tutorial, including installation, of FFT Plug In and use case.
  *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)  
     Blog post about utilizing FFT for reduction of pattern noise.
- *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)  
+ *  [DPReview Forum - FFT Filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)  
     A tutorial posted on DPReview Retouching forum about utilizing FFT Plug In.
  *  [Lynda - Using an FFT plugin to remove paper texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
     Lynda tutorial about utilizing FFT. Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
@@ -244,7 +244,7 @@ Try this...
  *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s)
  *  [Youtube - Pattern Suppression in Photoshop](https://www.youtube.com/watch?v=FDM4lEw65j0)
  *  [FFT Filter With Photoshop Action](http://www.skeller.ch/ps/fft_action.php)
- *  [DPReview Forum - FFT filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
+ *  [DPReview Forum - FFT Filter and Photoshop Action (Tutorial)](https://www.dpreview.com/forums/post/16172756)
  *  [Adobe Photoshop Forum - Are There Any FFT (Fast Fourier Transform) Plug In's for Photoshop CC?](https://forums.adobe.com/thread/2198154).
  *  [Adobe Photoshop Feedback Forum - Photoshop: FFT Based Pattern Remover (Filter)](https://feedback.photoshop.com/photoshop_family/topics/fft_based_pattern_remover_as_a_filter).
  *  [Reddit - FFT Filter](https://www.reddit.com/r/photoshop/comments/7npjwk/fftfilter/).
@@ -271,7 +271,7 @@ Try this...
 [comment]: # (http://fotographee.com/luminosity-masks-gradient/ See shortcuts for operations on Masks)
 [comment]: # (https://www.youtube.com/watch?v=XGe_YC5dIwI Gamma in Luminosity Masks)
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98], [DFT][98], [FFT Filter][98], [DFT Filter][98], [Photoshop][99], [Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98], [DFT][98], [FFT Filter][98], [FFT Plug In][98], [DFT Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
