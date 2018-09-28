@@ -39,7 +39,7 @@ class: support
 							<ul>
 							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt;.zip</code> - The ZIP File container.<ul>
 							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code> - Windows Installer.</li>
-							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.pkg</code> - macOS Installer.</li>
+							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code> - macOS Installer.</li>
 							<li><code>Fixel Recolor - Product Page & User Guide.url</code> - Link to Fixel Recolor Product Page (Contains User Guide).</li>
 							<li><code>Fixel Recolor - Manual Installation Assets</code> - Folder with Manual Installation assets.<ul>
 							<li><code>Fixel Recolor &lt;MajorVersion&gt;.8bf</code> - Windows Plug In.</li>
@@ -64,8 +64,8 @@ class: support
 						<li>Ensure Photoshop is closed.</li>
 						<li>Extract the ZIP file on the local hard drive.</li>
 						<li>Launch the installer:<ul>
-							<li>Windows - .</li>
-							<li>macOS</li>
+							<li>Windows - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code>.</li>
+							<li>macOS - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code>.</li>
 						</ul>
 						<li>Follow installer instructions.</li>
 						<li>Launch Photoshop and use the Plug In.</li>
@@ -76,8 +76,7 @@ class: support
 					<div class="def">
 						<dt>Manual Installation</dt>
 						<dd>
-							Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
-							On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself.
+							If the automatic installer fails for some reason one might use manuall installation which is robust and fail proof if done correctly.
 						</dd>
 					</div>
 				</dl>
@@ -106,6 +105,12 @@ class: support
 							The filter Fixel Color Analyzer in the Filter Menu is used by Fixel Recolor to apply the algorithm on the user image.
 							Since no such analysis is available in Photoshop we had to develop and implement the algorithm by ourselves.
 							It is good it is there as it means the Plug In installation is successful. Yet the user shouldn't use it directly (Only use it through th UI).
+						</dd>
+					</div>
+					<div class="def">
+						<dt>The macOS Installer Won't Run</dt>
+						<dd>
+							After double clicking the <code>dmg</code> file in the open window use <code>Right Mouse Click + Open</code> to launch the installer <code>pkg</code> installer.
 						</dd>
 					</div>
 				</dl>
