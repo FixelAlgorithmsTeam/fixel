@@ -1037,6 +1037,13 @@ fieldset[disabled] .btn-primary-blue.active {
 	margin-right: auto !important;
 }
 
+.news-article iframe {
+	float: left;
+	margin: 0 30px 10px 0;
+	border-radius: 6px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+
 .center-iframe {
 	float:none !important;
 	display: block;
