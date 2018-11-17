@@ -1037,6 +1037,13 @@ fieldset[disabled] .btn-primary-blue.active {
 	margin-right: auto !important;
 }
 
+.center-iframe {
+	float:none !important;
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
 .news-article blockquote {
 	border: 0;
 	font-style: italic;
