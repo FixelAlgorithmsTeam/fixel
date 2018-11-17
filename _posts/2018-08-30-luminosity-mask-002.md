@@ -53,13 +53,12 @@ The suggested matching is given by:
 
 <br>
 
-
+{:class="table table-bordered"}
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
-{:class="table table-bordered"}
 
 <br>
 
@@ -94,7 +93,7 @@ Luminosity Masks are generated, usually, using Channel Operations. There are 3 m
 
 <br>
 
-| Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
+| Operation                               | Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
 | Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
 | Add to Current Active Selection        	| Hold `Ctrl + Shift` and `Left Mouse Click` on the channel to add               	| Effectively adds the 2 channels                   	|
