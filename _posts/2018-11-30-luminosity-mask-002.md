@@ -45,7 +45,7 @@ Hence one must synchronize the Grayscale Color Profile of RGB images and Graysca
 
 <br>
 
-![](https://i.imgur.com/IeyrYna.png){:class="center-img"}
+![][Figure003]{:class="center-img"}
 
 <br>
 
@@ -75,7 +75,7 @@ We loaded it into Photoshop and converted it into Grayscale image using `Image -
 We did it once with the Default setting and the other time with the `sGray` settings.  
 We saved the output image and analyzed the result.
 
-![](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
+![][Figure004]{:class="center-img"}
 
 In the figure above one could see the effect of setting incompatible color profile. The values are altered without any intention of the user. To understand this flaw in the context of Luminosity Mask it means that the mask is not aligned with the intention of the user. The Highlights mask for example has lower values than expected (200 is mapped to ~180 instead of 200).
 
@@ -220,6 +220,6 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [5]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [Figure001]: {{site.baseurl}}/news/images/LuminosityMask002/ReferenceImage.png "Figure 001 - Reference Image"
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask002/SimpleLiving.png "Figure 002 - Real World Reference Image"
-  [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Figure 003 - Luminosity Mask Generation"
-  [Figure004]: {{site.baseurl}}/news/images/LuminosityMask001/PhotoshopCurveTool.png "Figure 004 - Photoshop Curve Tool"
+  [Figure003]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
+  [Figure004]: {{site.baseurl}}/news/images/LuminosityMask002/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
   [Figure005]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskRecipesAnimated.png "Figure 005 - Luminosity Masks Recipes"
