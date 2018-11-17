@@ -9,11 +9,11 @@ hidden: true
 ![Luminosity Mask 002][1]
 
 In our previous post [Luminosity Mask - How Does It (Really) Works?][3] we explained the theory behind Luminosity Mask.  
-Which basically sums to the fact that Luminosity Mask is a remapping of values of a graysacle image.
+The theory basically sums to the fact that Luminosity Mask is a remapping of values of a Graysacle image.
 
-In this post, as promised in the end of previous post, we will explore what happens behind Photoshop's Luminosity Mask generators.  
+In this post, as promised at the end of previous post, we will explore what happens behind Photoshop based Luminosity Mask generators.  
 We will see that utilizing Photoshop's engine to create Luminosity Masks in the methods used by most create some artifact we better avoid.  
-In order to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - Fixel Zone Selector.
+In order to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - [Fixel Zone Selector][2].
 
 We will also talk about the trade off in the essence of each Luminosity Mask creation - Smooth vs. Narrow (Focused).
 
@@ -26,7 +26,8 @@ Hence a Reference Image is needed (Feel free to download it and replicate the te
 ![](https://i.imgur.com/DFBCk5C.png){:class="center-img"}
 
 The synthetic image above is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
-It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line which will be processed as one dimensional function. This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
+It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line which will be processed as one dimensional function.  
+This will assist us analyze what happens exactly on every single Photoshop operation done since all operations are Pixel Wise.
 
 We will also use a "Real World" image to display results. We'll use the same image from previous post.
 
@@ -36,11 +37,11 @@ We will also use a "Real World" image to display results. We'll use the same ima
 
 There is one tricky thing to take into account when working with Photoshop on *Masks* and *Channels*.  
 Masks and Channels are considered to be "Grayscale" image in Photoshop.  
-Since the creation of Lumionsoity Masks using those means doing Math the Color Profile matters.
+Since the creation of Lumionsoity Masks involves manipulating (Doing Math on) Channels / Masks the Color Profile matters.
 
 In out post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
 Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
-Hence one must synchronize the Grasysclae Color Profile of RGB images and Grayscale Images in Photoshop.
+Hence one must synchronize the Grayscale Color Profile of RGB images and Grayscale Images in Photoshop.
 
 <br>
 
@@ -52,6 +53,7 @@ The suggested matching is given by:
 
 <br>
 
+{:class="table table-bordered"}
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
@@ -66,7 +68,7 @@ This is one of the artifact some of the current generators of Luminosity Masks i
 
 **Remark**
 Basically one need to match the Gamma Function employed on the RGB images to the one used for Grayscale Images.  
-For the above we chose the `sRGB` Gamma Correction (By selecting `sGray`), those who use `Adobe RGB` should use `Gray Gamma 2.2` for Grayscale and for `ProPhoto RGB` one should use `Gray Gamma 1.8` for Grascale to match the functions.
+For the above we chose the `sRGB` Gamma Correction (By selecting `sGray`), those who use `Adobe RGB` should use `Gray Gamma 2.2` for Grayscale and for `ProPhoto RGB` one should use `Gray Gamma 1.8` for Grayscale to match the functions.
 
 In order to show the effect of this Gamma Function applied we used our reference image.  
 We loaded it into Photoshop and converted it into Grayscale image using `Image -> Mode -> Grayscale`.  
@@ -91,7 +93,7 @@ Luminosity Masks are generated, usually, using Channel Operations. There are 3 m
 
 <br>
 
-| Opeation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
+| Operation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
 | Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
 | Add to Current Active Selection        	| Hold `Ctrl + Shift` and `Left Mouse Click` on the channel to add               	| Effectively adds the 2 channels                   	|
