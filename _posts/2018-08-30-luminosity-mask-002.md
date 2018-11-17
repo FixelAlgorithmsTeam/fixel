@@ -53,12 +53,39 @@ The suggested matching is given by:
 
 <br>
 
+<style>
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
 | RGB Space    	| Gray Space     	| Gamma            	|
 |--------------	|----------------	|------------------	|
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
 {: .table-bordered}
+
+</style>
 
 <br>
 
