@@ -37,7 +37,7 @@ We will also use a "Real World" image to display results. We'll use the same ima
 
 There is one tricky thing to take into account when working with Photoshop on *Masks* and *Channels*.  
 Masks and Channels are considered to be "Grayscale" image in Photoshop.  
-Since the creation of Lumionsoity Masks using those means doing Math the Color Profile matters.
+Since the creation of Lumionsoity Masks involves manipulating (Doing Math on) Channels / Masks the Color Profile matters.
 
 In out post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
 Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
@@ -58,6 +58,7 @@ The suggested matching is given by:
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
+{:class="table-bordered"}
 
 <br>
 
