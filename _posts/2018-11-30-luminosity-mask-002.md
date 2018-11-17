@@ -132,7 +132,7 @@ Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on
  The is a replication of the [guide][4] or [video][5].  
  Yet, unlike the Math, the result isn't 0, so what's going on?
 
-![](https://i.imgur.com/sjZxuhg.png){:class="center-img"}
+![][Figure005]{:class="center-img"}
 
 Let's go through this again. In the figure above one could see the result using Photoshop and using programming of the results. It seems that both Photoshop and the programming calculation agree on the first 2 steps (Hence the lines hide each other on the last row for the two left plots) yet the end result is different. The programming result says, as Math, that the output of `Mid001` should be all black (Zero) yet Photoshop's result isn't zero (For those who are curious, we'll solve what happens later on, as a teaser, this is a multiplication, not a subtraction).
 
@@ -140,7 +140,7 @@ Let's go through this again. In the figure above one could see the result using 
 
 We did the same experiment yet while the Gray Color Space of Photoshop is set to Dot Gain 20%.
 
-![](https://i.imgur.com/VItNwgo.png){:class="center-img"}
+![][Figure006]{:class="center-img"}
 
 As one could see, even the inversion of the channel created differences in the result which gets worse with each additional Math operation.  
 This can be shown in the generation of the Midtone Mask (`Mid001`) which is not only different from black but shifted and not centered.
@@ -222,4 +222,5 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [Figure002]: {{site.baseurl}}/news/images/LuminosityMask002/SimpleLiving.png "Figure 002 - Real World Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
   [Figure004]: {{site.baseurl}}/news/images/LuminosityMask002/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
-  [Figure005]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskRecipesAnimated.png "Figure 005 - Luminosity Masks Recipes"
+  [Figure005]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
+  [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
