@@ -23,7 +23,7 @@ We will also talk about the trade off in the essence of each Luminosity Mask cre
 This posts will include many _hands on_ tests in Photoshop.  
 Hence a Reference Image is needed (Feel free to download it and replicate the tests and analysis).
 
-![](https://i.imgur.com/DFBCk5C.png){:class="center-img"}
+![][Figure001]{:class="center-img"}
 
 The synthetic image above is a perfect Grayscale Gradient of 8 Bit Image created programmatically.  
 It contains all values {0, 1, 2, ..., 254, 255}. The red box contains the line which will be processed as one dimensional function.  
@@ -31,7 +31,7 @@ This will assist us analyze what happens exactly on every single Photoshop opera
 
 We will also use a "Real World" image to display results. We'll use the same image from previous post.
 
- ![Simple Living](https://i.imgur.com/2xTg78N.png){:class="center-img"}
+ ![Simple Living][Figure002]{:class="center-img"}
 
 ### Grayscale and Color Modes Gamma Settings in Photoshop
 
@@ -39,7 +39,7 @@ There is one tricky thing to take into account when working with Photoshop on *M
 Masks and Channels are considered to be "Grayscale" image in Photoshop.  
 Since the creation of Lumionsoity Masks involves manipulating (Doing Math on) Channels / Masks the Color Profile matters.
 
-In out post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
+In our post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
 Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
 Hence one must synchronize the Grayscale Color Profile of RGB images and Grayscale Images in Photoshop.
 
@@ -218,8 +218,8 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [3]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [4]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [5]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
-  [Figure001]: {{site.baseurl}}/news/images/LuminosityMask001/GrayScaleImageGeneration.png "Figure 001 - Extracting Luminosity Channel from RGB Image"
-  [Figure002]: {{site.baseurl}}/news/images/LuminosityMask001/MaskGenerator.png "Figure 002 - Mapping Grayscale Image into Luminosity Mask"
+  [Figure001]: {{site.baseurl}}/news/images/LuminosityMask002/ReferenceImage.png "Figure 001 - Reference Image"
+  [Figure002]: {{site.baseurl}}/news/images/LuminosityMask002/SimpleLiving.png "Figure 002 - Real World Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskShowCaseAnimated.png "Figure 003 - Luminosity Mask Generation"
   [Figure004]: {{site.baseurl}}/news/images/LuminosityMask001/PhotoshopCurveTool.png "Figure 004 - Photoshop Curve Tool"
   [Figure005]: {{site.baseurl}}/news/images/LuminosityMask001/LuminosityMaskRecipesAnimated.png "Figure 005 - Luminosity Masks Recipes"
