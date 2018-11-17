@@ -93,7 +93,8 @@ Luminosity Masks are generated, usually, using Channel Operations. There are 3 m
 
 <br>
 
-| Operation                               	| Keyboard Shortcut                                                              	| Remarks                                           	|
+{:class="table table-bordered"}
+| Operation                               | Keyboard Shortcut                                                              	| Remarks                                           	|
 |----------------------------------------	|--------------------------------------------------------------------------------	|---------------------------------------------------	|
 | Activate Selection from Channel        	| `Ctrl + Left Mouse Click` on channel to activate channel from                  	| Activate selection by pixels value of the channel 	|
 | Add to Current Active Selection        	| Hold `Ctrl + Shift` and `Left Mouse Click` on the channel to add               	| Effectively adds the 2 channels                   	|
