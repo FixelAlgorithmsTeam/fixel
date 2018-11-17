@@ -59,7 +59,7 @@ The texture layer might be complicated to explain, and the purpose here is not t
 
 Before we continue, you can give a look at my first video, where I include some examples and their limits when we try to boost textures and details on our pictures
 
-<iframe src="https://player.vimeo.com/video/206896575" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/206896575" width="800" height="450" align="middle" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/206896575">Introduction to Fixel Detailer 2.5 - Part I</a> from <a href="https://vimeo.com/user6713845">Flora Cusi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 # Part II
@@ -127,11 +127,11 @@ Now, if you have your luminosity on in Fixel Detailizer (it is chosen by default
 
 By the way, you can also record Fixel Detailizer as a Photoshop action.
 
-## Video part II
+## Video Part II
 
 Now, if you could bear with me through my text, it is now time to watch the second part of the videos to see how Fixel Detailizer works.
 
-<iframe src="https://player.vimeo.com/video/206994656" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/206994656" width="800" height="450" align="middle" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/206994656">Introduction to Fixel Detailizer 2.5 - Part II</a> from <a href="https://vimeo.com/user6713845">Flora Cusi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Sharpening][2], [Image Sharpening][2],  [Photo Sharpening][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Sharpening][2].
@@ -139,6 +139,4 @@ Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Mu
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FloMC01/FloMC01.png "Fixel Detailizer Presentation"
-  [2]: {{site.baseurl}}/news/images/FloMC01/tree.jpg "Tree"
-  [3]: {{site.baseurl}}/news/images/FloMC01/layout.jpg "Layout"
-  [4]: {{site.baseurl}}/news/images/FloMC01/blending_modes.jpg "Blending Modes"
+  [2]: {{site.baseurl}}products/detailizer/ "Fixel Detailizer - Multi Scale Detail Booster Photoshop Plug In"
