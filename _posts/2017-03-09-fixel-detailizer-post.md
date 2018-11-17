@@ -96,7 +96,7 @@ Fixel Detailizer boosts five different spatial frequencies from smaller to wider
 
 A kernel is the peculiar mathematic operation involved in the generation of the base and frequency layers – which affect the detail boost.
 
-The vast majority of the existing plugins work on kernels based on gaussian blur. Fixel Detailizer's unicity is also in the fact that it has its own Wavelets kernel, not based the gaussian blur, resulting in less prominent (and unwanted) halos.
+The vast majority of the existing plugins work on kernels based on Gaussian blur. Fixel Detailizer's unicity is also in the fact that it has its own Wavelets kernel, not based the Gaussian blur, resulting in less prominent (and unwanted) halos.
 
 Translate it in **extremely focused on enhancing your details**.
 
@@ -131,7 +131,7 @@ By the way, you can also record Fixel Detailizer as a Photoshop action.
 
 Now, if you could bear with me through my text, it is now time to watch the second part of the videos to see how Fixel Detailizer works.
 
-<iframe src="https://player.vimeo.com/video/206994656" width="800" height="450" align="middle" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/206994656" width="800" height="450" style="float:none" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/206994656">Introduction to Fixel Detailizer 2.5 - Part II</a> from <a href="https://vimeo.com/user6713845">Flora Cusi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Multi Frequency Sharpening][2], [Image Sharpening][2],  [Photo Sharpening][2], [Photoshop Sharpening][2], [Photoshop Plug In][2], [Detail Enhancement][2], [Frequency Sharpening][2].
@@ -139,4 +139,4 @@ Key Words: [Multi Scale Sharpening][2], [Multi Scale Detail Enhancement][2], [Mu
 
 <!-- This is commented out -->
   [1]: {{site.baseurl}}/news/images/FloMC01/FloMC01.png "Fixel Detailizer Presentation"
-  [2]: {{site.baseurl}}products/detailizer/ "Fixel Detailizer - Multi Scale Detail Booster Photoshop Plug In"
+  [2]: {{site.baseurl}}/products/detailizer/ "Fixel Detailizer - Multi Scale Detail Booster Photoshop Plug In"
