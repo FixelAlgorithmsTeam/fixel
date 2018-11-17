@@ -1,6 +1,6 @@
 ---
 title: 'Luminosity Mask Done Right!'
-date: 	2018-04-30
+date: 	2018-11-30
 author: Fixel Algorithms
 layout: post
 class:  news
@@ -35,12 +35,12 @@ We will also use a "Real World" image to display results. We'll use the same ima
 ### Grayscale and Color Modes Gamma Settings in Photoshop
 
 There is one tricky thing to take into account when working with Photoshop on *Masks* and *Channels*.  
-Masks and Channels are considered to be "Grasycale" image in Photoshop.  
-Since teh creation of Lumionsoity Masks using those means doing Math the Color Profile matters.
+Masks and Channels are considered to be "Grayscale" image in Photoshop.  
+Since the creation of Lumionsoity Masks using those means doing Math the Color Profile matters.
 
 In out post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
-Yet we expect Grasycale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
-Hence one must synchronize the Grasysclae Color Profile of RGB images and Grasycale Images in Photoshop.
+Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
+Hence one must synchronize the Grasysclae Color Profile of RGB images and Grayscale Images in Photoshop.
 
 <br>
 
@@ -60,12 +60,12 @@ The suggested matching is given by:
 
 <br>
 
-Since for this demonstration we use `sRGB` we configured Grayscale Color Spcae to [sGray Color Mode](http://retrofist.com/sgray/).  
+Since for this demonstration we use `sRGB` we configured Grayscale Color Space to [sGray Color Mode](http://retrofist.com/sgray/).  
 We won't get into too much details, yet this is a crucial step and any one not doing it creates miss match in the Math employed.  
 This is one of the artifact some of the current generators of Luminosity Masks ignore which means their Math in the Channels tab doesn't match the properties of the RGB image.  
 
 **Remark**
-Basically one need to match the Gamma Function employed on the RGB images to the one used for Grasycale Images.  
+Basically one need to match the Gamma Function employed on the RGB images to the one used for Grayscale Images.  
 For the above we chose the `sRGB` Gamma Correction (By selecting `sGray`), those who use `Adobe RGB` should use `Gray Gamma 2.2` for Grayscale and for `ProPhoto RGB` one should use `Gray Gamma 1.8` for Grascale to match the functions.
 
 In order to show the effect of this Gamma Function applied we used our reference image.  
@@ -104,10 +104,10 @@ In the process of making this post we downloaded the free offerings of all 3 maj
 After evaluating their results few notes:
 
  1. All of them used the Luminosity Channel (`Ctrl + Right Click` on RGB Channel in Channels Tab) as base for the Luminosity Mask generation.
- 2. All of them generated the exact same result as described in [Luminosity Mask Kickstarter Guide][4]. For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
- 3. None of them tried or suggested to align the RGB Color Space to Grasycale prior to Luminosity Mask generation.
+ 2. All of them generated the exact same result as described in [Luminosity Mask KickStarter Guide][4]. For clarity we'll use the notations of `Light00#`, `Mid00#` and `Dark00#` to refer to the `#` Highlights / Midtones / Shadows Luminosity Mask.
+ 3. None of them tried or suggested to align the RGB Color Space to Grayscale prior to Luminosity Mask generation.
 
-The above means that in case the user didn't align the color space the Math operations used by the generators are flawed. Namely the Grasycale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
+The above means that in case the user didn't align the color space the Math operations used by the generators are flawed. Namely the Grayscale image used for calculations isn't the Luminosity Mask but one with different Gamma Function applied on.
 
 ### Flawed Math
 
@@ -118,7 +118,7 @@ Let's go through the process of generating `Light001`, `Dark001` and `Mid001` on
 
  1. Load the reference image into Photoshop.
  2. Move into the *Channels* tab in Photoshop.
- 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosity Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grasycale Color Space). Namely $ f \left( x \right) = x $.
+ 3. Use `Ctrl + Left Mouse Click` on the RGB Channel to activate *Luminosity Selection*. Create new channel using selection by `Select -> Save Selection` (Or the small icon at the bottom `Save Selection as Channel`). Call this channel `Light001`. Since the reference image is Grayscale the Luminosity Channel is exactly it (Assuming matching RGB and Grayscale Color Space). Namely $ f \left( x \right) = x $.
  4. Clear selection by `Select -> Deselect` (Or `Ctrl + D`).
  5. Duplicate the channel `Light001` (Right Mouse Click) and name the new channel as `Dark001`. Make it the active channel and click `Ctrl + I` (Invert layer / channel). This applies $ f \left( x \right) = 255 - x $. Namely it will create a reversed gradient image.
  6. Activate the RGB channel (By clicking on it) and *Select All* by `Select -> All` (Or by `Ctrl + A`). This create in background a Mask of Select All (All White - 255).
