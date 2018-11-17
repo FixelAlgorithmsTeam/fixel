@@ -58,7 +58,7 @@ The suggested matching is given by:
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
-{:class="table-bordered"}
+{: .table-bordered}
 
 <br>
 
