@@ -83,7 +83,6 @@ th {
 | sRGB         	| sGray          	| sRGB Gamma Curve 	|
 | Adobe RGB    	| Gray Gamma 2.2 	| 2.2              	|
 | ProPhoto RGB 	| Gray Gamma 1.8 	| 1.8              	|
-{: .table-bordered}
 
 </style>
 
