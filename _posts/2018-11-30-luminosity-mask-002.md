@@ -147,28 +147,35 @@ This can be shown in the generation of the Midtone Mask (`Mid001`) which is not 
 
 #### What Does Photoshop Actually Do?
 
-Multiplication...  
-Yes, `Mid00` equals to the Multiplication (Intersection) of `Light00` and `Dark001`:
+You ask what Photoshop does? Multiplication...  
+Yes, `Mid001` equals to the Multiplication (Intersection) of `Light001` and `Dark001`.  
+We can see it by generating `Mid001` from the intersection of `Light001` and `Dark001`:
 
  1. Activate selection of `Light001` by `Ctrl + Left Mouse Click` on `Light001` Channel created earlier.
  2. While holding `Ctrl + Alt + Shift` apply `Left Mouse Click` on `Dark001`.
  3. Save selection to a new channel.
 
 The above is exactly the `Mid001` Mask created before.  
-How come Photoshop do that? Well, only Adobe knows.
+So basically when we subtracted 2 selections from the Select All selection what really happened is the we got the intersection of the 2.  
+The funny things is that for other cases with levels `002` it doesn't hold.
+How come Photoshop do that? Well, only Adobe knows.  
 
 ### Comparison of Luminosity Masks
 
-This section compares of of the most popular Luminosity Masks Generator vs. Theory.
+This section compares of of the most popular Luminosity Masks Generator vs. Theory (Fixel).
 
 #### Grayscale Color Space - `Dot Gain 20%`
 
-This section shows results when Photoshop is using its default settings (Grayscale Color Space - `Dot Gain 20%`) as we assume this is what most users will encounter.
+This section shows results when Photoshop is using its default settings (Grayscale Color Space - `Dot Gain 20%`) as we assume this is what most users will encounter:
+
+![][Figure007]{:class="center-img"}
 
 
 #### Grayscale Color Space - `sGray`
 
 This section shows results when Photoshop is configured correctly.
+
+![][Figure008]{:class="center-img"}
 
 
 [Show each of the 15 Luminosity Masks - Photoshop vs. Theory]
@@ -183,6 +190,10 @@ Another approach is to have a different Math Engine for those calculations and t
 ### Curve Issues
 
 ## Summary
+
+
+**Remark**  
+We used free Panels / Scripts by major vendors as of April 2018.
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
@@ -224,3 +235,5 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [Figure004]: {{site.baseurl}}/news/images/LuminosityMask002/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
   [Figure005]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
   [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
+  [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20) vs. Theory (Fixel)"
+  [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
