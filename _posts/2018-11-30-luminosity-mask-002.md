@@ -235,5 +235,5 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [Figure004]: {{site.baseurl}}/news/images/LuminosityMask002/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
   [Figure005]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
   [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
-  [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20) vs. Theory (Fixel)"
-  [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
+  [Figure007]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20) vs. Theory (Fixel)"
+  [Figure008]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
