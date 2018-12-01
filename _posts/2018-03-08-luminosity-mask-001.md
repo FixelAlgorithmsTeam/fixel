@@ -173,7 +173,7 @@ What we saw is that there 2 main approaches for Luminosity Masks in Photoshop. W
 How can we solve those?
 
 Well, this is what [Fixel Zone Selector][2] is all about.  
-In the next part we'll talk about [Zone Selector][2] approach to Luminosity Masks.
+In the [next part](https://fixelalgorithms.co/news/2018/11/luminosity-mask-002/index.html) we'll talk about [Zone Selector][2] approach to Luminosity Masks.
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
@@ -186,6 +186,7 @@ In the next part we'll talk about [Zone Selector][2] approach to Luminosity Mask
  *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
  *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
  *  [Video - Selecting Using Luminosity Masks (Using Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
+ *  [Luminosity Mask Done Right!](https://fixelalgorithms.co/news/2018/11/luminosity-mask-002/index.html) - The 2nd part of this blog post.
 
 
 <!-- This is commented out -->
