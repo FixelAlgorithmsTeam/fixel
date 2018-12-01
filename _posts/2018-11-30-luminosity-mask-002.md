@@ -231,6 +231,7 @@ We used free Panels / Scripts by major vendors as of April 2018.
  *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
  *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
  *  [Video - Selecting Using Luminosity Masks (Using Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
+ *	[Luminosity Mask - How Does It (Really) Work?](https://fixelalgorithms.co/news/2018/03/luminosity-mask-001/index.html) - Introduction to Luminosity Mask concept.
 
 
 <!-- This is commented out -->
