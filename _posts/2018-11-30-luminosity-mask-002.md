@@ -40,7 +40,7 @@ Masks and Channels are considered to be "Grayscale" image in Photoshop.
 Since the creation of Lumionsoity Masks involves manipulating (Doing Math on) Channels / Masks the Color Profile matters.
 
 In our post, for simplification, we'll use the `sRGB` color profile for all RGB images.  
-Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is graysacle) to match Grayscale (Single Channel) version of it.  
+Yet we expect Grayscale image in RGB (3 Channels which are identical since the image is Graysacle) to match Grayscale (Single Channel) version of it.  
 Hence one must synchronize the Grayscale Color Profile of RGB images and Grayscale Images in Photoshop.
 
 <br>
