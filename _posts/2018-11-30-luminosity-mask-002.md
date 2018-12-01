@@ -4,7 +4,7 @@ date: 	2018-11-30
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: false
 ---
 ![Luminosity Mask 002][1]
 
@@ -200,7 +200,15 @@ Most tools out there allow doing so implicitly by Addition / Subtraction of the 
 Plug In solution can generate the required result explicitly.  
 For instance, the following can be easily achieved using [Fixel Zone Selector][2]:
 
+![][Figure009]{:class="center-img"}
 
+As one could see in the figure above, [Fixel Zone Selector][2] can generate Luminosity Masks which are arbitrary to the user will while being:
+ * 	Focused - Can target specific luminosity level.
+ *	Smooth - The curve is smooth (Using 32 Bit Float calculations regardless of the image) with no quantization error.
+ *	Direct - Works directly on the image without overhead of calculations or sensitivity to the Gray Scale Color Profile of Photoshop.
+
+Namely, [Fixel Zone Selector][2], by utilizing its own Luminosity Mask Generator, can overcome all issues mentioned above in Photoshop.  
+Since it has a simple, intuitive, yet powerful UI, the user can have an effective tool to totally control the Luminosity Mask generation process.
 
 ## Summary
 
@@ -254,3 +262,4 @@ Key Words: [Fixel Algorithms][2], [Fixel][2], [Fixel Zone Selector][2], [Luminos
   [Figure006]: {{site.baseurl}}/news/images/LuminosityMask002/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
   [Figure007]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
   [Figure008]: {{site.baseurl}}/news/images/LuminosityMask002/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
+  [Figure009]: {{site.baseurl}}/news/images/LuminosityMask002/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
