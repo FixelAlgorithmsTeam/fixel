@@ -8,7 +8,7 @@ hidden: false
 ---
 ![Luminosity Mask 002][1]
 
-In our previous post [Luminosity Mask - How Does It (Really) Works?][3] we explained the theory behind Luminosity Mask.  
+In our previous post [Luminosity Mask - How Does It (Really) Work?][3] we explained the theory behind Luminosity Mask.  
 The theory basically sums to the fact that Luminosity Mask is a remapping of values of a Graysacle image.
 
 In this post, as promised at the end of previous post, we will explore what happens behind Photoshop based Luminosity Mask generators.  
