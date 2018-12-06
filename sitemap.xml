@@ -48,6 +48,12 @@
   <priority>0.80</priority>
 </url>
 <url>
+<url>
+  <loc>https://fixelalgorithms.co/products/fftwizard/</loc>
+  <lastmod>2018-12-04T10:56:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://fixelalgorithms.co/products/zoneselector/</loc>
   <lastmod>2018-12-04T10:56:02+00:00</lastmod>
   <priority>0.80</priority>
@@ -75,6 +81,26 @@
 <url>
   <loc>https://fixelalgorithms.co/news/2017/03/fixel-detailizer-post/index.html</loc>
   <lastmod>2018-12-04T10:56:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fixelalgorithms.co/news/2017/03/fixel-detailizer-post/index.html</loc>
+  <lastmod>2018-07-25T16:34:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fixelalgorithms.co/news/2016/07/fixel-detailizer-2-ps/index.html</loc>
+  <lastmod>2018-07-25T16:34:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fixelalgorithms.co/news/2017/03/fixel-detailizer-post/index.html</loc>
+  <lastmod>2018-07-25T16:34:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fixelalgorithms.co/news/2016/07/fixel-algorithms/index.html</loc>
+  <lastmod>2018-07-14T16:34:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
