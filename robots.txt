@@ -1,3 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+
+Sitemap: https://fixelalgorithms.co/sitemap.xml
