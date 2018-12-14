@@ -214,7 +214,8 @@ Since it has a simple, intuitive, yet powerful UI, the user can have an effectiv
 
 In this analysis we have shown the issues with the current Luminosity Masks generators on the market which uses Channels Operations (Which are most of them if not all).  
 Some of those are related to the Color Profile Settings in Photoshop and hence can be eliminated using the correct configuration.  
-Yet, even with the correct 
+Yet, even with the correct settings, when using Photoshop built in tools for Luminosity Mask generation there are many limitations to what can be done and in what quality.  
+Being aware of the limitations, as always, is half the way, using the better tools is the other half.
 
 
 **Remark**  
