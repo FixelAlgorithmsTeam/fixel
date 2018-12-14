@@ -8,14 +8,32 @@ hidden: true
 ---
 ![Fixel ReColor Photoshop Plug In][1]
 
+# Fixel ReColor 1 PS Photoshop Plug In
+
 ## Background
 
-Engineering is all about defining a problem (Supposedly interesting and solvable) and solve it. 
+Engineering is all about defining a problem (Supposedly interesting and solvable) and solve it.  
+At Fixel, each one of the team is also a Photography Enthusiastic.  
+Hence each of has encountered the following situation - Looking at great image and thinking, "*How can I recreates this colors in my image?*".  
+Since we're also engineers, it seemed to us as a legitimate problem to define and try to solve.  
 
 
 ## Color Grading, Style Transfer & Color Palette
 
 ## Fixel Recolor 1 PS
+
+### Under the Hood - Analyze, Extract, Use (Color Grading / Color Mapping / Style Transfer)
+
+### User Interface (UI)
+[Show UI and Explain Buttons]
+
+### Tips & Tricks
+
+[Number of Samples]  
+[Grab from Internet - Windows]  
+[Editing and Shuffling Palettes / Colors]
+
+## Real World Examples
 
 
 
@@ -30,12 +48,13 @@ Namely, [Fixel Zone Selector][2], by utilizing its own Luminosity Mask Generator
 Since it has a simple, intuitive, yet powerful UI, the user can have an effective tool to totally control the Luminosity Mask generation process.
 
 ## Summary
-
+[Fixel Recolor 1 PS][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
+Once the user (Be a Photographer or Designer) has such a functionality it can be used in many ways.  
+We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a user friendly workflow to use this capability to create user presets for Color Palettes, Integrate Colors into Photoshop (Swatches) and most of all - Recolor / Color Grade / Style Transfer the image.
 
 
 
 **Remark**  
-We used free Panels / Scripts by major vendors as of April 2018.
 
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
