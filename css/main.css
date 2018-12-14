@@ -247,6 +247,12 @@ footer > .container {
 .product-badge-zoneselector {
 	background-position: -450px 0;
 }
+.product-badge-recolor {
+	background-position: -600px 0;
+}
+.product-badge-fft {
+	background-position: -750px 0;
+}
 
 /* ---- SIDEBAR ----*/
 
