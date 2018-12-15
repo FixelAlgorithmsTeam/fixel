@@ -22,8 +22,8 @@ More than that, it is solvable and we call the solution [Fixel Recolor][98].
 
 ## Color Grading, Color Palette & Style Transfer
 
-Color Grading is the "signature" step of a retoucher working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
-Color Grading has become a hot topic lately and like painters each retoucher / photographer and designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
+Color Grading is the "signature" step of a Retoucher working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
+Color Grading has become a hot topic lately and like painters each Retoucher / photographer and designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
 Though it has become very popular to talk about it, create tutorials, etc it was always there as one could see in [CINEMA PALETTES](https://twitter.com/CINEMAPALETTES) which shows the Color Palettes used in classic cinema movies.
 
 So what is Color Grading?  
@@ -31,14 +31,34 @@ Basically it means remapping of colors.
 Where the target colors are composed from the Color Palette selected by the Retoucher / Photographer / Designer.
 There are many way to do so (The most general mapping tool would be curves) using tools in Photoshop.  
 Yet the most classic one is using [Gradient Map](https://helpx.adobe.com/il_en/photoshop/using/applying-special-color-effects-images.html#apply_a_gradient_map_to_an_image).  
+The Gradient Map of remaps image colors based on their Luminosity Values.  
 
 ![][Figure001]{:class="center-img"}
 
-The Gradient Map of an image re maps color of the image based on their Luminosity Values.  
-Usually the Gradient Map Adjustment Layer is set to Soft Light or Overlay Blend Mode.  
+As can be seen in Figure 001 the Grayscale Gradient was recolored by the Gradient Map (Built with certain color palette) according to the brightness of the gray color.  
+
+Usually the Gradient Map Adjustment Layer is set to Soft Light or Overlay Blend Mode as one doesn't want full replacement of the colors but just a subtle .  
 The colors which compose the Gradient Map are taken from the same Color Palette and are chosen according to the atmosphere one wants to create.
 
+How do we create a good color palette?  
+Well, some of us just has it, some used color palettes form others and some just guess.  
+We had 2 things to say about it:
+
+ 1.	There are plenty of examples out there which are great example of a great Color Palette.
+ 2.	There are Machine Learning based algorithms to extract Color Palette from a good example.
+ 
+Namely, given a good example, can we transfer its Color Style (Style Transfer) to our target image?  
+Moreover, can we use it to create a Color Palette and use it when we want?
+ 
+Indeed we can. All needed was to adapt those algorithms and fine tune them into the problem we started with.  
+Namely, Analyze a Reference Image, Extract a Color Palette from it, Apply the Color Palette in the Color Grading process of the Target Image.  
+Namely, Color Palette Transfer from any image which inspire you to any image you would like!
+
 ## Fixel Recolor 1 PS
+
+So, ~4 years ago we started working on this problem - How to Extract a Color Palette from Reference Image and apply it on a Target Image.  
+We wanted a fully Automatic Process based on Machine Learning algorithms.  
+Some can do it manually, as seen in [CINEMA PALETTES](https://twitter.com/CINEMAPALETTES), but we wanted to be able to do it in a modern manner with smooth workflow within Photoshop.
 
 ### Under the Hood - Analyze, Extract, Use (Color Grading / Color Mapping / Style Transfer)
 
@@ -93,11 +113,11 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
 
 
 <!-- This is commented out -->
-  [1]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
-  [2]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
-  [3]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
-  [4]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
-  [5]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
+  [01]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
+  [02]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
+  [03]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
+  [04]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
+  [05]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [98]: https://fixelalgorithms.co/products/recolor/ "Fixel ReColor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
