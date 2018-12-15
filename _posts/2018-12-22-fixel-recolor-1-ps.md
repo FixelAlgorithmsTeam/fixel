@@ -17,8 +17,12 @@ At Fixel, each one of the team is also a Photography Enthusiastic.
 Hence each of has encountered the following situation - Looking at great image and thinking, "*How can I recreates this colors in my image?*".  
 Since we're also engineers, it seemed to us as a legitimate problem to define and try to solve.  
 
+More than that, it is solvable and we call the solution [Fixel Recolor][98].
+
 
 ## Color Grading, Style Transfer & Color Palette
+
+Color Grading is the "signature" step of a retoucher working on his images. Usually one of the last steps to do which gives the image a distinct look as its creator desired.
 
 ## Fixel Recolor 1 PS
 
@@ -63,11 +67,12 @@ We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a
 
 
 ## Resources
- *  [Luminosity Mask: The Complete Kickstarter’s Guide](http://fotographee.com/tutorial-image-editing-luminosity-masks/).
- *  [Video - How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])](https://www.youtube.com/watch?v=xvjno4d8uJ8).
- *  [Video - How to Generate the Classic Luminosity Masks Using Calculations (16 Bit Mode)](https://www.youtube.com/watch?v=43JbFIOckrM).
- *  [Video - Selecting Using Luminosity Masks (Using Curve Tool)](https://www.youtube.com/watch?v=la-zWPwjuQw).
- *	[Luminosity Mask - How Does It (Really) Work?](https://fixelalgorithms.co/news/2018/03/luminosity-mask-001/index.html) - Introduction to Luminosity Mask concept.
+ *  [LZeven Design - Color Grading with Gradient Maps in Photoshop](https://zevendesign.com/color-grading-gradient-maps-photoshop/).
+ *  [Photoshop Cafe - How to Color Grade a Photo Using Gradient Maps in Photoshop](https://photoshopcafe.com/color-grade-photo-using-gradient-maps-photoshop/).
+ *  [Retouching Academy - Using Gradient Maps to Color Grade Your Photographs](https://retouchingacademy.com/using-gradient-maps-to-color-grade-your-photographs/).
+ *  [PHLEARN - How to Color Tone Using Gradient Maps](https://phlearn.com/tutorial/color-tone-using-gradient-maps/).
+ *	[Do It Yourself (DIY) Photography - Add Different Looks to Your Photos Using Only Gradient Map Layer](https://www.diyphotography.net/add-different-looks-photos-using-gradient-map-layer/).
+ *	[FStoppers - Quick Tips on How to Color Grade Your Photos Using Gradient Maps](https://fstoppers.com/education/quick-tips-how-color-grade-your-photos-using-gradient-maps-201756).
 
 Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grade][98], [Color Grading][98], [Color Mapping][98], [Style Transfer][98], [Color Palette][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
