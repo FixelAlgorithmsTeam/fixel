@@ -22,7 +22,9 @@ More than that, it is solvable and we call the solution [Fixel Recolor][98].
 
 ## Color Grading, Style Transfer & Color Palette
 
-Color Grading is the "signature" step of a retoucher working on his images. Usually one of the last steps to do which gives the image a distinct look as its creator desired.
+Color Grading is the "signature" step of a retoucher working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
+Color Grading has become a hot topic lately and like painters each retoucher / photographer and designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
+Though it has become very popular to talk about it, create tutorials, etc it was always there as one could see in [CINEMA PALETTES](https://twitter.com/CINEMAPALETTES) which shows the Color Palettes used in classic cinema movies.
 
 ## Fixel Recolor 1 PS
 
@@ -73,6 +75,7 @@ We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a
  *  [PHLEARN - How to Color Tone Using Gradient Maps](https://phlearn.com/tutorial/color-tone-using-gradient-maps/).
  *	[Do It Yourself (DIY) Photography - Add Different Looks to Your Photos Using Only Gradient Map Layer](https://www.diyphotography.net/add-different-looks-photos-using-gradient-map-layer/).
  *	[FStoppers - Quick Tips on How to Color Grade Your Photos Using Gradient Maps](https://fstoppers.com/education/quick-tips-how-color-grade-your-photos-using-gradient-maps-201756).
+ *	[FStoppers - Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061).
 
 Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grade][98], [Color Grading][98], [Color Mapping][98], [Style Transfer][98], [Color Palette][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
