@@ -100,7 +100,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
   [5]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [98]: https://fixelalgorithms.co/products/recolor/ "Fixel ReColor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopGradientMap "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
+  [Figure001]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
   [Figure002]: {{site.baseurl}}/news/images/FixelReColor1Ps/SimpleLiving.png "Figure 002 - Real World Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
   [Figure004]: {{site.baseurl}}/news/images/FixelReColor1Ps/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
