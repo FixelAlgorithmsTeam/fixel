@@ -81,7 +81,7 @@ Nice feature of the File Picker in Windows is being able to grab files from the 
 So let us say you like an image on the Internet and you want to use it as the Reference Image then:
 
  1.	Copy the HTTP address of the image.  
-	For isnatnce, use the image of the [Eiffel Tower](https://en.wikipedia.org/wiki/Eiffel_Tower) from Wikipedia - `https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg`.
+	For instance, use the image of the [Eiffel Tower](https://en.wikipedia.org/wiki/Eiffel_Tower) from Wikipedia - `https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg`.
  2.	Select the number of Color Samples to analyze in [Fixel ReColor][98].
  3.	Configure [Fixel ReColor][98] to use `File` as source.
  4.	Hit the `Analyze` button and paste the HTTP address in the File Picker address.
@@ -134,7 +134,7 @@ We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a
  *	[FStoppers - Quick Tips on How to Color Grade Your Photos Using Gradient Maps](https://fstoppers.com/education/quick-tips-how-color-grade-your-photos-using-gradient-maps-201756).
  *	[FStoppers - Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061).
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grade][98], [Color Grading][98], [Color Mapping][98], [Style Transfer][98], [Color Palette][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grade][98], [Color Grading][98], [Color Mapping][98], [Style Transfer][98], [Color Transfer][98], [Color Palette][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
