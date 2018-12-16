@@ -75,9 +75,9 @@ The emphasize here is on *colors I know their name*. This simple trick will get 
 
 [Grab from Internet - Windows]  
 
-There is a nice feature added into [Fixel ReColor][98] once it is used in Windows. Actually it is Windows' featurew but still it is nice to know about.  
+There is a nice feature added into [Fixel ReColor][98] once it is used in Windows. Actually it is Windows' feature but still it is nice to know about.  
 When the user sets the Mode (Source) to `File` and hit `Analyze` a File Picker Dialog is opened. This dialog window is the native File Picker of the operating system.  
-Nice feature of the File Picker in Windows is being able to grab files from the Internet - HTTP Addresss.  
+Nice feature of the File Picker in Windows is being able to grab files from the Internet - HTTP Address.  
 So let us say you like an image on the Internet and you want to use it as the Reference Image then:
 
  1.	Copy the HTTP address of the image.  
@@ -93,7 +93,7 @@ It doesn't work on macOS as the File Picker in macOS doesn't support inserting H
 
 We worked hard on the UI. Our motto was - Interactive Creative UI.  
 It means that any the user can interact with any element of the UI - Palettes and Color Swatches.  
-In our test group some (Minority) people missed some capabilities of the UI - Edititng / Shuffling Palettes and Color Swatches.  
+In our test group some (Minority) people missed some capabilities of the UI - Editing / Shuffling Palettes and Color Swatches.  
 So let us notify you that the following can be done:
 
  1.	Palette Context Menu  
@@ -101,14 +101,14 @@ So let us notify you that the following can be done:
  	It means that hitting this button will add randomness to each color of the palette - A random small shift of the color.  
 	There also many other options in that menu (Well, Color Grading is there!).
  2.	Drag & Drop  
- 	You may use Darg & Drop to reorder colors within a palette and even to move colors from one palette to another one.  
+ 	You may use Drag & Drop to reorder colors within a palette and even to move colors from one palette to another one.  
 	You may also Drag & Drop to reorder the presets you saved.
  3.	Color Context Menu  
  	Use Right Click on the Color Swatches. It will allow you to edit the color, save it to Photoshop's swatch or, god forbidden, delete it.
 
 ## Real World Examples
 
-[Show animation of the whiole process]
+[Show animation of the whole process]
 
 ## Summary
 [Fixel Recolor 1 PS][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
