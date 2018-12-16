@@ -68,22 +68,47 @@ Some can do it manually, as seen in [CINEMA PALETTES](https://twitter.com/CINEMA
 ### Tips & Tricks
 
 [Number of Samples]  
+
+The first instinct is to chose the highest number. we are all sold by higher and higher values.  
+Yet a good rule of thumb before setting the number of Color Samples to extract (JUsing Image Analysis) into the Color Palette would be asking yourself - *If I had painted this image, how many different colors, which I know their names, would have I used?*.  
+The emphasize here is on *colors I know their name*. This simple trick will get you much better results using [Fixel ReColor][98].
+
 [Grab from Internet - Windows]  
+
+There is a nice feature added into [Fixel ReColor][98] once it is used in Windows. Actually it is Windows' featurew but still it is nice to know about.  
+When the user sets the Mode (Source) to `File` and hit `Analyze` a File Picker Dialog is opened. This dialog window is the native File Picker of the operating system.  
+Nice feature of the File Picker in Windows is being able to grab files from the Internet - HTTP Addresss.  
+So let us say you like an image on the Internet and you want to use it as the Reference Image then:
+
+ 1.	Copy the HTTP address of the image.  
+	For isnatnce, use the image of the [Eiffel Tower](https://en.wikipedia.org/wiki/Eiffel_Tower) from Wikipedia - `https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg`.
+ 2.	Select the number of Color Samples to analyze in [Fixel ReColor][98].
+ 3.	Configure [Fixel ReColor][98] to use `File` as source.
+ 4.	Hit the `Analyze` button and paste the HTTP address in the File Picker address.
+
+Once you do that the output Color Palette would be the result of the analysis of the image from the Internet.  
+It doesn't work on macOS as the File Picker in macOS doesn't support inserting HTTP addresses.
+
 [Editing and Shuffling Palettes / Colors]
+
+We worked hard on the UI. Our motto was - Interactive Creative UI.  
+It means that any the user can interact with any element of the UI - Palettes and Color Swatches.  
+In our test group some (Minority) people missed some capabilities of the UI - Edititng / Shuffling Palettes and Color Swatches.  
+So let us notify you that the following can be done:
+
+ 1.	Palette Context Menu  
+ 	Using the 3 Dots button at the right end of each palette will open a menu with the option to shuffle the colors of the palette.  
+ 	It means that hitting this button will add randomness to each color of the palette - A random small shift of the color.  
+	There also many other options in that menu (Well, Color Grading is there!).
+ 2.	Drag & Drop  
+ 	You may use Darg & Drop to reorder colors within a palette and even to move colors from one palette to another one.  
+	You may also Drag & Drop to reorder the presets you saved.
+ 3.	Color Context Menu  
+ 	Use Right Click on the Color Swatches. It will allow you to edit the color, save it to Photoshop's swatch or, god forbidden, delete it.
 
 ## Real World Examples
 
-
-
-
-
-As one could see in the figure above, [Fixel Zone Selector][2] can generate Luminosity Masks which are arbitrary to the user will while being:
- * 	Focused - Can target specific luminosity level.
- *	Smooth - The curve is smooth (Using 32 Bit Float calculations regardless of the image) with no quantization error.
- *	Direct - Works directly on the image without overhead of calculations or sensitivity to the Gray Scale Color Profile of Photoshop.
-
-Namely, [Fixel Zone Selector][2], by utilizing its own Luminosity Mask Generator, can overcome all issues mentioned above in Photoshop.  
-Since it has a simple, intuitive, yet powerful UI, the user can have an effective tool to totally control the Luminosity Mask generation process.
+[Show animation of the whiole process]
 
 ## Summary
 [Fixel Recolor 1 PS][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
@@ -101,7 +126,7 @@ We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a
 
 
 ## Resources
- *  [LZeven Design - Color Grading with Gradient Maps in Photoshop](https://zevendesign.com/color-grading-gradient-maps-photoshop/).
+ *  [Zeven Design - Color Grading with Gradient Maps in Photoshop](https://zevendesign.com/color-grading-gradient-maps-photoshop/).
  *  [Photoshop Cafe - How to Color Grade a Photo Using Gradient Maps in Photoshop](https://photoshopcafe.com/color-grade-photo-using-gradient-maps-photoshop/).
  *  [Retouching Academy - Using Gradient Maps to Color Grade Your Photographs](https://retouchingacademy.com/using-gradient-maps-to-color-grade-your-photographs/).
  *  [PHLEARN - How to Color Tone Using Gradient Maps](https://phlearn.com/tutorial/color-tone-using-gradient-maps/).
