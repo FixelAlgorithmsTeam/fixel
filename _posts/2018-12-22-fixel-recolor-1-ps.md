@@ -67,6 +67,12 @@ Basic concept in [Fixel Recolor][98] is the Reference Image and the Target Image
 
 ### Under the Hood - Analyze, Extract, Use (Color Grading / Color Mapping / Style Transfer)
 
+In order to explain what [Fixel Recolor][98] does, let us use a reference image:
+
+![][Figure002]{:class="center-img"}
+
+![][Figure003]{:class="center-img"}
+
 ### User Interface (UI)
 [Show UI and Explain Buttons]
 
@@ -150,12 +156,12 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
   [05]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [98]: https://fixelalgorithms.co/products/recolor/ "Fixel Recolor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
-  [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1Ps/SimpleLiving.png "Figure 002 - Real World Reference Image"
-  [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
-  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1Ps/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
-  [Figure005]: {{site.baseurl}}/news/images/FixelRecolor1Ps/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
-  [Figure006]: {{site.baseurl}}/news/images/FixelRecolor1Ps/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
-  [Figure007]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
-  [Figure008]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
-  [Figure009]: {{site.baseurl}}/news/images/FixelRecolor1Ps/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
+  [Figure001]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
+  [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Blog - Reference Image.png "Figure 002 - Reference Image"
+  [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1/ReferenceImage3DColorsCube.png "Figure 003 - Reference Image 3D Colors Cube"
+  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
+  [Figure005]: {{site.baseurl}}/news/images/FixelRecolor1/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
+  [Figure006]: {{site.baseurl}}/news/images/FixelRecolor1/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
+  [Figure007]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
+  [Figure008]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
+  [Figure009]: {{site.baseurl}}/news/images/FixelRecolor1/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
