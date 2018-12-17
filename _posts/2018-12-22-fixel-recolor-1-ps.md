@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel ReColor Photoshop Plug In][1]
+![Fixel ReColor Photoshop Plug In][01]
 
 # Fixel ReColor 1 PS Photoshop Plug In
 
@@ -24,7 +24,7 @@ More than that, it is solvable and we call our solution [Fixel Recolor][98].
 Color Grading is the "signature" step of a Retoucher / Photgrapher / Designer working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
 Color Grading has become a hot topic lately and like painters each Retoucher / Photgrapher / Designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
 Though it has become very popular to talk about color grading and color palettes, create tutorials, show before and after, etc...  
-The color grading concept was always there as one could see in [CINEMA PALETTES][01] which shows the Color Palettes used in classic cinema movies.
+The color grading concept was always there as one could see in [CINEMA PALETTES][02] which shows the Color Palettes used in classic cinema movies.
 The point is no one created a tool for creating color palettes from images which inspire us, "Borrow" from a friend.  
 
 So what is Color Grading?  
@@ -59,7 +59,7 @@ What does it mean? Transfer Color Palette from any image which inspire you to an
 
 So, ~4 years ago we started working on this problem - How to Extract a Color Palette from Reference Image and apply it on a Target Image.  
 We wanted a fully Automatic Process based on Machine Learning algorithms.  
-Some can do it manually, as seen in [CINEMA PALETTES][01], but we wanted to be able to do it in a modern manner with smooth workflow within Photoshop.
+Some can do it manually, as seen in [CINEMA PALETTES][02], but we wanted to be able to do it in a modern manner with smooth workflow within Photoshop.
 
 Basic concept in [Fixel Recolor][98] is the Reference Image and the Target Image:
  *	Reference Image - The image to be analyzed in order to extract its Color Palette.
@@ -143,8 +143,8 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
 
 
 <!-- This is commented out -->
-  [01]: https://twitter.com/CINEMAPALETTES "Cinema Palette"
-  [02]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
+  [01]: {{site.baseurl}}/news/images/FixelRecolor/Fixel Recolor Icon.png "Fixel Recolor Icon"
+  [02]: https://twitter.com/CINEMAPALETTES "Cinema Palette"
   [03]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [04]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [05]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
