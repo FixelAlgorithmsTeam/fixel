@@ -12,19 +12,20 @@ hidden: true
 
 ## Background
 
-Engineering is all about defining a problem (Supposedly interesting and solvable) and solve it.  
+Engineering is all about defining a problem, supposedly interesting and solvable, and solve it.  
 At Fixel, each one of the team is also a Photography Enthusiastic.  
 Hence each of has encountered the following situation - Looking at great image and thinking, "*How can I recreates this colors in my image?*".  
 Since we're also engineers, it seemed to us as a legitimate problem to define and try to solve.  
 
-More than that, it is solvable and we call the solution [Fixel Recolor][98].
-
+More than that, it is solvable and we call our solution [Fixel Recolor][98].
 
 ## Color Grading, Color Palette & Style Transfer
 
-Color Grading is the "signature" step of a Retoucher working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
-Color Grading has become a hot topic lately and like painters each Retoucher / photographer and designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
-Though it has become very popular to talk about it, create tutorials, etc it was always there as one could see in [CINEMA PALETTES](https://twitter.com/CINEMAPALETTES) which shows the Color Palettes used in classic cinema movies.
+Color Grading is the "signature" step of a Retoucher / Photgrapher / Designer working on his images. Usually it is one of the last steps to execute which gives the image a distinct look as its creator desired.  
+Color Grading has become a hot topic lately and like painters each Retoucher / Photgrapher / Designer has his own Color Palette (See [Making Color Grading Easy Using Color Palettes](https://fstoppers.com/education/making-color-grading-easy-using-color-palettes-109061)) and "Brush" to do it.  
+Though it has become very popular to talk about color grading and color palettes, create tutorials, show before and after, etc...  
+The color grading concept was always there as one could see in [CINEMA PALETTES][01] which shows the Color Palettes used in classic cinema movies.
+The point is no one created a tool for creating color palettes from images which inspire us, "Borrow" from a friend.  
 
 So what is Color Grading?  
 Basically it means remapping of colors.  
@@ -37,8 +38,8 @@ The Gradient Map of remaps image colors based on their Luminosity Values.
 
 As can be seen in Figure 001 the Grayscale Gradient was recolored by the Gradient Map (Built with certain color palette) according to the brightness of the gray color.  
 
-Usually the Gradient Map Adjustment Layer is set to Soft Light or Overlay Blend Mode as one doesn't want full replacement of the colors but just a subtle .  
-The colors which compose the Gradient Map are taken from the same Color Palette and are chosen according to the atmosphere one wants to create.
+Usually the Gradient Map Adjustment Layer is set to `Soft Light` or `Overlay` Blend Mode as one doesn't want full replacement of the colors but just a subtle effect of color mapping.  
+The colors which compose the Gradient Map are the Color Palette and are chosen according to the atmosphere one wants to create.
 
 How do we create a good color palette?  
 Well, some of us just has it, some used color palettes form others and some just guess.  
@@ -50,15 +51,19 @@ We had 2 things to say about it:
 Namely, given a good example, can we transfer its Color Style (Style Transfer) to our target image?  
 Moreover, can we use it to create a Color Palette and use it when we want?
  
-Indeed we can. All needed was to adapt those algorithms and fine tune them into the problem we started with.  
-Namely, Analyze a Reference Image, Extract a Color Palette from it, Apply the Color Palette in the Color Grading process of the Target Image.  
-Namely, Color Palette Transfer from any image which inspire you to any image you would like!
+Indeed we can. All needed is to adapt those algorithms and fine tune them into the problem we started with.  
+Analyze a Reference Image, Extract a Color Palette from it, Apply the Color Palette in the Color Grading process of the Target Image.  
+What does it mean? Transfer Color Palette from any image which inspire you to any image you would like!
 
 ## Fixel Recolor 1 PS
 
 So, ~4 years ago we started working on this problem - How to Extract a Color Palette from Reference Image and apply it on a Target Image.  
 We wanted a fully Automatic Process based on Machine Learning algorithms.  
-Some can do it manually, as seen in [CINEMA PALETTES](https://twitter.com/CINEMAPALETTES), but we wanted to be able to do it in a modern manner with smooth workflow within Photoshop.
+Some can do it manually, as seen in [CINEMA PALETTES][01], but we wanted to be able to do it in a modern manner with smooth workflow within Photoshop.
+
+Basic concept in [Fixel Recolor][98] is the Reference Image and the Target Image:
+ *	Reference Image - The image to be analyzed in order to extract its Color Palette.
+ *	Target Image - The image we would like to apply a Color Grading using a Color Palette.
 
 ### Under the Hood - Analyze, Extract, Use (Color Grading / Color Mapping / Style Transfer)
 
@@ -115,10 +120,6 @@ So let us notify you that the following can be done:
 Once the user (Be a Photographer or Designer) has such a functionality it can be used in many ways.  
 We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of a user friendly workflow to use this capability to create user presets for Color Palettes, Integrate Colors into Photoshop (Swatches) and most of all - Recolor / Color Grade / Style Transfer the image.
 
-
-
-**Remark**  
-
 ## Image Credit
  *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
  *  [Schwaigsee Lake](https://www.freeimages.com/photo/schwaigsee-lake-1342788) - Credit to [Alfred Borchard](https://www.freeimages.com/photographer/Alfi007-51075).
@@ -138,7 +139,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/LuminosityMask001/BlogPostIcon.png "Luminosity Mask 001"
+  [01]: https://twitter.com/CINEMAPALETTES "Cinema Palette"
   [02]: {{site.baseurl}}/products/zoneselector/ "Fixel Zone Selector 1 PS Product Page"
   [03]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [04]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
