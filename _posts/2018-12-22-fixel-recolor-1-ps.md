@@ -117,7 +117,7 @@ So let us notify you that the following can be done:
 
 ## Summary
 [Fixel Recolor 1 PS][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
-Once the user (Be a Photographer or Designer) has such a functionality it can be used in many ways.  
+Once the user (Be a Retoucher, Photographer or Designer) has such a functionality it can be used in many ways.  
 We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of any user workflow.  
 The UI allows the user to create presets of Color Palettes, Integrate Colors into Photoshop (Swatches) and most of all - Recolor / Color Grade / Style Transfer the image.  
 
