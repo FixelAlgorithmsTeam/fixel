@@ -1,14 +1,14 @@
 ---
-title: 'Fixel ReColor 1 PS'
+title: 'Fixel Recolor 1'
 date: 	2018-12-22
 author: Fixel Algorithms
 layout: post
 class:  news
 hidden: true
 ---
-![Fixel ReColor Photoshop Plug In][01]
+![Fixel Recolor Photoshop Plug In][01]
 
-# Fixel ReColor 1 PS Photoshop Plug In
+# Fixel Recolor 1 Photoshop Plug In
 
 ## Background
 
@@ -76,19 +76,19 @@ Basic concept in [Fixel Recolor][98] is the Reference Image and the Target Image
 
 The first instinct is to chose the highest number. we are all sold by higher and higher values.  
 Yet a good rule of thumb before setting the number of Color Samples to extract (JUsing Image Analysis) into the Color Palette would be asking yourself - *If I had painted this image, how many different colors, which I know their names, would have I used?*.  
-The emphasize here is on *colors I know their name*. This simple trick will get you much better results using [Fixel ReColor][98].
+The emphasize here is on *colors I know their name*. This simple trick will get you much better results using [Fixel Recolor][98].
 
 [Grab from Internet - Windows]  
 
-There is a nice feature added into [Fixel ReColor][98] once it is used in Windows. Actually it is Windows' feature but still it is nice to know about.  
+There is a nice feature added into [Fixel Recolor][98] once it is used in Windows. Actually it is Windows' feature but still it is nice to know about.  
 When the user sets the Mode (Source) to `File` and hit `Analyze` a File Picker Dialog is opened. This dialog window is the native File Picker of the operating system.  
 Nice feature of the File Picker in Windows is being able to grab files from the Internet - HTTP Address.  
 So let us say you like an image on the Internet and you want to use it as the Reference Image then:
 
  1.	Copy the HTTP address of the image.  
 	For instance, use the image of the [Eiffel Tower](https://en.wikipedia.org/wiki/Eiffel_Tower) from Wikipedia - `https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg`.
- 2.	Select the number of Color Samples to analyze in [Fixel ReColor][98].
- 3.	Configure [Fixel ReColor][98] to use `File` as source.
+ 2.	Select the number of Color Samples to analyze in [Fixel Recolor][98].
+ 3.	Configure [Fixel Recolor][98] to use `File` as source.
  4.	Hit the `Analyze` button and paste the HTTP address in the File Picker address.
 
 Once you do that the output Color Palette would be the result of the analysis of the image from the Internet.  
@@ -143,19 +143,19 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FixelRecolor/Fixel Recolor Icon.png "Fixel Recolor Icon"
+  [01]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Icon.png "Fixel Recolor Icon"
   [02]: https://twitter.com/CINEMAPALETTES "Cinema Palette"
   [03]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [04]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [05]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
-  [98]: https://fixelalgorithms.co/products/recolor/ "Fixel ReColor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
+  [98]: https://fixelalgorithms.co/products/recolor/ "Fixel Recolor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
-  [Figure002]: {{site.baseurl}}/news/images/FixelReColor1Ps/SimpleLiving.png "Figure 002 - Real World Reference Image"
-  [Figure003]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
-  [Figure004]: {{site.baseurl}}/news/images/FixelReColor1Ps/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
-  [Figure005]: {{site.baseurl}}/news/images/FixelReColor1Ps/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
-  [Figure006]: {{site.baseurl}}/news/images/FixelReColor1Ps/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
-  [Figure007]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
-  [Figure008]: {{site.baseurl}}/news/images/FixelReColor1Ps/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
-  [Figure009]: {{site.baseurl}}/news/images/FixelReColor1Ps/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
+  [Figure001]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
+  [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1Ps/SimpleLiving.png "Figure 002 - Real World Reference Image"
+  [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopColorSettings.png "Figure 003 - Photoshop Color Profile Settings"
+  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1Ps/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
+  [Figure005]: {{site.baseurl}}/news/images/FixelRecolor1Ps/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
+  [Figure006]: {{site.baseurl}}/news/images/FixelRecolor1Ps/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
+  [Figure007]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
+  [Figure008]: {{site.baseurl}}/news/images/FixelRecolor1Ps/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
+  [Figure009]: {{site.baseurl}}/news/images/FixelRecolor1Ps/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
