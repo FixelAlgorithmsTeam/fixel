@@ -1,5 +1,5 @@
 ---
-title: 'Fixel Recolor 1'
+title: 'Fixel Recolor'
 date: 	2018-12-22
 author: Fixel Algorithms
 layout: post
@@ -8,12 +8,12 @@ hidden: true
 ---
 ![Fixel Recolor Photoshop Plug In][01]
 
-# Fixel Recolor 1 Photoshop Plug In
+# Fixel Recolor Photoshop Plug In
 
 ## Background
 
 Engineering is all about defining a problem, supposedly interesting and solvable, and solve it.  
-At Fixel, each one of the team is also a Photography Enthusiastic.  
+At [Fixel][99], each one of the team is also a Photography Enthusiastic.  
 Hence each of has encountered the following situation - Looking at great image and thinking, "*How can I recreates this colors in my image?*".  
 Since we're also engineers, it seemed to us as a legitimate problem to define and try to solve.  
 
