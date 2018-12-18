@@ -55,7 +55,7 @@ Indeed we can. All needed is to adapt those algorithms and fine tune them into t
 Analyze a Reference Image, Extract a Color Palette from it, Apply the Color Palette in the Color Grading process of the Target Image.  
 What does it mean? Transfer Color Palette from any image which inspire you to any image you would like!
 
-## Fixel Recolor 1
+## Fixel Recolor
 
 So, ~4 years ago we started working on this problem - How to Extract a Color Palette from Reference Image and apply it on a Target Image.  
 We wanted a fully Automatic Process based on Machine Learning algorithms.  
@@ -183,9 +183,9 @@ Pay with the Opacity of the Gradient Map Adjustment Layer to set the correct int
 
 ## Summary
 
-[Fixel Recolor 1][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
+[Fixel Recolor][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
 Once the user (Be a Retoucher, Photographer or Designer) has such a functionality it can be used in many ways.  
-We tried making the UI of [Fixel Recolor 1][98] intuitive and supportive of any user workflow.  
+We tried making the UI of [Fixel Recolor][98] intuitive and supportive of any user workflow.  
 The UI allows the user to create presets of Color Palettes, Integrate Colors into Photoshop (Swatches) and most of all - Recolor / Color Grade / Style Transfer the image.  
 
 Give it a try and share the results with us.  
