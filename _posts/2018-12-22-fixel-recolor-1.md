@@ -186,9 +186,11 @@ Give it a try and share the results with us.
 We'd love to hear what you can do and what you think.
 
 ## Image Credit
- *  [Lighthouse Image](https://www.flickr.com/photos/magnetismus/8399258607/) - Credit to [magnetismus](https://www.flickr.com/people/magnetismus/).
- *  [Schwaigsee Lake](https://www.freeimages.com/photo/schwaigsee-lake-1342788) - Credit to [Alfred Borchard](https://www.freeimages.com/photographer/Alfi007-51075).
- *  [Simple Living](https://www.flickr.com/photos/lightsamples/22552453147) - Credit to [Malcolm Carlaw](https://www.flickr.com/photos/lightsamples/).
+ *	[Product Page - Artist Paint Brush and Palette](https://www.flickr.com/photos/30478819@N08/34870779781/) - Credit to [Marco Verch](https://www.flickr.com/photos/30478819@N08/).
+ *	[Product Page - Tangerine Sunset Hilltop](https://www.flickr.com/photos/lennykphotography/26573473081/) - [Credit to Lenny K Photography](https://www.flickr.com/photos/lennykphotography/).
+ *	[Product Page - Girl in the Snow](https://pixabay.com/en/cold-snow-nature-fashion-hands-1284411/) - Credit to [Pexels](https://pixabay.com/en/users/Pexels-2286921/).
+ *	[Product Page - The End Is Here](https://www.flickr.com/photos/15481483@N06/6282949189/) - Credit to [Missi](https://www.flickr.com/photos/15481483@N06/).
+ *  [Product Page - Woman](https://pixabay.com/en/girl-people-tenderness-woman-657753/) - Credit to [Babienochka](https://pixabay.com/en/users/Babienochka-818376/).
 
 
 ## Resources
