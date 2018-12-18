@@ -123,15 +123,15 @@ There is also the lower section which has the `Settings Menu`, `About Menu` (Ver
 As can be seen we tried to make the UI fully interactive. Each element can be altered and played with in order to drive creativity and freedom of choice. Just play with it, there are endless options to extract and interact with color palettes.
 
 
-### Tips & Tricks
+## Tips & Tricks
 
-[Number of Samples]  
+### Number of Samples
 
 The first instinct is to chose the highest number. we are all sold by higher and higher values.  
 Yet a good rule of thumb before setting the number of Color Samples to extract (JUsing Image Analysis) into the Color Palette would be asking yourself - *If I had painted this image, how many different colors, which I know their names, would have I used?*.  
 The emphasize here is on *colors I know their name*. This simple trick will get you much better results using [Fixel Recolor][98].
 
-[Grab from Internet - Windows]  
+### Grab from the Internet - Windows
 
 There is a nice feature added into [Fixel Recolor][98] once it is used in Windows. Actually it is Windows' feature but still it is nice to know about.  
 When the user sets the Mode (Source) to `File` and hit `Analyze` a File Picker Dialog is opened. This dialog window is the native File Picker of the operating system.  
@@ -147,7 +147,7 @@ So let us say you like an image on the Internet and you want to use it as the Re
 Once you do that the output Color Palette would be the result of the analysis of the image from the Internet.  
 It doesn't work on macOS as the File Picker in macOS doesn't support inserting HTTP addresses.
 
-[Editing and Shuffling Palettes / Colors]
+### Editing and Shuffling Palettes / Colors
 
 We worked hard on the UI. Our motto was - Interactive Creative UI.  
 It means that any the user can interact with any element of the UI - Palettes and Color Swatches.  
@@ -164,7 +164,7 @@ So let us notify you that the following can be done:
  3.	Color Context Menu  
  	Use Right Click on the Color Swatches. It will allow you to edit the color, save it to Photoshop's swatch or, god forbidden, delete it.
 	
-[Black / White Protection]
+### Black / White Protection
 
 In many images we have Black as the deepest shadow of the image and White as the brightest highlight. Moreover, usually we don't want to add a color shift to those.  
 This is why we added the `Black / White Protection`. What it basically does is protects the edges of the Luminosity values (Blacks / Whites) from having a color shift due to the Color Grading.  
