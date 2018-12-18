@@ -71,10 +71,44 @@ In order to explain what [Fixel Recolor][98] does, let us use a reference image:
 
 ![][Figure002]{:class="center-img"}
 
+In order to understand how the Color Palette Extraction phase work one needs to have a look how is the algorithm see it.  
+The algorithm sees each pixel as a point in 3D Space of RGB Colors.
+
 ![][Figure003]{:class="center-img"}
 
+As can be seen in Figure 003, each pixel of this 400 x 400 (160,000 Pixels) in the reference image is represented as point.  
+Now, what's the algorithm tries to do, using Machine Learning algorith, it understand the "Center of Mass" of different groups of colors where the *hint* of how many groups there are is given by the user.  
+In the reference image it is quite easy to think about it (Well, that's the reason it was chosen) and figure it out.  
+The algorithm tries to solve the same problem even in cases it is less intuitive to do but the idea is the same.
+
 ### User Interface (UI)
-[Show UI and Explain Buttons]
+
+The algorithm (Plug In) gets the number color samples in the Color Palette to extract from the user.  
+This can be done by a very simple Slider.  
+But the real job of the UI is to support many workflows of working with the Color Palette.  
+
+![][Figure004]{:class="center-img"}
+
+In order to do so the UI has basically 3 main sections:
+
+ *	Plug In Interaction Section  
+ 	In this section the user configures the parameter of the Plug In in its Color Palette Extraction task. There are 3 main UI elements in this section:
+	
+	*	Number of Colors Samples - Sets the number of colors in the color Palette to be extracted.  
+	*	Source (`Mode`) - The user can set the `Mode` (Source) which can be either the current Photoshop Document (Stamp Visible) or a File. 
+	*	Analyze - Runs the Plug In as configured. If `File` was chosen as source, the File Picker UI Dialog will be opened to chose the file fo analysis.
+ * 	Current Color Palette Section  
+ 	In this section the last extracted Color Palette is displayed (On first run it will show a Default Color Palette). The user can interact with it in 2 manners:
+	
+	*	Palette Context Menu (3 Dots on the right) - The menu of the Current Palette allows the user do the following:
+	
+		*	Apply color Grading - Create a `Gradient Map Adjustment Layer` to color grade the image according to the Color Palette colors.
+		*	Shift Colors - Randomize each color swatch in the Color Pallete using a subtle shift of the color in RGB Space. User can use that to create a variation of the Color Palette (Thoush a subtle variation).
+		*	Add All to Swatches - Saves all colors from the Color Palette to Photoshop's Color Swatches.
+		*	Black / White Protetcion - On / Off button which enables or disables the addition of Black & White at the edges of the Gradient Map during the Color Grading phase. This can assist keeping more natural Blacks / Whites in the target image.
+		*	Save as Preset - Save the Color Palette as a preset. the user will have a Text Box to choe the preset name.
+ *	Preset (Color Palettes) Section
+
 
 ### Tips & Tricks
 
@@ -122,6 +156,7 @@ So let us notify you that the following can be done:
 [Show animation of the whole process]
 
 ## Summary
+
 [Fixel Recolor 1 PS][98] introduces a new functionality which has never been available in Photoshop before - Automatic, Machine Learning Powered, analysis of image Color Palette.  
 Once the user (Be a Retoucher, Photographer or Designer) has such a functionality it can be used in many ways.  
 We tried making the UI of [Fixel Recolor 1 PS][98] intuitive and supportive of any user workflow.  
@@ -159,9 +194,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
   [Figure001]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
   [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Blog - Reference Image.png "Figure 002 - Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1/ReferenceImage3DColorsCube.png "Figure 003 - Reference Image 3D Colors Cube"
-  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/ColorProfileOutputValue.png "Figure 004 - Photoshop Color Profile - Pixel Values"
-  [Figure005]: {{site.baseurl}}/news/images/FixelRecolor1/GeneratingLightDarkMidCorrectColorSpace.png "Figure 005 - Luminosity Masks Light, Dark and Mid Under Correct Color Profile Settings"
-  [Figure006]: {{site.baseurl}}/news/images/FixelRecolor1/GeneratingLightDarkMidWrongColorSpace.png "Figure 006 - Luminosity Masks Light, Dark and Mid Under Wrong Color Profile Settings"
-  [Figure007]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopDotGainVsFixelLuminosityMaskAnimated.png "Figure 007 - Luminosity Masks - Photoshop (Color Profile - Dot Gain 20%) vs. Theory (Fixel)"
-  [Figure008]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopSGrayVsFixelLuminosityMaskAnimated.png "Figure 008 - Luminosity Masks - Photoshop (Color Profile - sGray) vs. Theory (Fixel)"
-  [Figure009]: {{site.baseurl}}/news/images/FixelRecolor1/FixelZoneSelectorParametersAnimated.png "Figure 009 - Luminosity Masks - Fixel Zone SelectorMask Generation Capabilities"
+  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/FixelRecolorUi.png "Figure 004 - Fixel Recolor User Interface (UI)"
+  
