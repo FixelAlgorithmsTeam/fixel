@@ -166,7 +166,9 @@ So let us notify you that the following can be done:
 	
 [Black / White Protection]
 
-gd
+In many images we have Black as the deepest shadow of the image and White as the brightest highkight. Moreover, usually we don't want to add a color shift to those. This is why we added the `Black / White Protection`. What it basically does is protects the edges of the Luminosity values (Blacks / Whites) from having a color shift due to the Color Grading.  
+What it basically does is add Black and White at the edges of the Gradient Map hence Black is mapped to Black and White is mapped to White which means they don't get any color shift.  
+Experiment with this ti get the best result in the user eyes.
 
 ## Real World Examples
 
