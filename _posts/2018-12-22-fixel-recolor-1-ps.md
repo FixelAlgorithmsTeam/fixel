@@ -81,6 +81,8 @@ Now, what's the algorithm tries to do, using Machine Learning algorith, it under
 In the reference image it is quite easy to think about it (Well, that's the reason it was chosen) and figure it out.  
 The algorithm tries to solve the same problem even in cases it is less intuitive to do but the idea is the same.
 
+By default, the color palette is formed with the colors sorted by their Luminosity Value from darkest to brightest.
+
 ### User Interface (UI)
 
 The algorithm (Plug In) gets the number color samples in the Color Palette to extract from the user.  
@@ -102,12 +104,23 @@ In order to do so the UI has basically 3 main sections:
 	
 	*	Palette Context Menu (3 Dots on the right) - The menu of the Current Palette allows the user do the following:
 	
-		*	Apply color Grading - Create a `Gradient Map Adjustment Layer` to color grade the image according to the Color Palette colors.
-		*	Shift Colors - Randomize each color swatch in the Color Pallete using a subtle shift of the color in RGB Space. User can use that to create a variation of the Color Palette (Thoush a subtle variation).
-		*	Add All to Swatches - Saves all colors from the Color Palette to Photoshop's Color Swatches.
-		*	Black / White Protetcion - On / Off button which enables or disables the addition of Black & White at the edges of the Gradient Map during the Color Grading phase. This can assist keeping more natural Blacks / Whites in the target image.
-		*	Save as Preset - Save the Color Palette as a preset. the user will have a Text Box to choe the preset name.
- *	Preset (Color Palettes) Section
+		*	`Apply Color Grading` - Create a `Gradient Map Adjustment Layer` to color grade the image according to the Color Palette colors.
+		*	`Shift Colors` - Randomize each color swatch in the Color Pallete using a subtle shift of the color in RGB Space. User can use that to create a variation of the Color Palette (Thoush a subtle variation).
+		*	`Add All to Swatches` - Saves all colors from the Color Palette to Photoshop's Color Swatches.
+		*	`Black / White Protetcion` - On / Off button which enables or disables the addition of Black & White at the edges of the Gradient Map during the Color Grading phase. This can assist keeping more natural Blacks / Whites in the target image.
+		*	`Save as Preset` - Save the Color Palette as a preset. the user will have a Text Box to choe the preset name.
+	*	Color Swatches Level - The user can interact with each color swatch by itself. The user may use Drag & Drop to reorder colors and even move colors beteen Color Palettes (Preset / Current). The The user can also `Right Click` it to open a Context Menu with the following options:
+		*	`Edit Color` - Opens an OS Native Color Picker Dialog Box fr the user to edit the color od the swatch.
+		*	`Shift Color` - Adds a random sublte shift to the color.
+		*	`Add to Swatches` - Adds the color to Photoshop's Color Swatches.
+		*	`Duplicate Color` - Duplicates the color within the current Color Palette. Useful in cases the user wants to add his own color within the palette.
+		*	`Delete Color` - Removes the color form the Color Palette.  
+ *	Preset (Color Palettes) Section  
+ 	In this section the user can do everything he can do with the `Current Pallete` with the additional options of duplicating the preset and renaming it. This is useful in cases the user want to create numerous varitions of a color palette or Mix & Match between different color palettes. Of course the user can also suer the Drag & Drop feature for each color swatch within a color palette or between color palettes.
+	
+There is also the lower section which has the `Settings Menu`, `About Menu` (Verison of the Plug In) and `Product Page` link.
+
+As can be seen we tried to make the UI fully interactive. Each element can be aletered and played with in order to drive creativity and freedom of choice. Just play with it, there are endless options to extract and interact with color palettes.
 
 
 ### Tips & Tricks
@@ -150,6 +163,10 @@ So let us notify you that the following can be done:
 	You may also Drag & Drop to reorder the presets you saved.
  3.	Color Context Menu  
  	Use Right Click on the Color Swatches. It will allow you to edit the color, save it to Photoshop's swatch or, god forbidden, delete it.
+	
+[Black / White Protection]
+
+gd
 
 ## Real World Examples
 
