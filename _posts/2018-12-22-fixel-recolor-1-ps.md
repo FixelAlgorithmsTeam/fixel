@@ -77,7 +77,7 @@ The algorithm sees each pixel as a point in 3D Space of RGB Colors.
 ![][Figure003]{:class="center-img"}
 
 As can be seen in Figure 003, each pixel of this 400 x 400 (160,000 Pixels) in the reference image is represented as point.  
-Now, what's the algorithm tries to do, using Machine Learning algorith, it understand the "Center of Mass" of different groups of colors where the *hint* of how many groups there are is given by the user.  
+Now, what's the algorithm tries to do, using Machine Learning algorithm, it understand the "Center of Mass" of different groups of colors where the *hint* of how many groups there are is given by the user.  
 In the reference image it is quite easy to think about it (Well, that's the reason it was chosen) and figure it out.  
 The algorithm tries to solve the same problem even in cases it is less intuitive to do but the idea is the same.
 
@@ -105,22 +105,22 @@ In order to do so the UI has basically 3 main sections:
 	*	Palette Context Menu (3 Dots on the right) - The menu of the Current Palette allows the user do the following:
 	
 		*	`Apply Color Grading` - Create a `Gradient Map Adjustment Layer` to color grade the image according to the Color Palette colors.
-		*	`Shift Colors` - Randomize each color swatch in the Color Pallete using a subtle shift of the color in RGB Space. User can use that to create a variation of the Color Palette (Thoush a subtle variation).
+		*	`Shift Colors` - Randomize each color swatch in the Color Palette using a subtle shift of the color in RGB Space. User can use that to create a variation of the Color Palette (Though a subtle variation).
 		*	`Add All to Swatches` - Saves all colors from the Color Palette to Photoshop's Color Swatches.
-		*	`Black / White Protetcion` - On / Off button which enables or disables the addition of Black & White at the edges of the Gradient Map during the Color Grading phase. This can assist keeping more natural Blacks / Whites in the target image.
-		*	`Save as Preset` - Save the Color Palette as a preset. the user will have a Text Box to choe the preset name.
-	*	Color Swatches Level - The user can interact with each color swatch by itself. The user may use Drag & Drop to reorder colors and even move colors beteen Color Palettes (Preset / Current). The The user can also `Right Click` it to open a Context Menu with the following options:
-		*	`Edit Color` - Opens an OS Native Color Picker Dialog Box fr the user to edit the color od the swatch.
-		*	`Shift Color` - Adds a random sublte shift to the color.
+		*	`Black / White Protection` - On / Off button which enables or disables the addition of Black & White at the edges of the Gradient Map during the Color Grading phase. This can assist keeping more natural Blacks / Whites in the target image.
+		*	`Save as Preset` - Save the Color Palette as a preset. the user will have a Text Box to chose the preset name.
+	*	Color Swatches Level - The user can interact with each color swatch by itself. The user may use Drag & Drop to reorder colors and even move colors between Color Palettes (Preset / Current). The The user can also `Right Click` it to open a Context Menu with the following options:
+		*	`Edit Color` - Opens an OS Native Color Picker Dialog Box fr the user to edit the color of the swatch.
+		*	`Shift Color` - Adds a random subtle shift to the color.
 		*	`Add to Swatches` - Adds the color to Photoshop's Color Swatches.
 		*	`Duplicate Color` - Duplicates the color within the current Color Palette. Useful in cases the user wants to add his own color within the palette.
 		*	`Delete Color` - Removes the color form the Color Palette.  
  *	Preset (Color Palettes) Section  
- 	In this section the user can do everything he can do with the `Current Pallete` with the additional options of duplicating the preset and renaming it. This is useful in cases the user want to create numerous varitions of a color palette or Mix & Match between different color palettes. Of course the user can also suer the Drag & Drop feature for each color swatch within a color palette or between color palettes.
+ 	In this section the user can do everything he can do with the `Current Palette` with the additional options of duplicating the preset and renaming it. This is useful in cases the user want to create numerous variations of a color palette or Mix & Match between different color palettes. Of course the user can also suer the Drag & Drop feature for each color swatch within a color palette or between color palettes.
 	
-There is also the lower section which has the `Settings Menu`, `About Menu` (Verison of the Plug In) and `Product Page` link.
+There is also the lower section which has the `Settings Menu`, `About Menu` (Version of the Plug In) and `Product Page` link.
 
-As can be seen we tried to make the UI fully interactive. Each element can be aletered and played with in order to drive creativity and freedom of choice. Just play with it, there are endless options to extract and interact with color palettes.
+As can be seen we tried to make the UI fully interactive. Each element can be altered and played with in order to drive creativity and freedom of choice. Just play with it, there are endless options to extract and interact with color palettes.
 
 
 ### Tips & Tricks
@@ -166,9 +166,10 @@ So let us notify you that the following can be done:
 	
 [Black / White Protection]
 
-In many images we have Black as the deepest shadow of the image and White as the brightest highkight. Moreover, usually we don't want to add a color shift to those. This is why we added the `Black / White Protection`. What it basically does is protects the edges of the Luminosity values (Blacks / Whites) from having a color shift due to the Color Grading.  
+In many images we have Black as the deepest shadow of the image and White as the brightest highlight. Moreover, usually we don't want to add a color shift to those.  
+This is why we added the `Black / White Protection`. What it basically does is protects the edges of the Luminosity values (Blacks / Whites) from having a color shift due to the Color Grading.  
 What it basically does is add Black and White at the edges of the Gradient Map hence Black is mapped to Black and White is mapped to White which means they don't get any color shift.  
-Experiment with this ti get the best result in the user eyes.
+The user experiment with this till the best result in the user eyes.
 
 ## Real World Examples
 
@@ -205,13 +206,10 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
 <!-- This is commented out -->
   [01]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Icon.png "Fixel Recolor Icon"
   [02]: https://twitter.com/CINEMAPALETTES "Cinema Palette"
-  [03]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
-  [04]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
-  [05]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
   [98]: https://fixelalgorithms.co/products/recolor/ "Fixel Recolor - Recoloring, Color Grading and Style Transfer for Photographers and Designers - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelRecolor1/PhotoshopGradientMap.png "Figure 001 - Photoshop Gradient Map Tool & Color Palette"
   [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Blog - Reference Image.png "Figure 002 - Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1/ReferenceImage3DColorsCube.png "Figure 003 - Reference Image 3D Colors Cube"
-  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/FixelRecolorUi.png "Figure 004 - Fixel Recolor User Interface (UI)"
+  [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor UI Product Page.png "Figure 004 - Fixel Recolor User Interface (UI)"
   
