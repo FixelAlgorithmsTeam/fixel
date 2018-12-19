@@ -173,13 +173,23 @@ The user experiment with this till the best result in the user eyes.
 
 
 ### Black & White Images
-Use [Fixel Recolor] to give Black & White images special color (Tinting) treatment.  
+Use [Fixel Recolor][98] to give Black & White images special color (Tinting) treatment.  
 It works like magic and results can be mush more impressive than Duotone.  
 Pay with the Opacity of the Gradient Map Adjustment Layer to set the correct intensity of the tinting.
 
 ## Real World Examples
 
-[Show animation of the whole process]
+We can write a lot more and we intend to do so (Mostly Tips & Tricks as the possibilities are endless).  
+But nothing is like some good real world examples.
+
+![][Figure005]{:class="center-img"}
+
+In Figure 005 we composed few real world examples of real world images (See Credit section).  
+On the left side you can see the Reference / Source image used to extract the Color Palette which can be seen at the bottom.  
+On the right side you can see the Target Image which will be Color Graded using the Color Palette. On the same side you will be able to see the Output Image which is the Color Graded Target Image.
+
+It is easy to see the Style / color Transfer in action in those examples (There are 8 examples in the animation).  
+We are sure you can do even much better than this!
 
 ## Summary
 
@@ -220,4 +230,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Recolor][98], [Color Grad
   [Figure002]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor Blog - Reference Image.png "Figure 002 - Reference Image"
   [Figure003]: {{site.baseurl}}/news/images/FixelRecolor1/ReferenceImage3DColorsCube.png "Figure 003 - Reference Image 3D Colors Cube"
   [Figure004]: {{site.baseurl}}/news/images/FixelRecolor1/Fixel Recolor UI Product Page.png "Figure 004 - Fixel Recolor User Interface (UI)"
+  [Figure005]: {{site.baseurl}}/news/images/FixelRecolor1/FixelRecolorShowCaseImageAnimated.png "Figure 005 - Fixel Recolor Show Case"
   
