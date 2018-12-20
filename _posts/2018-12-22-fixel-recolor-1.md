@@ -4,7 +4,7 @@ date: 	2018-12-22
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: false
 ---
 ![Fixel Recolor Photoshop Plug In][01]
 
