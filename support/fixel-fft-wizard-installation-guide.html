@@ -39,9 +39,14 @@ class: support
 							<ul>
 							<li><code>Fixel FFT Wizard &lt;MajorVerion&gt;.8bf</code> - Windows Photoshop Plug In.</li>
 							<li><code>Fixel FFT Wizard &lt;MajorVerion&gt;.plugin</code> - macOS Photoshop Plug In.</li>
-							<li><code>Fixel FFT Wizard - Installation Guide.url</code> - Link to Fixel FFT Wizard Installation Guide (This Page).</li>
+							<li><code>Fixel FFT Wizard - Installation Guide.url</code> - Link to Fixel FFT Wizard Installation Guide.</li>
 							<li><code>Fixel FFT Wizard - Introductory Blog Post.url</code> - Link to Fixel FFT Wizard Introductory Blog Post.</li>
 							<li><code>Fixel FFT Wizard - Product Page.url</code> - Link to Fixel FFT Wizard Product Page.</li>
+							<li><code>Fixel FFT Wizard Action.atn</code> - Fixel FFT Wizard Pattern Suppression Automated Photoshop Action (Curtsy of Jonas Madsen Rogne).</li>
+							<li><code>Fixel FFT Wizard Backward.jsx</code> - Fixel FFT Wizard Auxiliary Script - Backward Step - Photoshop Extend Script.</li>
+							<li><code>Fixel FFT Wizard Create Luminsoity Image.jsx</code> - Fixel FFT Wizard Auxiliary Script - Create Luminosity Image - Photoshop Extend Script.</li>
+							<li><code>Fixel FFT Wizard Forward.jsx</code> - Fixel FFT Wizard Auxiliary Script - Forward Step - Photoshop Extend Script.</li>
+							<li><code>Fixel FFT Wizard UI &lt;MajorVerion&gt;.jsx</code> - Fixel FFT Wizard UI - Photoshop ExtendScript.</li>
 							</ul>
 							</li>
 							</ul>
@@ -51,39 +56,18 @@ class: support
 				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/fftwizard/" target="_blank">Fixel Recolor</a> - Automatic & Manual Installation</h3>
 				<dl class="feature-text">
 					<div class="def">
-						<dt>Automatic Installation</dt>
+						<dt>Installation Procedure</dt>
 						<dd>
-						Automatic installation is done by:
-						<ol>
-						<li>Ensure Photoshop is closed.</li>
-						<li>Extract the ZIP file on the local hard drive.</li>
-						<li>Launch the installer:<ul>
-							<li>Windows - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code>.</li>
-							<li>macOS - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code>.</li>
-						</ul>
-						<li>Follow installer instructions.</li>
-						<li>Launch Photoshop and use the Plug In.</li>
-						</li>
-						</ol>
-						</dd>
-					</div>
-					<div class="def">
-						<dt>Manual Installation</dt>
-						<dd>
-							If the automatic installer fails for some reason one might use manually installation which is robust and fail proof if done correctly.
-							The assets for manual installation are in the <code>Manual Installation Assets</code> folder within the product ZIP file.
-							Fixel Recolor is composed on 2 main components: HTML5 UI Panel and Photoshop Plug In.
-							The installation steps are just about copying the 2 components into the respective folders (Depends on OS).
-							The installation must be done while Photoshop is closed.
+							The installation has 3 mains steps: Installing the Plug In, installing the UI and Auxiliary Extend Scripts and installing the Action.<br />
+							All following steps assume the use has closed Photoshop and extracted the ZIP file so each file is available.
 							
 							<br>
-							<b>Installing the HTML Panel:</b>
+							<b>Installing the UI:</b>
 							<ol>
-							<li>Ensure Photoshop is closed.</li>
-							<li>Extract the ZIP file on the local hard drive.</li>
-							<li>Copy the HTML5 UI Panel Folder <code>com.fixelalgorithms.fixelrecolor&lt;MajorVersion&gt;</code> from <code>Manual Installation Assets</code> to:<ul>
-								<li>Windows - <code>C:\Program Files\Common Files\Adobe\CEP\extensions\</code>.</li>
-								<li>macOS - <code>/Library/Application Support/Adobe/CEP/extensions/</code>.</li>
+							<li>Copy the HTML5 UI file <code>Fixel FFT Wizard UI &lt;MajorVerion&gt;.jsx</code> (For instance, for Fixel FFT Wizard 1 it will be <code>Fixel FFT Wizard UI 1.jsx</code>) to:<ul>
+								<li>Windows - <code>C:\Program Files\Adobe\Adobe Photoshop <Photoshop Version>\Presets\Scripts\Fixel Algorithms\</code>.</li>
+								<li>macOS - <code>/Application/Adobe Photoshop <Photoshop Version>/Presets/Scripts/Fixel Algorithms/</code>.</li>
+								If the <code>Fixel Algorithms/</code> folder doesn't exist, please create it. If you upgrade the version you might need to authorize overwrite on the existing files.
 							</ul>
 							</ol>
 							<br>
