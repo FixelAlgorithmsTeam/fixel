@@ -27,7 +27,7 @@ For instance, given an image at a given size, the Multi Scale approach suggests 
 Well, at least it is one way to look at it.  
 
 
-![Fixel Detailizer 2 Multi Scale][4]  
+![Fixel Detailizer 2 Multi Scale][4]{:class="center-img"}
 
 
 The approaches to implement Multi Scale Analysis are endless.  
@@ -50,6 +50,8 @@ Allows choosing whether to enhance details on Luminosity Channel (No effect of t
 Supporting images larger than 30,000 x 30,0000 rectangle.
  * Improved Performance  
 Improved and more efficient algorithm which is ~5-10% faster.
+
+![Fixel Detailizer 2 User Interface (UI)]({{site.baseurl}}/products/detailizer/images/detailizer.png "Fixel Detailizer 2 User Interface (UI)"){:class="center-img"}
 
 Some lesser known features of Fixel Detailizer are:
 
