@@ -2,10 +2,10 @@ name: Fixel Algorithms
 markdown: kramdown
 highlighter: rouge
 url: http://fixelalgorithms.co
-author: Davide Barranca
+author: Fixel Algorithms
 description: Image Processing Algorithms
 include: ['.htaccess']
-timezone: Italy
+timezone: America/New_York
 plugins:
     - jekyll-sitemap
     - jekyll-paginate
