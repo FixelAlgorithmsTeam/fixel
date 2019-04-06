@@ -298,7 +298,7 @@ Integrating all 3 filters yields:
 All the above is also available in a video:
 
 <!--See https://jekyllrb.com/docs/includes/ https://shopify.github.io/liquid/tags/control-flow/-->
-{% include youtube-embed.html id=tbUB7NWQtHw width=960 height=540 class="center-iframe" %}
+{% include youtube-embed.html id="tbUB7NWQtHw" width=960 height=540 class="center-iframe" %}
 
 <!--<iframe class="center-iframe" width="800" height="450" src="https://www.youtube.com/embed/tbUB7NWQtHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
