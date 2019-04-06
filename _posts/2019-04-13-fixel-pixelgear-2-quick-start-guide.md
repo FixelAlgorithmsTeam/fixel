@@ -302,6 +302,8 @@ All the above is also available in a video:
 
 <!--<iframe class="center-iframe" width="800" height="450" src="https://www.youtube.com/embed/tbUB7NWQtHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
+<iframe class="center-iframe" width="960" height="540" src="https://www.youtube.com/embed/tbUB7NWQtHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Resources
  *  [Fixel PixelGear 2 Installation Guide][03].
