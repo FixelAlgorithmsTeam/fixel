@@ -1,0 +1,161 @@
+---
+layout: base
+title: Fixel Recolor 1 - Installation Guide
+sidebar: false
+beforeafter: false
+class: support
+---
+
+
+<section class="container">
+	<div class="row">
+		<h1 class="home-title" style="margin-bottom:10px">Fixel Recolor - Installation Guide</h1>
+		<p class="product-subtitle text-center">How to Install Fixel Recolor</p>
+		<div class="mc-field-group text-center">
+			<label for="filter" class="sr-only">Search the FAQs</label>
+			<input id="filter" class="support-searchbox" placeholder="Keywords Search"/>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="home-product-badges" style="margin-top:20px; padding-top:10px;">
+		<div class="container">
+			<div class="row faq">
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> Product and File Structure</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>What Is <a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a>?</dt>
+						<dd>
+						<a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> is an innovative Photoshop Plug In which lets the user recolor (Color Grade) an image using a color palette. 
+						The <a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> Plug In can also analyze an image and extract its color palette.
+						Namely <a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> gives the user a full workflow to color grade an image.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>Product Download File Structure</dt>
+						<dd>
+							When a user downloads the product it downloads a ZIP file which contain the following structure:
+							<ul>
+							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt;.zip</code> - The ZIP File container.<ul>
+							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code> - Windows Installer.</li>
+							<li><code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code> - macOS Installer.</li>
+							<li><code>Fixel Recolor - Product Page & User Guide.url</code> - Link to Fixel Recolor Product Page (Contains User Guide).</li>
+							<li><code>Manual Installation Assets</code> - Folder with Manual Installation assets.<ul>
+							<li><code>Fixel Color Analyzer &lt;MajorVersion&gt;.8bf</code> - Windows Plug In.</li>
+							<li><code>Fixel Color Analyzer &lt;MajorVersion&gt;.plugin</code> - macOS Plug In.</li>
+							<li><code>com.fixelalgorithms.fixelrecolor&lt;MajorVersion&gt;</code> - HTML Panel Folder.</li>
+							<li><code>Fixel Recolor - Installation Guide.url</code> - Link for installation guide (This page).</li>
+							</ul>
+							</li>
+							</ul>
+							</li>
+							</ul>
+						</dd>
+					</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> - Automatic & Manual Installation</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>Automatic Installation</dt>
+						<dd>
+						Automatic installation is done by:
+						<ol>
+						<li>Ensure Photoshop is closed.</li>
+						<li>Extract the ZIP file on the local hard drive.</li>
+						<li>Launch the installer:<ul>
+							<li>Windows - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code>.</li>
+							<li>macOS - <code>Fixel Recolor &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code>.</li>
+						</ul>
+						<li>Follow installer instructions.</li>
+						<li>Launch Photoshop and use the Plug In.</li>
+						</li>
+						</ol>
+						</dd>
+					</div>
+					<div class="def">
+						<dt>Manual Installation</dt>
+						<dd>
+							If the automatic installer fails for some reason one might use manually installation which is robust and fail proof if done correctly.
+							The assets for manual installation are in the <code>Manual Installation Assets</code> folder within the product ZIP file.
+							Fixel Recolor is composed on 2 main components: HTML5 UI Panel and Photoshop Plug In.
+							The installation steps are just about copying the 2 components into the respective folders (Depends on OS).
+							The installation must be done while Photoshop is closed.
+							
+							<br>
+							<b>Installing the HTML Panel:</b>
+							<ol>
+							<li>Ensure Photoshop is closed.</li>
+							<li>Extract the ZIP file on the local hard drive.</li>
+							<li>Copy the HTML5 UI Panel Folder <code>com.fixelalgorithms.fixelrecolor&lt;MajorVersion&gt;</code> from <code>Manual Installation Assets</code> to:<ul>
+								<li>Windows - <code>C:\Program Files\Common Files\Adobe\CEP\extensions\</code>.</li>
+								<li>macOS - <code>/Library/Application Support/Adobe/CEP/extensions/</code>.</li>
+							</ul>
+							</ol>
+							<br>
+							<b>Installing the Photoshop Plug In:</b>
+							<ol>
+							<li>Ensure Photoshop is closed.</li>
+							<li>Extract the ZIP file on the local hard drive.</li>
+							<li>Copy the Plug In File (Windows - <code>Fixel Color Analyzer &lt;MajorVersion&gt;.8bf</code>, macOS - <code>Fixel Color Analyzer &lt;MajorVersion&gt;.plugin</code>) from <code>Manual Installation Assets</code> to:<ul>
+								<li>Windows - <code>C:\Program Files\Common Files\Adobe\Plug-ins\CC\Fixel Algorithms\</code>.</li>
+								<li>macOS - <code>/Library/Application Support/Adobe/Plug-ins/CC/Fixel Algorithms/</code>.</li>
+							</ul>
+							Create the folder <code>Fixel Algorithms</code> if it does not exist.
+							Copying might require Administrator Privileges.
+							</ol>
+							
+							Once done installing both, launch Adobe Photoshop and start using Fixel Recolor.
+						</dd>
+					</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/recolor/" target="_blank">Fixel Recolor</a> - Installation & First Use Frequently Asked Questions (FAQ)</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>How to Launch the Fixel Recolor UI?</dt>
+						<dd>
+						Launching the UI is done like launching any HTML Panel in Photoshop: <code>Window -> Extensions -> Fixel Recolor</code>.
+						
+						<br>
+						<br>
+						<figure>
+							<a href="images/FixelRecolorUiLaunch.png"><img src="images/FixelRecolorUiLaunch.png" alt="Launching Fixel Recolor UI" width="750" height="300" class="img-responsive img-center" style="margin-bottom: 25px; margin-bottom: 25px"></a>
+							<figcaption>How to Launch Fixel Recolor on Adobe Photoshop CC (All Versions)</figcaption>
+						</figure>
+						<br>
+						
+						If you can't find it there, it means the UI wasn't installed properly.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>What Is <code>Fixel Algorithms -> Fixel Color Analyzer x.x.xxx</code> Under the Filter Menu?</dt>
+						<dd>
+							As written above, Fixel Recolor use innovative algorithm to analyze an image and extracts its color palette.
+							The filter Fixel Color Analyzer in the Filter Menu is used by Fixel Recolor to apply the algorithm on the user image.
+							Since no such analysis is available in Photoshop we had to develop and implement the algorithm by ourselves.
+							It is good it is there as it means the Plug In installation is successful. Yet the user shouldn't use it directly (Only use it through th UI).
+						</dd>
+					</div>
+					<div class="def">
+						<dt>The macOS Installer Won't Run</dt>
+						<dd>
+							After double clicking the <code>dmg</code> file in the open window use <code>Right Click + Open</code> to launch the installer <code>pkg</code> installer.
+						</dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container margin-bottom-60">
+		<div class="row">
+			<div class="col-sm-6 support" id="contact-us">
+			</div>
+			<div class="col-sm-6 faq" style="padding-left:20px">
+				{% include mailchimp.html %}
+			</div>
+		</div>
+	</div>
+</section>

@@ -751,17 +751,18 @@ footer > .container {
 	background-position: -88px 0px;
 }
 
-.recolor-fourth:before { /* UNUSED */
+.recolor-fourth:before {
 	background-position: -132px 0px;
 }
 
-.recolor-fifth:before { /* UNUSED */
+.recolor-fifth:before {
 	background-position: -176px 0px;
 }
 
-.recolor-sixth:before { /* UNUSED */
+.recolor-sixth:before {
 	background-position: -220px 0px;
 }
+
 /* Documentation */
 
 .recolor-doc-sprite {
@@ -779,6 +780,58 @@ footer > .container {
 }
 
 .recolor-quickstart {
+	background-position: -200px 0;
+}
+
+/* ---- PixelGear ----*/
+
+/* Features */
+
+.feature-pixelgear:before {
+	background: url({{site.baseurl}}/products/pixelgear/images/FeaturesImage.png) no-repeat;
+}
+
+.pixelgear-first:before {
+	background-position: 0px 0px;
+}
+
+.pixelgear-second:before {
+	background-position: -44px 0px;
+}
+
+.pixelgear-third:before {
+	background-position: -88px 0px;
+}
+
+.pixelgear-fourth:before {
+	background-position: -132px 0px;
+}
+
+.pixelgear-fifth:before {
+	background-position: -176px 0px;
+}
+
+.pixelgear-sixth:before {
+	background-position: -220px 0px;
+}
+
+/* Documentation */
+
+.pixelgear-doc-sprite {
+	background: url({{site.baseurl}}/products/pixelgear/images/DocsImage.png) no-repeat;
+	width:100px;
+	height: 100px;
+}
+
+.pixelgear-first {
+	background-position: 0 0;
+}
+
+.pixelgear-second {
+	background-position: -100px 0;
+}
+
+.pixelgear-third {
 	background-position: -200px 0;
 }
 
