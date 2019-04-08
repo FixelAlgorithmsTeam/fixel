@@ -1,5 +1,12 @@
 # Fixel Algorithms Website
 
+## To Do List
+ *	Create a Sprite for General Uses:
+	*	Quick Start Guide / User Guide.
+	*	Installation Guide.
+	*	Blog Post.
+ *	ds
+
 
 ## Jekyll Resources
 
