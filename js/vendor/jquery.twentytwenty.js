@@ -46,7 +46,7 @@
           beforeImg.css("clip", "rect(0,"+offset.cw+","+offset.h+",0)");
     	}
         container.css("height", offset.h);
-		container.css("max-width", offset.w);
+		container.css("max-width", offset.w); // See https://github.com/zurb/twentytwenty/issues/50
       };
 
       var adjustSlider = function(pct) {
