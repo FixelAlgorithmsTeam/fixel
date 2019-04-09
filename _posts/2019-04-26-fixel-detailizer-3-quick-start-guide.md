@@ -34,13 +34,21 @@ From now own it is assumed [Fixel Detailizer 3][98] is properly installed as giv
 In order to launch the panel the user should:
 
  *	Open Photoshop.
- *	In Photoshop menu click on `Window -> Extensions -> Fixel PixelGear`.
+ *	In Photoshop menu click on `Window -> Extensions -> Fixel Detailizer 3`.
 
-Once done, the PixelGear 2 UI will present itself:
+Once done, the Detailizer 3 UI will present itself:
 
 ![][Figure002]{:class="center-img"}
 
-As can be seen above, the Panel is composed of 3 Tabs for 3 Filters.  
+As can be seen above, the Panel is composed of 3 main sections:
+ *	Plug In Parameters
+ 	*	5 Bands Detail Boosing Sliders.
+	*	Intensity Slider.
+	*	Lumionsity Mode.
+ *	Operatio
+ *	Home Page, Settings, Quick Start Guide and About Screen Link Buttons.
+
+
 By default the first Filter / Tab presented in PixelGear 2 panel is SkinGear. If you want to use EdgeGear or ToneGear, simply click them at the bottom of the panel.
 
 ### The UI Components
@@ -48,7 +56,6 @@ By default the first Filter / Tab presented in PixelGear 2 panel is SkinGear. If
 To start the retouch process, you need first to create a selection of the skin areas.
 
 Click on the `Color Range` button to open the Color Range dialog box.
-
 
 
 ## Using Fixel Detailizer 3
