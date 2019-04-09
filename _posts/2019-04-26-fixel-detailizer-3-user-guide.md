@@ -91,7 +91,7 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 
 
 ## Summary
-[Fixel Detailizer 3][98] is a new generation of sharpeners. While [Fixel Detailizer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (High Pass Sharpening, Unsharp Mask, Smart sharpen) [Fixel Detailizer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel Detailizer 3][98] is a new generation of sharpeners. While [Fixel Detailizer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Detailizer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
 It is intuitive and easy to use yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
 We listened to the feedback of many of [Fixel Detailizer 2][02] users and used it to create this step forward.  
 
