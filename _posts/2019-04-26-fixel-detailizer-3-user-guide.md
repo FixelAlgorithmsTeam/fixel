@@ -29,8 +29,8 @@ Please follow the following steps:
  *	Verify *Adobe Photoshop* is not running.
  *	Unzip the `ZIP` file downloaded on purchase.
  *	Run the installer inside the `ZIP` file:
-	*	Windows - Double click `Fixel Detailizer 3 - Windows Installer.exe` installer and follow instruction.
-	*	macOS - Double click on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.
+	*	Windows - *Double Click* `Fixel Detailizer 3 - Windows Installer.exe` installer and follow instruction.
+	*	macOS - *Double Click* on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.
  *	Start *Adobe Photoshop* and launch the UI (See below).
 
 If any issues arise, please refer to [Fixel Detailizer 3 Installation Guide][03].
