@@ -515,6 +515,25 @@ footer > .container {
 	color: #f39434;
 }
 
+/* Common Documentation (Resources) Sprite */
+.common-doc-sprite {
+	background: url({{site.baseurl}}/images/DocSprite.png) no-repeat;
+	width:100px;
+	height: 100px;
+}
+
+.common-user-guide {
+	background-position: 0 0;
+}
+
+.common-installation-guide {
+	background-position: -100px 0;
+}
+
+.common-blog-post {
+	background-position: -200px 0;
+}
+
 /* ---- DETAILIZER ----*/
 
 /* Features */
