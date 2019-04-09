@@ -5,6 +5,8 @@
 	*	Quick Start Guide / User Guide.
 	*	Installation Guide.
 	*	Blog Post.
+	
+	Done - See `images/DocSprite.png`.
  *	ds
 
 
