@@ -89,9 +89,9 @@ In the above sample we used our “Beauty” preset.
 
 ### Tips & Tricks
 
-After applying the filter, you might find out that some areas, such as eyes, lips and hair, need to be excluded from the filter’s influence. In addition, some skin areas might need to be added to the effected areas.
+There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
 
-I
+ *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
 
 
 ## Summary
@@ -120,9 +120,9 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 001.png "Figure 001 - Fixel Detailizer 3 User Interface"
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 002.png "Figure 002 - Fixel Detailizer 3 User Interface Sections"
-  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 003.png "Figure 003 - Fixel Detailizer 3 User Interface (Settings Window)"
-  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
-  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
+  [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 003.png "Figure 003 - Fixel Detailizer 3 User Interface (Settings Window)"
+  [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
+  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide006.png "Figure 006 - PixelGear 2 Skin Selection (Marching Ants)"
   [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide007.png "Figure 007 - PixelGear 2 User Interface (UI) - Create Mask Button"
   
