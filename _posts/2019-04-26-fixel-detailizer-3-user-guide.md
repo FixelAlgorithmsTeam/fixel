@@ -67,7 +67,7 @@ fd
 ![][Figure002]{:class="center-img"}
 
 
-#### Settings Window Parameters
+### Settings Window Parameters
 
 | ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
 {:align="center" style="margin: 0px auto;"}
@@ -75,23 +75,19 @@ fd
 
 ## Using Fixel Detailizer 3
 
- *	Use `Smart Smooth` to soften the overall “feel” of the skin. Higher values mean softer skin. This slider should have the largest value of the first 4 sliders.
- *	Use `Preserve Skin` Features to threshold smoothing strength. Higher values means more original details are maintained. Lower values mean smoother skin.
- *	Use `Remove Skin Defects` to smooth small skin details.
- *	Use `Overall Restore` to control how much detail will be preserved. Higher values mean more details. Lower values mean less details.
- *	Use `Intensity` to control the impact of the filter. Higher values mean significant smoothing. Lower values mean milder influence.
+Using [Fixel Detailizer 3][98] should be straight forward as we kept the s
 
-Think of these sliders as if they were “layering” the face from large details to small texture details.
-For best results, keep values of the first 4 sliders in descending order. Namely `Smart Smooth` has the highest value, `Preserve Skin` is next, then `Remove Skin Defects` and the lowest value is `Overall Restore`.  
-The basic thumb rule is – the larger the gap between `Smart Smooth` and `Preserve Skin` the smoother the skin.
-
-In the above sample we used our “Beauty” preset.
+[Show same image with only change is the scale used]
 
 ### Tips & Tricks
 
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
 
  *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
+
+## Showcase
+
+[Show 2-3 images with Input / Output]
 
 
 ## Summary
