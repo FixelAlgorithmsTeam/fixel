@@ -52,20 +52,25 @@ Once done, the Detailizer 3 UI will present itself:
 
 As can be seen above, the Panel is composed of 3 main sections:
  *	Plug In Parameters
- 	*	5 Bands Detail Boosing Sliders.
+ 	*	5 Bands Detail Boosting Sliders.
 	*	Intensity Slider.
-	*	Lumionsity Mode.
- *	Operation
+	*	Luminosity Mode.
+ *	Panel State Elements - *Apply*, *Reset* and *Preview*.
  *	Home Page, Settings, Quick Start Guide and About Screen Link Buttons.
 
+gd
 
-By default the first Filter / Tab presented in PixelGear 2 panel is SkinGear. If you want to use EdgeGear or ToneGear, simply click them at the bottom of the panel.
-
-### The UI Components
+### Main Window UI Components
 
 fd
 
 ![][Figure002]{:class="center-img"}
+
+
+#### Settings Window Parameters
+
+| ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
+{:align="center" style="margin: 0px auto;"}
 
 
 ## Using Fixel Detailizer 3
@@ -115,9 +120,9 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 001.png "Figure 001 - Fixel Detailizer 3 User Interface"
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 002.png "Figure 002 - Fixel Detailizer 3 User Interface Sections"
-  [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide003.png "Figure 003 - PixelGear 2 User Interface (UI) - Color Range Button"
-  [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide004.png "Figure 004 - PixelGear 2 User Interface (UI) - Color Range Dialog Box"
-  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide005.png "Figure 005 - PixelGear 2 User Interface (UI) - Color Range Dialog Box"
+  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 003.png "Figure 003 - Fixel Detailizer 3 User Interface (Settings Window)"
+  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
+  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide006.png "Figure 006 - PixelGear 2 Skin Selection (Marching Ants)"
   [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide007.png "Figure 007 - PixelGear 2 User Interface (UI) - Create Mask Button"
   

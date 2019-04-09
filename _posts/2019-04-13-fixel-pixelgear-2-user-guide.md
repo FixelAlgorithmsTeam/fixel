@@ -1,5 +1,5 @@
 ---
-title: 'Fixel PixelGear 2 - Quick Start Guide'
+title: 'Fixel PixelGear 2 - User Guide'
 date: 	2019-04-13
 author: Fixel Algorithms
 layout: post
@@ -8,7 +8,7 @@ hidden: true
 ---
 ![Fixel PixelGear 2 Photoshop Plug In][01]
 
-# Fixel PixelGear 2 Photoshop Plug In
+# Fixel PixelGear 2 Photoshop Plug In - User Guide
 
 ## Background
 
