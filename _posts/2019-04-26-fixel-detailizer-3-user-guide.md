@@ -12,15 +12,19 @@ hidden: true
 
 ## Introduction
 
-Fixel collaborate with other teams in order to create the perfect products. Fixel main contribution is its unique algorithms.  
-Sometimes such collaboration comes to an end and a decision must be made about the joint product.  
-This is the case of [Fixel PixelGear 2][98] which used to be called [PSKiss PixelGear 2][02].  
-Since many users use this product daily, instead of archiving we decided to bring it back home.  
-We intend to continue develop it and make it better each generation.  
-Yet before that, we just picked it as it was (Wonderful!), fixed few bugs, optimized performance and renamed is - [**Fixel PixelGear 2**][98].
+[Fixel Detailizer 3][98] is the latest generation member of the [Fixel Detailizer][97] family.  
+This version adds the following features:
 
-[Fixel PixelGear 2][98] is all about Keep It Simple and Smart. It integrates a simple and intuitive workflow yet utilizes advanced algorithms.  
-This post is a redo of [PSKiss PixelGear 2 Quick Start Guide][02].
+ *	State of The Art Edge Preserving Engine  
+	The new engine is built on a global approach to image sharpening (As opposed to *Local Filters*) which reduce the artifacts and halos which are common in sharpening.  
+	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
+ *	HTML Based UI  
+	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
+	Unlike classic Plug In's [Fixel Detailizer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
+
+This user guide present [Fixel Detailizer 3][98] to the user.
+
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -109,10 +113,11 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 Logo.png "Fixel Detailizer 3 Icon"
+  [01]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 3 Icon"
   [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
   [02]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
-  [98]: https://fixelalgorithms.co/products/pixelgear/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
+  [97]: https://fixelalgorithms.co/products/detailizer/ "Fixel Detailizer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
+  [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 001.png "Figure 001 - Fixel Detailizer 3 User Interface"
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 002.png "Figure 002 - Fixel Detailizer 3 User Interface Sections"
