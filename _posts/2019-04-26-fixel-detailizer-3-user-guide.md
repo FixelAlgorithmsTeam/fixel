@@ -33,8 +33,10 @@ Please follow the following steps:
  *	Verify *Adobe Photoshop* is not running.
  *	Unzip the `ZIP` file downloaded on purchase.
  *	Run the installer inside the `ZIP` file:
-	*	Windows - *Double Click* `Fixel Detailizer 3 - Windows Installer.exe` installer and follow instruction.
-	*	macOS - *Double Click* on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.
+	*	Windows - *Double Click* `Fixel Detailizer 3 - Windows Installer.exe` installer and follow instruction.  
+		The user may be asked for *Administrator* privileges in order to install the Plug In.
+	*	macOS - *Double Click* on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.  
+		The user may be asked for *Administrator* privileges in order to install the Plug In.
  *	Start *Adobe Photoshop* and launch the UI (See below).
 
 If any issues arise, please refer to [Fixel Detailizer 3 Installation Guide][03].
@@ -65,6 +67,7 @@ This section elaborates on each UI Component.
 ![][Figure002]{:class="center-img"}
 
 As can be seen above, the Panel is composed of 3 main sections:
+
  *	Plug In Parameters
  
  	*	5 Bands Detail Boosting Sliders.
