@@ -69,6 +69,7 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 3 main sections:
 
  *	Plug In Parameters
+ 
  	*	5 Bands Detail Boosting Sliders.  
 		Each slider boost / enhance details of different scale (Size).  
 	*	Intensity Slider.  
@@ -77,9 +78,11 @@ As can be seen above, the Panel is composed of 3 main sections:
 		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
  *	Panel State Elements - *Apply*, *Reset* and *Preview*.  
 	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Reset* resets the slider into their default values. The *Preview* button toggles between seeing the input image and the output image.
- *	Home Page, Settings, Quick Start Guide and About Screen Link Buttons.
+ *	Home Page, Settings, User Guide and About Screen Link Buttons.  
+	Home Page opens a browser with the Fixel Website, Settings opens the Settings Window (See below) of the Plug In, User Guide open a web browser with this address and the About icon opens a window with the version string of the Plug In.
 
-fd
+The main feature of the Plug In is being able to boost details at different scales.  
+Hence the user, at most time, will interact with the 5 upper sliders to adjust the Plug In effect to taste.
 
 ### Settings Window Parameters
 
