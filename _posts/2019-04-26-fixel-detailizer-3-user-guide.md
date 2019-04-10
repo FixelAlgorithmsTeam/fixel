@@ -69,13 +69,17 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 3 main sections:
 
  *	Plug In Parameters
- 
- 	*	5 Bands Detail Boosting Sliders.
-	*	Intensity Slider.
-	*	Luminosity Mode.
- *	Panel State Elements - *Apply*, *Reset* and *Preview*.
+ 	*	5 Bands Detail Boosting Sliders.  
+		Each slider boost / enhance details of different scale (Size).  
+	*	Intensity Slider.  
+		Sets the overall intensity of the filter.
+	*	Luminosity Mode.  
+		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
+ *	Panel State Elements - *Apply*, *Reset* and *Preview*.  
+	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Reset* resets the slider into their default values. The *Preview* button toggles between seeing the input image and the output image.
  *	Home Page, Settings, Quick Start Guide and About Screen Link Buttons.
 
+fd
 
 ### Settings Window Parameters
 
