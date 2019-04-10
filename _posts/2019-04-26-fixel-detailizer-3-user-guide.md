@@ -22,7 +22,7 @@ This version adds the following features:
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
 	Unlike classic Plug In's [Fixel Detailizer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
 
-This user guide present [Fixel Detailizer 3][98] to the user.
+This user guide present [Fixel Detailizer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
 {% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
 
@@ -54,21 +54,24 @@ Once done, the Detailizer 3 UI will present itself:
 
 ![][Figure001]{:class="center-img"}
 
+The UI enable simple and intuitive operation of the sharpening process.  
+The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
+Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
+
+### Main Window UI Components
+
+This section elaborates on each UI Component.
+
+![][Figure002]{:class="center-img"}
+
 As can be seen above, the Panel is composed of 3 main sections:
  *	Plug In Parameters
+ 
  	*	5 Bands Detail Boosting Sliders.
 	*	Intensity Slider.
 	*	Luminosity Mode.
  *	Panel State Elements - *Apply*, *Reset* and *Preview*.
  *	Home Page, Settings, Quick Start Guide and About Screen Link Buttons.
-
-gd
-
-### Main Window UI Components
-
-fd
-
-![][Figure002]{:class="center-img"}
 
 
 ### Settings Window Parameters
@@ -115,7 +118,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
 <!-- This is commented out -->
   [01]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 3 Icon"
   [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
-  [02]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
+  [03]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
   [97]: https://fixelalgorithms.co/products/detailizer/ "Fixel Detailizer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
