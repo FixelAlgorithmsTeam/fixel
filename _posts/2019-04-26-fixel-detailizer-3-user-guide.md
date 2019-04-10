@@ -69,7 +69,6 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 3 main sections:
 
  *	Plug In Parameters
- 
  	*	5 Bands Detail Boosting Sliders.  
 		Each slider boost / enhance details of different scale (Size).  
 	*	Intensity Slider.  
@@ -86,8 +85,19 @@ Hence the user, at most time, will interact with the 5 upper sliders to adjust t
 
 ### Settings Window Parameters
 
+The settings window is controlling 2 main parameters of the behavior of the Plug In.
+
 | ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
 {:align="center" style="margin: 0px auto;"}
+
+As can be seen above, the parameters are:
+
+ *	Live Mode
+	*	`ON` (Default) - The output image is updated with each interaction with the main panel window.  
+		For instance, any movement of any slider of the different scales will run the Plug In and render the output.
+	*	`OFF` - The output image isn't updated automatically as above. In order to update the output image according to the Plug In's parameters one must click `Apply`.
+	*	`Auto` - For images which are less than `4MP` the Plug In will behave as it is in `ON` mode. For images larger than `4MP` it will behave as `OFF`.
+ *	Layer Mode
 
 
 ## Using Fixel Detailizer 3
