@@ -132,7 +132,7 @@ This section will focus on the ability of [Fixel Detailizer 3][98] (Basically th
 The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [Detailizer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
 
 
-![][Figure006]{:class="center-img" :srcset="{{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001@2x.png 2x"}
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001@2x.png 2x"}
 
 
 
