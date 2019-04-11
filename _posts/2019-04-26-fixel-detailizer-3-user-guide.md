@@ -131,10 +131,17 @@ The next time the user interacts with the panel it will start a new session.
 This section will focus on the ability of [Fixel Detailizer 3][98] (Basically the whole [Fixel Detailizer][97] family) to adjust different scales of details.  
 The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [Detailizer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
 
-
+<!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
 ![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001@2x.png 2x"}
 
+In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying sharpening on single scale: Small, MEdium Small, Medium, Medium Large, Large.  
+As can be seen, each scale has different effect on the image and targets different size of details.
+
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="500""}
+
+The above figure is another example how could one use different scales to enhance different features in the image.  
+As can be seen, even when pushed to extreme the Halos are almost non to exist.
 
 
 
