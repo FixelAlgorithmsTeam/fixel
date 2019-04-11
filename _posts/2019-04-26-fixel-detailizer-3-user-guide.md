@@ -107,7 +107,7 @@ The settings are saved in a user preference file and kept between Photoshop sess
 
 ## Using Fixel Detailizer 3
 
-This section describe how to use [Fixel Detailizer 3].
+This section describe how to use [Fixel Detailizer 3][98].
 
 ### Workflow
 
@@ -149,11 +149,13 @@ As can be seen, even when pushed to extreme the Halos are almost non to exist.
 The above image displays another style of images where the scales approach works really well.  
 The important advantage of [Fixel Detailizer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
 
-
-
-[Show same image with only change is the scale used]
-
 ### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
+
+As stated above, [Fixel Detailizer 3] can create much less artifacts than classic sharpeners.  
+This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
+
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
+![][Figure009]{: class="center-img" width="900" height="300""}
 
 ### Tips & Tricks
 
@@ -202,5 +204,6 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
   [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
-  [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage003.png "Figure 007 - Demonstration of Different Scales"
+  [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
+  [Figure009]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3USMCompare.png "Figure 009 - Detailizer vs USM (Halos Comparison)"
   
