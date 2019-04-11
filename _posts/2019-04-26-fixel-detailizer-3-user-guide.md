@@ -69,7 +69,7 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 3 main sections:
 
  *	Plug In Parameters
- 	*	5 Bands Detail Boosting Sliders.  
+	*	5 Bands Detail Boosting Sliders.  
 		Each slider boost / enhance details of different scale (Size).  
 	*	Intensity Slider.  
 		Sets the overall intensity of the filter.
@@ -98,6 +98,10 @@ As can be seen above, the parameters are:
 	*	`OFF` - The output image isn't updated automatically as above. In order to update the output image according to the Plug In's parameters one must click `Apply`.
 	*	`Auto` - For images which are less than `4MP` the Plug In will behave as it is in `ON` mode. For images larger than `4MP` it will behave as `OFF`.
  *	Layer Mode
+	*	`Active Layer` - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according o parameters.
+	*	`Stamp Visible` - The Plug In will create a new layer from the current view and will use it as input image.
+
+The settings are saved in a user preference file and kept between Photoshop sessions.
 
 
 ## Using Fixel Detailizer 3
