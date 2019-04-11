@@ -143,6 +143,12 @@ As can be seen, each scale has different effect on the image and targets differe
 The above figure is another example how could one use different scales to enhance different features in the image.  
 As can be seen, even when pushed to extreme the Halos are almost non to exist.
 
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
+![][Figure008]{: class="center-img" width="900" height="600""}
+
+The above image displays another style of images where the scales approach works really well.  
+The important advantage of [Fixel Detailizer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
+
 
 
 [Show same image with only change is the scale used]
@@ -196,4 +202,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
   [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
+  [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage003.png "Figure 007 - Demonstration of Different Scales"
   
