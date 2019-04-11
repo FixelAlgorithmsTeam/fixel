@@ -175,6 +175,10 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 
 ## Showcase
 
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
+![][Figure008]{: class="center-img" width="900" height="600""}
+{% include callout.html type="info" content=" `Small = 100`, `Medium Small = 35`, `Medium = 50`, `Medium Large = 95`, `Large = 50`, `Intensity Level = 75`, `Luminosity Mode = OFF`" %}
+
 [Show 2-3 images with Input / Output]
 
 
@@ -213,4 +217,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
   [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
   [Figure009]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3USMCompare.png "Figure 009 - Detailizer vs USM (Halos Comparison)"
+  [Figure010]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase001.png "Figure 010 - Showcase Image"
+  [Figure011]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase002.png "Figure 011 - Showcase Image"
+  [Figure012]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase003.png "Figure 012 - Showcase Image"
   
