@@ -12,7 +12,7 @@ hidden: true
 
 ## Introduction
 
-[Fixel Detailizer 3][98] is the latest generation member of the [Fixel Detailizer][97] family.  
+[Fixel Detailizer 3][98] is the 3rd generation of the [Fixel Detailizer][97] family.  
 This version adds the following features:
 
  *	State of The Art Edge Preserving Engine  
@@ -98,13 +98,32 @@ As can be seen above, the parameters are:
 	*	`OFF` - The output image isn't updated automatically as above. In order to update the output image according to the Plug In's parameters one must click `Apply`.
 	*	`Auto` - For images which are less than `4MP` the Plug In will behave as it is in `ON` mode. For images larger than `4MP` it will behave as `OFF`.
  *	Layer Mode
-	*	`Active Layer` - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according o parameters.
+	*	`Active Layer` (Default) - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according o parameters.
 	*	`Stamp Visible` - The Plug In will create a new layer from the current view and will use it as input image.
 
+The defaults should imitate behavior of a classic plug in's.  
 The settings are saved in a user preference file and kept between Photoshop sessions.
 
 
 ## Using Fixel Detailizer 3
+
+This section describe how to use [Fixel Detailizer 3].
+
+### Workflow
+
+[Fixel Detailizer 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
+The recommended usage of Plug In is as following:
+
+ *	Launch the Panel when it is needed.
+ *	Start interacting with its parameters (Move a slider).
+ *	Pan & Zoom In / Out to evaluate result.
+ *	Tweak parameters to adjust output to taste.
+ *	Use `Preview` switch to compare output to input.
+
+When done with the Plug In, continue working on Photoshop.  
+The next time the user interacts with the panel it will start from clean.
+
+### Effect of Parameters
 
 Using [Fixel Detailizer 3][98] should be straight forward as we kept the s
 
@@ -123,7 +142,7 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 
 ## Summary
 [Fixel Detailizer 3][98] is a new generation of sharpeners. While [Fixel Detailizer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Detailizer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
-It is intuitive and easy to use yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
+It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
 We listened to the feedback of many of [Fixel Detailizer 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
