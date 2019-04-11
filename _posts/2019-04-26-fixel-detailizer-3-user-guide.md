@@ -204,7 +204,7 @@ We hope you'll find it useful as well and hope to hear your feedback to get even
  *  [Fixel Detailizer 3 Product Page][98].
  *  [Fixel Detailizer 3 Installation Guide][03].
  *  [Fixel Detailizer 2 Product Page][02].
- *  [Davide Barranca's Video on *Dark and Light Halos*][04]([DoubleUSM Plug In][05]).
+ *  [Davide Barranca's Video on *Dark and Light Halos*][04] ([DoubleUSM Plug In][05]).
 
 Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Multi Scale][98], [Multi Frequency][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
