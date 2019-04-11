@@ -179,7 +179,13 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 ![][Figure010]{: class="center-img" width="900" height="600""}
 {% include callout.html type="info" content=" `Small = 100`, `Medium Small = 35`, `Medium = 50`, `Medium Large = 95`, `Large = 50`, `Intensity Level = 75`, `Luminosity Mode = OFF`" %}
 
-[Show 2-3 images with Input / Output]
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
+![][Figure011]{: class="center-img" width="900" height="600""}
+{% include callout.html type="info" content=" `Small = 100`, `Medium Small = 35`, `Medium = 50`, `Medium Large = 95`, `Large = 50`, `Intensity Level = 75`, `Luminosity Mode = OFF`" %}
+
+<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
+![][Figure012]{: class="center-img" width="900" height="600""}
+{% include callout.html type="info" content=" `Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
 
 
 ## Summary
