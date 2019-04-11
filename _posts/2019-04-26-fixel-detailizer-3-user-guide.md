@@ -134,6 +134,8 @@ The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can targe
 
 ![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001@2x.png 2x"}
 
+![][Figure007]{: class="center-img" width="900" height="500""}
+
 
 
 [Show same image with only change is the scale used]
@@ -186,5 +188,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
-  [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/PixelGearQuickStartGuide007.png "Figure 007 - PixelGear 2 User Interface (UI) - Create Mask Button"
+  [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
   
