@@ -121,7 +121,9 @@ The recommended usage of Plug In is as following:
  *	Use `Preview` switch to compare output to input.
 
 When done with the Plug In, continue working on Photoshop.  
-The next time the user interacts with the panel it will start from clean.
+The next time the user interacts with the panel it will start from clean.  
+
+{% include note.html content="Changing the layer or doing any destructive action (Anything beside Zooming, Panning, Changing Visibility or Opacity) while working with the Panel will cause it to start a new session." %}
 
 ### Effect of Parameters
 
@@ -134,6 +136,7 @@ Using [Fixel Detailizer 3][98] should be straight forward as we kept the s
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
 
  *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
+ *	Usually you can push small details boosting level to higher values without any issues.
 
 ## Showcase
 
