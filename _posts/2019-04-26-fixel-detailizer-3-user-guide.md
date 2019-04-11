@@ -157,6 +157,12 @@ This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure009]{: class="center-img" width="900" height="300""}
 
+The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel Detailizer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
+As could one see above, [Fixel Detailizer 3][98] yields much less artifacts and *Halos*.  
+For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effetc on the [Fixel Detailizer 3][98] image.  
+Looking at the drops all over the flower one could see both [dark and light Halos][04] on the USM image while no apparent *Halos* on [Fixel Detailizer 3][98] image.  
+Of course in the above case values were exaggerated to show the point. Though if someone is after *Pseudo HDR Look* one could see the effectiveness of [Fixel Detailizer 3][98] which creates more natural and artifact & Halos free image.
+
 ### Tips & Tricks
 
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
@@ -194,6 +200,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [01]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 3 Icon"
   [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
   [03]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
+  [04]: https://www.youtube.com/watch?v=G-sO5rKc2B0 "DoubleUSM 2 Video - Dark and Light Halos"
   [97]: https://fixelalgorithms.co/products/detailizer/ "Fixel Detailizer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
