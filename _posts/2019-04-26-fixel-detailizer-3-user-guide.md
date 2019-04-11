@@ -197,6 +197,8 @@ We listened to the feedback of many of [Fixel Detailizer 2][02] users and used i
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
+{% include important.html content="[Fixel Detailizer 3][98] & [Fixel Detailizer 2][02] have completely different sharpening engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel Detailizer 3][98] can get [Fixel Detailizer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+
 
 ## Resources
  *  [Fixel Detailizer 3 Product Page][98].
