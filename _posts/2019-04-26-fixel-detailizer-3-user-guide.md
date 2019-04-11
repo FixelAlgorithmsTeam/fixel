@@ -187,11 +187,10 @@ We hope you'll find it useful as well and hope to hear your feedback to get even
 
 
 ## Resources
- *  [Fixel PixelGear 2 Installation Guide][03].
- *  [PSKiss Blog Post - *Color and Retouch – Fast Solutions*](https://pskiss.com/color-and-retouch-fast-solutions-2/).
- *  [PSKiss Blog Post - *PSKiss PixelGear 2 – QuickStart Guide*](https://pskiss.com/retouch-pixelgear-2-quickstart-guide/).
- *  [PSKiss Blog Post - *PSKiss Pixel Gear Pro 1.5 – Free Tutorial*](http://pskiss.com/pskiss-pixel-gear-pro-free-tutorial/).  
-	Tutorial about the previous version of `PixelGear`. Yet everything is still valid.
+ *  [Fixel Detailizer 3 Product Page][98].
+ *  [Fixel Detailizer 3 Installation Guide][03].
+ *  [Fixel Detailizer 2 Product Page][02].
+ *  [Davide Barranca's Video on *Dark and Light Halos*][04]([DoubleUSM Plug In][05]).
 
 Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Multi Scale][98], [Multi Frequency][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
@@ -201,6 +200,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
   [03]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
   [04]: https://www.youtube.com/watch?v=G-sO5rKc2B0 "DoubleUSM 2 Video - Dark and Light Halos"
+  [05]: https://cc-extensions.com/products/doubleusm/ "DoubleUSM 2 Product Page"
   [97]: https://fixelalgorithms.co/products/detailizer/ "Fixel Detailizer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
