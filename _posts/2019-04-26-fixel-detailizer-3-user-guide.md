@@ -133,12 +133,17 @@ The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can targe
 
 [Show same image with only change is the scale used]
 
+### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
+
 ### Tips & Tricks
 
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
 
  *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
  *	Usually you can push small details boosting level to higher values without any issues.
+ *	Intense boosting of Large Details can be used for *Pseudo HDR* effect with much less halos and more natural result then using *HiRaHiAm Sharpening* (High Radius, High Amplitude in USM).
+ *	When using high values one might want to use `Luminosity Mode` set to `OFF` in order to prevent reduction in saturation. In most cases one should set `Luminosity Mode` to `OFF` for no color shift and faster execution.
+ 
 
 ## Showcase
 
