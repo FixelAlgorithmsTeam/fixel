@@ -188,5 +188,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
-  [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
+  [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
   
