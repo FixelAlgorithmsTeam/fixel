@@ -114,20 +114,22 @@ This section describe how to use [Fixel Detailizer 3].
 [Fixel Detailizer 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
 The recommended usage of Plug In is as following:
 
- *	Launch the Panel when it is needed.
- *	Start interacting with its parameters (Move a slider).
+ *	Start a new session by launching the Panel.
+ *	Interact and adjust its parameters (Move a slider).
  *	Pan & Zoom In / Out to evaluate result.
  *	Tweak parameters to adjust output to taste.
  *	Use `Preview` switch to compare output to input.
 
 When done with the Plug In, continue working on Photoshop.  
-The next time the user interacts with the panel it will start from clean.  
+The next time the user interacts with the panel it will start a new session.  
 
-{% include note.html content="Changing the layer or doing any destructive action (Anything beside Zooming, Panning, Changing Visibility or Opacity) while working with the Panel will cause it to start a new session." %}
+{% include note.html content="Changing the active layer or doing any destructive action (Anything but Zooming, Panning, Changing Visibility or Opacity) while working with the Panel will cause it to start a new session." %}
 
 ### Effect of Parameters
 
-Using [Fixel Detailizer 3][98] should be straight forward as we kept the s
+[Fixel Detailizer 3][98] has few parameters to adjust.  
+This section will focus on the ability of [Fixel Detailizer 3][98] (Basically the whole [Fixel Detailizer][97] family) to adjust different scales of details.  
+The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [Detailizer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
 
 [Show same image with only change is the scale used]
 
