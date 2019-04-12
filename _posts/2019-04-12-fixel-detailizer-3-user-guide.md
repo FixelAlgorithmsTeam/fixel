@@ -1,6 +1,6 @@
 ---
 title: 'Fixel Detailizer 3 - User Guide'
-date: 	2019-04-26
+date: 	2019-04-12
 author: Fixel Algorithms
 layout: post
 class:  news
