@@ -657,7 +657,7 @@ footer > .container {
 /* Features */
 
 .feature-detailizer:before {
-	background: url({{site.baseurl}}/products/detailizer/images/detailizer-features.png) no-repeat;
+	background: url({{site.baseurl}}/products/detailizer2/images/detailizer-features.png) no-repeat;
 }
 
 .detailizer-frequency:before {
@@ -679,7 +679,7 @@ footer > .container {
 /* Documentation */
 
 .detailizer-doc-sprite {
-	background: url({{site.baseurl}}/products/detailizer/images/detailizer-doc-sprite.png) no-repeat;
+	background: url({{site.baseurl}}/products/detailizer2/images/detailizer-doc-sprite.png) no-repeat;
 	width:100px;
 	height: 100px;
 }
