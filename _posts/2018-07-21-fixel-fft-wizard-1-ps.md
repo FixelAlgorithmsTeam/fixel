@@ -257,7 +257,7 @@ Try this...
  *  [RetouchPro - Developing Mac Photoshop 64 bit FFT / IFFT Plug In's](https://www.retouchpro.com/forum/tools/software/38446).
  *  [Lynda - Using an FFT Plug In to Remove Paper Texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
     Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
- *	[Smiley Man - Introducing Fixel FFT Wizard for Scanned Photos Restoration (Korean)[https://blog.naver.com/yhpqyey231/221409791395].  
+ *	[Smiley Man - Introducing Fixel FFT Wizard for Scanned Photos Restoration (Korean)][https://blog.naver.com/yhpqyey231/221409791395].  
  	[Translation into English](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fblog.naver.com%2Fyhpqyey231%2F221409791395).
 
 
