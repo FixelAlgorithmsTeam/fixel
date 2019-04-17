@@ -273,7 +273,7 @@ Try this...
 [comment]: # (http://fotographee.com/luminosity-masks-gradient/ See shortcuts for operations on Masks)
 [comment]: # (https://www.youtube.com/watch?v=XGe_YC5dIwI Gamma in Luminosity Masks)
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98], [DFT][98], [FFT Filter][98], [FFT Plug In][98], [DFT Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98], [DFT][98], [FFT Filter][98], [FFT Plug In][98], [DFT Filter][98], [Image Restoration][98], [Scanned Image Restoration][98], [FFT Image Restoration][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
