@@ -238,7 +238,7 @@ Try this...
 ## Resources
 
  *  [Use FFT To Reduce Texture](http://www.tipsquirrel.com/use-fft-to-reduce-texture/).
- *  [Youtube - Photoshop FFT Tutorial](Photoshop FFT Tutorial).
+ *  [Youtube - Photoshop FFT Tutorial](https://www.youtube.com/watch?v=vb4XFNC4MvU).
  *  [Youtube - Using FFT Filter for Photoshop to Remove Old Paper Texture](https://www.youtube.com/watch?v=SUqsm9_iCbQ).
  *  [Youtube - FFT Photoshop Action](https://www.youtube.com/watch?v=3jeOsgM5NMs).
  *  [Youtube - Using an FFT Filter to Remove Repeating Patterns](https://www.youtube.com/watch?v=yyox358zIRw&t=232s).
@@ -257,7 +257,7 @@ Try this...
  *  [RetouchPro - Developing Mac Photoshop 64 bit FFT / IFFT Plug In's](https://www.retouchpro.com/forum/tools/software/38446).
  *  [Lynda - Using an FFT Plug In to Remove Paper Texture](https://www.lynda.com/Photoshop-tutorials/Using-FFT-plugin-remove-paper-texture/373087/385421-4.html)  
     Behind a [Paywall](https://en.wikipedia.org/wiki/Paywall).
- *	[Smiley Man - Introducing Fixel FFT Wizard for Scanned Photos Restoration (Korean)][https://blog.naver.com/yhpqyey231/221409791395].  
+ *	[Smiley Man - Introducing Fixel FFT Wizard for Scanned Photos Restoration (Korean)](https://blog.naver.com/yhpqyey231/221409791395).  
  	[Translation into English](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fblog.naver.com%2Fyhpqyey231%2F221409791395).
 
 
