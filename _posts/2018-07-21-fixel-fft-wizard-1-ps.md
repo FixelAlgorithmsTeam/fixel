@@ -88,7 +88,7 @@ So we thought we could assist the community with a product which will be support
 ### Download
 
 You may [download Fixel FFT Wizard from our web store for free][06] (Pay as You Want). The user will be asked for email address in order to let him know about updates.  
-If the user only download it as a one time one could user Temporary Email address.
+If the user only download it as a one time one could use Temporary Email address.
 
 ### Installation
 
