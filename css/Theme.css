@@ -161,6 +161,8 @@ html {
 .image-container {
 	position: relative;
 	font-family: Arial;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .image-text-block {
@@ -171,8 +173,6 @@ html {
 	color: white;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-left: auto !important;
-	margin-right: auto !important;
 }
 
 /* --- By Royi --- */
