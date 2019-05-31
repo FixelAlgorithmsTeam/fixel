@@ -151,7 +151,7 @@ The important advantage of [Fixel Detailizer 3][98] in this context is the minim
 
 ### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
 
-As stated above, [Fixel Detailizer 3] can create much less artifacts than classic sharpeners.  
+As stated above, [Fixel Detailizer 3][98] can create much less artifacts than classic sharpeners.  
 This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
@@ -159,7 +159,7 @@ This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (
 
 The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel Detailizer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
 As could one see above, [Fixel Detailizer 3][98] yields much less artifacts and *Halos*.  
-For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effetc on the [Fixel Detailizer 3][98] image.  
+For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effect on the [Fixel Detailizer 3][98] image.  
 Looking at the drops all over the flower one could see both [dark and light Halos][04] on the USM image while no apparent *Halos* on [Fixel Detailizer 3][98] image.  
 Of course in the above case values were exaggerated to show the point. Though if someone is after *Pseudo HDR Look* one could see the effectiveness of [Fixel Detailizer 3][98] which creates more natural and artifact & Halos free image.
 
@@ -188,6 +188,17 @@ This section shows few images with *Before & After* animation. Under each image 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure012]{: class="center-img" width="900" height="600""}
 {% include callout.html type="info" content=" `Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
+
+### Users Showcase  
+This section displays images created by users of [Fixel Detailizer 3][98].
+
+<div class="container">
+  <img src="https://i.imgur.com/0s8kLb7.png" alt="Nature" style="width:100%;">
+  <div class="text-block">
+    <h3>Created with <span style="font-family:MammaGamma; color:rgb(239, 74, 74)">Fixel Algorithms</span></h3>
+    <p>Image: <a href="https://www.flickr.com/photos/151740882@N05/47029584231">Jane</a> by Mireille Lannoo</p>
+  </div>
+</div>
 
 
 ## Summary
