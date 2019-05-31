@@ -159,18 +159,20 @@ html {
 }
 
 .image-container {
-  position: relative;
-  font-family: Arial;
+	position: relative;
+	font-family: Arial;
 }
 
 .image-text-block {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: rgba(100, 100, 100, 0.5);
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: rgba(100, 100, 100, 0.5);
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 /* --- By Royi --- */
