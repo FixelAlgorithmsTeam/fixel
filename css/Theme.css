@@ -148,6 +148,22 @@ html {
 
 }
 
+/* --- See https://www.w3schools.com/code/tryit.asp?filename=G4L85QRDDNRK --- */
+.image-container {
+  position: relative;
+  font-family: Arial;
+}
+
+.image-text-block {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(100, 100, 100, 0.5);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* --- By Royi --- */
 
 /* ---- Things for keeping the footer down below ---- */
