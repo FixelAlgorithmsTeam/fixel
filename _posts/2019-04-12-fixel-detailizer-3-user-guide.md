@@ -192,7 +192,7 @@ This section shows few images with *Before & After* animation. Under each image 
 ### Users Showcase  
 This section displays images created by users of [Fixel Detailizer 3][98].
 
-{% include user-image.html style="width: 800px; height: 711px;" content="Credit: [Jane](https://www.flickr.com/photos/151740882@N05/47029584231) by by Mireille Lannoo" %}
+{% include image-user.html style="width: 800px; height: 711px;" content="Credit: [Jane](https://www.flickr.com/photos/151740882@N05/47029584231) by Mireille Lannoo" %}
 
 
 
