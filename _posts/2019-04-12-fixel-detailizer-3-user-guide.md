@@ -196,9 +196,14 @@ This section displays images created by users of [Fixel Detailizer 3][98].
   <img class="center-img" src="https://i.imgur.com/0s8kLb7.png" alt="Nature">
   <div class="image-text-block">
     <h3>Created with <span style="font-family:MammaGamma; color:rgb(239, 74, 74)">Fixel Algorithms</span></h3>
-    <p>Image: <a href="https://www.flickr.com/photos/151740882@N05/47029584231">Jane</a> by Mireille Lannoo</p>
+    <p>Credit: <a href="https://www.flickr.com/photos/151740882@N05/47029584231">Jane</a> by Mireille Lannoo</p>
   </div>
 </div>
+
+
+{% include user-image.html style="width: 800px; height: 711px;" content="Credit: [Jane ](https://www.flickr.com/photos/151740882@N05/47029584231) by by Mireille Lannoo" %}
+
+
 
 
 ## Summary
