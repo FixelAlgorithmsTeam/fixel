@@ -371,7 +371,7 @@ footer > .container {
 }
 
 .product-fixel-badge {
-	background: url("../images/products-fixel-sprite.jpg") no-repeat;
+	background: url("../images/ProductsSprite.png") no-repeat;
 	width: 150px;
 	height:200px;
 	display: inline-table;
@@ -399,8 +399,12 @@ footer > .container {
 	background-position: -750px 0;
 }
 
-.product-badge-newproduct {
+.product-badge-pixelgear {
 	background-position: -900px 0;
+}
+
+.product-badge-newproduct {
+	background-position: -1050px 0;
 }
 
 /* ---- SIDEBAR ----*/
