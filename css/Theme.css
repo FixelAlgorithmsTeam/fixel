@@ -956,7 +956,7 @@ footer > .container {
 /* Features */
 
 .feature-pixelgear:before {
-	background: url({{site.baseurl}}/products/pixelgear/images/FeaturesImage.png) no-repeat;
+	background: url({{site.baseurl}}/products/pixelgear2/images/FeaturesImage.png) no-repeat;
 }
 
 .pixelgear-first:before {
@@ -986,7 +986,7 @@ footer > .container {
 /* Documentation */
 
 .pixelgear-doc-sprite {
-	background: url({{site.baseurl}}/products/pixelgear/images/DocsImage.png) no-repeat;
+	background: url({{site.baseurl}}/products/pixelgear2/images/DocsImage.png) no-repeat;
 	width:100px;
 	height: 100px;
 }
