@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Commento - A Fast Privacy Focused Commenting Platform][001]
+![Commento - A Fast Privacy Focused Commenting Platform][001]{: width="900" height="600"}
 
 # New Comments System on Blog Posts - Commento
 
