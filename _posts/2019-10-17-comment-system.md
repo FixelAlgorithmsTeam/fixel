@@ -24,7 +24,7 @@ So if you have anything to tell us: A kind word, Feature request, We did somethi
 Key Words: [Fixel Algorithms][99], [Fixel][99], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
-<!-- This is commented out -->
+
   [001]: {{site.baseurl}}/news/images/CommentoLogo.svg "Commento Logo"
   [002]: https://commento.io/ "Commento"
   [099]: https://fixelalgorithms.co "Fixel Algorithms"
