@@ -4,7 +4,7 @@ date: 	2019-10-17
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: false
 ---
 ![Commento - A Fast Privacy Focused Commenting Platform][001]{: width="150" height="150"}
 
