@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel Detailizer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
+![Commento - A Fast Privacy Focused Commenting Platform][001]
 
 # New Comments System on Blog Posts - Commento
 
@@ -21,10 +21,10 @@ It doesn't track you (As our site doesn't as well), there are no ads, or any use
 
 So if you have anything to tell us: A kind word, Feature request, We did something wrong, we must do something else or your thought about the weather, please feel free...
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][099], [Fixel][099], [Photoshop][099], [Plug In][099], [Photoshop Plug In][099].
 
 
-
+<!-- This is commented out -->
   [001]: {{site.baseurl}}/news/images/CommentoLogo.svg "Commento Logo"
   [002]: https://commento.io/ "Commento"
   [099]: https://fixelalgorithms.co "Fixel Algorithms"
