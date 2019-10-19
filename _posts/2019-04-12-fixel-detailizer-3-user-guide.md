@@ -138,13 +138,13 @@ In the above figure one could 6 images where one is the *Original Image* and all
 As can be seen, each scale has different effect on the image and targets different size of details.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure007]{: class="center-img" width="900" height="500""}
+![][Figure007]{: class="center-img" width="900" height="500"}
 
 The above figure is another example how could one use different scales to enhance different features in the image.  
 As can be seen, even when pushed to extreme the Halos are almost non to exist.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure008]{: class="center-img" width="900" height="600""}
+![][Figure008]{: class="center-img" width="900" height="600"}
 
 The above image displays another style of images where the scales approach works really well.  
 The important advantage of [Fixel Detailizer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
@@ -155,7 +155,7 @@ As stated above, [Fixel Detailizer 3][98] can create much less artifacts than cl
 This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure009]{: class="center-img" width="900" height="300""}
+![][Figure009]{: class="center-img" width="900" height="300"}
 
 The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel Detailizer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
 As could one see above, [Fixel Detailizer 3][98] yields much less artifacts and *Halos*.  
@@ -178,15 +178,15 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 This section shows few images with *Before & After* animation. Under each image one could see the settings used to generate result.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure010]{: class="center-img" width="900" height="600""}
+![][Figure010]{: class="center-img" width="900" height="600"}
 {% include callout.html type="info" content=" `Small = 100`, `Medium Small = 35`, `Medium = 50`, `Medium Large = 95`, `Large = 50`, `Intensity Level = 75`, `Luminosity Mode = OFF`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure011]{: class="center-img" width="900" height="600""}
+![][Figure011]{: class="center-img" width="900" height="600"}
 {% include callout.html type="info" content=" `Small = 100`, `Medium Small = 250`, `Medium = 160`, `Medium Large = 40`, `Large = 130`, `Intensity Level = 50`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure012]{: class="center-img" width="900" height="600""}
+![][Figure012]{: class="center-img" width="900" height="600"}
 {% include callout.html type="info" content=" `Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
