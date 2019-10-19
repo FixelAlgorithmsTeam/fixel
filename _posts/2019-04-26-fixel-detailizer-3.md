@@ -135,7 +135,7 @@ Let's have a look on what will [Detailizer 3][98] do.
 
 No one crosses ot other side. Just like *Bilateral Filter*.
 
-![][Figure0011]{:class="center-img"}
+![][Figure011]{:class="center-img"}
 
 *Copy & Paste*: No surprise here. If no blurring the difference is none.
 
@@ -144,14 +144,14 @@ No one crosses ot other side. Just like *Bilateral Filter*.
 OK, when the Edge is perfect it does the right thing to do - Nothing. Just like the *Bilateral Filter*. So, why not take the *Bilateral Filter*?  
 Let's have a look on the real world case.
 
-![][Figure0013]{:class="center-img"}
+![][Figure013]{:class="center-img"}
 
 Here it is. Perfect! Not only we have no Halos it indeed do a real sharpening. The slope of edge get sharper, the contrast between all the flat area of both sides is increased.
 
 In Detailizer we created our own *Global Edge Preserving Smoothing Filter*. It allows us control the height of the Halo and its Roll Off.  
 So when we set to low height and no roll off we get the result above. To show you the nice balance, let's have a case where we give higher Halo but still no Roll Off.
 
-![][Figure0014]{:class="center-img"}
+![][Figure014]{:class="center-img"}
 
 Nice, isn't it? We increased the contrast between those 2 flat zones without the artifact of the *Roll Off* of the *Bilateral Filter* or the *Gaussian Filter*.  
 So we have made progress in the last 20 years, haven't we? This is exactly what we want. Slight overshoot but no *Roll Off*.  
