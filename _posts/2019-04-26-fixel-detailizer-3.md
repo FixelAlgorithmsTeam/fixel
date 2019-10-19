@@ -69,6 +69,8 @@ Blurring with *Gaussian Blur* creates smoothing of the edge. The extent of the s
 
 {% include note.html content="The `Radius` parameter in the *Gaussian Blur* in Photoshop is actually the Standard Deviation of the [*Gaussian Kernel*](https://en.wikipedia.org/wiki/Gaussian_blur) the filter uses." %}
 
+What about sharpening? Well there is an important intermediate step before the sharpening. It is the substation of the blurred image from the original image.
+
 ### Edge Preserving Blurring & Sharpening
 
 
@@ -111,4 +113,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0001.png "Figure 001 - Reference Image"
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
+  [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0003.png "Figure 003 - The Difference"
   
