@@ -55,20 +55,17 @@ We'll do the analysis using a simple generated image which emulates edge in imag
 
 ### Classic Blurring & Sharpening
 
+Before diving into the analysis we must refer you to a great (Funny!) video about sharpening made by our partner [Davide Barranca](https://cc-extensions.com/) - [Double USM 2 Panel for Adobe Photoshop](https://www.youtube.com/watch?v=G-sO5rKc2B0).  
+This video will explain some idea in a way only a video and Davide can. Really wort watching.
+
+
+
 ### Edge Preserving Blurring & Sharpening
 
 ![][Figure001]{:class="center-img"}
 
 ## Multi Scale Sharpening
 
-In order to launch the panel the user should:
-
- *	Open Photoshop.
- *	In Photoshop menu click on `Window -> Extensions -> Fixel PixelGear`.
-
-Once done, the PixelGear 2 UI will present itself:
-
-![][Figure002]{:class="center-img"}
 
 As can be seen above, the Panel is composed of 3 Tabs for 3 Filters.  
 By default the first Filter / Tab presented in PixelGear 2 panel is SkinGear. If you want to use EdgeGear or ToneGear, simply click them at the bottom of the panel.
@@ -89,6 +86,7 @@ We hope you'll find it useful as well and hope to hear your feedback to get even
 
 
 ## Resources
+ *  [Fixel Detailizer 3 Product Page][98].
  *  [Fixel Detailizer 3 Installation Guide][03].
  *  [Fixel Detailizer 3 User Guide][04].
 
@@ -102,5 +100,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [04]: {{site.baseurl}}/news/2019/04/fixel-detailizer-3-user-guide "Fixel Detailizer 3 User Guide"
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost001Referenceimage.png "Figure 001 - Reference Image"
+  [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost001.png "Figure 001 - Reference Image"
   
