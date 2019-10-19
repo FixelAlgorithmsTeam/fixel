@@ -84,7 +84,14 @@ Sharpening is all about multiplying this *Difference* by a factor and adding it 
 
 ![][Figure004]{:class="center-img"}
 
-fd
+When added to the image one could see those added bumps compared to the original image. Those bumps are exactly the Halos.  
+Say hello to Dark and Light Halos. The generating forces of the Unsharp Mask. You can actually see the effect of the Radius Parameter (Extent of the roll off of the Halo) and the Amplitude Parameter (The height of the Halo).  
+Some will find the effect to be positively contributing. In some cases indeed it is.  
+The problem is there is another parameter we don't control which plays a role here, the Edge itself.  The more contrast in the edge the more prominent the effect is.
+
+Real world edges are blurred to begin with (This is has to do with the [Sampling Theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem), but that's a story for another day).
+
+![][Figure005]{:class="center-img"}
 
 ### Edge Preserving Blurring & Sharpening
 
@@ -130,4 +137,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
   [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0003.png "Figure 003 - The Difference"
   [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0004.png "Figure 004 - The Sharpened Image"
+  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0005.png "Figure 004 - The Real World Sharpened Image"
   
