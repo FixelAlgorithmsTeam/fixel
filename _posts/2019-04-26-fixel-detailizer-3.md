@@ -97,6 +97,9 @@ In real world image the effect looks much less satisfactory. The reason is the r
 But in both cases we get values which reach outside of the boundary of the expected values. This is the concept of Halos. This is a property of all Sharpeners which are originated from classic blur filters (Called *Spatially Invariant Linear Filters*).  
 They just average data form both sides of an edge while conceptually we'd prefer to average pixels on the left with pixels similar to them, on the left and the same holds for the other side.
 
+What really bothers us about Halos is their *Roll Off*. The part were after the overshooting they get back to the local value. We would like the Roll Off not to happen.  
+Instead of roll off, we'd like small over shoot and slight increase of the values. So bright gets brighter and dark get darker.
+
 ### Edge Preserving Blurring & Sharpening
 
 So, we saw the problem with Gaussian Blur based filters. They all mix pixel values from both sides of the edge. So Image Processing researchers in the late 90's started thinking about solving this.  
@@ -128,6 +131,31 @@ Without getting into Math which will make everyone sad, being global let the fil
 
 Let's have a look on what will [Detailizer 3][98] do.
 
+![][Figure010]{:class="center-img"}
+
+No one crosses ot other side. Just like *Bilateral Filter*.
+
+![][Figure0011]{:class="center-img"}
+
+*Copy & Paste*: No surprise here. If no blurring the difference is none.
+
+![][Figure0012]{:class="center-img"}
+
+OK, when the Edge is perfect it does the right thing to do - Nothing. Just like the *Bilateral Filter*. So, why not take the *Bilateral Filter*?  
+Let's have a look on the real world case.
+
+![][Figure0013]{:class="center-img"}
+
+Here it is. Perfect! Not only we have no Halos it indeed do a real sharpening. The slope of edge get sharper, the contrast between all the flat area of both sides is increased.
+
+In Detailizer we created our own *Global Edge Preserving Smoothing Filter*. It allows us control the height of the Halo and its Roll Off.  
+So when we set to low height and no roll off we get the result above. To show you the nice balance, let's have a case where we give higher Halo but still no Roll Off.
+
+![][Figure0014]{:class="center-img"}
+
+Nice, isn't it? We increased the contrast between those 2 flat zones without the artifact of the *Roll Off* of the *Bilateral Filter* or the *Gaussian Filter*.  
+So we have made progress in the last 20 years, haven't we? This is exactly what we want. Slight overshoot but no *Roll Off*.  
+Since [Detailizer 3][98] works globally it "understands" those are flat zone on a side of an edge, so shrink the edge blurring and increase the local contrast.  
 
 ## Multi Scale Sharpening
 
