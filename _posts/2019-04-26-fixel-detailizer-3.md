@@ -139,7 +139,7 @@ No one crosses ot other side. Just like *Bilateral Filter*.
 
 *Copy & Paste*: No surprise here. If no blurring the difference is none.
 
-![][Figure0012]{:class="center-img"}
+![][Figure012]{:class="center-img"}
 
 OK, when the Edge is perfect it does the right thing to do - Nothing. Just like the *Bilateral Filter*. So, why not take the *Bilateral Filter*?  
 Let's have a look on the real world case.
