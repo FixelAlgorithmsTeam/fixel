@@ -206,4 +206,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure011]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0011.png "Figure 011 - The Difference - Fixel Detailizer 3"
   [Figure012]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0012.png "Figure 012 - The Sharpened Image - Fixel Detailizer 3"
   [Figure013]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0013.png "Figure 013 - The Real World Sharpened Image - Fixel Detailizer 3"
+  [Figure014]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0014.png "Figure 013 - The Real World Sharpened Image - Fixel Detailizer 3 - Higher Overshoot, No Roll Off"
   
