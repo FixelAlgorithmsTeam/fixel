@@ -93,8 +93,40 @@ Real world edges are blurred to begin with (This is has to do with the [Sampling
 
 ![][Figure005]{:class="center-img"}
 
+In real world image the effect looks much less satisfactory. The reason is the roll on isn't as sharp as in the example above. It seems the peak of the halo gets too late.  
+But in both cases we get values which reach outside of the boundary of the expected values. This is the concept of Halos. This is a property of all Sharpeners which are originated from classic blur filters (Called *Spatially Invariant Linear Filters*).  
+They just average data form both sides of an edge while conceptually we'd prefer to average pixels on the left with pixels similar to them, on the left and the same holds for the other side.
+
 ### Edge Preserving Blurring & Sharpening
 
+So, we saw the problem with Gaussian Blur based filters. They all mix pixel values from both sides of the edge. So Image Processing researchers in the late 90's started thinking about solving this.  
+In 1998 there was an article named - [Carlo Tomasi, Roberto Manduchi, Bilateral Filtering for Gray and Color Images](https://en.wikipedia.org/wiki/Bilateral_filter) (Roberto Manduchi was in the Interactive Media Group of Apple).  
+It is the source of the *Surface Blur* we have in Photoshop. Basically a local filter which doesn't blur across edges.  
+
+What happens if we use it on the same cases as above? Let's see.
+
+![][Figure006]{:class="center-img"}
+
+No blurring? Indeed. It didn't average pixels on both side and since each side is flat, nothing happened. Can you think what would have happened if we had some noise there?  
+The Bilateral Filter would do the perfect thing to do, average all pixels which are similar, don't mix with those who are not. Basically, this is what a good denoiser would have done.
+
+![][Figure007]{:class="center-img"}
+
+No surprise here. If no blurring the difference is none.
+
+![][Figure008]{:class="center-img"}
+
+It is like the *Bilateral Filter* understood the image is sharp to perfection and did nothing.
+
+![][Figure009]{:class="center-img"}
+
+In the real world case we can see that the *Bilateral Filter* kept the Halos in a lower level. This is what we want, sharpener with lower level of Halos!  
+Could we do better?
+
+It was 1998, so we certainly can do better. [Detailizer 3][98] uses a different concept. While those filters are *Local*, taking decisions based on a local, limited in size, area of pixels [Detailizer 3][98] looks on the image in a global manner.  
+Without getting into Math which will make everyone sad, being global let the filter spread bad things among all pixels. So it yields even lower level of Halos.
+
+Let's have a look on what will [Detailizer 3][98] do.
 
 
 ## Multi Scale Sharpening
@@ -137,5 +169,13 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
   [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0003.png "Figure 003 - The Difference"
   [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0004.png "Figure 004 - The Sharpened Image"
-  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0005.png "Figure 004 - The Real World Sharpened Image"
+  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0005.png "Figure 005 - The Real World Sharpened Image"
+  [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0006.png "Figure 006 - Blurring Effect - Bilateral Filter"
+  [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0007.png "Figure 007 - The Difference - Bilateral Filter"
+  [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0008.png "Figure 008 - The Sharpened Image - Bilateral Filter"
+  [Figure009]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0009.png "Figure 009 - The Real World Sharpened Image - Bilateral Filter"
+  [Figure010]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0010.png "Figure 010 - Blurring Effect - Fixel Detailizer 3"
+  [Figure011]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0011.png "Figure 011 - The Difference - Fixel Detailizer 3"
+  [Figure012]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0012.png "Figure 012 - The Sharpened Image - Fixel Detailizer 3"
+  [Figure013]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0013.png "Figure 013 - The Real World Sharpened Image - Fixel Detailizer 3"
   
