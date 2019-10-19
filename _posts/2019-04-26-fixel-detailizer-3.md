@@ -69,7 +69,22 @@ Blurring with *Gaussian Blur* creates smoothing of the edge. The extent of the s
 
 {% include note.html content="The `Radius` parameter in the *Gaussian Blur* in Photoshop is actually the Standard Deviation of the [*Gaussian Kernel*](https://en.wikipedia.org/wiki/Gaussian_blur) the filter uses." %}
 
-What about sharpening? Well there is an important intermediate step before the sharpening. It is the substation of the blurred image from the original image.
+What about sharpening? Well there is an important intermediate step before the sharpening. It is the subtraction of the blurred image from the original image.
+
+![][Figure003]{:class="center-img"}
+
+As can be seen, the difference (The Details layer as it is commonly named in the *Image Processing* world) has few properties:
+
+ *	Symmetric - It is symmetric to the left left and right in its extent.
+ *	Anti Symmetric - Its values are negative mirroring of each other.
+
+{% include note.html content="In the illustration above we added 50% Gray to the Difference in order to see it in the [0, 1] range. This is also what's Photohop's *High Pass Filter* does." %}
+
+Sharpening is all about multiplying this *Difference* by a factor and adding it back to the image.  
+
+![][Figure004]{:class="center-img"}
+
+fd
 
 ### Edge Preserving Blurring & Sharpening
 
@@ -114,4 +129,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0001.png "Figure 001 - Reference Image"
   [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
   [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0003.png "Figure 003 - The Difference"
+  [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0004.png "Figure 004 - The Sharpened Image"
   
