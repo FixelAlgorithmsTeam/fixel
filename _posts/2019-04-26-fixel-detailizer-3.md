@@ -58,11 +58,16 @@ We'll do the analysis using a simple generated image which emulates edge in imag
 Before diving into the analysis we must refer you to a great (Funny!) video about sharpening made by our partner [Davide Barranca](https://cc-extensions.com/) - [Double USM 2 Panel for Adobe Photoshop](https://www.youtube.com/watch?v=G-sO5rKc2B0).  
 This video will explain some idea in a way only a video and Davide can. Really wort watching.
 
+The sharpening procedure starts with blurring. When one says blurring in the context of Image Processing it usually means *Gaussian Blur*.  
+Indeed it holds in our case as well. Actually in Photoshop both *Unsharp Mask* and *High Pass Filter* are built upon *Gaussian Blur* blurring. Really!  
 
+Let's see how it works. So we said sharpening starts with blurring. So what happens when we blur?
+
+![][Figure002]{:class="center-img"}
 
 ### Edge Preserving Blurring & Sharpening
 
-![][Figure001]{:class="center-img"}
+
 
 ## Multi Scale Sharpening
 
@@ -101,4 +106,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost001.png "Figure 001 - Reference Image"
+  [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost002.png "Figure 002 - Blurring Effect"
   
