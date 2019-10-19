@@ -65,6 +65,10 @@ Let's see how it works. So we said sharpening starts with blurring. So what happ
 
 ![][Figure002]{:class="center-img"}
 
+Blurring with *Gaussian Blur* creates smoothing of the edge. The extent of the smoothing is the *Radius* parameter of the Gaussian Blur.
+
+{% include note.html content="The `Radius` parameter in the *Gaussian Blur* in Photoshop is actually the Standard Deviation of the [*Gaussian Kernel*](https://en.wikipedia.org/wiki/Gaussian_blur) the filter uses." %}
+
 ### Edge Preserving Blurring & Sharpening
 
 
@@ -106,5 +110,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0001.png "Figure 001 - Reference Image"
-  [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
+  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0002.png "Figure 002 - Blurring Effect"
   
