@@ -126,6 +126,8 @@ It is like the *Bilateral Filter* understood the image is sharp to perfection an
 In the real world case we can see that the *Bilateral Filter* kept the Halos in a lower level. This is what we want, sharpener with lower level of Halos!  
 Could we do better?
 
+{% include note.html content="Those with sharp eyes will notice some artifact just in the middle of the edge. This is called the *Gradient Reversal* artifact of the *Bilateral Filter*." %}
+
 It was 1998, so we certainly can do better. [Detailizer 3][98] uses a different concept. While those filters are *Local*, taking decisions based on a local, limited in size, area of pixels [Detailizer 3][98] looks on the image in a global manner.  
 Without getting into Math which will make everyone sad, being global let the filter spread bad things among all pixels. So it yields even lower level of Halos.
 
@@ -133,7 +135,9 @@ Let's have a look on what will [Detailizer 3][98] do.
 
 ![][Figure010]{:class="center-img"}
 
-No one crosses ot other side. Just like *Bilateral Filter*.
+No one crosses to other side. Just like *Bilateral Filter*.
+
+{% include note.html content="If you look closely you see the brighter pixels got a bit darker while darker pixels got a little brighter. Nice thing, due to global optimization, all got the same value. So no artifact." %}
 
 ![][Figure011]{:class="center-img"}
 
@@ -143,6 +147,8 @@ No one crosses ot other side. Just like *Bilateral Filter*.
 
 OK, when the Edge is perfect it does the right thing to do - Nothing. Just like the *Bilateral Filter*. So, why not take the *Bilateral Filter*?  
 Let's have a look on the real world case.
+
+{% include note.html content="Same as before. Bright got a little brighter and dark got a little darker. But all pixels with the same value. No artifact. Just higher contrast." %}
 
 ![][Figure013]{:class="center-img"}
 
@@ -156,6 +162,8 @@ So when we set to low height and no roll off we get the result above. To show yo
 Nice, isn't it? We increased the contrast between those 2 flat zones without the artifact of the *Roll Off* of the *Bilateral Filter* or the *Gaussian Filter*.  
 So we have made progress in the last 20 years, haven't we? This is exactly what we want. Slight overshoot but no *Roll Off*.  
 Since [Detailizer 3][98] works globally it "understands" those are flat zone on a side of an edge, so shrink the edge blurring and increase the local contrast.  
+
+We have accomplished what we asked for sharpening!
 
 ## Multi Scale Sharpening
 
