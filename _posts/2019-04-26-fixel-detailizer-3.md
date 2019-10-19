@@ -155,7 +155,9 @@ Let's have a look on the real world case.
 Here it is. Perfect! Not only we have no Halos it indeed do a real sharpening. The slope of edge get sharper, the contrast between all the flat area of both sides is increased.
 
 In Detailizer we created our own *Global Edge Preserving Smoothing Filter*. It allows us control the height of the Halo and its Roll Off.  
-So when we set to low height and no roll off we get the result above. To show you the nice balance, let's have a case where we give higher Halo but still no Roll Off.
+So when we set to low height and no roll off we get the result above. To show you the nice balance, let's have a case where we give higher Halo but still no *Roll Off*.
+
+{% include note.html content="Remember the *Gradient Reversal* of the *Bilateral Filter*? Gone!" %}
 
 ![][Figure014]{:class="center-img"}
 
