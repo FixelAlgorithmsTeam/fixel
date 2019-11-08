@@ -6,6 +6,9 @@ layout: post
 class:  news
 ---
 ![Fixel Detailizer 2][1]
+{% if layout.type != "post" %}
+We released [Fixel Detailizer 2.5 PS][2] and it is a great opportunity to tell its story.
+{% endif %}
 
 # Fixel Detailizer 2.5 PS
 

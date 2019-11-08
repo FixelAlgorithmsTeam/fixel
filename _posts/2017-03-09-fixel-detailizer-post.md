@@ -6,8 +6,12 @@ layout: post
 class:  news
 ---
 ![Fixel Detailizer Presentation][1]
+{% if layout.type != "post" %}
+Reposted with permission from [FloMC - Discover Fixel Detailizer 2.5](https://flosatat.wordpress.com/2017/03/05/discover-fixel-detailizer-2-5/).  
+Fixel Algorithms develops a good deal of Photoshop plugins. In the following weeks, I am deep diving into some of them, starting with the extremely useful and powerful Fixel Detailizer.
+{% endif %}
 
-Reposted with permission from [here](https://flosatat.wordpress.com/2017/03/05/discover-fixel-detailizer-2-5/)
+Reposted with permission from [FloMC - Discover Fixel Detailizer 2.5](https://flosatat.wordpress.com/2017/03/05/discover-fixel-detailizer-2-5/)
 
 # Discover Fixel Detailizer 2
 

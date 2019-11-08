@@ -6,6 +6,9 @@ layout: post
 class:  news
 ---
 ![Fixel EdgeHnacer Basics][1]
+{% if layout.type != "post" %}
+In this post we'll learn on the ideas behind [Fixel EdgeHancer][2] and what makes it different than other sharpening concepts.
+{% endif %}
 
 In this post we'll learn on the ideas behind [Fixel EdgeHancer][2] and what makes it different than other sharpening concepts.
 

@@ -7,6 +7,11 @@ class:  news
 hidden: false
 ---
 ![Luminosity Mask 001][1]
+{% if layout.type != "post" %}
+Everywhere you go you read about Luminosity Masks.  
+But how does it works? Not in the sense how to create it, but what really happens?  
+Well, let's try answering that and doing it deep (Hopefully interesting).
+{% endif %}
 
 Everywhere you go you read about Luminosity Masks.  
 I'm really surprised it doesn't have its own Wikipedia Page (Maybe we'll take care of that).  

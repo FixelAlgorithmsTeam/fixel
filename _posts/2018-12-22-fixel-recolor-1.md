@@ -7,6 +7,13 @@ class:  news
 hidden: false
 ---
 ![Fixel Recolor Photoshop Plug In][01]
+{% if layout.type != "post" %}
+Engineering is all about defining a problem, supposedly interesting and solvable, and solve it.  
+At [Fixel][99], each one of the team is also a Photography Enthusiastic.  
+Hence each of has encountered the following situation - Looking at great image and thinking, "*How can I recreates this colors in my image?*".  
+Since we're also engineers, it seemed to us as a legitimate problem to define and try to solve.  
+More than that, it is solvable and we call our solution [Fixel Recolor][98].
+{% endif %}
 
 # Fixel Recolor Photoshop Plug In
 

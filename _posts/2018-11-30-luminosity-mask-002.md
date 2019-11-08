@@ -7,6 +7,12 @@ class:  news
 hidden: false
 ---
 ![Luminosity Mask 002][1]
+{% if layout.type != "post" %}
+In our previous post [Luminosity Mask - How Does It (Really) Work?][3] we explained the theory behind Luminosity Mask.  
+In this post, as promised at the end of previous post, we will explore what happens behind Photoshop based Luminosity Mask generators.  
+We will see that utilizing Photoshop's engine to create Luminosity Masks in the methods used by most create some artifact we better avoid.  
+In order to show how to avoid them we'll suggest an idea and an implementation in the form of a Photoshop Plug In named - [Fixel Zone Selector][2].
+{% endif %}
 
 In our previous post [Luminosity Mask - How Does It (Really) Work?][3] we explained the theory behind Luminosity Mask.  
 The theory basically sums to the fact that Luminosity Mask is a remapping of values of a Graysacle image.

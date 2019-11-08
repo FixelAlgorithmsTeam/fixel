@@ -7,11 +7,15 @@ class:  news
 hidden: false
 ---
 ![Commento - A Fast Privacy Focused Commenting Platform][001]{: width="150" height="150"}
+{% if layout.type != "post" %}
+Well, so far the only way to interact with was using Email.  
+No more, we have integrated a new commenting system into our blog. 
+{% endif %}
 
 # New Comments System on Blog Posts - Commento
 
 Well, so far the only way to interact with was using Email.  
-No more, we have integrated new commenting system into our blog.  
+No more, we have integrated a new commenting system into our blog.  
 
 Since we, at [Fixel Algorithms][099] find privacy to be really important we integrated the [Commento Commenting System - A Fast Privacy Focused Commenting Platform][002].
 

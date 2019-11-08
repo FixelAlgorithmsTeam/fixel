@@ -7,6 +7,10 @@ class:  news
 hidden: false
 ---
 ![Fixel FFT Wizard Photoshop Plug In][01]
+{% if layout.type != "post" %}
+The [Fourier Transform][02] is one of the most powerful methods to analyze signals / data. It is widely used in the [Image Processing][03] world as on of the most used tool for any algorithms developer.  
+In this post we'll cover the intuiotive ideas behind it and how to use it for Image Restoration while avoiding the Math!
+{% endif %}
 
 ## Background
 
