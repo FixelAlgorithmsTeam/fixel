@@ -21,12 +21,12 @@ class: 			support
 <section>
 	<div class="home-product-badges" style="margin-top:20px; padding-top:10px;">
 		<div class="container">
-				<div class="col-sm-6 faq red-border-right">
-					<h3 class="faq-subtitle">Commercial</h3>
-					<dl class="feature-text">
-						<div class="def">
-							<dt>How do I buy?</dt>
-							<dd>You have 3 options:
+			<div class="col-sm-6 faq red-border-right">
+				<h3 class="faq-subtitle">Commercial</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>How do I buy?</dt>
+						<dd>You have 3 options:
 							<ul>
 								<li>Directly from the developers, who will &#9829 you, on this website (The red Buy buttons).</li>
 								<li>Through <a href="https://creative.adobe.com/addons/producers/2714" target="_blank">Adobe Add-ons</a> the official Adobe web based App Store for Photoshop, After Effects and Premiere from CC to CC2018 (The blue Buy buttons). CS6 relies on the Adobe Exchange panel.</li>
@@ -47,7 +47,7 @@ class: 			support
 						</div>
 						<div class="def">
 							<dt>Adobe Exchange is CC / CS6 only, I need CS5</dt>
-							 <dd>Some of our products support CS5 too (Sometimes with limited UI). <a href="mailto:fixel@fixelalgorithms.com" target="_blank">Contact Us</a> for details.</dd>
+							<dd>Some of our products support CS5 too (Sometimes with limited UI). <a href="mailto:fixel@fixelalgorithms.com" target="_blank">Contact Us</a> for details.</dd>
 						</div>
 						<div class="def">
 							<dt>Should I join your mailing list?</dt>
@@ -97,39 +97,40 @@ class: 			support
 						<div class="def">
 							<dt>I'm having some issues with Photoshop CS6 64 Bit on Windows (Plug In doesn't show in the Filter Menu / <code>libiomp5md.dll</code> file is missing), What's going on?</dt>
 							<dd>Adobe, in later versions of Photoshop, ships Photoshop with Intel OpenMP library we utilize for Multi Threaded code.<br>
-							Hence users of CS6 which uses our products which utilizes Intel OpenMP Library (<code>libiomp5md.dll</code>) should install <a href="https://software.intel.com/sites/default/files/managed/b2/f7/w_ccompxe_redist_msi_2015.6.285.zip" target="_blank">Intel® C++ 2015 Update 6 Compilers Redistributable Libraries</a>.<br>
-							Please contact us if you have farther issues.</dd>
+								Hence users of CS6 which uses our products which utilizes Intel OpenMP Library (<code>libiomp5md.dll</code>) should install <a href="https://software.intel.com/sites/default/files/managed/b2/f7/w_ccompxe_redist_msi_2015.6.285.zip" target="_blank">Intel® C++ 2015 Update 6 Compilers Redistributable Libraries</a>.<br>
+								Please contact us if you have farther issues.</dd>
+							</div>
+							<div class="def">
+								<dt>Photoshop CC on Windows states that <code>libiomp5md.dll</code> file is missing, what should I do?</dt>
+								<dd>Fixel utilizes <code>libiomp5md.dll</code> (Intel OpenMP Library) which ships within Photoshop. The <code>libiomp5md.dll</code> is utilized for Multi Threaded code.<br>
+									If you encounter any issues related to Intel OpenMP Library (<code>libiomp5md.dll</code>) you should install <a href="https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version" target="_blank">Intel® C++ and Fortran Compilers Redistributable Libraries</a>.<br>
+									Please contact us to be advised on the specific version to download.</dd>
+								</div>
+								<div class="def">
+									<dt>I'm using Adobe Photoshop CS6 on Windows / macOS and the UI alerts it can not find the Plug In, Now what?</dt>
+									<dd>Fixel utilizes <code>libiomp5md.dll</code> (Intel OpenMP Library) which Adobe uses only from Photoshop CC and above. The <code>libiomp5md.dll</code> is utilized for Multi Threaded code.<br>
+										In order to add it to Photoshop CS6 please follow our <a href="fixel-openmp-support.html" target="_blank">How to Install OpenMP Library for Adobe Photoshop CS6 Guide</a>.</dd>
+									</div>
+									<div class="def">
+										<dt>I'm still having issues, how do I get in touch with you?</dt>
+										<dd>Please find our email at the bottom left of this page. For more effective support, if you are having an issue, please provide Screen Cast (Video) / Screen Shot (Image) of what is happening.</dd>
+									</div>
+								</dl>
+							</div>
 						</div>
-						<div class="def">
-							<dt>Photoshop CC on Windows states that <code>libiomp5md.dll</code> file is missing, what should I do?</dt>
-							<dd>Fixel utilizes <code>libiomp5md.dll</code> (Intel OpenMP Library) which ships within Photoshop. The <code>libiomp5md.dll</code> is utilized for Multi Threaded code.<br>
-							If you encounter any issues related to Intel OpenMP Library (<code>libiomp5md.dll</code>) you should install <a href="https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version" target="_blank">Intel® C++ and Fortran Compilers Redistributable Libraries</a>.<br>
-							Please contact us to be advised on the specific version to download.</dd>
+					</div>
+					
+				</section>
+				
+				<section>
+					<div class="container margin-bottom-60">
+						<div class="row">
+							<div class="col-sm-6 support" id="contact-us">
+							</div>
+							<div class="col-sm-6 faq" style="padding-left:20px">
+								{% include mailchimp.html %}
+							</div>
 						</div>
-						<div class="def">
-							<dt>I'm using Adobe Photoshop CS6 on Windows / macOS and the UI alerts it can not find the Plug In, Now what?</dt>
-							<dd>Fixel utilizes <code>libiomp5md.dll</code> (Intel OpenMP Library) which Adobe uses only from Photoshop CC and above. The <code>libiomp5md.dll</code> is utilized for Multi Threaded code.<br>
-							In order to add it to Photoshop CS6 please follow our <a href="fixel-openmp-support.html" target="_blank">How to Install OpenMP Library for Adobe Photoshop CS6 Guide</a>.</dd>
-						</div>
-						<div class="def">
-							<dt>I'm still having issues, how do I get in touch with you?</dt>
-							<dd>Please find our email at the bottom left of this page. For more effective support, if you are having an issue, please provide Screen Cast (Video) / Screen Shot (Image) of what is happening.</dd>
-						</div>
-					</dl>
-				</div>
-		</div>
-	</div>
-
-</section>
-
-<section>
-	<div class="container margin-bottom-60">
-		<div class="row">
-			<div class="col-sm-6 support" id="contact-us">
-			</div>
-			<div class="col-sm-6 faq" style="padding-left:20px">
-				{% include mailchimp.html %}
-			</div>
-		</div>
-	</div>
-</section>
+					</div>
+				</section>
+				
