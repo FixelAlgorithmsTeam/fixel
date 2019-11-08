@@ -1,5 +1,5 @@
 ---
-title: 'Fixel Detailizer 3 - Multi Scale, Edge Preserving & Halos Free Sharpening'
+title: 	Fixel Detailizer 3 - Multi Scale, Edge Preserving & Halos Free Sharpening
 date: 	2019-11-08
 author: Fixel Algorithms
 layout: post
