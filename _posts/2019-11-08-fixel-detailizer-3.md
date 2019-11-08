@@ -12,7 +12,7 @@ hidden: false
 
 ## Introduction
 
-[Fixel Detailizer 3][98] is [Fixel][99]'s new generation of Multi Scale Details Enhancer.  
+Our newest product, [Fixel Detailizer 3][98] is [Fixel][99]'s new generation of Multi Scale Details Enhancer.  
 We're really proud in this one. Mainly because it was really challenging to create algorithms which both state of the art and fast enough for *Real Time* use.
 
 [Detalizer 3][98] main features are:
