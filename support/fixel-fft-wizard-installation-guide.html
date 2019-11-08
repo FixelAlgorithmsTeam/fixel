@@ -66,121 +66,122 @@ class: 			support
 							
 							<b>Installing the UI and Auxiliary Scripts:</b>
 							<ol>
-								<li>Copy the HTML5 UI file <code>Fixel FFT Wizard UI &lt;MajorVerion&gt;.jsx</code> (For instance, for Fixel FFT Wizard 1 it will be <code>Fixel FFT Wizard UI 1.jsx</code>) to:<ul>
-									<li>Windows - <code>C:\Program Files\Adobe\Adobe Photoshop <Photoshop Version>\Presets\Scripts\Fixel Algorithms\</code>.</li>
-										<li>macOS - <code>/Application/Adobe Photoshop <Photoshop Version>/Presets/Scripts/Fixel Algorithms/</code>.</li>
-										</ul>
-										<li>Copy the Auxiliary Scripts files: <code>Fixel FFT Wizard Backward.jsx</code>, <code>Fixel FFT Wizard Create Luminsoity Image.jsx</code> and <code>Fixel FFT Wizard Forward.jsx</code> to (Same folder as the UI):<ul>
-											<li>Windows - <code>C:\Program Files\Adobe\Adobe Photoshop <Photoshop Version>\Presets\Scripts\Fixel Algorithms\</code>.</li>
-												<li>macOS - <code>/Application/Adobe Photoshop <Photoshop Version>/Presets/Scripts/Fixel Algorithms/</code>.</li>
-												</ul>
-												Create the folder <code>Fixel Algorithms</code> if it does not exist.
-												Copying might require Administrator Privileges.
-												If you upgrade the version you might need to authorize overwrite on the existing files.
-											</ol>
-											
-											<br>
-											
-											<b>Installing the Photoshop Plug In:</b>
-											<ol>
-												<li>Copy the Plug In File (Windows - <code>Fixel FFT Wizrd &lt;MajorVersion&gt;.8bf</code>, macOS - <code>Fixel FFT Wizard &lt;MajorVersion&gt;.plugin</code>) to:<ul>
-													<li>Windows - <code>C:\Program Files\Common Files\Adobe\Plug-ins\CC\Fixel Algorithms\</code>.</li>
-													<li>macOS - <code>/Library/Application Support/Adobe/Plug-ins/CC/Fixel Algorithms/</code>.</li>
-												</ul>
-												Create the folder <code>Fixel Algorithms</code> if it does not exist.
-												Copying might require Administrator Privileges.
-												If you upgrade the version you might need to authorize overwrite on the existing files.
-											</ol>
-											
-											<b>Installing the Automated Pattern Suppression Photoshop Action:</b>
-											<ol>
-												<li>Launch Photoshop.</li>
-												<li>Open the <code>Window Menu</code> in Photoshop Choose <code>Actions</code> from the menu.</li>
-												<li>Click the Menu Icon.</li>
-												<li>Scroll Down to <code>Load Actions</code>.</li>
-												<li>Select <code>Fixel FFT Wizard Action.atn</code>.</li>
-												You may have a look at <a href="https://phlearn.com/how-to-install-photoshop-actions/" target="_blank">PHLEARN - How to Install Photoshop Actions</a> for visual guide. <br>
-												You may also have a look at <a href="https://helpx.adobe.com/photoshop/using/actions-actions-panel.html" target="_blank">About Actions and the Actions Panel</a> for more information.
-												
-												In most cases "Double Click" on <code>Fixel FFT Wizard Action.atn</code> will automatically install it.
-											</ol>
-											
-											<br>
-											<br>
-											
-											Once done installing both, launch Adobe Photoshop and start using Fixel Recolor.
-										</dd>
-									</div>
-								</dl>
-								<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/fftwizard/" target="_blank">Fixel FFT Wizard</a> - Launching UI & Automated Pattern Suppression Photoshop Action</h3>
-								<dl class="feature-text">
-									<div class="def">
-										<dt>Fixel FFT Wizrd UI</dt>
-										<dd>
-											The Plug In has basic UI to allow the user to apply the Forward FFT and Backward FFT actions. <br />
-											In order to launch the UI do as following:
-											
-											<ol>
-												<li>Open <code>Filter -> Fixel Algorithm -> Fixel FFT Wizard UI</code>.</li>
-												<li>Click on the <code>Forward FFT</code>. The UI will use the Plug In to build an image with the FFT in a new layer available to user.</li>
-												<li>Update the FFT (<code>Red Channel</code> - Magnitude) as you wish. Have a look at <a href="https://fixelalgorithms.co/news/2018/07/fixel-fft-wizard-1-ps/" target="_blank">Fixel FFT Wizard - Introductory Blog Post</a> for more information.</li>
-												<li>Open <code>Filter -> Fixel Algorithm -> Fixel FFT Wizard UI</code> and click on the <code>Backward FFT</code> to recompose the Luminosity of the image from the FFT according to the updated magnitude.</li>
-											</ol>
-											
-										</dd>
-										<dt>Fixel FFT Wizard Automated Pattern Suppression Photoshop Action</dt>
-										<dd>
-											An automated action for usage of Fixel FFT Wizard was created by <a href="http://www.rognemedia.no/" target="_blank">Jonas Madsen Rogne</a>. <br />
-											In order to launch it, do as following:
-											
-											<ol>
-												<li>Open the <code>Window Menu</code> in Photoshop Choose <code>Actions</code> from the menu.</li>
-												<li>Scroll Down to <code>Fixel FFT Wizard v1</code> set and expand it (Using the triangle on the left).</li>
-												<li>Inside the <code>Fixel FFT Wizard v1</code> set there are 3 actions for the 3 phases of the Pattern Suppression:</li>
-												
-												
-												You may have a look at <a href="http://ft.rognemedia.no/" target="_blank">Jonas Madsen Rogne - Pattern Suppressor</a> web page for more information about using this method.
-											</ol>
-											
-											
-										</dd>
-									</div>
-								</dl>
-								<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/fftwizard/" target="_blank">Fixel Fixel FFT Wizard</a> - Installation & First Use Frequently Asked Questions (FAQ)</h3>
-								<dl class="feature-text">
-									<div class="def">
-										<dt>How should I use the Auxiliary Scripts?</dt>
-										<dd>
-											You shouldn't. You should use Fixel FFT Wizard either by the UI or the automated action. The auxiliary scripts are solely to be used by the Action.
-										</dd>
-									</div>
-									<div class="def">
-										<dt>What Is <code>Fixel Algorithms -> Fixel FFT Wizard x.x.xxx</code> Under the Filter Menu?</dt>
-										<dd>
-											Fixel FFT wizard is a Plug In which is handled by the UI. The item <code>Fixel Algorithms -> Fixel FFT Wizard x.x.xxx</code> is 
-										</dd>
-									</div>
-									<div class="def">
-										<dt>The Action Won't Run</dt>
-										<dd>
-											Probably it means the Plug In / Auxiliary Scripts are not installed correctly. Please make sure you follow the instructions above.
-										</dd>
-									</div>
-								</dl>
-							</div>
-						</div>
+								<li>Copy the HTML5 UI file <code>Fixel FFT Wizard UI &lt;MajorVerion&gt;.jsx</code> (For instance, for Fixel FFT Wizard 1 it will be <code>Fixel FFT Wizard UI 1.jsx</code>) to: </li>
+								<ul>
+									<li>Windows - <code>C:\Program Files\Adobe\Adobe Photoshop &lt;Photoshop Version&gt;\Presets\Scripts\Fixel Algorithms\</code>.</li>
+									<li>macOS - <code>/Application/Adobe Photoshop &lt;Photoshop Version&gt;/Presets/Scripts/Fixel Algorithms/</code>.</li>
+								</ul>
+								<li>Copy the Auxiliary Scripts files: <code>Fixel FFT Wizard Backward.jsx</code>, <code>Fixel FFT Wizard Create Luminsoity Image.jsx</code> and <code>Fixel FFT Wizard Forward.jsx</code> to (Same folder as the UI):</li>
+								<ul>
+									<li>Windows - <code>C:\Program Files\Adobe\Adobe Photoshop &lt;Photoshop Version>\Presets\Scripts\Fixel Algorithms\</code>.</li>
+									<li>macOS - <code>/Application/Adobe Photoshop &lt;Photoshop Version&gt;/Presets/Scripts/Fixel Algorithms/</code>.</li>
+								</ul>
+								Create the folder <code>Fixel Algorithms</code> if it does not exist.
+								Copying might require Administrator Privileges.
+								If you upgrade the version you might need to authorize overwrite on the existing files.
+							</ol>
+							
+							<br>
+							
+							<b>Installing the Photoshop Plug In:</b>
+							<ol>
+								<li>Copy the Plug In File (Windows - <code>Fixel FFT Wizrd &lt;MajorVersion&gt;.8bf</code>, macOS - <code>Fixel FFT Wizard &lt;MajorVersion&gt;.plugin</code>) to:<ul>
+									<li>Windows - <code>C:\Program Files\Common Files\Adobe\Plug-ins\CC\Fixel Algorithms\</code>.</li>
+									<li>macOS - <code>/Library/Application Support/Adobe/Plug-ins/CC/Fixel Algorithms/</code>.</li>
+								</ul>
+								Create the folder <code>Fixel Algorithms</code> if it does not exist.
+								Copying might require Administrator Privileges.
+								If you upgrade the version you might need to authorize overwrite on the existing files.
+							</ol>
+							
+							<b>Installing the Automated Pattern Suppression Photoshop Action:</b>
+							<ol>
+								<li>Launch Photoshop.</li>
+								<li>Open the <code>Window Menu</code> in Photoshop Choose <code>Actions</code> from the menu.</li>
+								<li>Click the Menu Icon.</li>
+								<li>Scroll Down to <code>Load Actions</code>.</li>
+								<li>Select <code>Fixel FFT Wizard Action.atn</code>.</li>
+								You may have a look at <a href="https://phlearn.com/how-to-install-photoshop-actions/" target="_blank">PHLEARN - How to Install Photoshop Actions</a> for visual guide. <br>
+								You may also have a look at <a href="https://helpx.adobe.com/photoshop/using/actions-actions-panel.html" target="_blank">About Actions and the Actions Panel</a> for more information.
+								
+								In most cases "Double Click" on <code>Fixel FFT Wizard Action.atn</code> will automatically install it.
+							</ol>
+							
+							<br>
+							<br>
+							
+							Once done installing both, launch Adobe Photoshop and start using Fixel Recolor.
+						</dd>
 					</div>
-				</section>
-				
-				<section>
-					<div class="container margin-bottom-60">
-						<div class="row">
-							<div class="col-sm-6 support" id="contact-us">
-							</div>
-							<div class="col-sm-6 faq" style="padding-left:20px">
-								{% include mailchimp.html %}
-							</div>
-						</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/fftwizard/" target="_blank">Fixel FFT Wizard</a> - Launching UI & Automated Pattern Suppression Photoshop Action</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>Fixel FFT Wizrd UI</dt>
+						<dd>
+							The Plug In has basic UI to allow the user to apply the Forward FFT and Backward FFT actions. <br />
+							In order to launch the UI do as following:
+							
+							<ol>
+								<li>Open <code>Filter -> Fixel Algorithm -> Fixel FFT Wizard UI</code>.</li>
+								<li>Click on the <code>Forward FFT</code>. The UI will use the Plug In to build an image with the FFT in a new layer available to user.</li>
+								<li>Update the FFT (<code>Red Channel</code> - Magnitude) as you wish. Have a look at <a href="https://fixelalgorithms.co/news/2018/07/fixel-fft-wizard-1-ps/" target="_blank">Fixel FFT Wizard - Introductory Blog Post</a> for more information.</li>
+								<li>Open <code>Filter -> Fixel Algorithm -> Fixel FFT Wizard UI</code> and click on the <code>Backward FFT</code> to recompose the Luminosity of the image from the FFT according to the updated magnitude.</li>
+							</ol>
+							
+						</dd>
+						<dt>Fixel FFT Wizard Automated Pattern Suppression Photoshop Action</dt>
+						<dd>
+							An automated action for usage of Fixel FFT Wizard was created by <a href="http://www.rognemedia.no/" target="_blank">Jonas Madsen Rogne</a>. <br />
+							In order to launch it, do as following:
+							
+							<ol>
+								<li>Open the <code>Window Menu</code> in Photoshop Choose <code>Actions</code> from the menu.</li>
+								<li>Scroll Down to <code>Fixel FFT Wizard v1</code> set and expand it (Using the triangle on the left).</li>
+								<li>Inside the <code>Fixel FFT Wizard v1</code> set there are 3 actions for the 3 phases of the Pattern Suppression:</li>
+								
+								
+								You may have a look at <a href="http://ft.rognemedia.no/" target="_blank">Jonas Madsen Rogne - Pattern Suppressor</a> web page for more information about using this method.
+							</ol>
+							
+							
+						</dd>
 					</div>
-				</section>
-				
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/fftwizard/" target="_blank">Fixel Fixel FFT Wizard</a> - Installation & First Use Frequently Asked Questions (FAQ)</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>How should I use the Auxiliary Scripts?</dt>
+						<dd>
+							You shouldn't. You should use Fixel FFT Wizard either by the UI or the automated action. The auxiliary scripts are solely to be used by the Action.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>What Is <code>Fixel Algorithms -> Fixel FFT Wizard x.x.xxx</code> Under the Filter Menu?</dt>
+						<dd>
+							Fixel FFT wizard is a Plug In which is handled by the UI. The item <code>Fixel Algorithms -> Fixel FFT Wizard x.x.xxx</code> is 
+						</dd>
+					</div>
+					<div class="def">
+						<dt>The Action Won't Run</dt>
+						<dd>
+							Probably it means the Plug In / Auxiliary Scripts are not installed correctly. Please make sure you follow the instructions above.
+						</dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container margin-bottom-60">
+		<div class="row">
+			<div class="col-sm-6 support" id="contact-us">
+			</div>
+			<div class="col-sm-6 faq" style="padding-left:20px">
+				{% include mailchimp.html %}
+			</div>
+		</div>
+	</div>
+</section>

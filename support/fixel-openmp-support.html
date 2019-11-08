@@ -1,102 +1,101 @@
 ---
-layout: 		base
-title: 			Fixel Algorithms OpenMP Support for Adobe Photoshop CS6
-sidebar: 		false
-beforeafter: 	false
-class: 			support
+layout: base
+title: Fixel Algorithms OpenMP Support for Adobe Photoshop CS6
+sidebar: false
+beforeafter: false
+class: support
 ---
 
 
 <section class="container">
-	<div class="row">
-		<h1 class="home-title" style="margin-bottom:10px">Fixel Algorithms OpenMP Support for Adobe Photoshop CS6</h1>
-		<p class="product-subtitle text-center">How to Install OpenMP Library for Adobe Photoshop CS6</p>
-		<div class="mc-field-group text-center">
-			<label for="filter" class="sr-only">Search the FAQs</label>
-			<input id="filter" class="support-searchbox" placeholder="Keywords Search"/>
-		</div>
-	</div>
+    <div class="row">
+        <h1 class="home-title" style="margin-bottom:10px">Fixel Algorithms OpenMP Support for Adobe Photoshop CS6</h1>
+        <p class="product-subtitle text-center">How to Install OpenMP Library for Adobe Photoshop CS6</p>
+        <div class="mc-field-group text-center">
+            <label for="filter" class="sr-only">Search the FAQs</label>
+            <input id="filter" class="support-searchbox" placeholder="Keywords Search" />
+        </div>
+    </div>
 </section>
 
 <section>
-	<div class="home-product-badges" style="margin-top:20px; padding-top:10px;">
-		<div class="container">
-			<div class="row faq">
-				<h3 class="faq-subtitle">What Is <a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> and Why Doesn't It Work on Adobe Photoshop CS6?</h3>
-				<dl class="feature-text">
-					<div class="def">
-						<dt>What Is OpenMP?</dt>
-						<dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in your CPU to make the algorithms run faster.</dd>
-					</div>
-					<div class="def">
-						<dt>Sounds Great, What's The Problem?</dt>
-						<dd>
-							Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
-							On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself.
-						</dd>
-					</div>
-					<div class="def">
-						<dt>What Is the Solution?</dt>
-						<dd>Well, to install Intel OpenMP Library. It's easy and we'll guide you through it.<br>
-							<strong>Remark:</strong> This guide is only for Adobe Photoshop CS6 users. If you use Adobe Photoshop CC and above you shouldn't follow it.</dd>
-						</div>
-						<div class="def">
-							<dt>How Do I Install Intel OpenMP Library?</dt>
-							<dd>Just follow the following instructions:</dd>
-							<ul>
-								<li><a href="files/IntelOpenMP1_0_000.zip" target="_blank">Download the ZIP file which contains Intel OpenMP</a>.</li>
-								<li>Extract the ZIP file which contains 3 files</li>
-								<ul>
-									<li><code class="highlighter-rouge">FixelOpenMPSupport.URL</code> - Link to this web page.</li>
-									<li><code class="highlighter-rouge">libiomp5.dylib</code> - OpenMP Libray for macOS.</li>
-									<li><code class="highlighter-rouge">libiomp5md.dll</code> - OpenMP Libray for Windows (64 Bit).</li>
-								</ul>
-								<li>Close Photoshop if it is open.</li>
-								<li><strong>Windows Users</strong> - Copy the <code class="highlighter-rouge">libiomp5md.dll</code> file into Photoshop CS6 installation folder (Where <code class="highlighter-rouge">Photoshop.exe</code> resides).<br>
-									Default installation folder is <code class="highlighter-rouge">C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)</code>.</li>
-									<li><strong>macOS Users</strong> - Copy the <code class="highlighter-rouge">libiomp5.dylib</code> file into <code class="highlighter-rouge">Frameworks</code> folder within Adobe Photoshop CS6.<br>
-										Default installation folder of Adobe Photoshop CS6 is <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6</code> hence copy the file into <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6/Contents/Frameworks</code>.<br>
-										You may need to <strong>Right Mouse Click</strong> and choose <strong>Show Contents</strong> in the context menu in order to navigate Finder inside the Adobe Photoshop Package.
-										
-										<br>
-										<br>
-										<figure>
-											<a href="images/Libiopenmp5MacOSPhotoshopCS6.png"><img src="images/Libiopenmp5MacOSPhotoshopCS6.png" alt="Installation Path of libiopenmp5.dylib on macOS, Adobe Photoshop CS6" width="786" height="538" class="img-responsive img-center" style="margin-bottom: 25px; margin-bottom: 25px"></a>
-											<figcaption>Path of <code class="highlighter-rouge">libiomp5md.dll</code> on macOS and Adobe Photoshop CS6</figcaption>
-										</figure>
-										<br>
-										<br>
-										
-									</li>
-									<li>Launch Adobe Photoshop CS6.</li>
-									<li>Run any Fixel Plug In on Adobe Photoshop CS6.</li>
-								</ul>
-							</div>
-							<div class="def">
-								<dt>It Didn't Work, What Should I do?</dt>
-								<dd>Please find our email at the bottom left of this page.<br>
-									For effective support please provide the following:</dd>
-									<ul>
-										<li>Specify your system configuration (OS, CPU, Photoshop Version, etc...).</li>
-										<li>Screen shot of the error you see when trying to work with Fixel's product.</li>
-										<li>Screen shot of the folder you installed the OpenMP file into (When seeing both the path and the file itself).</li>
-									</ul>
-								</div>
-							</dl>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<section>
-				<div class="container margin-bottom-60">
-					<div class="row">
-						<div class="col-sm-6 support" id="contact-us">
-						</div>
-						<div class="col-sm-6 faq" style="padding-left:20px">
-							{% include mailchimp.html %}
-						</div>
-					</div>
-				</div>
-			</section>
-			
+    <div class="home-product-badges" style="margin-top:20px; padding-top:10px;">
+        <div class="container">
+            <div class="row faq">
+                <h3 class="faq-subtitle">What Is <a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> and Why Doesn't It Work on Adobe Photoshop CS6?</h3>
+                <dl class="feature-text">
+                    <div class="def">
+                        <dt>What Is OpenMP?</dt>
+                        <dd><a href="https://en.wikipedia.org/wiki/OpenMP" target="_blank">OpenMP</a> is a library we utilize in order to take advantage of Multi Core CPU's. This means that we take advantage of each and every core in your CPU to make the algorithms run faster.</dd>
+                    </div>
+                    <div class="def">
+                        <dt>Sounds Great, What's The Problem?</dt>
+                        <dd>
+                            Well, in the Adobe Photoshop CS6 days Adobe didn't utilize the same OpenMP (By Intel) implementation we use (Though they started using it with Adobe Photoshop CC).
+                            On Adobe Photoshop CC and above we use the implementation built in to Photoshop. Yet, on Adobe Photoshop CS6 we need to supply the library by ourself.
+                        </dd>
+                    </div>
+                    <div class="def">
+                        <dt>What Is the Solution?</dt>
+                        <dd>Well, to install Intel OpenMP Library. It's easy and we'll guide you through it.<br>
+                            <strong>Remark:</strong> This guide is only for Adobe Photoshop CS6 users. If you use Adobe Photoshop CC and above you shouldn't follow it.</dd>
+                    </div>
+                    <div class="def">
+                        <dt>How Do I Install Intel OpenMP Library?</dt>
+                        <dd>Just follow the following instructions:</dd>
+                        <ul>
+                            <li><a href="files/IntelOpenMP1_0_000.zip" target="_blank">Download the ZIP file which contains Intel OpenMP</a>.</li>
+                            <li>Extract the ZIP file which contains 3 files</li>
+                            <ul>
+                                <li><code class="highlighter-rouge">FixelOpenMPSupport.URL</code> - Link to this web page.</li>
+                                <li><code class="highlighter-rouge">libiomp5.dylib</code> - OpenMP Libray for macOS.</li>
+                                <li><code class="highlighter-rouge">libiomp5md.dll</code> - OpenMP Libray for Windows (64 Bit).</li>
+                            </ul>
+                            <li>Close Photoshop if it is open.</li>
+                            <li><strong>Windows Users</strong> - Copy the <code class="highlighter-rouge">libiomp5md.dll</code> file into Photoshop CS6 installation folder (Where <code class="highlighter-rouge">Photoshop.exe</code> resides).<br>
+                                Default installation folder is <code class="highlighter-rouge">C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)</code>.</li>
+                            <li><strong>macOS Users</strong> - Copy the <code class="highlighter-rouge">libiomp5.dylib</code> file into <code class="highlighter-rouge">Frameworks</code> folder within Adobe Photoshop CS6.<br>
+                                Default installation folder of Adobe Photoshop CS6 is <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6</code> hence copy the file into <code class="highlighter-rouge">Hard Drive/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6/Contents/Frameworks</code>.<br>
+                                You may need to <strong>Right Mouse Click</strong> and choose <strong>Show Contents</strong> in the context menu in order to navigate Finder inside the Adobe Photoshop Package.
+
+                                <br>
+                                <br>
+                                <figure>
+                                    <a href="images/Libiopenmp5MacOSPhotoshopCS6.png"><img src="images/Libiopenmp5MacOSPhotoshopCS6.png" alt="Installation Path of libiopenmp5.dylib on macOS, Adobe Photoshop CS6" width="786" height="538" class="img-responsive img-center" style="margin-bottom: 25px; margin-bottom: 25px"></a>
+                                    <figcaption>Path of <code class="highlighter-rouge">libiomp5md.dll</code> on macOS and Adobe Photoshop CS6</figcaption>
+                                </figure>
+                                <br>
+                                <br>
+
+                            </li>
+                            <li>Launch Adobe Photoshop CS6.</li>
+                            <li>Run any Fixel Plug In on Adobe Photoshop CS6.</li>
+                        </ul>
+                    </div>
+                    <div class="def">
+                        <dt>It Didn't Work, What Should I do?</dt>
+                        <dd>Please find our email at the bottom left of this page.<br>
+                            For effective support please provide the following:</dd>
+                        <ul>
+                            <li>Specify your system configuration (OS, CPU, Photoshop Version, etc...).</li>
+                            <li>Screen shot of the error you see when trying to work with Fixel's product.</li>
+                            <li>Screen shot of the folder you installed the OpenMP file into (When seeing both the path and the file itself).</li>
+                        </ul>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container margin-bottom-60">
+        <div class="row">
+            <div class="col-sm-6 support" id="contact-us">
+            </div>
+            <div class="col-sm-6 faq" style="padding-left:20px">
+                {% include mailchimp.html %}
+            </div>
+        </div>
+    </div>
+</section>
