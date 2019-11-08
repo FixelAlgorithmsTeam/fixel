@@ -1,10 +1,10 @@
 ---
 title: 'Fixel Detailizer 3 - Multi Scale, Edge Preserving & Halos Free Sharpening'
-date: 	2019-04-26
+date: 	2019-11-08
 author: Fixel Algorithms
 layout: post
 class:  news
-hidden: true
+hidden: false
 ---
 ![Fixel Detailizer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
 
@@ -169,15 +169,20 @@ We have accomplished what we asked for sharpening!
 
 ## Multi Scale Sharpening
 
+When we say Multi Scale Sharpening, what do we mean?  
+In a layman words, it means looking on the image at different resolutions / scales.  
+For instance, given an image at a given size, the Multi Scale approach suggests processing it at its original size and half of that and half of that and so on...  
+Well, at least it is one way to look at it.  
 
-As can be seen above, the Panel is composed of 3 Tabs for 3 Filters.  
-By default the first Filter / Tab presented in PixelGear 2 panel is SkinGear. If you want to use EdgeGear or ToneGear, simply click them at the bottom of the panel.
+![Fixel Detailizer Multi Scale][Figure015]{:class="center-img"}
 
-### Fixel 5 Bands
+The approaches to implement Multi Scale Analysis are endless.  
+Yet in the Image Processing World it all started with the [Image Pyramid][05].  
+Later came the Filter Banks and the the [Wavelet Transform][06].  
 
-To start the retouch process, you need first to create a selection of the skin areas.
-
-Click on the `Color Range` button to open the Color Range dialog box.
+In [Detailizer 2][02] our guideline was quality hence we used [Undecimated Wavelet Transform][06] which yields less artifacts ([Halos / Ringing][07]) than the classic Wavelets.  
+Yet [Detailizer 3][98] required extending this idea farther as we used a blurring approch which is different.  
+This approach assisted us taking quality into next level though it also costs in more computational time. No free lunch here.
 
 
 ## Summary
@@ -201,6 +206,9 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
   [03]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
   [04]: {{site.baseurl}}/news/2019/04/fixel-detailizer-3-user-guide "Fixel Detailizer 3 User Guide"
+  [05]: https://en.wikipedia.org/wiki/Pyramid_(image_processing)
+  [06]: https://en.wikipedia.org/wiki/Stationary_wavelet_transform
+  [07]: https://en.wikipedia.org/wiki/Ringing_artifacts
   [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0001.png "Figure 001 - Reference Image"
@@ -217,4 +225,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image E
   [Figure012]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0012.png "Figure 012 - The Sharpened Image - Fixel Detailizer 3"
   [Figure013]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0013.png "Figure 013 - The Real World Sharpened Image - Fixel Detailizer 3"
   [Figure014]: {{site.baseurl}}/news/images/FixelDetailizer3/BlogPost0014.png "Figure 013 - The Real World Sharpened Image - Fixel Detailizer 3 - Higher Overshoot, No Roll Off"
+  [Figure015]: {{site.baseurl}}/news/images/FixelDetailizerScales004.png "Fixel Detailizer Multi Scale"
   
