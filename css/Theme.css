@@ -796,19 +796,19 @@ footer > .container {
 	background: url({{site.baseurl}}/products/edgehancer/images/edgehancer-features.png) no-repeat;
 }
 
-.edgehancer-unused:before {
+.edgehancer-algorithm:before {
 	background-position: 0px 0px;
 }
 
-.edgehancer-algorithm:before {
+.edgehancer-hdr:before {
 	background-position: -44px 0px;
 }
 
-.edgehancer-hdr:before {
+.edgehancer-script:before {
 	background-position: -88px 0px;
 }
 
-.edgehancer-script:before {
+.edgehancer-ui:before {
 	background-position: -132px 0px;
 }
 
