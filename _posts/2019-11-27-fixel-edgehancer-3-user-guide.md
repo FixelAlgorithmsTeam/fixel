@@ -218,8 +218,8 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
 
 <!-- This is commented out -->
   [01]: {{site.baseurl}}/news/images/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 3 Icon"
-  [02]: {{site.baseurl}}/products/EdgeHancer2 "Fixel EdgeHancer 2"
-  [03]: {{site.baseurl}}/support/fixel-EdgeHancer-3-installation-guide.html "Fixel EdgeHancer 3 Installation Guide"
+  [02]: {{site.baseurl}}/products/edgehancer2 "Fixel EdgeHancer 2"
+  [03]: {{site.baseurl}}/support/fixel-edgehancer-3-installation-guide.html "Fixel EdgeHancer 3 Installation Guide"
   [04]: https://www.youtube.com/watch?v=G-sO5rKc2B0 "DoubleUSM 2 Video - Dark and Light Halos"
   [05]: https://cc-extensions.com/products/doubleusm/ "DoubleUSM 2 Product Page"
   [97]: https://fixelalgorithms.co/products/EdgeHancer/ "Fixel EdgeHancer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
