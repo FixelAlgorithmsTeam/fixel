@@ -1,6 +1,6 @@
 ---
-title: 'Fixel EdgeHancer 3 - User Guide'
-date: 	2019-04-12
+title:  Fixel EdgeHancer 3 - User Guide
+date: 	2019-11-27
 author: Fixel Algorithms
 layout: post
 class:  news
