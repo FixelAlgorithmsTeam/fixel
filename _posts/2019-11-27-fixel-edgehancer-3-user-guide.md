@@ -1,18 +1,18 @@
 ---
-title: 'Fixel Detailizer 3 - User Guide'
+title: 'Fixel EdgeHancer 3 - User Guide'
 date: 	2019-04-12
 author: Fixel Algorithms
 layout: post
 class:  news
 hidden: true
 ---
-![Fixel Detailizer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
+![Fixel EdgeHancer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
 
-# Fixel Detailizer 3 - Multi Scale Detail Booster Adobe Photoshop Plug In - User Guide
+# Fixel EdgeHancer 3 - Multi Scale Detail Booster Adobe Photoshop Plug In - User Guide
 
 ## Introduction
 
-[Fixel Detailizer 3][98] is the 3rd generation of the [Fixel Detailizer][97] family.  
+[Fixel EdgeHancer 3][98] is the 3rd generation of the [Fixel EdgeHancer][97] family.  
 This version adds the following features:
 
  *	State of The Art Edge Preserving Engine  
@@ -20,11 +20,11 @@ This version adds the following features:
 	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
-	Unlike classic Plug In's [Fixel Detailizer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
+	Unlike classic Plug In's [Fixel EdgeHancer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
 
-This user guide present [Fixel Detailizer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
+This user guide present [Fixel EdgeHancer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -33,26 +33,26 @@ Please follow the following steps:
  *	Verify *Adobe Photoshop* is not running.
  *	Unzip the `ZIP` file downloaded on purchase.
  *	Run the installer inside the `ZIP` file:
-	*	Windows - *Double Click* `Fixel Detailizer 3 - Windows Installer.exe` installer and follow instruction.  
+	*	Windows - *Double Click* `Fixel EdgeHancer 3 - Windows Installer.exe` installer and follow instruction.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
-	*	macOS - *Double Click* on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.  
+	*	macOS - *Double Click* on `Fixel EdgeHancer - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
  *	Start *Adobe Photoshop* and launch the UI (See below).
 
-If any issues arise, please refer to [Fixel Detailizer 3 Installation Guide][03].
+If any issues arise, please refer to [Fixel EdgeHancer 3 Installation Guide][03].
 
-## Fixel Detailizer 3 UI
+## Fixel EdgeHancer 3 UI
 
-This section will show [Fixel Detailizer 3][98] User Interface (UI) and how to use it.
+This section will show [Fixel EdgeHancer 3][98] User Interface (UI) and how to use it.
 
-### Launching Detailizer 3 User Interface (Panel)
+### Launching EdgeHancer 3 User Interface (Panel)
 
 In order to launch the panel the user should:
 
  *	Open Photoshop.
- *	In Photoshop menu click on `Window -> Extensions -> Fixel Detailizer 3`.
+ *	In Photoshop menu click on `Window -> Extensions -> Fixel EdgeHancer 3`.
 
-Once done, the Detailizer 3 UI will present itself:
+Once done, the EdgeHancer 3 UI will present itself:
 
 ![][Figure001]{:class="center-img"}
 
@@ -105,13 +105,13 @@ The defaults should imitate behavior of a classic plug in's.
 The settings are saved in a user preference file and kept between Photoshop sessions.
 
 
-## Using Fixel Detailizer 3
+## Using Fixel EdgeHancer 3
 
-This section describe how to use [Fixel Detailizer 3][98].
+This section describe how to use [Fixel EdgeHancer 3][98].
 
 ### Workflow
 
-[Fixel Detailizer 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
+[Fixel EdgeHancer 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
 The recommended usage of Plug In is as following:
 
  *	Start a new session by launching the Panel.
@@ -127,12 +127,12 @@ The next time the user interacts with the panel it will start a new session.
 
 ### Effect of Parameters
 
-[Fixel Detailizer 3][98] has few parameters to adjust.  
-This section will focus on the ability of [Fixel Detailizer 3][98] (Basically the whole [Fixel Detailizer][97] family) to adjust different scales of details.  
-The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [Detailizer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
+[Fixel EdgeHancer 3][98] has few parameters to adjust.  
+This section will focus on the ability of [Fixel EdgeHancer 3][98] (Basically the whole [Fixel EdgeHancer][97] family) to adjust different scales of details.  
+The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [EdgeHancer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001@2x.png 2x"}
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage001@2x.png 2x"}
 
 In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying sharpening on single scale: Small, MEdium Small, Medium, Medium Large, Large.  
 As can be seen, each scale has different effect on the image and targets different size of details.
@@ -147,25 +147,25 @@ As can be seen, even when pushed to extreme the Halos are almost non to exist.
 ![][Figure008]{: class="center-img" width="900" height="600"}
 
 The above image displays another style of images where the scales approach works really well.  
-The important advantage of [Fixel Detailizer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
+The important advantage of [Fixel EdgeHancer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
 
 ### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
 
-As stated above, [Fixel Detailizer 3][98] can create much less artifacts than classic sharpeners.  
-This section compares [Fixel Detailizer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
+As stated above, [Fixel EdgeHancer 3][98] can create much less artifacts than classic sharpeners.  
+This section compares [Fixel EdgeHancer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure009]{: class="center-img" width="900" height="300"}
 
-The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel Detailizer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
-As could one see above, [Fixel Detailizer 3][98] yields much less artifacts and *Halos*.  
-For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effect on the [Fixel Detailizer 3][98] image.  
-Looking at the drops all over the flower one could see both [dark and light Halos][04] on the USM image while no apparent *Halos* on [Fixel Detailizer 3][98] image.  
-Of course in the above case values were exaggerated to show the point. Though if someone is after *Pseudo HDR Look* one could see the effectiveness of [Fixel Detailizer 3][98] which creates more natural and artifact & Halos free image.
+The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel EdgeHancer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
+As could one see above, [Fixel EdgeHancer 3][98] yields much less artifacts and *Halos*.  
+For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effect on the [Fixel EdgeHancer 3][98] image.  
+Looking at the drops all over the flower one could see both [dark and light Halos][04] on the USM image while no apparent *Halos* on [Fixel EdgeHancer 3][98] image.  
+Of course in the above case values were exaggerated to show the point. Though if someone is after *Pseudo HDR Look* one could see the effectiveness of [Fixel EdgeHancer 3][98] which creates more natural and artifact & Halos free image.
 
 ### Tips & Tricks
 
-There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Detailizer 3][98]:
+There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel EdgeHancer 3][98]:
 
  *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
  *	Usually you can push small details boosting level to higher values without any issues.
@@ -190,7 +190,7 @@ This section shows few images with *Before & After* animation. Under each image 
 {% include callout.html type="info" content=" `Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
-This section displays images created by users of [Fixel Detailizer 3][98].
+This section displays images created by users of [Fixel EdgeHancer 3][98].
 
 {% include image-user.html srcUrl="https://i.imgur.com/0s8kLb7.png" altString="Jane" style="width: 800px; height: 711px;" content="Credit: [Jane](https://www.flickr.com/photos/151740882@N05/47029584231) by Mireille Lannoo" %}
 
@@ -198,43 +198,43 @@ This section displays images created by users of [Fixel Detailizer 3][98].
 
 
 ## Summary
-[Fixel Detailizer 3][98] is a new generation of sharpeners. While [Fixel Detailizer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Detailizer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel EdgeHancer 3][98] is a new generation of sharpeners. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
 It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
-We listened to the feedback of many of [Fixel Detailizer 2][02] users and used it to create this step forward.  
+We listened to the feedback of many of [Fixel EdgeHancer 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel Detailizer 3][98] & [Fixel Detailizer 2][02] have completely different sharpening engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel Detailizer 3][98] can get [Fixel Detailizer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel EdgeHancer 3][98] & [Fixel EdgeHancer 2][02] have completely different sharpening engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel EdgeHancer 3][98] can get [Fixel EdgeHancer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 
 ## Resources
- *  [Fixel Detailizer 3 Product Page][98].
- *  [Fixel Detailizer 3 Installation Guide][03].
- *  [Fixel Detailizer 2 Product Page][02].
+ *  [Fixel EdgeHancer 3 Product Page][98].
+ *  [Fixel EdgeHancer 3 Installation Guide][03].
+ *  [Fixel EdgeHancer 2 Product Page][02].
  *  [Davide Barranca's Video on *Dark and Light Halos*][04] ([DoubleUSM Plug In][05]).
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Detailizer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Multi Scale][98], [Multi Frequency][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Multi Scale][98], [Multi Frequency][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FixelDetailizer2Icon150px.png "Fixel Detailizer 3 Icon"
-  [02]: {{site.baseurl}}/products/detailizer2 "Fixel Detailizer 2"
-  [03]: {{site.baseurl}}/support/fixel-detailizer-3-installation-guide.html "Fixel Detailizer 3 Installation Guide"
+  [01]: {{site.baseurl}}/news/images/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 3 Icon"
+  [02]: {{site.baseurl}}/products/EdgeHancer2 "Fixel EdgeHancer 2"
+  [03]: {{site.baseurl}}/support/fixel-EdgeHancer-3-installation-guide.html "Fixel EdgeHancer 3 Installation Guide"
   [04]: https://www.youtube.com/watch?v=G-sO5rKc2B0 "DoubleUSM 2 Video - Dark and Light Halos"
   [05]: https://cc-extensions.com/products/doubleusm/ "DoubleUSM 2 Product Page"
-  [97]: https://fixelalgorithms.co/products/detailizer/ "Fixel Detailizer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
-  [98]: https://fixelalgorithms.co/products/detailizer3/ "Fixel Detailizer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
+  [97]: https://fixelalgorithms.co/products/EdgeHancer/ "Fixel EdgeHancer - Multi Frequency / Scale Details Booster - Adobe Photoshop Plug In"
+  [98]: https://fixelalgorithms.co/products/EdgeHancer3/ "Fixel EdgeHancer 3 - Multi Frequency / Scale Halos Free Details Booster - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 001.png "Figure 001 - Fixel Detailizer 3 User Interface"
-  [Figure002]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 002.png "Figure 002 - Fixel Detailizer 3 User Interface Sections"
-  [Figure003]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 003.png "Figure 003 - Fixel Detailizer 3 User Interface (Settings Window)"
-  [Figure004]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 004.png "Figure 004 - Fixel Detailizer 3 User Interface (Settings Window)"
-  [Figure005]: {{site.baseurl}}/news/images/FixelDetailizer3/Fixel Detailizer 3 - User Interface 005.png "Figure 005 - Fixel Detailizer 3 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
-  [Figure007]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
-  [Figure008]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
-  [Figure009]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3USMCompare.png "Figure 009 - Detailizer vs USM (Halos Comparison)"
-  [Figure010]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase001.png "Figure 010 - Showcase Image"
-  [Figure011]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase002.png "Figure 011 - Showcase Image"
-  [Figure012]: {{site.baseurl}}/news/images/FixelDetailizer3/FixelDetailizer3ShowCase003.png "Figure 012 - Showcase Image"
+  [Figure001]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 001.png "Figure 001 - Fixel EdgeHancer 3 User Interface"
+  [Figure002]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 002.png "Figure 002 - Fixel EdgeHancer 3 User Interface Sections"
+  [Figure003]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 003.png "Figure 003 - Fixel EdgeHancer 3 User Interface (Settings Window)"
+  [Figure004]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 004.png "Figure 004 - Fixel EdgeHancer 3 User Interface (Settings Window)"
+  [Figure005]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 005.png "Figure 005 - Fixel EdgeHancer 3 User Interface (Settings Window)"
+  [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
+  [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
+  [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
+  [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3USMCompare.png "Figure 009 - EdgeHancer vs USM (Halos Comparison)"
+  [Figure010]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase001.png "Figure 010 - Showcase Image"
+  [Figure011]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase002.png "Figure 011 - Showcase Image"
+  [Figure012]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase003.png "Figure 012 - Showcase Image"
   
