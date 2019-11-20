@@ -8,14 +8,14 @@ hidden: true
 ---
 ![Fixel EdgeHancer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
 
-# Fixel EdgeHancer 3 - Multi Scale Detail Booster Adobe Photoshop Plug In - User Guide
+# Fixel EdgeHancer 3 - Simple, Smart & Effective Edge Enhancer Filter - User Guide
 
 ## Introduction
 
 [Fixel EdgeHancer 3][98] is the 3rd generation of the [Fixel EdgeHancer][97] family.  
 This version adds the following features:
 
- *	State of The Art Edge Preserving Engine  
+ *	Edge Preserving Engine  
 	The new engine is built on a global approach to image sharpening (As opposed to *Local Filters*) which reduce the artifacts and halos which are common in sharpening.  
 	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
  *	HTML Based UI  
@@ -100,6 +100,8 @@ As can be seen above, the parameters are:
  *	Layer Mode
 	*	`Active Layer` (Default) - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according to parameters.
 	*	`Stamp Visible` - The Plug In will create a new layer from the current view and will use it as input image.
+ *	Reset Presets  
+	Rest teh presets of the panel to their default values.
 
 The defaults should imitate behavior of a classic plug in's.  
 The settings are saved in a user preference file and kept between Photoshop sessions.
