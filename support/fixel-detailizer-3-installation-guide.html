@@ -36,157 +36,161 @@ class: 			support
 						<dd>
 							When a user downloads the product it downloads a ZIP file which contain the following structure:
 							<ul>
-								<li><code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt;.zip</code> - The ZIP File container.<ul>
+								<li><code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt;.zip</code> - The ZIP File container.</li>
+								<ul>
 									<li><code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code> - Windows Installer.</li>
 									<li><code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code> - macOS Installer.</li>
 									<li><code>Fixel Detailizer - Product Page.url</code> - Link to Fixel Detailizer &lt;MajorVerion&gt; Product Page.</li>
 									<li><code>Fixel Detailizer - User Guide.url</code> - Link to Fixel Detailizer &lt;MajorVerion&gt; User Guide.</li>
 									<li><code>Fixel Detailizer - Installation Guide.url</code> - Link to Fixel Detailizer &lt;MajorVerion&gt; Installation Guide.</li>
-									<li><code>Manual Installation Assets</code> - Folder with Manual Installation assets.<ul>
+									<li><code>Manual Installation Assets</code> - Folder with Manual Installation assets.</li>
+									<ul>
 										<li><code>Fixel Detailizer &lt;MajorVersion&gt;.8bf</code> - Windows Plug In.</li>
 										<li><code>Fixel Detailizer &lt;MajorVersion&gt;.plugin</code> - macOS Plug In.</li>
 										<li><code>com.fixelalgorithms.detailizer&lt;MajorVersion&gt;</code> - HTML Panel Folder.</li>
 									</ul>
-								</li>
+								</ul>
 							</ul>
-						</li>
-					</ul>
-				</dd>
+						</dd>
+					</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer</a> - Automatic & Manual Installation</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>Automatic Installation</dt>
+						<dd>
+							Automatic installation is done by:
+							<ol>
+								<li>Ensure Photoshop is closed.</li>
+								<li>Extract the ZIP file on the local hard drive.</li>
+								<li>Launch the installer:</li>
+								<ul>
+									<li>Windows - <code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code>.</li>
+									<li>macOS - <code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code>.</li>
+								</ul>
+								<li>Follow installer instructions.</li>
+								<li>Start Photoshop.</li>
+								<li>Launch the Plug In (Panel) by clicking <code>Windows -> Extensions -> Fixel Detailizer 3</code>.</li>
+							</ol>
+						</dd>
+					</div>
+					<div class="def">
+						<dt>Manual Installation</dt>
+						<dd>
+							If the automatic installer fails for some reason one might use manually installation which is robust and fail proof if done correctly.
+							The assets for manual installation are in the <code>Manual Installation Assets</code> folder within the product ZIP file.
+							Fixel Detailizer is composed on 2 main components: HTML5 UI Panel and Photoshop Plug In.
+							The installation steps are just about copying the 2 components into the respective folders (Depends on OS).
+							The installation must be done while Photoshop is closed.
+							
+							<br>
+							<b>Installing the HTML Panel:</b>
+							<ol>
+								<li>Ensure Photoshop is closed.</li>
+								<li>Extract the ZIP file on the local hard drive.</li>
+								<li>Copy the HTML5 UI Panel Folder <code>com.fixelalgorithms.detailizer&lt;MajorVersion&gt;</code> from <code>Manual Installation Assets</code> to:</li>
+								<ul>
+									<li>Windows - <code>C:\Program Files\Common Files\Adobe\CEP\extensions\</code>.</li>
+									<li>macOS - <code>/Library/Application Support/Adobe/CEP/extensions/</code>.</li>
+								</ul>
+								Copying might require Administrator Privileges.
+							</ol>
+							<br>
+							<b>Installing the Photoshop Plug In:</b>
+							<ol>
+								<li>Ensure Photoshop is closed.</li>
+								<li>Extract the ZIP file on the local hard drive.</li>
+								<li>Copy the Plug In File (Windows - <code>Fixel Detailizer &lt;MajorVersion&gt;.8bf</code>, macOS - <code>Fixel Detailizer &lt;MajorVersion&gt;.plugin</code>) from <code>Manual Installation Assets</code> to:</li>
+								<ul>
+									<li>Windows - <code>C:\Program Files\Common Files\Adobe\Plug-ins\CC\Fixel Algorithms\</code>.</li>
+									<li>macOS - <code>/Library/Application Support/Adobe/Plug-ins/CC/Fixel Algorithms/</code>.</li>
+								</ul>
+								Create the folder <code>Fixel Algorithms</code> if it does not exist.
+								Copying might require Administrator Privileges.
+							</ol>
+							
+							Once done installing both, launch Adobe Photoshop and start using Fixel Detailizer 3 by clicking <code>Windows -> Extensions -> Fixel Detailizer 3</code>.
+						</dd>
+					</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer 3</a> - Installation & First Use Frequently Asked Questions (FAQ)</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>How to Launch the Fixel Detailizer 3 UI?</dt>
+						<dd>
+							Launching the UI is done like launching any HTML Panel in Photoshop: <code>Window -> Extensions -> Fixel Detailizer 3</code>.
+							
+							<br>
+							<br>
+							<figure>
+								<a href="images/FixelDetailizer3/FixelDetailizer3UiLaunch.png" target="_blank"><img src="images/FixelDetailizer3/FixelDetailizer3UiLaunch.png" alt="Launching Fixel Detailizer UI" width="750" height="300" class="img-responsive img-center" style="margin-top: 25px; margin-bottom: 25px"></a>
+								<figcaption>How to Launch Fixel Detailizer 3 on Adobe Photoshop CC (All Versions)</figcaption>
+							</figure>
+							<br>
+							
+							If you can't find it there, it means the UI wasn't installed properly.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>What Is <code>Fixel Algorithms -> Fixel Detailizer x.x.xxx</code> Under the Filter Menu?</dt>
+						<dd>
+							As written above, Fixel Detailizer use an in house developed innovative algorithm.
+							The filter Fixel Detailizer in the Filter Menu is used by Fixel Detailizer to apply the algorithm on the user image.
+							Since no such algorithm is available in Photoshop we had to develop and implement the algorithm by ourselves.
+							It is good it is there as it means the Plug In installation is successful. Yet the user shouldn't use it directly (Only use it through th UI).
+						</dd>
+					</div>
+					<div class="def">
+						<dt>What Is the <em>Pre Installer</em> in macOS Installation?</dt>
+						<dd>
+							The <em>Pre Installer</em> script basically removes any current installation and make sure the folders are well defined. One <em>must</em> use it for proper installation in macOS. Also it can be used for uninstallation of the Plug In on macOs. 
+						</dd>
+					</div>
+					<div class="def">
+						<dt>Why Does a User Account Control (UAC) Warning Appear When Installing on Windows?</dt>
+						<dd>
+							Most of the <em>EXE</em> files downloaded form the Internet trigger this alerts on Windows (Which is good, people should be careful with pirated software on the Internet).<br>
+							If you downloaded the product form us, you have nothing to be worried about. Users may use the <code>MD5</code> table below to verify the file downloaded matches our file.
+						</dd>
+					</div>
+				</dl>
+				<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer 3</a> - Installers <code>MD5</code> Hash Table</h3>
+				<dl class="feature-text">
+					<div class="def">
+						<dt>Why Are You Publishing This?</dt>
+						<dd>
+							The idea is enabling our customers verify the have the file we intended them to have. It is important in our days with many Malwares distributed using pirated software.<br>
+							The way to use it is after downloading the product you bought check its <em>MD5</em> value. One could do that using <a href="http://www.winmd5.com/" target="_blank">WinMd5Free</a> on Windows or <a href="https://www.garron.me/en/bits/how-to-md5sum-mac-os-x.html" target="_blank">md5sum on Mac OS X | check MD5 hashes</a> on macOS.<br>
+							Basically it verifies the digital signature of the file and ensures it is valid and its content is intact.
+						</dd>
+					</div>
+					<div class="def">
+						<dt>Fixel Detailizer 3.0.001</dt>
+						<dd>
+							
+							<ul>
+								<li>File Name - <code>Fixel Detailizer 3.0.001.zip</code>.</li>
+								<li>Creation Date - <code>03/05/2019</code>.</li>
+								<li>MD5 - <code>d4bf006e6ca759f405e496c8f6d25453</code>.</li>
+							</ul>
+							
+						</dd>
+						
+						<dt>Fixel Detailizer 3.0.000</dt>
+						<dd>
+							
+							<ul>
+								<li>File Name - <code>Fixel Detailizer 3.0.000.zip</code>.</li>
+								<li>Creation Date - <code>11/04/2019</code>.</li>
+								<li>MD5 - <code>b194673e6c49ab5f9d738258ef80eb12</code>.</li>
+							</ul>
+							
+						</dd>
+					</div>
+				</dl>
 			</div>
-		</dl>
-		<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer</a> - Automatic & Manual Installation</h3>
-		<dl class="feature-text">
-			<div class="def">
-				<dt>Automatic Installation</dt>
-				<dd>
-					Automatic installation is done by:
-					<ol>
-						<li>Ensure Photoshop is closed.</li>
-						<li>Extract the ZIP file on the local hard drive.</li>
-						<li>Launch the installer:<ul>
-							<li>Windows - <code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - Windows Installer.exe</code>.</li>
-							<li>macOS - <code>Fixel Detailizer &lt;MajorVerion&gt;.&lt;MinorVersion&gt;.&lt;BuildNumber&gt; - macOS Installer.dmg</code>.</li>
-						</ul>
-						<li>Follow installer instructions.</li>
-						<li>Start Photoshop.</li>
-						<li>Launch the Plug In (Panel) by clicking <code>Windows -> Extensions -> Fixel Detailizer 3</code>.</li>
-					</li>
-				</ol>
-			</dd>
 		</div>
-		<div class="def">
-			<dt>Manual Installation</dt>
-			<dd>
-				If the automatic installer fails for some reason one might use manually installation which is robust and fail proof if done correctly.
-				The assets for manual installation are in the <code>Manual Installation Assets</code> folder within the product ZIP file.
-				Fixel Detailizer is composed on 2 main components: HTML5 UI Panel and Photoshop Plug In.
-				The installation steps are just about copying the 2 components into the respective folders (Depends on OS).
-				The installation must be done while Photoshop is closed.
-				
-				<br>
-				<b>Installing the HTML Panel:</b>
-				<ol>
-					<li>Ensure Photoshop is closed.</li>
-					<li>Extract the ZIP file on the local hard drive.</li>
-					<li>Copy the HTML5 UI Panel Folder <code>com.fixelalgorithms.detailizer&lt;MajorVersion&gt;</code> from <code>Manual Installation Assets</code> to:<ul>
-						<li>Windows - <code>C:\Program Files\Common Files\Adobe\CEP\extensions\</code>.</li>
-						<li>macOS - <code>/Library/Application Support/Adobe/CEP/extensions/</code>.</li>
-					</ul>
-					Copying might require Administrator Privileges.
-				</ol>
-				<br>
-				<b>Installing the Photoshop Plug In:</b>
-				<ol>
-					<li>Ensure Photoshop is closed.</li>
-					<li>Extract the ZIP file on the local hard drive.</li>
-					<li>Copy the Plug In File (Windows - <code>Fixel Detailizer &lt;MajorVersion&gt;.8bf</code>, macOS - <code>Fixel Detailizer &lt;MajorVersion&gt;.plugin</code>) from <code>Manual Installation Assets</code> to:<ul>
-						<li>Windows - <code>C:\Program Files\Common Files\Adobe\Plug-ins\CC\Fixel Algorithms\</code>.</li>
-						<li>macOS - <code>/Library/Application Support/Adobe/Plug-ins/CC/Fixel Algorithms/</code>.</li>
-					</ul>
-					Create the folder <code>Fixel Algorithms</code> if it does not exist.
-					Copying might require Administrator Privileges.
-				</ol>
-				
-				Once done installing both, launch Adobe Photoshop and start using Fixel Detailizer 3 by clicking <code>Windows -> Extensions -> Fixel Detailizer 3</code>.
-			</dd>
-		</div>
-	</dl>
-	<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer 3</a> - Installation & First Use Frequently Asked Questions (FAQ)</h3>
-	<dl class="feature-text">
-		<div class="def">
-			<dt>How to Launch the Fixel Detailizer 3 UI?</dt>
-			<dd>
-				Launching the UI is done like launching any HTML Panel in Photoshop: <code>Window -> Extensions -> Fixel Detailizer 3</code>.
-				
-				<br>
-				<br>
-				<figure>
-					<a href="images/FixelDetailizer3/FixelDetailizer3UiLaunch.png" target="_blank"><img src="images/FixelDetailizer3/FixelDetailizer3UiLaunch.png" alt="Launching Fixel Detailizer UI" width="750" height="300" class="img-responsive img-center" style="margin-top: 25px; margin-bottom: 25px"></a>
-					<figcaption>How to Launch Fixel Detailizer 3 on Adobe Photoshop CC (All Versions)</figcaption>
-				</figure>
-				<br>
-				
-				If you can't find it there, it means the UI wasn't installed properly.
-			</dd>
-		</div>
-		<div class="def">
-			<dt>What Is <code>Fixel Algorithms -> Fixel Detailizer x.x.xxx</code> Under the Filter Menu?</dt>
-			<dd>
-				As written above, Fixel Detailizer use an in house developed innovative algorithm.
-				The filter Fixel Detailizer in the Filter Menu is used by Fixel Detailizer to apply the algorithm on the user image.
-				Since no such algorithm is available in Photoshop we had to develop and implement the algorithm by ourselves.
-				It is good it is there as it means the Plug In installation is successful. Yet the user shouldn't use it directly (Only use it through th UI).
-			</dd>
-		</div>
-		<div class="def">
-			<dt>What Is the <em>Pre Installer</em> in macOS Installation?</dt>
-			<dd>
-				The <em>Pre Installer</em> script basically removes any current installation and make sure the folders are well defined. One <em>must</em> use it for proper installation in macOS. Also it can be used for uninstallation of the Plug In on macOs. 
-			</dd>
-		</div>
-		<div class="def">
-			<dt>Why Does a User Account Control (UAC) Warning Appear When Installing on Windows?</dt>
-			<dd>
-				Most of the <em>EXE</em> files downloaded form the Internet trigger this alerts on Windows (Which is good, people should be careful with pirated software on the Internet).<br>
-				If you downloaded the product form us, you have nothing to be worried about. Users may use the <code>MD5</code> table below to verify the file downloaded matches our file.
-			</dd>
-		</div>
-	</dl>
-	<h3 class="faq-subtitle"><a href="https://fixelalgorithms.co/products/detailizer3/" target="_blank">Fixel Detailizer 3</a> - Installers <code>MD5</code> Hash Table</h3>
-	<dl class="feature-text">
-		<div class="def">
-			<dt>Why Are You Publishing This?</dt>
-			<dd>
-				The idea is enabling our customers verify the have the file we intended them to have. It is important in our days with many Malwares distributed using pirated software.<br>
-				The way to use it is after downloading the product you bought check its <em>MD5</em> value. One could do that using <a href="http://www.winmd5.com/" target="_blank">WinMd5Free</a> on Windows or <a href="https://www.garron.me/en/bits/how-to-md5sum-mac-os-x.html" target="_blank">md5sum on Mac OS X | check MD5 hashes</a> on macOS.<br>
-				Basically it verifies the digital signature of the file and ensures it is valid and its content is intact.
-			</dd>
-		</div>
-		<div class="def">
-			<dt>Fixel Detailizer 3.0.001</dt>
-			<dd>
-				
-				<ul>
-					<li>File Name - <code>Fixel Detailizer 3.0.001.zip</code>.</li>
-					<li>Creation Date - <code>03/05/2019</code>.</li>
-					<li>MD5 - <code>d4bf006e6ca759f405e496c8f6d25453</code>.</li>
-				</ul>
-				
-				<dt>Fixel Detailizer 3.0.000</dt>
-				<dd>
-					
-					<ul>
-						<li>File Name - <code>Fixel Detailizer 3.0.000.zip</code>.</li>
-						<li>Creation Date - <code>11/04/2019</code>.</li>
-						<li>MD5 - <code>b194673e6c49ab5f9d738258ef80eb12</code>.</li>
-					</ul>
-					
-				</dd>
-			</div>
-		</dl>
 	</div>
-</div>
-</div>
 </section>
 
 <section>

@@ -16,15 +16,16 @@ hidden: true
 This version adds the following features:
 
  *	Edge Preserving Engine  
-	The new engine is built on a global approach to image sharpening (As opposed to *Local Filters*) which reduce the artifacts and halos which are common in sharpening.  
+	The new engine is built on a *Local Edge Preserving Filter* which combines speed and quality. It assists in reducing the artifacts and halos which are common in sharpening.  
 	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
-	Unlike classic Plug In's [Fixel EdgeHancer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
+	Unlike classic Plug In's [Fixel EdgeHancer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
+	The new UI also adds 3 user adjustable presets to allow user have more efficient workflow.
 
 This user guide present [Fixel EdgeHancer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015.5 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -56,7 +57,7 @@ Once done, the EdgeHancer 3 UI will present itself:
 
 ![][Figure001]{:class="center-img"}
 
-The UI enable simple and intuitive operation of the sharpening process.  
+The UI enable simple and intuitive operation of the edge enhancement process.  
 The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
@@ -66,22 +67,26 @@ This section elaborates on each UI Component.
 
 ![][Figure002]{:class="center-img"}
 
-As can be seen above, the Panel is composed of 3 main sections:
+As can be seen above, the Panel is composed of 4 main sections:
 
  *	Plug In Parameters
-	*	5 Bands Detail Boosting Sliders.  
-		Each slider boost / enhance details of different scale (Size).  
+	*	Edge Radius and Threshold Level Sliders.  
+		Sets the radius of the edges to be enhanced and the threshold level to regulate noise amplification.  
 	*	Intensity Slider.  
 		Sets the overall intensity of the filter.
+	*	Edge Preserving Mode.  
+		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
 	*	Luminosity Mode.  
 		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
- *	Panel State Elements - *Apply*, *Reset* and *Preview*.  
-	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Reset* resets the slider into their default values. The *Preview* button toggles between seeing the input image and the output image.
+ *	User Adjustable Presets.  
+	Allows the user to apply pre defined presets by clicking a preset button or setting a preset by long click (*Click & Hold*) which freezes the current settings into a preset.
+ *	Panel State Elements - *Apply*, *Cancel* and *Preview*.  
+	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Cancel* cancels the effect and restore the image into its original form. The *Preview* button toggles between seeing the input image and the output image.
  *	Home Page, Settings, User Guide and About Screen Link Buttons.  
 	Home Page opens a browser with the Fixel Website, Settings opens the Settings Window (See below) of the Plug In, User Guide open a web browser with this address and the About icon opens a window with the version string of the Plug In.
 
-The main feature of the Plug In is being able to boost details at different scales.  
-Hence the user, at most time, will interact with the 5 upper sliders to adjust the Plug In effect to taste.
+The main feature of the Plug In is being able to truly enhance edges in a manner which can not be found anywhere else.  
+Hence the user, at most time, will interact with the 2 upper sliders to adjust the Plug In effect to taste.
 
 ### Settings Window Parameters
 
@@ -101,11 +106,10 @@ As can be seen above, the parameters are:
 	*	`Active Layer` (Default) - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according to parameters.
 	*	`Stamp Visible` - The Plug In will create a new layer from the current view and will use it as input image.
  *	Reset Presets  
-	Rest teh presets of the panel to their default values.
+	Reset the presets of the panel to their default values.
 
 The defaults should imitate behavior of a classic plug in's.  
 The settings are saved in a user preference file and kept between Photoshop sessions.
-
 
 ## Using Fixel EdgeHancer 3
 
@@ -196,18 +200,14 @@ This section displays images created by users of [Fixel EdgeHancer 3][98].
 
 {% include image-user.html srcUrl="https://i.imgur.com/0s8kLb7.png" altString="Jane" style="width: 800px; height: 711px;" content="Credit: [Jane](https://www.flickr.com/photos/151740882@N05/47029584231) by Mireille Lannoo" %}
 
-
-
-
 ## Summary
-[Fixel EdgeHancer 3][98] is a new generation of sharpeners. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel EdgeHancer 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
 It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
 We listened to the feedback of many of [Fixel EdgeHancer 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
 {% include important.html content="[Fixel EdgeHancer 3][98] & [Fixel EdgeHancer 2][02] have completely different sharpening engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel EdgeHancer 3][98] can get [Fixel EdgeHancer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
-
 
 ## Resources
  *  [Fixel EdgeHancer 3 Product Page][98].

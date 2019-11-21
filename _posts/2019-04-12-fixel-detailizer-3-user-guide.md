@@ -24,7 +24,7 @@ This version adds the following features:
 
 This user guide present [Fixel Detailizer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015.5 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
