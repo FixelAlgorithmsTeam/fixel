@@ -25,7 +25,7 @@ This version adds the following features:
 
 This user guide present [Fixel EdgeHancer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015.5 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -158,19 +158,13 @@ The *Luminosity Mode* toggles whether to run the effect on Luminosity Channel on
 As can be seen above, When set to `Off` the result is more saturated yet with more color shift which is a balance to be chosen by the user.  
 Pay attention that when set to `Off` it means the filter is running 3 times, which, trivially, takes more time.
 
-### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
-
-As stated above, [Fixel EdgeHancer 3][98] can create much less artifacts than classic sharpeners.  
-This section compares [Fixel EdgeHancer 3][98] to *Photoshop*'s *Unsharp Mask* (USM).
-
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure009]{: class="center-img" width="900" height="300"}
+![][Figure009]{: class="center-img" width="900" height="675"}
 
-The figure above shows the *Original Image*, Image sharpened with *Unsharp Mask* (USM) with `Amount = 250` and `Radius = 15` using Luminosity Blend Mode and [Fixel EdgeHancer 3][98] with `Medium = 250` with `Luminosity Mode = ON`.  
-As could one see above, [Fixel EdgeHancer 3][98] yields much less artifacts and *Halos*.  
-For instance, have a look at the orange petals at the bottom left of the USM Image, the color is brighter due to [Light Halos][04] while there is no such effect on the [Fixel EdgeHancer 3][98] image.  
-Looking at the drops all over the flower one could see both [dark and light Halos][04] on the USM image while no apparent *Halos* on [Fixel EdgeHancer 3][98] image.  
-Of course in the above case values were exaggerated to show the point. Though if someone is after *Pseudo HDR Look* one could see the effectiveness of [Fixel EdgeHancer 3][98] which creates more natural and artifact & Halos free image.
+The above image displays the effect of the *Edge Preserving Mode* parameter.  
+The *Edge Preserving Mode* toggles whether to use Edge Preserving algorithm (When set to `On`) or use the classic algorithm (When set to `Off`).  
+As can be seen above, When set to `On` the **Halos** are almost completely eliminated. The result is more subtle.  
+The Edge Preserving engine is a new feature in version 3 and creates completely new effect.
 
 ### Tips & Tricks
 
@@ -237,7 +231,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
   [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
   [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
   [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
-  [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3USMCompare.png "Figure 009 - EdgeHancer vs USM (Halos Comparison)"
+  [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
   [Figure010]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase001.png "Figure 010 - Showcase Image"
   [Figure011]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase002.png "Figure 011 - Showcase Image"
   [Figure012]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase003.png "Figure 012 - Showcase Image"
