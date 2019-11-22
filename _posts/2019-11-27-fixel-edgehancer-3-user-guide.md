@@ -134,11 +134,11 @@ The next time the user interacts with the panel it will start a new session.
 ### Effect of Parameters
 
 [Fixel EdgeHancer 3][98] has few parameters to adjust.  
-This section will focus on the ability of [Fixel EdgeHancer 3][98] (Basically the whole [Fixel EdgeHancer][97] family) to adjust different scales of details.  
-The design was built to imitate *Hi-Fi Equalizer*. Just like equalizer can target different frequencies, [EdgeHancer][98] can target different scales (Which are equivalent of Frequencies in *Image Processing*).
+This section will focus on the ability of [Fixel EdgeHancer 3][98] (Basically the whole [Fixel EdgeHancer][97] family) to enhance edges.  
+[EdgeHancer][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage001@2x.png 2x"}
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage@2x.png 2x"}
 
 In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying sharpening on single scale: Small, MEdium Small, Medium, Medium Large, Large.  
 As can be seen, each scale has different effect on the image and targets different size of details.
@@ -173,9 +173,8 @@ Of course in the above case values were exaggerated to show the point. Though if
 
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel EdgeHancer 3][98]:
 
- *	Make sure that the sum of the Boosting Slider doesn't go above ~400. This will ensure limited level of artifacts and halos.
- *	Usually you can push small details boosting level to higher values without any issues.
- *	Intense boosting of Large Details can be used for *Pseudo HDR* effect with much less halos and more natural result then using *HiRaHiAm Sharpening* (High Radius, High Amplitude in USM).
+ *	The *Radius* parameter should match the size of the edges one wants to enhance.
+ *	By turning on the *Edge Preserving Mode* one could achieve more subtle effect.
  *	When using high values one might want to use `Luminosity Mode` set to `OFF` in order to prevent reduction in saturation. In most cases one should set `Luminosity Mode` to `OFF` for no color shift and faster execution.
  
 
@@ -207,7 +206,7 @@ We listened to the feedback of many of [Fixel EdgeHancer 2][02] users and used i
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel EdgeHancer 3][98] & [Fixel EdgeHancer 2][02] have completely different sharpening engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel EdgeHancer 3][98] can get [Fixel EdgeHancer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel EdgeHancer 3][98] have extended [Fixel EdgeHancer 2][02] to have Edge Preserving Engine. Yet when the option is disabled their output is very similar. Hence if you have [Fixel EdgeHancer 3][98] you have no reason to buy [Fixel EdgeHancer 2][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel EdgeHancer 3][98] can get [Fixel EdgeHancer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 ## Resources
  *  [Fixel EdgeHancer 3 Product Page][98].
@@ -232,7 +231,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
   [Figure003]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 003.png "Figure 003 - Fixel EdgeHancer 3 User Interface (Settings Window)"
   [Figure004]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 004.png "Figure 004 - Fixel EdgeHancer 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 005.png "Figure 005 - Fixel EdgeHancer 3 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage001.png "Figure 006 - Demonstration of Different Scales"
+  [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
   [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
   [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
   [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3USMCompare.png "Figure 009 - EdgeHancer vs USM (Halos Comparison)"
