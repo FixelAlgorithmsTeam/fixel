@@ -140,8 +140,8 @@ This section will focus on the ability of [Fixel EdgeHancer 3][98] (Basically th
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
 ![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage@2x.png 2x"}
 
-In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying sharpening on single scale: Small, MEdium Small, Medium, Medium Large, Large.  
-As can be seen, each scale has different effect on the image and targets different size of details.
+In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel EdgeHancer 3][98] with different *radius* as written.
+As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="500"}
