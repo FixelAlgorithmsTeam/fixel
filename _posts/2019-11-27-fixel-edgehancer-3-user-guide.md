@@ -144,10 +144,11 @@ In the above figure one could 6 images where one is the *Original Image* and all
 As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure007]{: class="center-img" width="900" height="500"}
+![][Figure007]{: class="center-img" width="900" height="600"}
 
-The above figure is another example how could one use different scales to enhance different features in the image.  
-As can be seen, even when pushed to extreme the Halos are almost non to exist.
+The above figure is example of the *threshold* parameter effect.  
+The *threshold* parameter allows regulating the effect in order to prevent noise and artifact amplifications.  
+As can be seen above, with higher regulation the over sharpened edged are regulated and the effect is limited on those.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure008]{: class="center-img" width="900" height="600"}
@@ -232,7 +233,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
   [Figure004]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 004.png "Figure 004 - Fixel EdgeHancer 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 005.png "Figure 005 - Fixel EdgeHancer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
-  [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage002.png "Figure 007 - Demonstration of Different Scales"
+  [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
   [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
   [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3USMCompare.png "Figure 009 - EdgeHancer vs USM (Halos Comparison)"
   [Figure010]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase001.png "Figure 010 - Showcase Image"
