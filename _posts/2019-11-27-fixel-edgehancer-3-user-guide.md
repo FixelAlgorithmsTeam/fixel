@@ -180,16 +180,16 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 This section shows few images with *Before & After* animation. Under each image one could see the settings used to generate result.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure010]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content=" `Small = 100`, `Medium Small = 35`, `Medium = 50`, `Medium Large = 95`, `Large = 50`, `Intensity Level = 75`, `Luminosity Mode = OFF`" %}
+![][Figure010]{: class="center-img" width="900" height="500"}
+{% include callout.html type="info" content="`Edge Radius = 3`, `Threshold Level = 35`, `Intensity Level = 50`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure011]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content=" `Small = 100`, `Medium Small = 250`, `Medium = 160`, `Medium Large = 40`, `Large = 130`, `Intensity Level = 50`, `Luminosity Mode = ON`" %}
+{% include callout.html type="info" content="`Small = 100`, `Medium Small = 250`, `Medium = 160`, `Medium Large = 40`, `Large = 130`, `Intensity Level = 50`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure012]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content=" `Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
+{% include callout.html type="info" content="`Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
 This section displays images created by users of [Fixel EdgeHancer 3][98].
