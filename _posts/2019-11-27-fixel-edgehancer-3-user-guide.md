@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel EdgeHancer 3 Multi Scale Detail Booster Adobe Photoshop Plug In][01]
+![Fixel EdgeHancer 3 Simple, Smart & Effective Edge Enhancer Adobe Photoshop Plug In][01]
 
 # Fixel EdgeHancer 3 - Simple, Smart & Effective Edge Enhancer Filter - User Guide
 
@@ -221,7 +221,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FixelEdgeHancer2Icon150px.png "Fixel EdgeHancer 3 Icon"
+  [01]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3Icon150px.png "Fixel EdgeHancer 3 Icon"
   [02]: {{site.baseurl}}/products/edgehancer2 "Fixel EdgeHancer 2"
   [03]: {{site.baseurl}}/support/fixel-edgehancer-3-installation-guide.html "Fixel EdgeHancer 3 Installation Guide"
   [04]: https://www.youtube.com/watch?v=G-sO5rKc2B0 "DoubleUSM 2 Video - Dark and Light Halos"
