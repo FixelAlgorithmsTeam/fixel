@@ -146,15 +146,17 @@ As can be seen, the *radius* parameter allows targeting different size of edges 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
 
-The above figure is example of the *threshold* parameter effect.  
-The *threshold* parameter allows regulating the effect in order to prevent noise and artifact amplifications.  
+The above figure is displays the effect of the *Threshold Level* parameter.  
+The *Threshold Level* parameter allows regulating the effect in order to prevent noise and artifact amplifications.  
 As can be seen above, with higher regulation the over sharpened edged are regulated and the effect is limited on those.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure008]{: class="center-img" width="900" height="600"}
 
-The above image displays another style of images where the scales approach works really well.  
-The important advantage of [Fixel EdgeHancer 3][98] in this context is the minimal amount of artifact although the sharpening is applied with extreme intensity.
+The above image displays the effect of the *Luminosity Mode* parameter.  
+The *Luminosity Mode* toggles whether to run the effect on Luminosity Channel only (When set to `On`) or on each of the `RGB` channels (When set to `Off`).  
+As can be seen above, When set to `Off` the result is more saturated yet with more color shift which is a balance to be chosen by the user.  
+Pay attention that when set to `Off` it means the filter is running 3 times, which, trivially, takes more time.
 
 ### Comparing to Unsharp Mask (USM) - Halos Free Sharpening
 
@@ -234,7 +236,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image E
   [Figure005]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 005.png "Figure 005 - Fixel EdgeHancer 3 User Interface (Settings Window)"
   [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
   [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
-  [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3SclaesImage003.png "Figure 008 - Demonstration of Different Scales"
+  [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
   [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3USMCompare.png "Figure 009 - EdgeHancer vs USM (Halos Comparison)"
   [Figure010]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase001.png "Figure 010 - Showcase Image"
   [Figure011]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase002.png "Figure 011 - Showcase Image"
