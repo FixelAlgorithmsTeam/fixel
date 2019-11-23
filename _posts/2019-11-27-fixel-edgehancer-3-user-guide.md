@@ -184,7 +184,7 @@ This section shows few images with *Before & After* animation. Under each image 
 {% include callout.html type="info" content="`Edge Radius = 3`, `Threshold Level = 0`, `Intensity Level = 90`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure010]{: class="center-img" width="900" height="600"}
+![][Figure011]{: class="center-img" width="900" height="600"}
 {% include callout.html type="info" content="`Edge Radius = 12`, `Threshold Level = 15`, `Intensity Level = 75`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
