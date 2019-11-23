@@ -212,7 +212,7 @@ We hope you'll find it useful as well and hope to hear your feedback to get even
  *  [Fixel EdgeHancer 3 Installation Guide][03].
  *  [Fixel EdgeHancer 2 Product Page][02].
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Multi Scale][98], [Multi Frequency][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Edge Enhancement][98], [Edge Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
