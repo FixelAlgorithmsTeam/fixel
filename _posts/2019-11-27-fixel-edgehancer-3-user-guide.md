@@ -12,6 +12,8 @@ hidden: true
 
 ## Introduction
 
+[Fixel EdgeHancer 3][98] is all about enhancing edges. If you have a texture, hair, fabric, wood, etc... you want to enhance, this is the Plug In you need.
+
 [Fixel EdgeHancer 3][98] is the 3rd generation of the [Fixel EdgeHancer][97] family.  
 This version adds the following features:
 
@@ -188,8 +190,8 @@ This section shows few images with *Before & After* animation. Under each image 
 {% include callout.html type="info" content="`Edge Radius = 12`, `Threshold Level = 15`, `Intensity Level = 75`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure012]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content="`Small = 50`, `Medium Small = 50`, `Medium = 150`, `Medium Large = 100`, `Large = 50`, `Intensity Level = 80`, `Luminosity Mode = OFF`" %}
+![][Figure012]{: class="center-img" width="900" height="675"}
+{% include callout.html type="info" content="`Edge Radius = 2`, `Threshold Level = 0`, `Intensity Level = 100`, `Edge Preserving Mode = OFF`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
 This section displays images created by users of [Fixel EdgeHancer 3][98].
