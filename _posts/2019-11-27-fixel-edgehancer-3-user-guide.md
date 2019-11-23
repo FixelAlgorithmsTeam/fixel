@@ -194,7 +194,7 @@ This section shows few images with *Before & After* animation. Under each image 
 ### Users Showcase  
 This section displays images created by users of [Fixel EdgeHancer 3][98].
 
-{% include image-user.html srcUrl="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3UserShowCase001.png" altString="Jane" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
+{% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
 
 ## Summary
 [Fixel EdgeHancer 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
