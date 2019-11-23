@@ -12,7 +12,7 @@ hidden: true
 
 ## Introduction
 
-[Fixel EdgeHancer 3][98] is all about enhancing edges. If you have a texture, hair, fabric, wood, etc... you want to enhance, this is the Plug In you need.
+[Fixel EdgeHancer 3][98] is all about enhancing edges. If you want to enhance a texture, hair, fabric, wood, fur, etc... this is the Plug In you need.
 
 [Fixel EdgeHancer 3][98] is the 3rd generation of the [Fixel EdgeHancer][97] family.  
 This version adds the following features:
