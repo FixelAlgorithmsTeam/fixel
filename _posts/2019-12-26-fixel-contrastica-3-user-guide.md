@@ -6,15 +6,15 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel EdgeHancer 3 Simple, Smart & Effective Edge Enhancer Adobe Photoshop Plug In][01]
+![Fixel Contrastica 3 Smart and Simple Local and Global Contrast Intensifier Plug In for Adobe Photoshop][01]
 
-# Fixel EdgeHancer 3 - Simple, Smart & Effective Edge Enhancer Filter - User Guide
+# Fixel Contrastica 3 - Smart and Simple Local and Global Contrast Intensifier - User Guide
 
 ## Introduction
 
-[Fixel EdgeHancer 3][98] is all about enhancing edges. If you want to enhance a texture, hair, fabric, wood, fur, etc... this is the Plug In you need.
+[Fixel Contrastica 3][98] is all about local and global contrast. If you want to intensify the local and global contrast in an intuitive and effective manner this is the Plug In you need.
 
-[Fixel EdgeHancer 3][98] is the 3rd generation of the [Fixel EdgeHancer][97] family.  
+[Fixel Contrastica 3][98] is the 3rd generation of the [Fixel Contrastica][97] family.  
 This version adds the following features:
 
  *	Edge Preserving Engine  
@@ -22,12 +22,12 @@ This version adds the following features:
 	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
-	Unlike classic Plug In's [Fixel EdgeHancer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
-	The new UI also adds 3 user adjustable presets to allow user have more efficient workflow.
+	Unlike classic Plug In's [Fixel Contrastica 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
+	The new UI also adds *3 user adjustable presets* to allow user have more efficient workflow.
 
-This user guide present [Fixel EdgeHancer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
+This user guide present [Fixel Contrastica 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel EdgeHancer 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel Contrastica 2][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -36,30 +36,30 @@ Please follow the following steps:
  *	Verify *Adobe Photoshop* is not running.
  *	Unzip the `ZIP` file downloaded on purchase.
  *	Run the installer inside the `ZIP` file:
-	*	Windows - *Double Click* `Fixel EdgeHancer 3 - Windows Installer.exe` installer and follow instruction.  
+	*	Windows - *Double Click* `Fixel Contrastica 3 - Windows Installer.exe` installer and follow instruction.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
-	*	macOS - *Double Click* on `Fixel EdgeHancer - macOS Installer.dmg` disk image and follow instructions.  
+	*	macOS - *Double Click* on `Fixel Contrastica - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
  *	Start *Adobe Photoshop* and launch the UI (See below).
 
-If any issues arise, please refer to [Fixel EdgeHancer 3 Installation Guide][03].
+If any issues arise, please refer to [Fixel Contrastica 3 Installation Guide][03].
 
-## Fixel EdgeHancer 3 UI
+## Fixel Contrastica 3 UI
 
-This section will show [Fixel EdgeHancer 3][98] User Interface (UI) and how to use it.
+This section will show [Fixel Contrastica 3][98] User Interface (UI) and how to use it.
 
-### Launching EdgeHancer 3 User Interface (Panel)
+### Launching Contrastica 3 User Interface (Panel)
 
 In order to launch the panel the user should:
 
  *	Open Photoshop.
- *	In Photoshop menu click on `Window -> Extensions -> Fixel EdgeHancer 3`.
+ *	In Photoshop menu click on `Window -> Extensions -> Fixel Contrastica 3`.
 
-Once done, the EdgeHancer 3 UI will present itself:
+Once done, the Contrastica 3 UI will present itself:
 
 ![][Figure001]{:class="center-img"}
 
-The UI enable simple and intuitive operation of the edge enhancement process.  
+The UI enable simple and intuitive operation of the local & global contrast intensification process.  
 The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
@@ -113,13 +113,13 @@ As can be seen above, the parameters are:
 The defaults should imitate behavior of a classic plug in's.  
 The settings are saved in a user preference file and kept between Photoshop sessions.
 
-## Using Fixel EdgeHancer 3
+## Using Fixel Contrastica 3
 
-This section describe how to use [Fixel EdgeHancer 3][98].
+This section describe how to use [Fixel Contrastica 3][98].
 
 ### Workflow
 
-[Fixel EdgeHancer 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
+[Fixel Contrastica 3][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
 The recommended usage of Plug In is as following:
 
  *	Start a new session by launching the Panel.
@@ -135,14 +135,14 @@ The next time the user interacts with the panel it will start a new session.
 
 ### Effect of Parameters
 
-[Fixel EdgeHancer 3][98] has few parameters to adjust.  
-This section will focus on the ability of [Fixel EdgeHancer 3][98] (Basically the whole [Fixel EdgeHancer][97] family) to enhance edges.  
-[EdgeHancer][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
+[Fixel Contrastica 3][98] has few parameters to adjust.  
+This section will focus on the ability of [Fixel Contrastica 3][98] (Basically the whole [Fixel Contrastica][97] family) to enhance edges.  
+[Contrastica][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage@2x.png 2x"}
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3RadiusImage@2x.png 2x"}
 
-In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel EdgeHancer 3][98] with different *radius* as written.
+In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Contrastica 3][98] with different *radius* as written.
 As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
@@ -170,7 +170,7 @@ The Edge Preserving engine is a new feature in version 3 and creates completely 
 
 ### Tips & Tricks
 
-There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel EdgeHancer 3][98]:
+There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Contrastica 3][98]:
 
  *	The *Radius* parameter should match the size of the edges one wants to enhance.
  *	By turning on the *Edge Preserving Mode* one could achieve more subtle effect.
@@ -194,44 +194,44 @@ This section shows few images with *Before & After* animation. Under each image 
 {% include callout.html type="info" content="`Edge Radius = 2`, `Threshold Level = 0`, `Intensity Level = 100`, `Edge Preserving Mode = OFF`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
-This section displays images created by users of [Fixel EdgeHancer 3][98].
+This section displays images created by users of [Fixel Contrastica 3][98].
 
 {% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
 
 ## Summary
-[Fixel EdgeHancer 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel Contrastica 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel Contrastica 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Contrastica 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
 It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
-We listened to the feedback of many of [Fixel EdgeHancer 2][02] users and used it to create this step forward.  
+We listened to the feedback of many of [Fixel Contrastica 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel EdgeHancer 3][98] have extended [Fixel EdgeHancer 2][02] to have Edge Preserving Engine. Yet when the option is disabled their output is very similar. Hence if you have [Fixel EdgeHancer 3][98] you have no reason to buy [Fixel EdgeHancer 2][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel EdgeHancer 3][98] can get [Fixel EdgeHancer 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel Contrastica 3][98] have extended [Fixel Contrastica 2][02] to have Edge Preserving Engine. Yet when the option is disabled their output is very similar. Hence if you have [Fixel Contrastica 3][98] you have no reason to buy [Fixel Contrastica 2][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel Contrastica 3][98] can get [Fixel Contrastica 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 ## Resources
- *  [Fixel EdgeHancer 3 Product Page][98].
- *  [Fixel EdgeHancer 3 Installation Guide][03].
- *  [Fixel EdgeHancer 2 Product Page][02].
+ *  [Fixel Contrastica 3 Product Page][98].
+ *  [Fixel Contrastica 3 Installation Guide][03].
+ *  [Fixel Contrastica 2 Product Page][02].
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel EdgeHancer][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Edge Enhancement][98], [Edge Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Contrastica][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Local Contrast][98], [Global Contrast][98], [Contrast Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3Icon150px.png "Fixel EdgeHancer 3 Icon"
-  [02]: {{site.baseurl}}/products/edgehancer2 "Fixel EdgeHancer 2"
-  [03]: {{site.baseurl}}/support/fixel-edgehancer-3-installation-guide.html "Fixel EdgeHancer 3 Installation Guide"
-  [97]: https://fixelalgorithms.co/products/edgehancer/ "Fixel EdgeHancer - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
-  [98]: https://fixelalgorithms.co/products/edgehancer3/ "Fixel EdgeHancer 3 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
+  [01]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3Icon150px.png "Fixel Contrastica 3 Icon"
+  [02]: {{site.baseurl}}/products/contrastica2 "Fixel Contrastica 2"
+  [03]: {{site.baseurl}}/support/fixel-contrastica-3-installation-guide.html "Fixel Contrastica 3 Installation Guide"
+  [97]: https://fixelalgorithms.co/products/contrastica/ "Fixel Contrastica - Smart and Simple Local and Global Contrast Intensifier - Adobe Photoshop Plug In"
+  [98]: https://fixelalgorithms.co/products/contrastica3/ "Fixel Contrastica 3 - Smart and Simple Local and Global Contrast Intensifier - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 001.png "Figure 001 - Fixel EdgeHancer 3 User Interface"
-  [Figure002]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 002.png "Figure 002 - Fixel EdgeHancer 3 User Interface Sections"
-  [Figure003]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 003.png "Figure 003 - Fixel EdgeHancer 3 User Interface (Settings Window)"
-  [Figure004]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 004.png "Figure 004 - Fixel EdgeHancer 3 User Interface (Settings Window)"
-  [Figure005]: {{site.baseurl}}/news/images/FixelEdgeHancer3/Fixel EdgeHancer 3 - User Interface 005.png "Figure 005 - Fixel EdgeHancer 3 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
-  [Figure007]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
-  [Figure008]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
-  [Figure009]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
-  [Figure010]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase001.png "Figure 010 - Showcase Image"
-  [Figure011]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase002.png "Figure 011 - Showcase Image"
-  [Figure012]: {{site.baseurl}}/news/images/FixelEdgeHancer3/FixelEdgeHancer3ShowCase003.png "Figure 012 - Showcase Image"
+  [Figure001]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 001.png "Figure 001 - Fixel Contrastica 3 User Interface"
+  [Figure002]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 002.png "Figure 002 - Fixel Contrastica 3 User Interface Sections"
+  [Figure003]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 003.png "Figure 003 - Fixel Contrastica 3 User Interface (Settings Window)"
+  [Figure004]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 004.png "Figure 004 - Fixel Contrastica 3 User Interface (Settings Window)"
+  [Figure005]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 005.png "Figure 005 - Fixel Contrastica 3 User Interface (Settings Window)"
+  [Figure006]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
+  [Figure007]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
+  [Figure008]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
+  [Figure009]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
+  [Figure010]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ShowCase001.png "Figure 010 - Showcase Image"
+  [Figure011]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ShowCase002.png "Figure 011 - Showcase Image"
+  [Figure012]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ShowCase003.png "Figure 012 - Showcase Image"
   
