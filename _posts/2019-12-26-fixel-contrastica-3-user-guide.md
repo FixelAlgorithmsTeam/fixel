@@ -199,13 +199,13 @@ This section displays images created by users of [Fixel Contrastica 3][98].
 {% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
 
 ## Summary
-[Fixel Contrastica 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel Contrastica 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Contrastica 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel Contrastica 3][98] is a new generation of local & global contrast intensifiers. It intensify local & global contrast by utilizing a unique algorithm which was specifically developed for this task. While [Fixel Contrastica 2][02] brought the concept of enhancing both local & global contrast in a single tool to the market being more effective and intuitive to use than any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Contrastica 3][98] brings another jump forward - Edge Preserving Based & Halos Free Local & Contrast enhancement.  
 It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
 We listened to the feedback of many of [Fixel Contrastica 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel Contrastica 3][98] have extended [Fixel Contrastica 2][02] to have Edge Preserving Engine. Yet when the option is disabled their output is very similar. Hence if you have [Fixel Contrastica 3][98] you have no reason to buy [Fixel Contrastica 2][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel Contrastica 3][98] can get [Fixel Contrastica 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel Contrastica 3][98] & [Fixel Contrastica 2][02] have completely different local & global contrast enhancement engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel Contrastica 3][98] can get [Fixel Contrastica 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 ## Resources
  *  [Fixel Contrastica 3 Product Page][98].

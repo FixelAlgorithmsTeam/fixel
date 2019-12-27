@@ -199,7 +199,7 @@ This section displays images created by users of [Fixel EdgeHancer 3][98].
 {% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
 
 ## Summary
-[Fixel EdgeHancer 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel EdgeHancer 2][02] brought the Multi Scale / Frequency to the market surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Sharpening.  
+[Fixel EdgeHancer 3][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel EdgeHancer 2][02] brought the concept of targeting edges specifically surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel EdgeHancer 3][98] brings another jump forward - Edge Preserving Based & Halos Free Edge Enhancement.  
 It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
 We listened to the feedback of many of [Fixel EdgeHancer 2][02] users and used it to create this step forward.  
 
