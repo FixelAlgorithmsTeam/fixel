@@ -18,8 +18,8 @@ hidden: true
 This version adds the following features:
 
  *	Edge Preserving Engine  
-	The new engine is built on a *Local Edge Preserving Filter* which combines speed and quality. It assists in reducing the artifacts and halos which are common in sharpening.  
-	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
+	The new engine is built on a *Local Edge Preserving Filter* which combines speed and quality. It assists in reducing the artifacts and halos which are common in contrast enhancement.  
+	The new engine gives the user the ability to push farther the local & global contrast intensification level with *Halos Free* stunning results.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
 	Unlike classic Plug In's [Fixel Contrastica 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
