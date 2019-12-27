@@ -1,6 +1,6 @@
 ---
-title:  Fixel EdgeHancer 3 - User Guide
-date: 	2019-11-27
+title:  Fixel Contrastica 3 - User Guide
+date: 	2019-12-26
 author: Fixel Algorithms
 layout: post
 class:  news
