@@ -205,7 +205,7 @@ We listened to the feedback of many of [Fixel Contrastica 2][02] users and used 
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel Contrastica 3][98] & [Fixel Contrastica 2][02] have completely different local & global contrast enhancement engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. Hence any user of [Fixel Contrastica 3][98] can get [Fixel Contrastica 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel Contrastica 3][98] & [Fixel Contrastica 2][02] have completely different local & global contrast enhancement engines which produce different results. Many find them to work greatly side by side as they find each one better for different images. [Fixel Contrastica 2][02] also provides *Adobe Photoshop CS6 Compatibility*. Hence any user of [Fixel Contrastica 3][98] can get [Fixel Contrastica 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 ## Resources
  *  [Fixel Contrastica 3 Product Page][98].
