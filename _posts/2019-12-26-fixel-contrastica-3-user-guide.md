@@ -207,7 +207,7 @@ This section shows few images with *Before & After* animation. Under each image 
 ### Users Showcase  
 This section displays images created by users of [Fixel Contrastica 3][98].
 
-{% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
+{% include image-user.html srcUrl="https://i.imgur.com/n0aQP99.jpg" altString="Pink Flower Field" style="width: 900px; height: 600;" content="Credit: [Pink Flower Field](https://www.pexels.com/photo/beautiful-bloom-blooming-blossom-414083/) by Pixabay" %}
 
 ## Summary
 [Fixel Contrastica 3][98] is a new generation of local & global contrast intensifiers. It intensify local & global contrast by utilizing a unique algorithm which was specifically developed for this task. While [Fixel Contrastica 2][02] brought the concept of enhancing both local & global contrast in a single tool to the market being more effective and intuitive to use than any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Contrastica 3][98] brings another jump forward - Edge Preserving Based & Halos Free Local & Contrast enhancement.  
