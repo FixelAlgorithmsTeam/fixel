@@ -101,7 +101,7 @@ Hence the user, at most time, will interact with the 2 upper sliders to adjust t
 
 ### Settings Window Parameters
 
-The settings window is controlling 2 main parameters of the behaviour of the Plug In.
+The settings window is controlling 2 main parameters of the behavior of the Plug In.
 
 | ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
 {:align="center" style="margin: 0px auto;"}
@@ -144,12 +144,14 @@ The next time the user interacts with the panel it will start a new session.
 
 ### Effect of Parameters
 
-[Fixel Contrastica 3][98] has few parameters to adjust.  
-This section will focus on the ability of [Fixel Contrastica 3][98] (Basically the whole [Fixel Contrastica][97] family) to enhance edges.  
+[Fixel Contrastica 3][98] has few parameters to adjust in order to achieve the desired result.  
+This section will focus on the effect of [Fixel Contrastica 3][98]'s parameters to enhance local and global contrast.  
+
+
 [Contrastica][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3RadiusImage@2x.png 2x"}
+![][Figure006]{: class="center-img" width="900" height="900"}
 
 In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Contrastica 3][98] with different *radius* as written.
 As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
@@ -236,7 +238,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Contrastica][98], [Image 
   [Figure003]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 003.png "Figure 003 - Fixel Contrastica 3 User Interface (Settings Window)"
   [Figure004]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 004.png "Figure 004 - Fixel Contrastica 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 005.png "Figure 005 - Fixel Contrastica 3 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
+  [Figure006]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ResolutionImage.png "Figure 006 - Demonstration of Different Resolutions"
   [Figure007]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
   [Figure008]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
   [Figure009]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
