@@ -148,13 +148,13 @@ The next time the user interacts with the panel it will start a new session.
 This section will focus on the effect of [Fixel Contrastica 3][98]'s parameters to enhance local and global contrast.  
 
 
-[Contrastica][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
+[Contrastica][98] has few presets to handle different Local Contrast resolutions by the *resolution* parameter.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
 ![][Figure006]{: class="center-img" width="900" height="900"}
 
-In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Contrastica 3][98] with different *radius* as written.
-As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
+In the above figure one could see animation of 6 images where one is the *Original Image* and all the other are created by applying [Fixel Contrastica 3][98] with different *resolution* settings.
+As can be seen, the *resolution* parameter create different local contrast effect for different values.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
