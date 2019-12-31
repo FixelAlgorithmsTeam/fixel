@@ -194,7 +194,7 @@ This section shows few images with *Before & After* animation. Under each image 
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure010]{: class="center-img" width="900" height="500"}
-{% include callout.html type="info" content="`Resolution = Standard Definition (480p)`, `Local Contrast Level = 0`, `Local Contrast Regularization = 100`, `Global Contrast Level = 20`, `Global Contrast Balance = 0`, `Intensity Level = 75`, `High Quality Mode = OFF`, `Luminosity Mode = OFF`" %}
+{% include callout.html type="info" content="`Resolution = Full High Definition (1080p)`, `Local Contrast Level = 200`, `Local Contrast Regularization = 20`, `Global Contrast Level = 25`, `Global Contrast Balance = 5`, `Intensity Level = 85`, `High Quality Mode = ON`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure011]{: class="center-img" width="900" height="600"}
