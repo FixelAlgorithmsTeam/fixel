@@ -72,27 +72,36 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 4 main sections:
 
  *	Plug In Parameters
-	*	Edge Radius and Threshold Level Sliders.  
-		Sets the radius of the edges to be enhanced and the threshold level to regulate noise amplification.  
+	*	Image Resolution Drop Down Menu.  
+		Sets the *Local Contrast* effect according to the image resolution. User should experience with different values to see the different effect.
+	*	Local Contrast Level Slider
+		Sets the local contrast enhancement level. Higher values means stronger effect.
+	*	Local Contrast Regularization Slider
+		Sets the regularization level of the local contrast effect. Lower values means *Halos* are suppressed while higher values means local contrast is harsher.  
+		Lower values means the *Edge Preserving* algorithm is more effective.
+	*	Global Contrast Level Slider.  
+		Sets the global contrast level. Higher values means stringer global contrast effect.
+	*	Global Contrast Balance Slider.  
+		Sets the balance between *Shadows and Highlights* in the global contrast effect.
 	*	Intensity Slider.  
 		Sets the overall intensity of the filter.
-	*	Edge Preserving Mode.  
-		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
+	*	High Quality Mode.  
+		When set to `ON` the filter is using *High Quality Mode* which is little slower yet might reduce artifacts. Most of the times Standard Quality (When set to `OFF`) is good enough.
 	*	Luminosity Mode.  
 		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
  *	User Adjustable Presets.  
-	Allows the user to apply pre defined presets by clicking a preset button or setting a preset by long click (*Click & Hold*) which freezes the current settings into a preset.
+	Allows the user to apply pre defined presets by clicking a preset button. Setting a preset is done by long click (*Click & Hold*) which freezes the current settings into a preset.
  *	Panel State Elements - *Apply*, *Cancel* and *Preview*.  
 	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Cancel* cancels the effect and restore the image into its original form. The *Preview* button toggles between seeing the input image and the output image.
  *	Home Page, Settings, User Guide and About Screen Link Buttons.  
 	Home Page opens a browser with the Fixel Website, Settings opens the Settings Window (See below) of the Plug In, User Guide open a web browser with this address and the About icon opens a window with the version string of the Plug In.
 
-The main feature of the Plug In is being able to truly enhance edges in a manner which can not be found anywhere else.  
+The main feature of the Plug In is applying Local & Global Contrast in effective and intuitive way while controlling the details size and the shadows and highlights balance.  
 Hence the user, at most time, will interact with the 2 upper sliders to adjust the Plug In effect to taste.
 
 ### Settings Window Parameters
 
-The settings window is controlling 2 main parameters of the behavior of the Plug In.
+The settings window is controlling 2 main parameters of the behaviour of the Plug In.
 
 | ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
 {:align="center" style="margin: 0px auto;"}
