@@ -157,11 +157,11 @@ In the above figure one could see animation of 6 images where one is the *Origin
 As can be seen, the *resolution* parameter create different local contrast effect for different values.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure007]{: class="center-img" width="900" height="600"}
+![][Figure007]{: class="center-img" width="900" height="850"}
 
-The above figure is displays the effect of the *Threshold Level* parameter.  
-The *Threshold Level* parameter allows regulating the effect in order to prevent noise and artifact amplifications.  
-As can be seen above, with higher regulation the over sharpened edged are regulated and the effect is limited on those.
+The above figure displays the effect of the *Local Contrast Level* parameter.  
+The *Local Contrast Level* parameter sets the contrast level amplification level.  
+As can be seen above, the higher the value the more the local contrast pop is pronounced.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure008]{: class="center-img" width="900" height="600"}
@@ -238,8 +238,8 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Contrastica][98], [Image 
   [Figure003]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 003.png "Figure 003 - Fixel Contrastica 3 User Interface (Settings Window)"
   [Figure004]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 004.png "Figure 004 - Fixel Contrastica 3 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelContrastica3/Fixel Contrastica 3 - User Interface 005.png "Figure 005 - Fixel Contrastica 3 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ResolutionImage.png "Figure 006 - Demonstration of Different Resolutions"
-  [Figure007]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
+  [Figure006]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ResolutionImage.png "Figure 006 - Demonstration of Different Resolutions Effect"
+  [Figure007]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3LocalContrastLevelImage.png "Figure 007 - Demonstration of Local Contrast Level Effect"
   [Figure008]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
   [Figure009]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
   [Figure010]: {{site.baseurl}}/news/images/FixelContrastica3/FixelContrastica3ShowCase001.png "Figure 010 - Showcase Image"
