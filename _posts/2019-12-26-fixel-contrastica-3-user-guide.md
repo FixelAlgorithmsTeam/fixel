@@ -72,22 +72,22 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 4 main sections:
 
  *	Plug In Parameters
-	*	Image Resolution Drop Down Menu.  
+	*	Image Resolution Drop Down Menu  
 		Sets the *Local Contrast* effect according to the image resolution. User should experience with different values to see the different effect.
-	*	Local Contrast Level Slider
+	*	Local Contrast Level Slider  
 		Sets the local contrast enhancement level. Higher values means stronger effect.
-	*	Local Contrast Regularization Slider
-		Sets the regularization level of the local contrast effect. Lower values means *Halos* are suppressed while higher values means local contrast is harsher.  
+	*	Local Contrast Regularization Slider  
+		Sets the regularization level of the local contrast effect. Basically controls the *Edge Preserving* engine. Lower values means *Halos* are suppressed while higher values means local contrast is more pronounced.  
 		Lower values means the *Edge Preserving* algorithm is more effective.
-	*	Global Contrast Level Slider.  
+	*	Global Contrast Level Slider  
 		Sets the global contrast level. Higher values means stringer global contrast effect.
-	*	Global Contrast Balance Slider.  
+	*	Global Contrast Balance Slider  
 		Sets the balance between *Shadows and Highlights* in the global contrast effect.
-	*	Intensity Slider.  
+	*	Intensity Slider  
 		Sets the overall intensity of the filter.
-	*	High Quality Mode.  
+	*	High Quality Mode  
 		When set to `ON` the filter is using *High Quality Mode* which is little slower yet might reduce artifacts. Most of the times Standard Quality (When set to `OFF`) is good enough.
-	*	Luminosity Mode.  
+	*	Luminosity Mode  
 		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
  *	User Adjustable Presets.  
 	Allows the user to apply pre defined presets by clicking a preset button. Setting a preset is done by long click (*Click & Hold*) which freezes the current settings into a preset.
