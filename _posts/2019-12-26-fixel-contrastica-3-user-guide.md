@@ -195,15 +195,15 @@ This section shows few images with *Before & After* animation. Under each image 
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure010]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content="`Resolution = Full High Definition (1080p)`, `Local Contrast Level = 200`, `Local Contrast Regularization = 20`, `Global Contrast Level = 25`, `Global Contrast Balance = 5`, `Intensity Level = 85`, `High Quality Mode = ON`, `Luminosity Mode = ON`" %}
+{% include callout.html type="info" content="`Resolution = Full High Definition (1080p)`, `Local Contrast Level = 200`, `Local Contrast Regularization = 120`, `Global Contrast Level = 25`, `Global Contrast Balance = 5`, `Intensity Level = 85`, `High Quality Mode = ON`, `Luminosity Mode = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure011]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content="`Resolution = Full High Definition (1080p)`, `Local Contrast Level = 250`, `Local Contrast Regularization = 12`, `Global Contrast Level = 20`, `Global Contrast Balance = 3`, `Intensity Level = 100`, `High Quality Mode = OFF`, `Luminosity Mode = OFF`" %}
+{% include callout.html type="info" content="`Resolution = Full High Definition (1080p)`, `Local Contrast Level = 250`, `Local Contrast Regularization = 60`, `Global Contrast Level = 20`, `Global Contrast Balance = 3`, `Intensity Level = 100`, `High Quality Mode = OFF`, `Luminosity Mode = OFF`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure012]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content="`Resolution = High Definition (720p)`, `Local Contrast Level = 225`, `Local Contrast Regularization = 12`, `Global Contrast Level = 20`, `Global Contrast Balance = 3`, `Intensity Level = 90`, `High Quality Mode = OFF`, `Luminosity Mode = OFF`" %}
+{% include callout.html type="info" content="`Resolution = High Definition (720p)`, `Local Contrast Level = 225`, `Local Contrast Regularization = 60`, `Global Contrast Level = 20`, `Global Contrast Balance = 3`, `Intensity Level = 90`, `High Quality Mode = OFF`, `Luminosity Mode = OFF`" %}
 
 ### Users Showcase  
 This section displays images created by users of [Fixel Contrastica 3][98].
