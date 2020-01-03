@@ -169,7 +169,7 @@ As can be seen above, the higher the value the more the local contrast pop is pr
 The above image displays the effect of the *Luminosity Mode* parameter.  
 The *Luminosity Mode* toggles whether to run the effect on Luminosity Channel only (When set to `On`) or on each of the `RGB` channels (When set to `Off`).  
 As can be seen above, When set to `Off` the result is more saturated yet with more color shift which is a balance to be chosen by the user.  
-Pay attention that when set to `Off` it means the filter is running 3 times, which, trivially, takes more time.
+Pay attention that when set to `Off` it means the filter is running 3 times (*Red Channel*, *Green Channel* and *Blue Channel*), which, trivially, takes more time.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure009]{: class="center-img" width="900" height="675"}
