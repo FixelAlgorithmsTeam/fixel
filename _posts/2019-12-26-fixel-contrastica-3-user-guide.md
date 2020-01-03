@@ -172,12 +172,12 @@ As can be seen above, When set to `Off` the result is more saturated yet with mo
 Pay attention that when set to `Off` it means the filter is running 3 times (*Red Channel*, *Green Channel* and *Blue Channel*), which, trivially, takes more time.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure009]{: class="center-img" width="900" height="675"}
+<!-- ![][Figure009]{: class="center-img" width="900" height="675"}
 
 The above image displays the effect of the *Edge Preserving Mode* parameter.  
 The *Edge Preserving Mode* toggles whether to use Edge Preserving algorithm (When set to `On`) or use the classic algorithm (When set to `Off`).  
 As can be seen above, When set to `On` the **Halos** are almost completely eliminated. The result is more subtle.  
-The Edge Preserving engine is a new feature in version 3 and creates completely new effect.
+The Edge Preserving engine is a new feature in version 3 and creates completely new effect. -->
 
 ### Tips & Tricks
 
@@ -185,6 +185,7 @@ There are some simple guidelines to keep in order to maximize the effectiveness 
 
  *	Don't strict the *Resolution* parameter to the image size. Experiment with it for different results and local contrast enhancement.
  *	Lower the *Local Contrast Regularization* for more subtle effect and reduced *halos*.
+ *	Experiment with the *Global Contrast Balance* parameter. It can be used for subtle brightening or darkening of the image.
  *	When using high values one might want to use `Luminosity Mode` set to `OFF` in order to prevent reduction in saturation. In most cases one should set `Luminosity Mode` to `OFF` for no color shift and faster execution.
  
 
