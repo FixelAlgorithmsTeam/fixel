@@ -183,8 +183,8 @@ The Edge Preserving engine is a new feature in version 3 and creates completely 
 
 There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Contrastica 3][98]:
 
- *	The *Radius* parameter should match the size of the edges one wants to enhance.
- *	By turning on the *Edge Preserving Mode* one could achieve more subtle effect.
+ *	Don't strict the *Resolution* parameter to the image size. Experiment with it for different results and local contrast enhancement.
+ *	Lower the *Local Contrast Regularization* for more subtle effect and reduced *halos*.
  *	When using high values one might want to use `Luminosity Mode` set to `OFF` in order to prevent reduction in saturation. In most cases one should set `Luminosity Mode` to `OFF` for no color shift and faster execution.
  
 
