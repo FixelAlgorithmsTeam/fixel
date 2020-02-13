@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <script src="plotly-latest.min.js"></script> -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .slidecontainer {
+      width: 50%;
+    }
+
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 10px;
+      background: #777777;
+      outline: none;
+      opacity: 0.5;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+    .slider:hover {
+      opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background: rgb(56, 238, 62);
+      cursor: pointer;
+    }
+</style>
+
+<body>
+<h1>The p-norm \(\left\Vert \cdot\right\Vert _{p}\)</h1>
+<div class="slidecontainer">
+  <input type="range" min="0" max="90" value="30" class="slider" id="myRange">
+</div>
+<div id="myDiv2" style="width:600px;height:600px;"></div>
+
+<script>
+    var slider = document.getElementById("myRange");
+
+    PlotNorm(2)
+    slider.oninput = function()
+    {
+      var p = .5 + slider.value / 20;
+      PlotNorm(p)
+    }
+
+    function PlotNorm(p)
+    {
+        var size = 500;
+        var x    = new Array(size);
+        var y    = new Array(size);
+        var z    = new Array(size);
+        var i, j;
+
+        for(var i = 0; i < size; i++)
+        {
+            x[i] = -2 + 4 * i / size;
+            y[i] = x[i]
+            z[i] = new Array(size);
+        }
+
+        if (p >= 5)
+            p = Infinity
+
+        for(var i = 0; i < size; i++)
+        {
+            for(j = 0; j < size; j++)
+            {
+                if (isFinite(p))
+                    var r2 = Math.pow(Math.abs(x[i]), p) + Math.pow(Math.abs(y[j]), p)
+                else
+                    var r2 = Math.max( Math.abs(x[i]), Math.abs(y[j]) )
+                // z[i][j] = Math.pow(r2, 1 / p);
+                z[i][j] = r2 > 1 ? 0 : 1;
+             }
+        }
+
+        if (p >= 1)
+            ColorScale = [[0, 'rgba(255,255,255,.0)'], [1, 'rgba(0,0,255,.2)']];
+        else
+            ColorScale = [[0, 'rgba(255,255,255,.0)'], [1, 'rgba(255,0,0,.2)']];
+
+        var data = [ {
+                     z: z,
+                     x: x,
+                     y: y,
+                     type: 'contour',
+                     colorscale: ColorScale,
+                     showscale: false,
+                   } ];
+
+                   if (isFinite(p))
+                       titleStr = "p = " + p.toString(10);
+                    else
+                        titleStr = "p = ∞";
+
+                   var layout = {
+                                title: titleStr,
+
+                                xaxis: {
+                                    title: '$x_1$',
+                                    showgrid: true,
+                                    zeroline: true,
+                                    zerolinewidth: 2
+                                },
+                                yaxis: {
+                                    title: '$x_2$',
+                                    showgrid: true,
+                                    showline: true,
+                                    zerolinewidth: 2
+                                }
+                                };
+        Plotly.newPlot('myDiv2', data, layout);
+    }
+
+</script>
+
+</body>
+
+</html>
