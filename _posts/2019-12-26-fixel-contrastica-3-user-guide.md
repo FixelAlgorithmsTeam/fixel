@@ -25,7 +25,7 @@ This version adds the following features:
 	Unlike classic Plug In's [Fixel Contrastica 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
 	The new UI also adds *3 user adjustable presets* to allow user have more efficient workflow.
 
-This user guide present [Fixel Contrastica 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
+This user guide presents [Fixel Contrastica 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
 {% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel Contrastica 2][02]." %}
 
@@ -40,9 +40,9 @@ Please follow the following steps:
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
 	*	macOS - *Double Click* on `Fixel Contrastica - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
- *	Start *Adobe Photoshop* and launch the UI (See below).
+ *	Start *Adobe Photoshop* and launch the UI by going `Window -> Extensions -> Fixel Contrastica 3` (See below).
 
-If any issues arise, please refer to [Fixel Contrastica 3 Installation Guide][03].
+If any issue arises, please refer to [Fixel Contrastica 3 Installation Guide][03].
 
 ## Fixel Contrastica 3 UI
 

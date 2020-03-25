@@ -22,7 +22,7 @@ This version adds the following features:
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
 	Unlike classic Plug In's [Fixel Detailizer 3][98] can be used as a side panel with the image always available for peaking, zooming and panning.
 
-This user guide present [Fixel Detailizer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
+This user guide presents [Fixel Detailizer 3][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
 {% include note.html content="The new UI Technology requires Adobe Photoshop CC 2015.5 and above. For CS6 compatibility the user should use [Fixel Detailizer 2][02]." %}
 
@@ -37,9 +37,9 @@ Please follow the following steps:
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
 	*	macOS - *Double Click* on `Fixel Detailizer - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
- *	Start *Adobe Photoshop* and launch the UI (See below).
+ *	Start *Adobe Photoshop* and launch the UI by going `Window -> Extensions -> Fixel Detailizer 3` (See below).
 
-If any issues arise, please refer to [Fixel Detailizer 3 Installation Guide][03].
+If any issue arises, please refer to [Fixel Detailizer 3 Installation Guide][03].
 
 ## Fixel Detailizer 3 UI
 

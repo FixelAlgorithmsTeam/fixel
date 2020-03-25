@@ -6,28 +6,31 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel Zone Selector 2 Simple, Smart & Effective Luminosity Mask Generator for Adobe Photoshop Plug In][01]
+![Fixel Zone Selector 2 - Simple, Smart & Effective Zone System Luminosity Masks Generator Plug In for Adobe Photoshop][01]
 
-# Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - User Guide
+# Fixel Zone Selector 2 - Simple, Smart & Effective Zone System Luminosity Masks Generator Plug In for Adobe Photoshop - User Guide
 
 ## Introduction
 
-[Fixel Zone Selector 2][98] is all about enhancing edges. If you want to enhance a texture, hair, fabric, wood, fur, etc... this is the Plug In you need.
+[Fixel Zone Selector 2][98] is a Luminosity Mask generator. It is implemented as a Plug In with the highest quality and accuracy in mind.  
+The user experience was designed to mimic Ansel Adams's Zone System by dividing the tonal range into 11 zones. The user is able to generate a mask by any combination of the zones.  
 
-[Fixel Zone Selector 2][98] is the 3rd generation of the [Fixel Zone Selector][97] family.  
+[Fixel Zone Selector 2][98] is the 2nd generation of the [Fixel Zone Selector][97] family.  
 This version adds the following features:
 
- *	Edge Preserving Engine  
-	The new engine is built on a *Local Edge Preserving Filter* which combines speed and quality. It assists in reducing the artifacts and halos which are common in sharpening.  
-	The new engine gives the user the ability to push farther the sharpening level for *Halos Free* stunning results.
+ *	Source Channel Selection  
+	The user can select the source channel for the mask: Luminosity, `R`, `G`, `B` or Saturation.  
+	This allows farther ability to pin point the area / tonal range to select.
+ *	Luminosity Mask Contrast (Focus / Roll Off Smoothness)  
+	Control the smoothness of the generated mask. Higher contrast means sharper boundaries (In tonal range) between selected and not selected tonal zones.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
 	Unlike classic Plug In's [Fixel Zone Selector 2][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
-	The new UI also adds 3 user adjustable presets to allow user have more efficient workflow.
+	The new UI also adds 7 presets to allow user have more efficient workflow. One of the presets (The middle) is user configurable.
 
-This user guide present [Fixel Zone Selector 2][98] to the user with simple guidelines on how to use properly to achieve optimal results.
+This user guide presents [Fixel Zone Selector 2][98] to the user with simple guidelines on how to use properly to achieve optimal results.
 
-{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel Zone Selector 2][02]." %}
+{% include note.html content="The new UI Technology requires Adobe Photoshop CC 2017 and above. For CS6 compatibility the user should use [Fixel Zone Selector 1][02]." %}
 
 ## Installation
 The installation is automated using the Windows and macOS installers.  
@@ -40,15 +43,15 @@ Please follow the following steps:
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
 	*	macOS - *Double Click* on `Fixel Zone Selector - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
- *	Start *Adobe Photoshop* and launch the UI (See below).
+ *	Start *Adobe Photoshop* and launch the UI by going `Window -> Extensions -> Fixel Zone Selector 1` (See below).
 
-If any issues arise, please refer to [Fixel Zone Selector 2 Installation Guide][03].
+If any issue arises, please refer to [Fixel Zone Selector 2 Installation Guide][03].
 
 ## Fixel Zone Selector 2 UI
 
 This section will show [Fixel Zone Selector 2][98] User Interface (UI) and how to use it.
 
-### Launching zoneselector 3 User Interface (Panel)
+### Launching Zone Selector 2 User Interface (Panel)
 
 In order to launch the panel the user should:
 
@@ -217,7 +220,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
 
 <!-- This is commented out -->
   [01]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2Icon150px.png "Fixel Zone Selector 2 Icon"
-  [02]: {{site.baseurl}}/products/zoneselector2 "Fixel Zone Selector 2"
+  [02]: {{site.baseurl}}/products/zoneselector1 "Fixel Zone Selector 1"
   [03]: {{site.baseurl}}/support/fixel-zoneselector-2-installation-guide.html "Fixel Zone Selector 2 Installation Guide"
   [97]: https://fixelalgorithms.co/products/zoneselector/ "Fixel Zone Selector - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/zoneselector3/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
