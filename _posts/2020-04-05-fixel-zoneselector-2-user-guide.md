@@ -18,11 +18,15 @@ The user experience was designed to mimic Ansel Adams's Zone System by dividing 
 [Fixel Zone Selector 2][98] is the 2nd generation of the [Fixel Zone Selector][97] family.  
 This version adds the following features:
 
+ *	Updated Algorithm  
+	We have tweaked the algorithm to produce higher quality mask where we started with the highest quality to begin with.
  *	Source Channel Selection  
 	The user can select the source channel for the mask: `Luminosity`, `R`, `G`, `B` or `Saturation`.  
 	This allows farther ability to pin point the area / tonal range to select.
  *	Luminosity Mask Contrast (Focus / Roll Off Smoothness)  
 	Control the smoothness of the generated mask. Higher contrast means sharper boundaries (In tonal range) between selected and not selected tonal zones.
+ *	Auto Tone  
+	Automatically stretches the mask to capture full dynamic range of mask.
  *	HTML Based UI  
 	New UI for optimized and intuitive workflow build around *Adobe Photoshop*'s HTML Panel technology.  
 	Unlike classic Plug In's [Fixel Zone Selector 2][98] can be used as a side panel with the image always available for peaking, zooming and panning.  
@@ -75,23 +79,25 @@ This section elaborates on each UI Component.
 As can be seen above, the Panel is composed of 4 main sections:
 
  *	Plug In Parameters
-	*	Edge Radius and Threshold Level Sliders.  
-		Sets the radius of the edges to be enhanced and the threshold level to regulate noise amplification.  
-	*	Intensity Slider.  
-		Sets the overall intensity of the filter.
-	*	Edge Preserving Mode.  
-		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
-	*	Luminosity Mode.  
-		When set to `ON` the filter is applied on the *Luminosity Channel* of the image (*Saturation* and *Hue* channels are untouched).
+	*	11 Zone Buttons.  
+		Each button sets whether to include (Pushed down) or exclude the specific tonal range zone in the output mask.  
+	*	Source Channel Buttons.  
+		Sets the source channel for the generation of the Luminosity Mask.  
+		For instance the user can choose the Saturation as source and push down `Zone 0` and `Zone 1` which means low saturation colors will be chosen.
+	*	Auto Tone.  
+		When set to `ON` the plug in optimizes the Luminosity Mask to take advantage of the whole dynamic range.
+	*	Contrast Level.  
+		Controls the roll off of the Luminosity Mask. Higher value means more focused mask with shaper transitions between selected zones to excluded zones in the tonal range.
  *	User Adjustable Presets.  
-	Allows the user to apply pre defined presets by clicking a preset button or setting a preset by long click (*Click & Hold*) which freezes the current settings into a preset.
- *	Panel State Elements - *Apply*, *Cancel* and *Preview*.  
-	In case the `Live View` is disabled one must click on `Apply` to run the filter. The button *Cancel* cancels the effect and restore the image into its original form. The *Preview* button toggles between seeing the input image and the output image.
+	6 presest to cover 99% of the use cases for Luminosity Mask. The middle button is user configurable. Setting it by a long click (*Click & Hold*) which freezes the current settings into a preset.
+ *	Panel State Elements - *Composite*, *Mask* and *Reset*.  
+	The `Composite` mode displays the current output of the masking procedure. The `Mask` mode displays the Luminosity Mask. The `Reset` button resets, on click, teh state of the panel to its default. 
  *	Home Page, Settings, User Guide and About Screen Link Buttons.  
 	Home Page opens a browser with the Fixel Website, Settings opens the Settings Window (See below) of the Plug In, User Guide open a web browser with this address and the About icon opens a window with the version string of the Plug In.
 
-The main feature of the Plug In is being able to truly enhance edges in a manner which can not be found anywhere else.  
-Hence the user, at most time, will interact with the 2 upper sliders to adjust the Plug In effect to taste.
+The main feature of the Plug In is being able to include or exclude tonal ranges (Zones) form the output.  
+While most Luminosity Masks Actions / Panels just automates Photoshop procedure [Fixel Zone Selector 2][98]'s algorithm is implemented by a proprietary Plug In. It is not constrained by the limitations of Photoshop's tools as described in [Luminosity Mask - How Does It (Really) Work][04]? and [Luminosity Mask Done Right][05]! posts.  
+Hence the user, at most time, will easily achieve the results with the highest quality in the industry.
 
 ### Settings Window Parameters
 
@@ -222,8 +228,10 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [01]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2Icon150px.png "Fixel Zone Selector 2 Icon"
   [02]: {{site.baseurl}}/products/zoneselector1 "Fixel Zone Selector 1"
   [03]: {{site.baseurl}}/support/fixel-zoneselector-2-installation-guide.html "Fixel Zone Selector 2 Installation Guide"
+  [04]: {{site.baseurl}}/news/2018/03/luminosity-mask-001/index.html "Luminosity Mask - How Does It (Really) Work?"
+  [05]: {{site.baseurl}}/news/2018/11/luminosity-mask-002/index.html "Luminosity Mask Done Right!"
   [97]: https://fixelalgorithms.co/products/zoneselector/ "Fixel Zone Selector - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
-  [98]: https://fixelalgorithms.co/products/zoneselector3/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
+  [98]: https://fixelalgorithms.co/products/zoneselector2/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
   [Figure002]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
