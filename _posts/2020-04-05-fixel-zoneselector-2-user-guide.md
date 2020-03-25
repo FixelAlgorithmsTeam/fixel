@@ -6,7 +6,7 @@ layout: post
 class:  news
 hidden: true
 ---
-![Fixel Zone Selector 2 Simple, Smart & Effective Edge Enhancer Adobe Photoshop Plug In][01]
+![Fixel Zone Selector 2 Simple, Smart & Effective Luminosity Mask Generator for Adobe Photoshop Plug In][01]
 
 # Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - User Guide
 
@@ -216,7 +216,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
 
 
 <!-- This is commented out -->
-  [01]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3Icon150px.png "Fixel Zone Selector 2 Icon"
+  [01]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2Icon150px.png "Fixel Zone Selector 2 Icon"
   [02]: {{site.baseurl}}/products/zoneselector2 "Fixel Zone Selector 2"
   [03]: {{site.baseurl}}/support/fixel-zoneselector-2-installation-guide.html "Fixel Zone Selector 2 Installation Guide"
   [97]: https://fixelalgorithms.co/products/zoneselector/ "Fixel Zone Selector - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
