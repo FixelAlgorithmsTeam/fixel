@@ -83,13 +83,13 @@ As can be seen above, the Panel is composed of 4 main sections:
 		Each button sets whether to include (Pushed down) or exclude the specific tonal range zone in the output mask.  
 	*	Source Channel Buttons.  
 		Sets the source channel for the generation of the Luminosity Mask.  
-		For instance the user can choose the Saturation as source and push down `Zone 0` and `Zone 1` which means low saturation colors will be chosen.
+		For instance the user can choose the `Saturation` as source and push down `Zone 0` and `Zone 1` which means low saturation colors will be chosen.
 	*	Auto Tone.  
 		When set to `ON` the plug in optimizes the Luminosity Mask to take advantage of the whole dynamic range.
 	*	Contrast Level.  
 		Controls the roll off of the Luminosity Mask. Higher value means more focused mask with shaper transitions between selected zones to excluded zones in the tonal range.
  *	User Adjustable Presets.  
-	6 presest to cover 99% of the use cases for Luminosity Mask. The middle button is user configurable. Setting it by a long click (*Click & Hold*) which freezes the current settings into a preset.
+	6 presets to cover 99% of the use cases for Luminosity Mask. The middle button is user configurable. Setting it by a long click (*Click & Hold*) which freezes the current settings into a preset.
  *	Panel State Elements - *Composite*, *Mask* and *Reset*.  
 	The `Composite` mode displays the current output of the masking procedure. The `Mask` mode displays the Luminosity Mask. The `Reset` button resets, on click, teh state of the panel to its default. 
  *	Home Page, Settings, User Guide and About Screen Link Buttons.  
@@ -101,26 +101,7 @@ Hence the user, at most time, will easily achieve the results with the highest q
 
 ### Settings Window Parameters
 
-The settings window is controlling 2 main parameters of the behavior of the Plug In.
-
-| ![][Figure003] 	| ![][Figure004] 	| ![][Figure005] 	|
-{:align="center" style="margin: 0px auto;"}
-
-As can be seen above, the parameters are:
-
- *	Live Mode
-	*	`ON` (Default) - The output image is updated with each interaction with the main panel window.  
-		For instance, any movement of any slider of the different scales will run the Plug In and render the output.
-	*	`OFF` - The output image isn't updated automatically as above. In order to update the output image according to the Plug In's parameters one must click `Apply`.
-	*	`Auto` - For images which are less than `4MP` the Plug In will behave as it is in `ON` mode. For images larger than `4MP` it will behave as `OFF`.
- *	Layer Mode
-	*	`Active Layer` (Default) - The Plug In will work on the current layer (Given it is a Bit Map / Rasterized Layer) of Photoshop and will adjust it according to parameters.
-	*	`Stamp Visible` - The Plug In will create a new layer from the current view and will use it as input image.
- *	Reset Presets  
-	Reset the presets of the panel to their default values.
-
-The defaults should imitate behavior of a classic plug in's.  
-The settings are saved in a user preference file and kept between Photoshop sessions.
+Currently there are no user controlled settings.
 
 ## Using Fixel Zone Selector 2
 
@@ -128,19 +109,20 @@ This section describe how to use [Fixel Zone Selector 2][98].
 
 ### Workflow
 
-[Fixel Zone Selector 2][98] is designed to give the user the experience of classic Plug In yet within Photoshop main window.  
+[Fixel Zone Selector 2][98] is designed to give the user effortless ability to generate the Luminosity Masks with pinpoint accuracy.  
 The recommended usage of Plug In is as following:
 
- *	Start a new session by launching the Panel.
- *	Interact and adjust its parameters (Move a slider).
- *	Pan & Zoom In / Out to evaluate result.
+ *	Start a new session by launching the Panel.  
+	Make sure the active layer is the layer to be used as reference for the mask generation.  
+	The Plug In will add a Mask Channel automatically.
+ *	Interact and adjust its parameters to taste.
+ *	Toggle between `Composite` / `Mask` modes to evaluate result.
  *	Tweak parameters to adjust output to taste.
- *	Use `Preview` switch to compare output to input.
 
 When done with the Plug In, continue working on Photoshop.  
-The next time the user interacts with the panel it will start a new session.  
+You may return to the layer of interest to tweak result as needed.  
 
-{% include note.html content="Changing the active layer or doing any destructive action (Anything but Zooming, Panning, Changing Visibility or Opacity) while working with the Panel will cause it to start a new session." %}
+<!-- {% include note.html content="Changing the active layer or doing any destructive action (Anything but Zooming, Panning, Changing Visibility or Opacity) while working with the Panel will cause it to start a new session." %} -->
 
 ### Effect of Parameters
 
