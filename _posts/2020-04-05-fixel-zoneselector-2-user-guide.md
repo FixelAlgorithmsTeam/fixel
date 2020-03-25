@@ -143,7 +143,7 @@ This section will focus on the ability of [Fixel Zone Selector 2][98] (Basically
 [zoneselector][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3RadiusImage@2x.png 2x"}
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage@2x.png 2x"}
 
 In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Zone Selector 2][98] with different *radius* as written.
 As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
@@ -225,16 +225,16 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [97]: https://fixelalgorithms.co/products/zoneselector/ "Fixel Zone Selector - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/zoneselector3/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
-  [Figure002]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
-  [Figure003]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure004]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure005]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3RadiusImage.png "Figure 006 - Demonstration of Different Radius"
-  [Figure007]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
-  [Figure008]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
-  [Figure009]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
-  [Figure010]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3ShowCase001.png "Figure 010 - Showcase Image"
-  [Figure011]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3ShowCase002.png "Figure 011 - Showcase Image"
-  [Figure012]: {{site.baseurl}}/news/images/Fixelzoneselector3/Fixelzoneselector3ShowCase003.png "Figure 012 - Showcase Image"
+  [Figure001]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
+  [Figure002]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
+  [Figure003]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure004]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure005]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure006]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage.png "Figure 006 - Demonstration of Different Radius"
+  [Figure007]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
+  [Figure008]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
+  [Figure009]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
+  [Figure010]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase001.png "Figure 010 - Showcase Image"
+  [Figure011]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase002.png "Figure 011 - Showcase Image"
+  [Figure012]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase003.png "Figure 012 - Showcase Image"
   
