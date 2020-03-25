@@ -19,7 +19,7 @@ The user experience was designed to mimic Ansel Adams's Zone System by dividing 
 This version adds the following features:
 
  *	Source Channel Selection  
-	The user can select the source channel for the mask: Luminosity, `R`, `G`, `B` or Saturation.  
+	The user can select the source channel for the mask: `Luminosity`, `R`, `G`, `B` or `Saturation`.  
 	This allows farther ability to pin point the area / tonal range to select.
  *	Luminosity Mask Contrast (Focus / Roll Off Smoothness)  
 	Control the smoothness of the generated mask. Higher contrast means sharper boundaries (In tonal range) between selected and not selected tonal zones.
@@ -43,7 +43,7 @@ Please follow the following steps:
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
 	*	macOS - *Double Click* on `Fixel Zone Selector - macOS Installer.dmg` disk image and follow instructions.  
 		The user may be asked for *Administrator* privileges in order to install the Plug In.
- *	Start *Adobe Photoshop* and launch the UI by going `Window -> Extensions -> Fixel Zone Selector 1` (See below).
+ *	Start *Adobe Photoshop* and launch the UI by going `Window -> Extensions -> Fixel Zone Selector 2` (See below).
 
 If any issue arises, please refer to [Fixel Zone Selector 2 Installation Guide][03].
 
@@ -58,7 +58,7 @@ In order to launch the panel the user should:
  *	Open Photoshop.
  *	In Photoshop menu click on `Window -> Extensions -> Fixel Zone Selector 2`.
 
-Once done, the zoneselector 3 UI will present itself:
+Once done, the Zone Selector 2 UI will present itself:
 
 ![][Figure001]{:class="center-img"}
 
