@@ -126,12 +126,13 @@ You may return to the layer of interest to tweak result as needed.
 
 ### Effect of Parameters
 
-[Fixel Zone Selector 2][98] has few parameters to adjust.  
-This section will focus on the ability of [Fixel Zone Selector 2][98] (Basically the whole [Fixel Zone Selector][97] family) to enhance edges.  
-[zoneselector][98] can target different sizes (*Radius*) of edges by adjusting its parameters.
+[Fixel Zone Selector 2][98] has few parameters to adjust with the main ones being the selection of zones.  
+This section will focus on the different values of the main parameter of [Fixel Zone Selector 2][98].  
+[Fixel Zone Selector 2][98] can target generate different mask targeting different tonal ranges quite easily.
 
-<!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 -->
-![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage@2x.png 2x"}
+<!-- Retina Display Support - https://stackoverflow.com/a/19186878/195787 
+![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage@2x.png 2x"} -->
+![][Figure006]{: class="center-img" width="900" height="600"}
 
 In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Zone Selector 2][98] with different *radius* as written.
 As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
@@ -220,7 +221,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [Figure003]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
   [Figure004]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
   [Figure005]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage.png "Figure 006 - Demonstration of Different Radius"
+  [Figure006]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelectorPresets.png "Figure 006 - Demonstration of Different Zones"
   [Figure007]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
   [Figure008]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
   [Figure009]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
