@@ -134,8 +134,8 @@ This section will focus on the different values of the main parameter of [Fixel 
 ![][Figure006]{: class="center-img" srcset="{{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2RadiusImage@2x.png 2x"} -->
 ![][Figure006]{: class="center-img" width="900" height="600"}
 
-In the above figure one could 6 images where one is the *Original Image* and all the other are created by applying [Fixel Zone Selector 2][98] with different *radius* as written.
-As can be seen, the *radius* parameter allows targeting different size of edges to enhance.
+In the above figure one could see 7 images: The big one as the input and 6 small ones represent the 6 presets ordered as in the top left corner.
+As can be seen, the *presets* indeed generate the expected mask according to the applied preset. The masks are very smooth yet selective.
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
