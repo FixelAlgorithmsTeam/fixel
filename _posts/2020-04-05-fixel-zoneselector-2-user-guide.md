@@ -73,7 +73,7 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
 <div class="container">
     <div id="myCarousel" class="carousel slide" style="width: 640px; margin: 0 auto" data-ride="carousel" data-interval="false">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="bottom: auto;">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
         </ol>
