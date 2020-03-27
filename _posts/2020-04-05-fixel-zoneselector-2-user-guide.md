@@ -74,7 +74,13 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
 {% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
 {% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
 
-{% include image-carousel.html imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+{% include image-carousel.html imgWidth=960 imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+
+{% comment %}
+
+Hello
+
+{% endcomment %}
 
 
 ### Main Window UI Components
