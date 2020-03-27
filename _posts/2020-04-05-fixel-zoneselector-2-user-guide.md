@@ -6,6 +6,9 @@ layout: post
 class:  news
 hidden: true
 ---
+
+{% assign imgBaseUrl = "{{site.baseurl}}/news/images/FixelZoneSelector2" %}
+
 ![Fixel Zone Selector 2 - Simple, Smart & Effective Zone System Luminosity Masks Generator Plug In for Adobe Photoshop][01]
 
 # Fixel Zone Selector 2 - Simple, Smart & Effective Zone System Luminosity Masks Generator Plug In for Adobe Photoshop - User Guide
@@ -69,19 +72,6 @@ Once done, the Zone Selector 2 UI will present itself:
 The UI enable simple and intuitive operation of the edge enhancement process.  
 The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
-
-{% assign imgUrl = "https://i.imgur.com/KqPpi3g.png|https://i.imgur.com/abD78tX.png" | split: "|" %}
-{% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
-{% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
-
-{% include image-carousel.html imgWidth="960px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
-
-{% comment %}
-
-Hello
-
-{% endcomment %}
-
 
 ### Main Window UI Components
 
@@ -149,6 +139,13 @@ This section will focus on the different values of the main parameter of [Fixel 
 
 In the above figure one could see 7 images: The big one as the input and 6 small ones represent the 6 presets ordered as in the top left corner.
 As can be seen, the *presets* indeed generate the expected mask according to the applied preset. The masks are very smooth yet selective.
+
+
+{% assign imgUrl = "https://i.imgur.com/KqPpi3g.png|https://i.imgur.com/abD78tX.png" | split: "|" %}
+{% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
+{% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
+
+{% include image-carousel.html imgWidth="960px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
@@ -229,7 +226,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [97]: https://fixelalgorithms.co/products/zoneselector/ "Fixel Zone Selector - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [98]: https://fixelalgorithms.co/products/zoneselector2/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
-  [Figure001]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
+  [Figure001]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
   [Figure002]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
   [Figure003]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
   [Figure004]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
