@@ -147,9 +147,14 @@ In the above figure one could see 7 images: The big one as the input and 6 small
 As can be seen, the *presets* indeed generate the expected mask according to the applied preset. The masks are very smooth yet selective.
 
 
-{% assign imgUrl = "https://i.imgur.com/KqPpi3g.png|https://i.imgur.com/abD78tX.png" | split: "|" %}
+{% assign imgUrl = "/FixelZoneSelectorPresets.png|/FixelZoneSelectorPresets.png" | split: "|" %}
 {% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
 {% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
+{% for simgUrl in imgUrl %}
+	{% unless simgUrl contains "http" %}
+		{% assign imgUrl[forloop.index0] = simgUrl | prepend: imgBaseUrl %}
+	{% endunless %}
+{% endfor %}
 
 {% include image-carousel.html imgWidth="960px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
 
