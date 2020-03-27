@@ -70,6 +70,14 @@ The UI enable simple and intuitive operation of the edge enhancement process.
 The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
+{% assign imgUrl = "https://i.imgur.com/KqPpi3g.png|https://i.imgur.com/abD78tX.png" | split: "|" %}
+{% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
+{% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
+
+{% include image-carousel.html imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+
+{% comment %}
+<!-- http://verinotis.blogspot.com/2014/03/bootstrap-carousel-with-caption.html - Elegant solution to show text below -->
 <div class="container">
     <div id="myCarousel" class="carousel slide" style="width: 640px; margin: 0 auto" data-ride="carousel" data-interval="false">
         <!-- Indicators -->
@@ -108,6 +116,7 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
         </a>
     </div>
 </div>
+{% endcomment %}
 
 
 
