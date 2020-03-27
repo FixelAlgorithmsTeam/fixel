@@ -81,7 +81,7 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width: 100%; float: none; ">
+                <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width: 100%; float: none; margin: 0 0 0 0px;">
                 <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
                     <h3>Test Image 001</h3>
                     <p style="margin: 0 0 0px;">Something!</p>
@@ -89,7 +89,7 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
             </div>
 
             <div class="item">
-                <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width: 100%; float: none; ">
+                <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width: 100%; float: none; margin: 0 0 0 0px;">
                 <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
                     <h3>Test Image 002</h3>
                     <p style="margin: 0 0 0px;">Somewhere!</p>
