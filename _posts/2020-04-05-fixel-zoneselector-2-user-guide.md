@@ -82,17 +82,17 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
         <div class="carousel-inner">
             <div class="item active">
                 <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width: 100%; float: none; ">
-                <div class="carousel-caption">
+                <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
                     <h3>Test Image 001</h3>
-                    <p>Something!</p>
+                    <p style="margin: 0 0 0px;">Something!</p>
                 </div>
             </div>
 
             <div class="item">
                 <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width: 100%; float: none; ">
-                <div class="carousel-caption">
+                <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
                     <h3>Test Image 002</h3>
-                    <p>Somewhere!</p>
+                    <p style="margin: 0 0 0px;">Somewhere!</p>
                 </div>
             </div>
         </div>
