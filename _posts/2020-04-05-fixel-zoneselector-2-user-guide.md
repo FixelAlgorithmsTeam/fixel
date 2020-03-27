@@ -10,6 +10,8 @@ hidden: true
 {% comment %}
 The function assign can't interpolate variables hence this won't work:
 {% assign imgBaseUrl = "{{site.baseurl}}/news/images/FixelZoneSelector2" %}
+Below it is solved by prepend. It could also be solved by capture:
+{% capture imgBaseUrl %}{{ site.baseurl }}/news/images/FixelZoneSelector2{% endcapture %}
 {% endcomment %}
 {% assign imgBaseUrl = "/news/images/FixelZoneSelector2" | prepend: site.baseurl %}
 
@@ -231,15 +233,15 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [98]: https://fixelalgorithms.co/products/zoneselector2/ "Fixel Zone Selector 2 - Simple, Smart & Effective Edge Enhancer Filter - Adobe Photoshop Plug In"
   [99]: https://fixelalgorithms.co "Fixel Algorithms"
   [Figure001]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 001.png "Figure 001 - Fixel Zone Selector 2 User Interface"
-  [Figure002]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
-  [Figure003]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure004]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure005]: {{site.baseurl}}/news/images/FixelZoneSelector2/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
-  [Figure006]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelectorPresets.png "Figure 006 - Demonstration of Different Zones"
-  [Figure007]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
-  [Figure008]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
-  [Figure009]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
-  [Figure010]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase001.png "Figure 010 - Showcase Image"
-  [Figure011]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase002.png "Figure 011 - Showcase Image"
-  [Figure012]: {{site.baseurl}}/news/images/FixelZoneSelector2/FixelZoneSelector2ShowCase003.png "Figure 012 - Showcase Image"
+  [Figure002]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 002.png "Figure 002 - Fixel Zone Selector 2 User Interface Sections"
+  [Figure003]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 003.png "Figure 003 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure004]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure005]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
+  [Figure006]: {{imgBaseUrl}}/FixelZoneSelectorPresets.png "Figure 006 - Demonstration of Different Zones"
+  [Figure007]: {{imgBaseUrl}}/FixelZoneSelector2ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
+  [Figure008]: {{imgBaseUrl}}/FixelZoneSelector2LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
+  [Figure009]: {{imgBaseUrl}}/FixelZoneSelector2EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
+  [Figure010]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase001.png "Figure 010 - Showcase Image"
+  [Figure011]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase002.png "Figure 011 - Showcase Image"
+  [Figure012]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase003.png "Figure 012 - Showcase Image"
   
