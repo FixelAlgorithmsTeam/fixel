@@ -14,7 +14,6 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-		
 		{% for simgUrl in include.imgUrl %}
 			<div class="item active">
                 <img src="{{ simgUrl }}" style="width: 100%; float: none; margin: 0 0 0 0px;">
@@ -24,6 +23,7 @@
                 </div>
             </div>
 		{% endfor %}
+		</div>
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
