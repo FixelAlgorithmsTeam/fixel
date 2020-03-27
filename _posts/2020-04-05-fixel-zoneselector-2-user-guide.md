@@ -71,23 +71,29 @@ The panel allows the user to interact with the image while adjusting its paramet
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
 <div class="container">
-  <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" style="width: 960px; margin: 0 auto" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width:100%;">
+		<div class="carousel-caption">
+			<h3>Test Image 001</h3>
+			<p>Something!</p>
+		</div>
       </div>
 
       <div class="item">
         <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width:100%;">
+		<div class="carousel-caption">
+			<h3>Test Image 002</h3>
+			<p>Somewhere!</p>
+		</div>
       </div>
     </div>
 
@@ -102,6 +108,7 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
     </a>
   </div>
 </div>
+
 
 ### Main Window UI Components
 
