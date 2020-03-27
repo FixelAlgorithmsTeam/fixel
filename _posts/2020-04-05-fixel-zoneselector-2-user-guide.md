@@ -151,9 +151,7 @@ As can be seen, the *presets* indeed generate the expected mask according to the
 {% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
 {% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
 {% for simgUrl in imgUrl %}
-	{% unless simgUrl contains "http" %}
-		{% assign imgUrl[forloop.index0] = "http" | prepend: imgBaseUrl %}
-	{% endunless %}
+		{% capture imgUrl[forloop.index0] %}{{ imgBaseUrl }}/{{ simgUrl }}{% endcapture %}
 {% endfor %}
 
 {% include image-carousel.html imgWidth="960px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
