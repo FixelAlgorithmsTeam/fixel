@@ -76,49 +76,6 @@ Namely you can zoom in, zoom out, do panning, change opacity or visibility while
 
 {% include image-carousel.html imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
 
-{% comment %}
-<!-- http://verinotis.blogspot.com/2014/03/bootstrap-carousel-with-caption.html - Elegant solution to show text below -->
-<div class="container">
-    <div id="myCarousel" class="carousel slide" style="width: 640px; margin: 0 auto" data-ride="carousel" data-interval="false">
-        <!-- Indicators -->
-        <ol class="carousel-indicators" style="bottom: auto;">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width: 100%; float: none; margin: 0 0 0 0px;">
-                <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
-                    <h3>Test Image 001</h3>
-                    <p style="margin: 0 0 0px;">Something!</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width: 100%; float: none; margin: 0 0 0 0px;">
-                <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
-                    <h3>Test Image 002</h3>
-                    <p style="margin: 0 0 0px;">Somewhere!</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
-{% endcomment %}
-
-
 
 ### Main Window UI Components
 
