@@ -71,7 +71,7 @@ The panel allows the user to interact with the image while adjusting its paramet
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
 <div class="container">
-  <div id="myCarousel" class="carousel slide" style="width: 960px; margin: 0 auto" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" style="width: 640px; margin: 0 auto" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
