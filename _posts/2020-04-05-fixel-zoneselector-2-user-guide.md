@@ -152,7 +152,7 @@ As can be seen, the *presets* indeed generate the expected mask according to the
 {% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
 {% for simgUrl in imgUrl %}
 	{% unless simgUrl contains "http" %}
-		{% assign imgUrl[forloop.index0] = simgUrl | prepend: imgBaseUrl %}
+		{% assign imgUrl[forloop.index0] = "5" | prepend: imgBaseUrl %}
 	{% endunless %}
 {% endfor %}
 
