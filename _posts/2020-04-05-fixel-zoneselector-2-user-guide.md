@@ -147,14 +147,20 @@ In the above figure one could see 7 images: The big one as the input and 6 small
 As can be seen, the *presets* indeed generate the expected mask according to the applied preset. The masks are very smooth yet selective.
 
 
-{% assign imgUrl = "/FixelZoneSelectorPresets1.png|/FixelZoneSelectorPresets2.png" | split: "|" %}
-{% assign imgCptnH = "Test Image 001|Test Image 002" | split: "|" %}
-{% assign imgCptnP = "Something!|Somewhere!" | split: "|" %}
-{% for simgUrl in imgUrl %}
-		{% capture imgUrl[forloop.index0] %}{{ imgBaseUrl }}/{{ simgUrl }}{% endcapture %}
+{% assign imgUrlBase = "ShowCase001Image001.png|ShowCase001Image001.png|ShowCase001Image003.png|ShowCase001Image004.png|ShowCase001Image005.png|ShowCase001Image006.png|ShowCase001Image007.png" | split: "|" %}
+{% assign imgCptnH = "" | split: "|" %}
+{% assign imgCptnP = "Shadows|Midtones|Highlights|Shadows & Highlights|Shadows & Midtones|Highlights & Midtones" | split: "|" %}
+{% assign imgUrl = '' | split: '' %}
+{% for simgUrl in imgUrlBase %}
+		{% if simgUrl contains "http" %}
+			{% assign tmpString = simgUrl %}
+		{% else %}
+			{% capture tmpString %}{{ imgBaseUrl }}/{{ simgUrl }}{% endcapture %}
+		{% endif %}
+		{% assign imgUrl = imgUrl | push: tmpString %}
 {% endfor %}
 
-{% include image-carousel.html imgWidth="960px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+{% include image-carousel.html imgWidth="900px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
