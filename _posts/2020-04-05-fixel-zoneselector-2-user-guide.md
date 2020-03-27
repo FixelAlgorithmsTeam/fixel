@@ -7,7 +7,11 @@ class:  news
 hidden: true
 ---
 
+{% comment %}
+The function assign can't interpolate variables hence this won't work:
 {% assign imgBaseUrl = "{{site.baseurl}}/news/images/FixelZoneSelector2" %}
+{% endcomment %}
+{% assign imgBaseUrl = "/news/images/FixelZoneSelector2" | prepend: site.baseurl %}
 
 ![Fixel Zone Selector 2 - Simple, Smart & Effective Zone System Luminosity Masks Generator Plug In for Adobe Photoshop][01]
 
