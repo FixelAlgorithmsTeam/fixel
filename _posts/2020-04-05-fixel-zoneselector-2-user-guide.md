@@ -70,34 +70,37 @@ The UI enable simple and intuitive operation of the edge enhancement process.
 The panel allows the user to interact with the image while adjusting its parameters as it was any other native *Panel* of *Photoshop*.  
 Namely you can zoom in, zoom out, do panning, change opacity or visibility while interacting with the panel.
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" style="width: 960px; margin: 0 auto" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001" style="width:100%;">
+      </div>
 
-    <div class="item">
-      <img src="https://i.imgur.com/KqPpi3g.png" alt="Test 001">
+      <div class="item">
+        <img src="https://i.imgur.com/abD78tX.png" alt="Test 002" style="width:100%;">
+      </div>
     </div>
 
-    <div class="item">
-      <img src="https://i.imgur.com/abD78tX.png" alt="Test 002">
-    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
 ### Main Window UI Components
