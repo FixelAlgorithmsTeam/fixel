@@ -1,15 +1,14 @@
-<!-- http://verinotis.blogspot.com/2014/03/bootstrap-carousel-with-caption.html - Elegant solution to show text below -->
 <div class="container">
     <div id="myCarousel" class="carousel slide" style="width: {{ include.imgWidth }}; margin: 0 auto" data-ride="carousel" data-interval="{{ include.dataInterval }}">
         <!-- Indicators -->
         <ol class="carousel-indicators" style="bottom: auto;">
-			{% for simgUrl in include.imgUrl %}
-				{% if forloop.first == true %}
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				{% else %}
-					<li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"></li>
-				{% endif %}
-			{% endfor %}
+		{% for simgUrl in include.imgUrl %}
+			{% if forloop.first == true %}
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			{% else %}
+			<li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"></li>
+			{% endif %}
+		{% endfor %}
         </ol>
 
         <!-- Wrapper for slides -->
@@ -22,8 +21,12 @@
 			{% endif %}
                 <img src="{{ simgUrl }}" style="width: 100%; float: none; margin: 0 0 0 0px;">
                 <div class="carousel-caption" style="bottom: 0px; padding-top: 0px; padding-bottom: 0px">
-                    <!-- <h3>Test Image 001</h3> -->
+				{% if include.imgCptnH %}
+                    <h3>{{ include.imgCptnP[forloop.index0] }}</h3>
+				{% endif %}
+				{% if include.imgCptnP %}
                     <p style="margin: 0 0 0px;">{{ include.imgCptnP[forloop.index0] }}</p>
+				{% endif %}
                 </div>
             </div>
 		{% endfor %}
@@ -40,3 +43,11 @@
         </a>
     </div>
 </div>
+
+{% comment %}
+<!-- http://verinotis.blogspot.com/2014/03/bootstrap-carousel-with-caption.html - Elegant solution to show text below -->
+<!-- https://stackoverflow.com/questions/22763180 - Create array in Jekyll / Liquid -->
+<!-- https://shopify.github.io/liquid/filters/split/ - Create array in Liquid -->
+<!-- https://shopify.dev/docs/liquid/reference/objects/for-loops - For Loops on Liquid Arrays -->
+<!-- https://shopify.github.io/liquid/tags/iteration/ - Iterations on Liquid Arrays -->
+{% endcomment %}
