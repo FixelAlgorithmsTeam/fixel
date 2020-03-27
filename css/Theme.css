@@ -150,12 +150,12 @@ html {
 
 /* --- See https://www.w3schools.com/code/tryit.asp?filename=G4L85QRDDNRK --- */
 @font-face {font-family: "MammaGamma";
-    src: url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.eot");
-    src: url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.svg#MammaGamma") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.eot");
+    src: url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1d8209e6e1d626b5657d1a5b99ea9572.svg#MammaGamma") format("svg");
 }
 
 .image-container {
