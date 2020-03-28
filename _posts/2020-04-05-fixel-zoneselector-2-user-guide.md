@@ -5,6 +5,8 @@ author: Fixel Algorithms
 layout: post
 class:  news
 hidden: true
+
+beforeafter: true
 ---
 
 {% comment %}
@@ -146,10 +148,9 @@ This section will focus on the different values of the main parameter of [Fixel 
 In the above figure one could see 7 images: The big one as the input and 6 small ones represent the 6 presets ordered as in the top left corner.
 As can be seen, the *presets* indeed generate the expected mask according to the applied preset. The masks are very smooth yet selective.
 
-
-{% assign imgUrlBase = "ShowCase001Image001.png|ShowCase001Image001.png|ShowCase001Image003.png|ShowCase001Image004.png|ShowCase001Image005.png|ShowCase001Image006.png|ShowCase001Image007.png" | split: "|" %}
+{% assign imgUrlBase = "FixelZoneSelectorContrastImage001.png|FixelZoneSelectorContrastImage002.png|FixelZoneSelectorContrastImage003.png|FixelZoneSelectorContrastImage004.png|FixelZoneSelectorContrastImage005.png" | split: "|" %}
 {% assign imgCptnH = "" | split: "|" %}
-{% assign imgCptnP = "Shadows|Midtones|Highlights|Shadows & Highlights|Shadows & Midtones|Highlights & Midtones" | split: "|" %}
+{% assign imgCptnP = "Green Channel, Contrast: -100|Green Channel, Contrast: -50|Green Channel, Contrast: 0|Green Channel, Contrast: 50|Green Channel, Contrast: 100" | split: "|" %}
 {% assign imgUrl = '' | split: '' %}
 {% for simgUrl in imgUrlBase %}
 		{% if simgUrl contains "http" %}
@@ -160,76 +161,97 @@ As can be seen, the *presets* indeed generate the expected mask according to the
 		{% assign imgUrl = imgUrl | push: tmpString %}
 {% endfor %}
 
-{% include image-carousel.html imgWidth="900px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+{% include image-carousel.html idString="ContrastImage" imgWidth="800px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
 
+The above image carousel shows the effect of the parameter `Contrast`. The parameter can be used to change how harsh the transition between included tonal range to those which are excluded.  
+The higher the contrast the sharper the transition. Intuitive way to think about it is how focused one wants the mask to be.
+
+{% assign imgUrlBase = "FixelZoneSelectorChannelsImage001.png|FixelZoneSelectorChannelsImage002.png|FixelZoneSelectorChannelsImage003.png" | split: "|" %}
+{% assign imgCptnH = "" | split: "|" %}
+{% assign imgCptnP = "Shadows|Midtones|Highlights" | split: "|" %}
+{% assign imgUrl = '' | split: '' %}
+{% for simgUrl in imgUrlBase %}
+		{% if simgUrl contains "http" %}
+			{% assign tmpString = simgUrl %}
+		{% else %}
+			{% capture tmpString %}{{ imgBaseUrl }}/{{ simgUrl }}{% endcapture %}
+		{% endif %}
+		{% assign imgUrl = imgUrl | push: tmpString %}
+{% endfor %}
+
+{% include image-carousel.html idString="ChannelsImage" imgWidth="800px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+
+The above image carousel shows the effect of the parameter `Source Channel`. In each image one could see the different channels of `RGB` for different tonal ranges - Shadows, Midtones and Highlights.  
+In many cases working on different channels can generate the perfect selection as we add color information to the tonal range.
+As one could see, in some cases the tool can even generate interesting grayscale look (*High Key*).
+
+{% comment %}
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
 ![][Figure007]{: class="center-img" width="900" height="600"}
-
-The above figure is displays the effect of the *Threshold Level* parameter.  
-The *Threshold Level* parameter allows regulating the effect in order to prevent noise and artifact amplifications.  
-As can be seen above, with higher regulation the over sharpened edged are regulated and the effect is limited on those.
-
-<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure008]{: class="center-img" width="900" height="600"}
-
-The above image displays the effect of the *Luminosity Mode* parameter.  
-The *Luminosity Mode* toggles whether to run the effect on Luminosity Channel only (When set to `On`) or on each of the `RGB` channels (When set to `Off`).  
-As can be seen above, When set to `Off` the result is more saturated yet with more color shift which is a balance to be chosen by the user.  
-Pay attention that when set to `Off` it means the filter is running 3 times, which, trivially, takes more time.
-
-<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure009]{: class="center-img" width="900" height="675"}
-
-The above image displays the effect of the *Edge Preserving Mode* parameter.  
-The *Edge Preserving Mode* toggles whether to use Edge Preserving algorithm (When set to `On`) or use the classic algorithm (When set to `Off`).  
-As can be seen above, When set to `On` the **Halos** are almost completely eliminated. The result is more subtle.  
-The Edge Preserving engine is a new feature in version 3 and creates completely new effect.
+{% endcomment %}
 
 ### Tips & Tricks
 
-There are some simple guidelines to keep in order to maximize the effectiveness of using [Fixel Zone Selector 2][98]:
+There are some simple guidelines to keep in order to maximize the effectiveness when using [Fixel Zone Selector 2][98]:
 
- *	The *Radius* parameter should match the size of the edges one wants to enhance.
- *	By turning on the *Edge Preserving Mode* one could achieve more subtle effect.
- *	When using high values one might want to use `Luminosity Mode` set to `OFF` in order to prevent reduction in saturation. In most cases one should set `Luminosity Mode` to `OFF` for no color shift and faster execution.
+ *	Start with the given presets and add or remove specific zones as needed.
+ *	Explore different channels as sometimes the information is in the color and not only in the Luminosity.
+ *	Use the `Contrast` parameter as the final step to tweak the output mask.
  
 
 ## Showcase
 
-This section shows few images with *Before & After* animation. Under each image one could see the settings used to generate result.
+This section shows few images with different parameters applied on them.
+
+{% assign imgUrlBase = "ShowCase001Image001.png|ShowCase001Image002.png|ShowCase001Image003.png|ShowCase001Image004.png|ShowCase001Image005.png|ShowCase001Image006.png|ShowCase001Image007.png" | split: "|" %}
+{% assign imgCptnH = "" | split: "|" %}
+{% assign imgCptnP = "Input Image|Shadows|Midtones|Highlights|Shadows & Highlights|Shadows & Midtones|Highlights & Midtones" | split: "|" %}
+{% assign imgUrl = '' | split: '' %}
+{% for simgUrl in imgUrlBase %}
+		{% if simgUrl contains "http" %}
+			{% assign tmpString = simgUrl %}
+		{% else %}
+			{% capture tmpString %}{{ imgBaseUrl }}/{{ simgUrl }}{% endcapture %}
+		{% endif %}
+		{% assign imgUrl = imgUrl | push: tmpString %}
+{% endfor %}
+
+{% include image-carousel.html idString="ShowCase001" imgWidth="900px" dataInterval="false" imgUrl=imgUrl imgCptnH=imgCptnH imgCptnP=imgCptnP %}
+
+In the above show case (Click on Left / Right to scroll the images) one could see the results of each 6 presets.  
+The image is fairly complicated with high dynamic range to show the quality and accuracy of [Fixel Zone Selector 2][98].
+
+{% capture img1Url %}{{ imgBaseUrl }}/ShowCase002Image001.png{% endcapture %}
+{% capture img2Url %}{{ imgBaseUrl }}/ShowCase002Image002.png{% endcapture %}
+{% include image-twentytwenty.html img1Url=img1Url img2Url=img2Url imgWidth="900"  imgHeight="600" %}
+{% include callout.html type="info" content="`Preset - Highlights & Midtones`, `Channel = R`, `Contrast = 0`, `Auto Tone = ON`" %}
 
 <!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure010]{: class="center-img" width="900" height="500"}
-{% include callout.html type="info" content="`Edge Radius = 3`, `Threshold Level = 0`, `Intensity Level = 90`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
+![][Figure007]{: class="center-img" width="900" height="600"}
+{% include callout.html type="info" content="`Preset - Shadows`, `Channel = B`, `Contrast = 25`, `Auto Tone = ON`" %}
 
-<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure011]{: class="center-img" width="900" height="600"}
-{% include callout.html type="info" content="`Edge Radius = 12`, `Threshold Level = 15`, `Intensity Level = 75`, `Edge Preserving Mode = OFF`, `Luminosity Mode = ON`" %}
-
-<!-- Retina Display Support - https://stackoverflow.com/a/13746012/195787 -->
-![][Figure012]{: class="center-img" width="900" height="675"}
-{% include callout.html type="info" content="`Edge Radius = 2`, `Threshold Level = 0`, `Intensity Level = 100`, `Edge Preserving Mode = OFF`, `Luminosity Mode = OFF`" %}
-
+{% comment %}
 ### Users Showcase  
 This section displays images created by users of [Fixel Zone Selector 2][98].
 
 {% include image-user.html srcUrl="https://i.imgur.com/x9xKkVA.jpg" altString="spotshow13235" style="width: 900px; height: 900px;" content="Credit: [spotshow13235](https://flickr.com/photos/149616586@N06/26393322048/) by Ossst Dzesss" %}
+{% endcomment %}
 
 ## Summary
-[Fixel Zone Selector 2][98] is a different kind of a sharpener. It enhance edges by utilizing a unique algorithm which was specifically developed for this task. While [Fixel Zone Selector 2][02] brought the concept of targeting edges specifically surpassing any classic sharpening tool (*High Pass Sharpening*, *Unsharp Mask*, *Smart Sharpen*) [Fixel Zone Selector 2][98] brings another jump forward - Edge Preserving Based & Halos Free Edge Enhancement.  
-It is intuitive and easy to use (Classic Plug In behavior within Photoshop *Main Window*) yet in utilizes state of the art algorithm which is proprietary to Fixel Algorithms after years of development.  
+[Fixel Zone Selector 2][98] is a different kind of a Luminosity Mask generator. It prioritizes the accuracy and quality of the mask with the simplest user experience in order to be effective. The idea is a tool that does one thing but does it very well.  
+[Fixel Zone Selector 2][98] utilizes state of the art algorithm which is proprietary to Fixel Algorithms which was improved in version 2 of the Plug In. [Fixel Zone Selector 2][98] also improves the UI and give the user more choices: Presets, Source Channel and Contrast in a modern HTML5 based UI.  
 We listened to the feedback of many of [Fixel Zone Selector 2][02] users and used it to create this step forward.  
 
 We hope you'll find it useful as well and hope to hear your feedback to get even better with the upcoming iterations.
 
-{% include important.html content="[Fixel Zone Selector 2][98] have extended [Fixel Zone Selector 2][02] to have Edge Preserving Engine. Yet when the option is disabled their output is very similar. Hence if you have [Fixel Zone Selector 2][98] you have no reason to buy [Fixel Zone Selector 2][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel Zone Selector 2][98] can get [Fixel Zone Selector 2][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
+{% include important.html content="[Fixel Zone Selector 2][98] have extended [Fixel Zone Selector 1][02] with many new features. Yet [Fixel Zone Selector 2][98] doesn't support Photoshop CS6. Hence if you have [Fixel Zone Selector 2][98] you have no reason to buy [Fixel Zone Selector 1][02] unless *Adobe Photoshop CS6* compatibility is needed. Any user of [Fixel Zone Selector 2][98] can get [Fixel Zone Selector 1][02] for 50% discount. See *Upgrade Policy* in the respective product pages or *Contact Us*." %}
 
 ## Resources
  *  [Fixel Zone Selector 2 Product Page][98].
  *  [Fixel Zone Selector 2 Installation Guide][03].
- *  [Fixel Zone Selector 2 Product Page][02].
+ *  [Fixel Zone Selector 1 Product Page][02].
 
-Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Image Enhancement][98], [Image Contrast][98], [Image Sharpening][98], [Image Sharpening][98], [Detail Enhancement][98], [Contrast Enhancement][98], [Detail Boosting][98], [Edge Enhancement][98], [Edge Filter][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
+Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Image Enhancement][98], [Luminosity Mask][98], [Saturation Mask][98], [Tonal Range Selection][98], [Photoshop][99], [Plug In][99], [Photoshop Plug In][99].
 
 
 <!-- This is commented out -->
@@ -247,10 +269,5 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel Zone Selector][98], [Imag
   [Figure004]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 004.png "Figure 004 - Fixel Zone Selector 2 User Interface (Settings Window)"
   [Figure005]: {{imgBaseUrl}}/Fixel Zone Selector 2 - User Interface 005.png "Figure 005 - Fixel Zone Selector 2 User Interface (Settings Window)"
   [Figure006]: {{imgBaseUrl}}/FixelZoneSelectorPresets.png "Figure 006 - Demonstration of Different Zones"
-  [Figure007]: {{imgBaseUrl}}/FixelZoneSelector2ThresholdImage.png "Figure 007 - Demonstration of Threshold Effect"
-  [Figure008]: {{imgBaseUrl}}/FixelZoneSelector2LuminosityImage.png "Figure 008 - Demonstration of Luminosity Mode"
-  [Figure009]: {{imgBaseUrl}}/FixelZoneSelector2EdgePreservingImage.png "Figure 009 - Demonstration of Edge Preserving Mode"
-  [Figure010]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase001.png "Figure 010 - Showcase Image"
-  [Figure011]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase002.png "Figure 011 - Showcase Image"
-  [Figure012]: {{imgBaseUrl}}/FixelZoneSelector2ShowCase003.png "Figure 012 - Showcase Image"
+  [Figure007]: {{imgBaseUrl}}/ShowCase003.png "Figure 007 - Demonstration of Threshold Effect"
   
