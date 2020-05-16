@@ -98,11 +98,11 @@ As can be seen above, the Panel is composed of 4 main sections:
 	*	Auto Tone.  
 		When set to `ON` the plug in optimizes the Luminosity Mask to take advantage of the whole dynamic range.
 	*	Contrast Level.  
-		Controls the roll off of the Luminosity Mask. Higher value means more focused mask with shaper transitions between selected zones to excluded zones in the tonal range.
+		Controls the roll off of the Luminosity Mask. Higher value means more focused mask with sharper transitions between selected zones to excluded zones in the tonal range.
  *	User Adjustable Presets.  
 	6 presets to cover 99% of the use cases for Luminosity Mask. The middle button is user configurable. Setting it by a long click (*Click & Hold*) which freezes the current settings into a preset.
  *	Panel State Elements - *Composite*, *Mask* and *Reset*.  
-	The `Composite` mode displays the current output of the masking procedure. The `Mask` mode displays the Luminosity Mask. The `Reset` button resets, on click, teh state of the panel to its default. 
+	The `Composite` mode displays the current output of the masking procedure. The `Mask` mode displays the Luminosity Mask. The `Reset` button resets, on click, the state of the panel to its default. 
  *	Home Page, Settings, User Guide and About Screen Link Buttons.  
 	Home Page opens a browser with the Fixel Website, Settings opens the Settings Window (See below) of the Plug In, User Guide open a web browser with this address and the About icon opens a window with the version string of the Plug In.
 

@@ -185,7 +185,7 @@ Yet in the Image Processing World it all started with the [Image Pyramid][05].
 Later came the Filter Banks and the the [Wavelet Transform][06].  
 
 In [Detailizer 2][02] our guideline was quality hence we used [Undecimated Wavelet Transform][06] which yields less artifacts ([Halos / Ringing][07]) than the classic Wavelets.  
-Yet [Detailizer 3][98] required extending this idea farther as we used a blurring approch which is different.  
+Yet [Detailizer 3][98] required extending this idea farther as we used a blurring approach which is different.  
 This approach assisted us taking quality into next level though it also costs in more computational time. No free lunch here.
 
 
