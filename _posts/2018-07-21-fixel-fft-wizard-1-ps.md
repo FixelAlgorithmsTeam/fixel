@@ -1,16 +1,18 @@
 ---
-title: 'Fixel FFT Wizard'
+title: 'Fixel FFT Wizard 1'
 date: 2018-07-21
 author: Fixel Algorithms
 layout: post
 class:  news
 hidden: false
 ---
-![Fixel FFT Wizard Photoshop Plug In][01]
+![Fixel FFT Wizard 1 Photoshop Plug In][01]
 {% if layout.type != "post" %}
 The [Fourier Transform][02] is one of the most powerful methods to analyze signals / data. It is widely used in the [Image Processing][03] world as on of the most used tool for any algorithms developer.  
 In this post we'll cover the intuitive ideas behind it and how to use it for Image Restoration while avoiding the Math!
 {% endif %}
+
+{% include note.html content="We have launched an updated version - [Fixel FFT Wizard 2][80]. If you have Photoshop CC 2018 and above, you're advised to use it." %}
 
 ## Background
 
@@ -23,7 +25,7 @@ In [Digital Image Processing][03] there are operations easier to do in the Spati
 
 There are many applications for the DFT in Image Processing.  
 For instance, [Frequency Separation](https://fstoppers.com/post-production/ultimate-guide-frequency-separation-technique-8699), which is highly popular among Retouchers, can be easily analyzed (Implemented) using DFT.  
-Actually many filters (See for instance ) can (Or are) be implemented in the frequency domain which under some conditions is more efficient (Faster). For instance have a look at [`Custom Filter`](https://helpx.adobe.com/photoshop-elements/using/filters-1.html#custom_filters) in Adobe Photoshop.
+Actually many filters (See for instance *Gaussian Blur*) can be (Or are) implemented in the frequency domain which under some conditions is more efficient (Faster). For instance have a look at [`Custom Filter`](https://helpx.adobe.com/photoshop-elements/using/filters-1.html#custom_filters) in Adobe Photoshop.
 
 [Affinity Photo](https://affinity.serif.com/en-us/photo/) even use FFT for Denoising (See [FFT Denoise](https://www.youtube.com/watch?v=6wfeMGwcF0c&t=6s), Though it is more periodic pattern suppression, see below).
 
@@ -221,6 +223,8 @@ The download requires Email Address so we could notify you about updates of Fixe
 We hope you enjoy it and find it useful in your work flow.  
 If you do, we'll be happy if you share your cases with us.
 
+{% include note.html content="We have launched an updated version - [Fixel FFT Wizard 2][80]. If you have Photoshop CC 2018 and above, you're advised to use it." %}
+
 <!--
 <figure>
 ![test](https://i.imgur.com/mcnGYL4.png){:class="center-img"}
@@ -287,6 +291,7 @@ Key Words: [Fixel Algorithms][99], [Fixel][99], [Fixel FFT Wizard][98], [FFT][98
   [04]: https://en.wikipedia.org/wiki/Discrete_Fourier_transform "Wikipedia - Discrete Fourier Transform"
   [05]: https://en.wikipedia.org/wiki/Fast_Fourier_transform "Wikipedia - Fast Fourier Transform"
   [06]: https://fixelalgorithms.co/products/fftwizard/ "Fixel FFT Wizard Product Page"
+  [80]: https://fixelalgorithms.co/products/fftwizard2/ "Fixel FFT Wizard 2"
   [88]: {{site.baseurl}}/news/2018/03/luminosity-mask-001 "Luminosity Mask - How Does It (Really) Works?"
   [88]: http://fotographee.com/tutorial-image-editing-luminosity-masks/ "Luminosity Mask: The Complete Kickstarter’s Guide"
   [88]: https://www.youtube.com/watch?v=xvjno4d8uJ8 "How to Generate the Classic Luminosity Masks Using Mask / Channel Operations (Add, Subtract, Intersect [Multiply])"
