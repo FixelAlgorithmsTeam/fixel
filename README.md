@@ -30,3 +30,7 @@
  * 	[Jekyll / Liquid arrays can't be mutated. Hence new array must be generated instead of updating their values.](https://stackoverflow.com/questions/56211971).
  *	[Jekyll Cheatsheet](https://devhints.io/jekyll).
  *	[Multi Line YAML](https://stackoverflow.com/questions/3790454).
+ 
+## Miscellaneous
+ 
+ *	[StaticMan](https://staticman.net/) - Static sites with superpowers: I bring user generated content to static sites.
