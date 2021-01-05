@@ -194,7 +194,7 @@ This section displays images created by users of [Fixel Detailizer 3][98].
 
 {% include image-user.html srcUrl="https://i.imgur.com/0s8kLb7.png" altString="Jane" style="width: 800px; height: 711px;" content="Credit: [Jane](https://www.flickr.com/photos/151740882@N05/47029584231) by Mireille Lannoo" %}
 
-{% include image-user.html srcUrl="https://i.imgur.com/ggvQmZq.png" altString="911 Memorial Lights September 11, 2020, New York City" style="width: 600px; height: 800px;" content="Credit: Memorial Lights September 11, 2020, New York City by [Bob Graham Jr.](https://www.philadelphiaarchitecturalphotography.com/)" %}
+{% include image-user.html srcUrl="https://i.imgur.com/ggvQmZq.png" altString="911 Memorial Lights September 11, 2020, New York City" style="width: 600px; height: 800px;" content="Credit: [Memorial Lights](https://ndawards.net/winners-gallery/nd-awards-2020/professional/buildings/hm/12392/) September 11, 2020, New York City by [Bob Graham Jr.](https://www.philadelphiaarchitecturalphotography.com/)" %}
 
 
 ## Summary
