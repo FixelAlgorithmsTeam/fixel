@@ -163,6 +163,8 @@ html {
 	font-family: Arial;
 	margin-left: auto !important;
 	margin-right: auto !important;
+	margin-top: 10px; /* Royi */
+	margin-bottom: 10px; /* Royi */
 }
 
 .image-text-block {
