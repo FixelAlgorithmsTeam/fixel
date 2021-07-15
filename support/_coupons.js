@@ -1,6 +1,6 @@
 // Plain text for the coupon page
 function clickHandler() {
-    var baseURL = "http://sites.fastspring.com/barranca/product/";
+    var baseURL = "https://fixelalgorithms.onfastspring.com/";
     var product = document.getElementById('product').value;
     var coupon = document.getElementById('coupon').value;
     var email = document.getElementById('email_address').value;
