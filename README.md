@@ -34,3 +34,4 @@
 ## Miscellaneous
  
  *	[StaticMan](https://staticman.net/) - Static sites with superpowers: I bring user generated content to static sites.
+ *	[My Current HTML Boilerplate](https://www.matuzo.at/blog/html-boilerplate/) - Some tips about the web site.
