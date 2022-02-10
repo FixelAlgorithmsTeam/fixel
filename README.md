@@ -35,3 +35,9 @@
  
  *	[StaticMan](https://staticman.net/) - Static sites with superpowers: I bring user generated content to static sites.
  *	[My Current HTML Boilerplate](https://www.matuzo.at/blog/html-boilerplate/) - Some tips about the web site.
+
+## Services
+
+ *	[Commento](https://commento.io/) - A comments widget that just works.
+ *	[CommetnBox](https://commentbox.io/) - Hosted commenting that's painless to embed, a pleasure to use, and a breeze to moderate.
+ *	[FastComments](https://fastcomments.com/) - Fast, Live, Flexible Commenting Solutions.
